@@ -1,5 +1,5 @@
 [project name]
-teste_200_1app
+teste_200_5app
 [tasks per pe]
 2
 [processor description]
@@ -22,3 +22,11 @@ LB
 0
 [application]
 mpeg
+[application]
+dijkstra
+[application]
+MPEG4
+[application]
+dtw
+[application]
+synthetic
