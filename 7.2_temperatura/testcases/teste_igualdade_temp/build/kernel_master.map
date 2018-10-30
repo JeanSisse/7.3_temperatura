@@ -1,0 +1,573 @@
+
+Alocando simbolos comuns
+Tamanho comum do arquivo de símbolos
+
+energySlavesAcc_discretizado
+                    0x90              kernel_master.o
+energySlavesAcc     0x90              kernel_master.o
+is_global_master    0x1               kernel_master.o
+applications        0xa88             kernel_master.o
+energyClustersAcc   0x4               kernel_master.o
+reclustering        0x20              kernel_master.o
+region              0x14              kernel_master.o
+net_address         0x4               kernel_master.o
+sh_slot2            0x40              kernel_master.o
+cluster_xi          0x4               kernel_master.o
+global_master_address
+                    0x1               kernel_master.o
+cluster_xf          0x4               kernel_master.o
+energyLocalClusterAcc
+                    0x4               kernel_master.o
+cluster_yi          0x4               kernel_master.o
+running_task        0x8               kernel_master.o
+sh_slot1            0x40              kernel_master.o
+task_req_list       0x230             kernel_master.o
+clusterID           0x4               kernel_master.o
+cluster_yf          0x4               kernel_master.o
+new_task_list       0x7a8             kernel_master.o
+
+Seções de entrada descartadas
+
+ .reginfo       0x0000000000000000        0x0 kernel_master.o
+
+Configuração de Memória
+
+Nome             Origem             Tamanho            Atributos
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script do link-editor e mapa de memória
+
+Endereço da seção .text ajustado para 0x0
+LOAD boot_master.o
+LOAD kernel_master.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400000                . = 0x400000
+
+.interp
+ *(.interp)
+
+.reginfo        0x0000000000400000       0x18
+ *(.reginfo)
+ .reginfo       0x0000000000400000       0x18 boot_master.o
+
+.dynamic
+ *(.dynamic)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro* .rela.gnu.linkonce.d.rel.ro.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.tdata
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+
+.rela.tdata
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+
+.rel.tbss
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+
+.rela.tbss
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.sdata
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+
+.rela.sdata
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+
+.rel.sbss
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+
+.rela.sbss
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+
+.rel.sdata2
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+
+.rela.sdata2
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+
+.rel.sbss2
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+
+.rela.sbss2
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x0000000000000000     0x68d0
+                0x0000000000000000                _ftext = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000000       0x18 boot_master.o
+                0x0000000000000000                entry
+ .text          0x0000000000000018     0x68b8 kernel_master.o
+                0x0000000000000414                strcpy
+                0x00000000000016cc                handle_new_task
+                0x0000000000000c78                loan_mapping
+                0x00000000000004f4                DMA_send_data
+                0x0000000000001558                send_new_task
+                0x00000000000018b0                test_slow_proc
+                0x0000000000002828                handle_new_app
+                0x0000000000001034                send_loan_proc_request
+                0x00000000000005c0                read_packet
+                0x0000000000000118                itoh
+                0x0000000000000d00                puts
+                0x000000000000501c                handle_packet
+                0x00000000000006ac                get_next_new_task
+                0x000000000000002c                itoa
+                0x0000000000001434                send_app_terminated
+                0x0000000000001110                send_energy_cluster
+                0x0000000000000c3c                SearchCluster
+                0x0000000000000764                get_next_task_request
+                0x00000000000026fc                allocate_initial_task
+                0x00000000000006fc                init_task_req_list
+                0x000000000000302c                temperature
+                0x0000000000000018                get_net_address
+                0x00000000000016f8                initialize_clusters
+                0x00000000000007ac                InitialMapping
+                0x00000000000014d0                send_task_allocated
+                0x0000000000002318                allocate_new_task
+                0x0000000000004ea4                handle_app_terminated
+                0x00000000000001e8                add
+                0x0000000000000f28                insert_task_loc
+                0x0000000000002aa0                handle_app_request
+                0x000000000000021c                fixetoa
+                0x000000000000053c                send_packet
+                0x00000000000001bc                rand
+                0x0000000000000498                init_service_header_slots
+                0x00000000000017e8                initialize_slaves
+                0x0000000000000634                add_new_task
+                0x0000000000000728                add_task_request
+                0x000000000000266c                handle_task_request
+                0x0000000000002570                handle_end_of_reclustering_round
+                0x0000000000001d2c                MapTask
+                0x00000000000001f8                memset
+                0x0000000000005a8c                main
+                0x0000000000001344                decrement_cluster_resources
+                0x0000000000001bb8                update_clusters_load
+                0x000000000000108c                send_task_migration
+                0x0000000000000454                get_service_header_slot
+                0x0000000000001170                fires_reclustering_protocol
+                0x00000000000012bc                reserve_cluster_resources
+                0x0000000000000d6c                putsv
+                0x0000000000000e90                page_used
+                0x0000000000001614                send_loan_proc_delivery
+                0x0000000000000fc0                search_physical_master_address
+                0x0000000000000da8                search_cluster_ID
+                0x0000000000000a5c                InitialMapping2
+                0x0000000000000434                strlen
+                0x0000000000001680                send_loan_proc_release
+                0x000000000000129c                reclustering_task
+                0x00000000000001a8                abs
+                0x00000000000001f0                sub
+                0x00000000000013b8                send_task_allocation
+                0x00000000000004b0                DMA_read_data
+                0x0000000000000608                init_new_task_list
+                0x0000000000000df8                page_released
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+
+.fini
+ *(.fini)
+                0x00000000000068d0                PROVIDE (__etext, .)
+                0x00000000000068d0                PROVIDE (_etext, .)
+                0x00000000000068d0                PROVIDE (etext, .)
+
+.rodata         0x00000000000068d0      0xbe0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000000000068d0      0xb98 kernel_master.o
+                                        0xba0 (tamanho de relaxar)
+ .rodata        0x0000000000007468       0x48 kernel_master.o
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00000000000074b0                . = .
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00000000000074b0        0x0
+                0x00000000000074b0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00000000000074b0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00000000000074b0        0x0
+                0x00000000000074b0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00000000000074b0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00000000000074b0        0x0
+                0x00000000000074b0                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x00000000000074b0                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin*.o(.ctors)
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin*.o(.dtors)
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.data           0x00000000000074b0     0x7868
+                0x00000000000074b0                _fdata = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000074b0        0x0 boot_master.o
+ .data          0x00000000000074b0     0x7868 kernel_master.o
+                0x000000000000b3a8                coeficientes_diagonal
+                0x000000000000ed10                counter_ticks
+                0x00000000000075a0                applications_terminated
+                0x00000000000074bc                task_location
+                0x000000000000757c                proc_free_pages
+                0x000000000000d298                entrada
+                0x00000000000074b0                appstype
+                0x000000000000ed14                counter_ticks2
+                0x000000000000ed0c                threshold_down
+                0x00000000000074b8                proc_available
+                0x00000000000075c4                total_mpsoc_resources
+                0x000000000000751c                task_terminated
+                0x000000000000ed08                threshold_top
+                0x00000000000075c8                coeficientes_meio
+                0x00000000000094b8                coeficientes_lateral
+                0x000000000000ec78                model_temperatura
+                0x00000000000075a8                cluster_info
+ *(.gnu.linkonce.d.*personality*)
+
+.data1
+ *(.data1)
+                0x000000000000ed18                . = .
+                0x0000000000016d10                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.sdata
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0x000000000000ed18                _edata = .
+                0x000000000000ed18                PROVIDE (edata, .)
+                0x000000000000ed18                __bss_start = .
+                0x000000000000ed18                _fbss = .
+
+.sbss           0x000000000000ed18       0x30
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+ .scommon       0x000000000000ed18       0x30 kernel_master.o
+                0x000000000000ed18                is_global_master
+                0x000000000000ed1c                energyClustersAcc
+                0x000000000000ed20                net_address
+                0x000000000000ed24                cluster_xi
+                0x000000000000ed28                global_master_address
+                0x000000000000ed2c                cluster_xf
+                0x000000000000ed30                energyLocalClusterAcc
+                0x000000000000ed34                cluster_yi
+                0x000000000000ed38                running_task
+                0x000000000000ed40                clusterID
+                0x000000000000ed44                cluster_yf
+
+.bss            0x000000000000ed48     0x2e18
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000ed48        0x0 boot_master.o
+ .bss           0x000000000000ed48     0x17e4 kernel_master.o
+                0x000000000000edf8                arith_inst
+                0x000000000000eddc                global_inst
+                0x000000000000ee30                mult_div_energy
+                0x000000000000ee14                jump_energy
+                0x000000000000ee20                arith_energy
+                0x00000000000104d4                max_neighbors_level
+                0x00000000000104d0                terminated_app_count
+                0x000000000000f988                temperatura_restante
+                0x000000000000ee3c                last
+                0x000000000000ee34                router_flits
+                0x000000000000edf4                other_inst
+                0x000000000000ede8                branch_inst
+                0x000000000000ee1c                other_energy
+                0x00000000000104cc                aux_temperatura
+                0x000000000000edfc                load_inst
+                0x000000000000ee0c                logical_energy
+                0x000000000000ed48                proc_load_total
+                0x000000000000ee2c                nop_energy
+                0x00000000000104e0                aux_threshold
+                0x000000000000ee00                shift_inst
+                0x000000000000ee40                task_req_first
+                0x00000000000104c8                index
+                0x00000000000104e4                count_receive_power
+                0x000000000000ee28                shift_energy
+                0x000000000000ee48                model_aux
+                0x000000000000ee18                move_energy
+                0x00000000000104d8                threshold_top_flag
+                0x000000000000ee38                first
+                0x000000000000ee44                task_req_last
+                0x000000000000ede0                energy_acc_local
+                0x000000000000edec                jump_inst
+                0x000000000000edf0                move_inst
+                0x00000000000104dc                threshold_down_flag
+                0x000000000000ee10                branch_energy
+                0x000000000000ede4                logical_inst
+                0x000000000000ee08                mult_div_inst
+                0x000000000000edd8                clusters_load
+                0x000000000000ee04                nop_inst
+                0x000000000000ee24                load_energy
+ *(COMMON)
+ COMMON         0x000000000001052c     0x1634 kernel_master.o
+                0x000000000001052c                energySlavesAcc_discretizado
+                0x00000000000105bc                energySlavesAcc
+                0x000000000001064c                applications
+                0x00000000000110d4                reclustering
+                0x00000000000110f4                region
+                0x0000000000011108                sh_slot2
+                0x0000000000011148                sh_slot1
+                0x0000000000011188                task_req_list
+                0x00000000000113b8                new_task_list
+                0x0000000000011b60                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000011b60                . = ALIGN (0x4)
+                0x0000000000011b60                . = ALIGN (0x4)
+                0x0000000000011b60                _end = .
+                0x0000000000011b60                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 kernel_master.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+.mdebug.abi32   0x0000000000000012        0x0
+ *(.mdebug.abi32)
+ .mdebug.abi32  0x0000000000000012        0x0 kernel_master.o
+
+.mdebug.abiN32
+ *(.mdebug.abiN32)
+
+.mdebug.abi64
+ *(.mdebug.abi64)
+
+.mdebug.abiO64
+ *(.mdebug.abiO64)
+
+.mdebug.eabi32
+ *(.mdebug.eabi32)
+
+.mdebug.eabi64
+ *(.mdebug.eabi64)
+
+.gcc_compiled_long32
+ *(.gcc_compiled_long32)
+
+.gcc_compiled_long64
+ *(.gcc_compiled_long64)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(kernel_master.bin elf32-bigmips)
+
+.pdr            0x0000000000000000      0x800
+ .pdr           0x0000000000000000       0x20 boot_master.o
+ .pdr           0x0000000000000020      0x7e0 kernel_master.o

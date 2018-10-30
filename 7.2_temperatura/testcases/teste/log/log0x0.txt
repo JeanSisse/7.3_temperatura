@@ -1,0 +1,132 @@
+Kernel Initialized
+This kernel is global master
+total_mpsoc_resources 65
+selected_cluster_proc 0
+energyClustersAcc[0] 0 70
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 277230
+clusterinfo_handle2 69
+clusterinfo_handle2 68
+clusterinfo_handle2 67
+clusterinfo_handle2 66
+clusterinfo_handle2 65
+temperature tick antes (kernel_master)
+700279
+temperatura : 1 450037297
+temperatura : 2 450000000
+temperatura : 3 450000000
+temperatura : 4 450000000
+temperatura : 5 450000000
+temperatura : 6 469846735
+temperatura : 7 450776535
+temperatura : 8 450000000
+temperatura : 9 450000000
+temperatura : 10 450000000
+temperatura : 11 450000000
+temperatura : 12 469928871
+temperatura : 13 450780679
+temperatura : 14 450000000
+temperatura : 15 450000000
+temperatura : 16 450000000
+temperatura : 17 450000000
+temperatura : 18 453026567
+temperatura : 19 450127723
+temperatura : 20 450000000
+temperatura : 21 450000000
+temperatura : 22 450000000
+temperatura : 23 450000000
+temperatura : 24 454328248
+temperatura : 25 450168419
+temperatura : 26 450000000
+temperatura : 27 450000000
+temperatura : 28 450000000
+temperatura : 29 450000000
+temperatura : 30 450156233
+temperatura : 31 450008288
+temperatura : 32 450000000
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master)
+858665
+TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : 
+STOP_EXECUTION enviado p/ processador 256
+STOP_EXECUTION enviado p/ processador 512
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 10760401
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 11022443
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 1164881
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 1480193
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 476352
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 9
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 9
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 1
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 2
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 65
+total_mpsoc_resources 66
+total_mpsoc_resources 67
+total_mpsoc_resources 68
+total_mpsoc_resources 69
+FINISH 1134555

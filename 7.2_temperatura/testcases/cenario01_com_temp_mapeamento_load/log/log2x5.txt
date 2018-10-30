@@ -1,0 +1,19 @@
+Initializing PE: 0x00000205
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 517
+energy_acc_local total: 39943	5868934
+teste com stop_execution_flag parando at 5869629
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 517
+energy_acc_local total: 63746	6368924
+teste com stop_execution_flag parando at 6369634
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 517
+energy_acc_local total: 64135	6868464
+teste com stop_execution_flag parando at 6869174
+
+1<- stop_execution_flag??

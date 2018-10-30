@@ -1,0 +1,39 @@
+Initializing PE: 0x00000104
+Task id: 256 allocated at 196972
+199078_1x4_1_0_MPEG Task D start: iDCT 
+200389_1x4_1_0_200060
+energy_acc_local total: 1165608	513693
+energy_acc_local total: 1665345	1050965
+1215229_1x4_1_0_1214867
+1216140_1x4_1_0_End Task D - MPEG
+Task id: 256 terminated at 1217359
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 738173	4366137
+teste com stop_execution_flag parando at 4366832
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 64454	4866116
+teste com stop_execution_flag parando at 4866826
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 64141	5365659
+teste com stop_execution_flag parando at 5366369
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 64135	5865666
+teste com stop_execution_flag parando at 5866376
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 64141	6365658
+teste com stop_execution_flag parando at 6366368
+
+1<- stop_execution_flag??

@@ -1,0 +1,44 @@
+Initializing PE: 0x00000502
+Task id: 3 allocated at 232832
+233936_5x2_0_3_MPEG Task PRINT start:
+238486_5x2_0_3_238157
+240890_5x2_0_3_240561
+296440_5x2_0_3_296111
+353266_5x2_0_3_352937
+410398_5x2_0_3_410069
+497919_5x2_0_3_497590
+energy_acc_local total: 417076	583849
+584779_5x2_0_3_584450
+639623_5x2_0_3_639294
+706730_5x2_0_3_706401
+762780_5x2_0_3_762451
+829937_5x2_0_3_829608
+885991_5x2_0_3_885662
+953839_5x2_0_3_953510
+energy_acc_local total: 346391	1023562
+1024563_5x2_0_3_1024201
+1078664_5x2_0_3_1078302
+1145892_5x2_0_3_1145530
+1202620_5x2_0_3_1202258
+1270507_5x2_0_3_1270145
+1337759_5x2_0_3_1337397
+1397682_5x2_0_3_1397320
+1398595_5x2_0_3_End Task E - MPEG
+Task id: 3 terminated at 1399738
+Task id: 3078 allocated at 3044296
+energy_acc_local total: 410782	3045949
+energy_acc_local total: 50684	3048152
+energy_acc_local total: 31216	3049607
+energy_acc_local total: 40817	3051486
+Task id: 3078 terminated at 3379497
+Task id: 3075 allocated at 3456902
+energy_acc_local total: 5860400	3502523
+Task id: 3075 terminated at 3654015
+Task id: 3076 allocated at 4476379
+energy_acc_local total: 2793799	4478045
+energy_acc_local total: 258890	4500963
+Task id: 3080 allocated at 4507218
+Task id: 3076 terminated at 4534810
+Task id: 3080 terminated at 4565919
+Task id: 3083 allocated at 5050723
+energy_acc_local total: 1580141	5052384

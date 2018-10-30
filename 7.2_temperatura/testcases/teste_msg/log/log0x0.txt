@@ -1,0 +1,845 @@
+Kernel Initialized
+This kernel is global master
+total_mpsoc_resources 65
+selected_cluster_proc 0
+energyClustersAcc[0] 0 70
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 277230
+clusterinfo_handle2 69
+total_mpsoc_resources 60
+selected_cluster_proc 0
+energyClustersAcc[0] 0 69
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 554460
+clusterinfo_handle2 68
+clusterinfo_handle2 67
+total_mpsoc_resources 48
+selected_cluster_proc 0
+energyClustersAcc[0] 0 67
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 563151
+clusterinfo_handle2 66
+clusterinfo_handle2 65
+clusterinfo_handle2 64
+clusterinfo_handle2 63
+clusterinfo_handle2 62
+total_mpsoc_resources 43
+selected_cluster_proc 0
+energyClustersAcc[0] 0 62
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 840381
+clusterinfo_handle2 61
+clusterinfo_handle2 60
+clusterinfo_handle2 59
+clusterinfo_handle2 58
+clusterinfo_handle2 57
+clusterinfo_handle2 56
+clusterinfo_handle2 55
+clusterinfo_handle2 54
+clusterinfo_handle2 53
+clusterinfo_handle2 52
+clusterinfo_handle2 51
+clusterinfo_handle2 50
+clusterinfo_handle2 49
+temperature tick antes (kernel_master): 700331
+temperatura : 1 450279689
+temperatura : 2 454907355
+temperatura : 3 467148717
+temperatura : 4 450657100
+temperatura : 5 450000000
+temperatura : 6 469867579
+temperatura : 7 453300497
+temperatura : 8 450403515
+temperatura : 9 451184183
+temperatura : 10 450062162
+temperatura : 11 450000000
+temperatura : 12 468693493
+temperatura : 13 463243616
+temperatura : 14 453201166
+temperatura : 15 464444102
+temperatura : 16 451121779
+temperatura : 17 450029009
+temperatura : 18 464159657
+temperatura : 19 453239203
+temperatura : 20 452265245
+temperatura : 21 451208061
+temperatura : 22 464357820
+temperatura : 23 450574962
+temperatura : 24 468216627
+temperatura : 25 452844352
+temperatura : 26 450164398
+temperatura : 27 450033153
+temperatura : 28 450546817
+temperatura : 29 450029009
+temperatura : 30 468253386
+temperatura : 31 450768369
+temperatura : 32 450004144
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 858722
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 469867579
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 468693493
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 464159657
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 468216627
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 468253386
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 450279689
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 453300497
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 463243616
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 453239203
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 452844352
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 450768369
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 454907355
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 450403515
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 453201166
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 452265245
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450164398
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450004144
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 467148717
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 451184183
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 464444102
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 451208061
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450033153
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 450657100
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 450062162
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 451121779
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 464357820
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 450546817
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450029009
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 450574962
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450029009
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 269692
+energySlavesAcc 2 : 1437925
+energySlavesAcc 3 : 9400511
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 10870883
+energySlavesAcc 7 : 1128309
+energySlavesAcc 8 : 503410
+energySlavesAcc 9 : 58888
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 10216254
+energySlavesAcc 13 : 6590666
+energySlavesAcc 14 : 996406
+energySlavesAcc 15 : 8271654
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 7170067
+energySlavesAcc 19 : 1106864
+energySlavesAcc 20 : 1235976
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 8329197
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 9559341
+energySlavesAcc 25 : 1236081
+energySlavesAcc 26 : 437021
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 10219892
+energySlavesAcc 31 : 437021
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 2
+energySlavesAcc_discretizado 3 : 8
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 9
+energySlavesAcc_discretizado 7 : 1
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 8
+energySlavesAcc_discretizado 13 : 6
+energySlavesAcc_discretizado 14 : 1
+energySlavesAcc_discretizado 15 : 7
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 6
+energySlavesAcc_discretizado 19 : 1
+energySlavesAcc_discretizado 20 : 1
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 7
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 8
+energySlavesAcc_discretizado 25 : 1
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 8
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 1200293
+temperatura : 1 450947066
+temperatura : 2 457341510
+temperatura : 3 477808453
+temperatura : 4 452110687
+temperatura : 5 450000000
+temperatura : 6 485375481
+temperatura : 7 457182367
+temperatura : 8 451627220
+temperatura : 9 457896140
+temperatura : 10 450555150
+temperatura : 11 450000000
+temperatura : 12 480482267
+temperatura : 13 461505880
+temperatura : 14 456876123
+temperatura : 15 476684808
+temperatura : 16 453819820
+temperatura : 17 450186553
+temperatura : 18 482885517
+temperatura : 19 457365657
+temperatura : 20 454297841
+temperatura : 21 454110659
+temperatura : 22 476229448
+temperatura : 23 451993606
+temperatura : 24 481610293
+temperatura : 25 458229214
+temperatura : 26 450629807
+temperatura : 27 450212611
+temperatura : 28 451817926
+temperatura : 29 450186552
+temperatura : 30 483323768
+temperatura : 31 452715518
+temperatura : 32 450030202
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 1358722
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 485375481
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 480482267
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 482885517
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 481610293
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 483323768
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 450947066
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 457182367
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 461505880
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 457365657
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 458229214
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 452715518
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 457341510
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 451627220
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 456876123
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 454297841
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450629807
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450030202
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 477808453
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 457896140
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 476684808
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 454110659
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450212611
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 452110687
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 450555150
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 453819820
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 476229448
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 451817926
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450186553
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 451993606
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450186552
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 903121
+energySlavesAcc 3 : 8978792
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 10415858
+energySlavesAcc 7 : 716821
+energySlavesAcc 8 : 288689
+energySlavesAcc 9 : 1858197
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 6524650
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 985735
+energySlavesAcc 15 : 9350158
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 10519558
+energySlavesAcc 19 : 1012175
+energySlavesAcc 20 : 1248005
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 9311589
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 9033796
+energySlavesAcc 25 : 1420447
+energySlavesAcc 26 : 394819
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 9192292
+energySlavesAcc 31 : 445587
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 1
+energySlavesAcc_discretizado 3 : 7
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 9
+energySlavesAcc_discretizado 7 : 1
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 2
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 6
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 1
+energySlavesAcc_discretizado 15 : 8
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 9
+energySlavesAcc_discretizado 19 : 1
+energySlavesAcc_discretizado 20 : 1
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 8
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 7
+energySlavesAcc_discretizado 25 : 2
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 8
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 43
+total_mpsoc_resources 44
+total_mpsoc_resources 45
+total_mpsoc_resources 46
+total_mpsoc_resources 47
+total_mpsoc_resources 48
+total_mpsoc_resources 49
+total_mpsoc_resources 50
+total_mpsoc_resources 51
+total_mpsoc_resources 52
+total_mpsoc_resources 53
+total_mpsoc_resources 54
+total_mpsoc_resources 55
+total_mpsoc_resources 56
+total_mpsoc_resources 57
+clusterinfo_handle2 63
+temperature tick antes (kernel_master): 1700605
+temperatura : 1 451801433
+temperatura : 2 460019390
+temperatura : 3 488469052
+temperatura : 4 454002921
+temperatura : 5 450000000
+temperatura : 6 478528116
+temperatura : 7 460433050
+temperatura : 8 453713194
+temperatura : 9 471454860
+temperatura : 10 451893358
+temperatura : 11 450000000
+temperatura : 12 491902784
+temperatura : 13 467931607
+temperatura : 14 457845293
+temperatura : 15 469550984
+temperatura : 16 456081070
+temperatura : 17 450481824
+temperatura : 18 478390672
+temperatura : 19 459026124
+temperatura : 20 453991796
+temperatura : 21 456511587
+temperatura : 22 468242219
+temperatura : 23 453225479
+temperatura : 24 477168633
+temperatura : 25 458423102
+temperatura : 26 451063919
+temperatura : 27 450547525
+temperatura : 28 452786897
+temperatura : 29 450481823
+temperatura : 30 477538137
+temperatura : 31 454515962
+temperatura : 32 450087615
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 1859034
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 478528116
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 491902784
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 478390672
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 477168633
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 477538137
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 451801433
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 460433050
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 467931607
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 459026124
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 458423102
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 454515962
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 460019390
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 453713194
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 457845293
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453991796
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 451063919
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450087615
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 488469052
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 471454860
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 469550984
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 456511587
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450547525
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 454002921
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 451893358
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 456081070
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 468242219
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452786897
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450481824
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 453225479
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450481823
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 512
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 1075569
+energySlavesAcc 3 : 10262960
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 852009
+energySlavesAcc 8 : 348681
+energySlavesAcc 9 : 7093205
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 8658719
+energySlavesAcc 13 : 3059272
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 1
+energySlavesAcc_discretizado 3 : 8
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 1
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 6
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 7
+energySlavesAcc_discretizado 13 : 3
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 62
+clusterinfo_handle2 61
+clusterinfo_handle2 60
+temperature tick antes (kernel_master): 2200283
+temperatura : 1 452516041
+temperatura : 2 460656465
+temperatura : 3 495185220
+temperatura : 4 466735824
+temperatura : 5 450410687
+temperatura : 6 484550615
+temperatura : 7 460933948
+temperatura : 8 456127511
+temperatura : 9 477320130
+temperatura : 10 454183379
+temperatura : 11 450020720
+temperatura : 12 485371709
+temperatura : 13 466494083
+temperatura : 14 459001180
+temperatura : 15 479953556
+temperatura : 16 457883961
+temperatura : 17 450802970
+temperatura : 18 479849155
+temperatura : 19 460284517
+temperatura : 20 453970878
+temperatura : 21 458242057
+temperatura : 22 469430683
+temperatura : 23 454010943
+temperatura : 24 486448662
+temperatura : 25 459036989
+temperatura : 26 451262552
+temperatura : 27 450909648
+temperatura : 28 453308829
+temperatura : 29 450802969
+temperatura : 30 477658717
+temperatura : 31 455637387
+temperatura : 32 450150465
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 2358712
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 484550615
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 485371709
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 479849155
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 486448662
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 477658717
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 452516041
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 460933948
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 466494083
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 460284517
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 459036989
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 455637387
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 460656465
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 456127511
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 459001180
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453970878
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 451262552
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450150465
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 495185220
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 477320130
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 479953556
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 458242057
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450909648
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 466735824
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 454183379
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 457883961
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 469430683
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 453308829
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450410687
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450020720
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450802970
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 454010943
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450802969
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 512
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1024
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 456445
+energySlavesAcc 3 : 8761617
+energySlavesAcc 4 : 6316610
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 5282621
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 4427051
+energySlavesAcc 10 : 240303
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 96631
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 8448327
+energySlavesAcc 16 : 54750
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 1326001
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 55016
+energySlavesAcc 22 : 3495080
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 7477091
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 2594787
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 7
+energySlavesAcc_discretizado 4 : 5
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 5
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 4
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 7
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 2
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 3
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 6
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 2
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 59
+clusterinfo_handle2 58
+total_mpsoc_resources 58
+total_mpsoc_resources 59
+total_mpsoc_resources 60
+total_mpsoc_resources 61
+total_mpsoc_resources 62
+total_mpsoc_resources 63
+total_mpsoc_resources 64
+total_mpsoc_resources 65
+total_mpsoc_resources 66
+total_mpsoc_resources 67
+total_mpsoc_resources 68
+total_mpsoc_resources 69
+FINISH 2611142

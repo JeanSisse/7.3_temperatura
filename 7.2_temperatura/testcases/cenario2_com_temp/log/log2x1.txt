@@ -1,0 +1,18 @@
+Initializing PE: 0x00000201
+Task id: 257 allocated at 118305
+Task id: 258 allocated at 120137
+energy_acc_local total: 4030687	501316
+energy_acc_local total: 11713092	1001013
+energy_acc_local total: 11724895	1500959
+energy_acc_local total: 11731060	2001068
+energy_acc_local total: 11724319	2500894
+2548792_2x1_1_1_finaliza
+
+2550956_2x1_1_1_2550594
+2551912_2x1_1_1_Dijkstra_1 finished.
+Task id: 257 terminated at 2553196
+2564567_2x1_1_2_finaliza
+
+2565909_2x1_1_2_2565547
+2566865_2x1_1_2_Dijkstra_2 finished.
+Task id: 258 terminated at 2568434

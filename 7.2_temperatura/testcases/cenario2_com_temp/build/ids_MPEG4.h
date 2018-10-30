@@ -1,0 +1,12 @@
+#define ADSP_0		0
+#define AU_0		1
+#define BAB_0		2
+#define IDCT_0		3
+#define MCPU_0		4
+#define RAST_0		5
+#define RISC_0		6
+#define SDRAM_0		7
+#define SRAM1_0		8
+#define SRAM2_0		9
+#define UPSAMP_0		10
+#define VU_0		11

@@ -1,0 +1,15 @@
+Initializing PE: 0x00000005
+Task id: 3588 allocated at 3169524
+energy_acc_local total: 53994	3171164
+3171810_0x5_14_4_synthetic task E started.
+3173235_0x5_14_4_3172873
+energy_acc_local total: 93867	3175591
+energy_acc_local total: 40828	3177470
+energy_acc_local total: 33537	3179031
+energy_acc_local total: 61430	3181785
+energy_acc_local total: 33531	3183346
+energy_acc_local total: 3393733	3501074
+energy_acc_local total: 4607752	4001211
+4416416_0x5_14_4_4416054
+4417365_0x5_14_4_synthetic task E finished.
+Task id: 3588 terminated at 4418720

@@ -1,0 +1,145 @@
+#!/bin/bash
+
+# Script to use the HeMPS
+# By Leandro Heck, Marcelo Ruaro, Guilherme Madalozzo
+# PUCRS - May 2015
+
+# run if user hits control-c
+control_c()
+{
+	jobs -p | xargs kill
+	echo -en "\n*** Ouch! Exiting ***\n"
+	exit $?
+}
+
+trap control_c SIGINT
+
+USAGE_MSG="
+USAGE:
+    $(basename ./$0) [-c] hmp_file time_ms | -lstc | -h | -v
+
+OPTIONS:
+    -h, --help      Shows this help
+    -v, --version   Shows the HeMPS version
+    -c, -cli        Enable the command line only mode
+    -lstcs          List sample testcases from HEMPS_PATH
+    -lsapps         List sample applications from HEMPS_PATH
+    -test ms_time   Execute all testcases from HEMPS_PATH using time_ms
+
+REQUIRED:
+    hmp_file        HeMPS configuration file
+    time_ms         Execution time in mili seconsds
+
+"
+
+GUI_FLAG=1
+# Tratamento da linha de comando
+while test -n "$1"
+do
+	case $1 in
+
+		-h | --help)
+			echo "${USAGE_MSG}"
+			exit 0
+		;;
+
+		-v | --version)
+			version=$(basename ${HEMPS_PATH})
+			echo
+			echo "GAPH - Grupo de Apoio ao Hardware"
+			echo "HeMPS v${version} - Hermes MPSoC Generator, Simulator and Debugger"
+			echo
+			exit 0
+		;;
+
+		-lstcs)
+
+			find $HEMPS_PATH/testcases -iname "*.hmp"
+			exit 0
+
+		;;
+
+		-lsapps)
+
+			find $HEMPS_PATH/applications/ -mindepth 1 -maxdepth 1 -type d
+			exit 0
+		;;
+
+		-test)
+
+			shift
+			time_ms=$1
+
+			for hmp_file in $(find $HEMPS_PATH/testcases -iname "*.hmp"); do
+				echo -e "\n\n\n#### EXECUTING THE $hmp_file"
+				$0 -cli $hmp_file $time_ms
+			done
+			exit 0
+		;;
+
+		-c | --cli)
+			GUI_FLAG=0
+		;;
+
+
+		*)
+			HMP_FILE=$1
+			shift
+			TIME_MS=$1
+		;;
+	esac
+
+	shift
+done
+
+# consistencia do arquivo .hmp
+if  [ ! -f "$HMP_FILE" ]; then
+	echo -e "\nERROR: HeMPS configuration file '${HMP_FILE}' does not exist\n"
+	echo -e "See: $0 --help\n"
+	exit 1
+fi
+
+# consistencia do tempo em ms
+re='^[0-9]+[.]*[0-9]*$'
+if ! [[ $TIME_MS =~ $re ]] ; then
+	echo -e "\nERROR: '$TIME_MS' is not a number for time\n"
+	echo -e "See: $0 --help\n"
+	exit 1
+fi
+
+if [ ! -d "applications" ] && [ ! -d "$HEMPS_PATH/applications" ]; then
+	echo -e "\nERROR: 'applications' directory not found in:"; pwd
+	echo -e "\n"
+	exit 1
+fi
+
+# DEBUG
+#echo $HMP_FILE
+#echo $TIME_MS
+
+# Separa o nome pro testcase com base no arquivo HMP
+testcase=$(basename $HMP_FILE | cut -d'.' -f 1)
+
+rm -rf $testcase
+
+if [ -d "applications" ]; then
+	hemps.pl $HMP_FILE applications/
+fi
+if [ -d "$HEMPS_PATH/applications" ]; then
+	hemps.pl $HMP_FILE $HEMPS_PATH/applications/
+fi
+
+cd $testcase
+make all
+
+if [[  "$GUI_FLAG" == "1" ]]
+then
+	./HeMPS -c $TIME_MS | tee simulog.txt &
+	cd ..
+	java -jar $HEMPS_PATH/bin/HeMPS_Debugger.jar $testcase/debug/platform.cfg &
+
+else
+
+	./HeMPS -c $TIME_MS | tee simulog.txt
+	cd ..
+fi

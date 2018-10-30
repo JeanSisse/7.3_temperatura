@@ -1,0 +1,57 @@
+
+#this environment variable must point to the hemps path, where the hardware, software and tools folders are located
+
+#Definition of Plasma toolchain
+CFLAGS     = -Os -Wall -fms-extensions -c -s -std=c99 -G 0
+CFLAGS_APP = -Os -Wall -fms-extensions -c -s -std=c99 -G 0
+GCC_MIPS   = mips-elf-gcc $(CFLAGS)
+GCC_MIPS_APP   = mips-elf-gcc $(CFLAGS_APP)
+AS_MIPS    = mips-elf-as
+LD_MIPS    = mips-elf-ld
+DUMP_MIPS  = mips-elf-objdump
+COPY_MIPS = mips-elf-objcopy -I elf32-bigmips -O binary
+
+
+#TASKS
+TASK0_PATH = ./modelo.c
+TASK0_INCLUDE = coef.h
+TASK0_NAME = modelo
+TASK0_ID = 0
+TASK0_TARGET = $(TASK0_NAME)_$(TASK0_ID)
+
+
+#kernel master source files
+BOOT_MASTER_SRC   = $(HEMPS_PATH)/software/kernel/master/boot.S
+BOOT_MASTER       = boot_master
+KERNEL_MASTER_SRC = $(HEMPS_PATH)/software/kernel/master/kernel_master.c
+KERNEL_MASTER     = kernel_master
+
+#kernel slave plasma source files
+BOOT_PLASMA_SRC   = $(HEMPS_PATH)/software/kernel/slave/boot.S
+BOOT_PLASMA       = boot_plasma
+KERNEL_PLASMA_SRC = $(HEMPS_PATH)/software/kernel/slave/kernel_slave.c
+KERNEL_PLASMA     = kernel_plasma
+
+
+modelo_1:
+	$(GCC_MIPS_APP) $(TASK0_PATH) -o $(TASK0_TARGET).o
+	$(LD_MIPS) -Ttext 0 -eentry -Map $(TASK0_TARGET).map -s -N -o $(TASK0_TARGET).bin $(TASK0_TARGET).o
+	$(LD_MIPS) -Ttext 0 -eentry -Map $(TASK0_TARGET)_debug.map -o $(TASK0_TARGET)_debug.bin $(TASK0_TARGET).o
+	$(DUMP_MIPS) -S $(TASK0_TARGET)_debug.bin > $(TASK0_TARGET).lst
+	$(COPY_MIPS) $(TASK0_TARGET).bin $(TASK0_TARGET).dump
+	hexdump -v -e '1/1 "%02x" 1/1 "%02x" 1/1 "%02x" 1/1 "%02x" "\n"' $(TASK0_TARGET).dump > $(TASK0_TARGET).txt
+
+
+clean:
+	rm -rf *.bin
+	rm -rf *.txt
+	rm -rf *.mem
+	rm -rf *.dump
+	rm -rf *.lst
+	rm -rf *.o
+	rm -rf *.map
+	rm -rf ram*.h
+	rm -rf *.vhd
+	rm -rf *.elf
+
+all: modelo_1

@@ -1,0 +1,16 @@
+Initializing PE: 0x00000403
+Task id: 770 allocated at 187561
+Task id: 771 allocated at 189228
+193590_4x3_3_2_Task P2 INIT
+
+198600_4x3_3_3_Task P3 INIT
+
+energy_acc_local total: 6575777	509248
+828295_4x3_3_2_Task P2 FINISHEDD IN
+
+829631_4x3_3_2_829302
+Task id: 770 terminated at 830787
+842336_4x3_3_3_Task P3 FINISHEDD IN
+
+843672_4x3_3_3_843343
+Task id: 771 terminated at 884080

@@ -1,0 +1,33 @@
+Initializing PE: 0x00000205
+Task id: 1282 allocated at 283484
+285281_2x5_5_2_MPEG Task B start: iVLC 
+286637_2x5_5_2_286308
+Task id: 1281 allocated at 347663
+362836_2x5_5_1_MPEG Task C start: iquant 
+364202_2x5_5_1_363873
+energy_acc_local total: 5215668	505886
+energy_acc_local total: 11847098	1010378
+1451071_2x5_5_2_1450709
+1452027_2x5_5_2_End Task B - MPEG
+Task id: 1282 terminated at 1453334
+1458896_2x5_5_1_1458534
+1459852_2x5_5_1_End Task C- MPEG
+Task id: 1281 terminated at 1461154
+Task id: 3586 allocated at 3146107
+energy_acc_local total: 10635192	3147881
+3148510_2x5_14_2_synthetic task C started.
+3149980_2x5_14_2_3149618
+energy_acc_local total: 89982	3152044
+energy_acc_local total: 40828	3153923
+energy_acc_local total: 33531	3155484
+Task id: 3587 allocated at 3159093
+3160685_2x5_14_3_synthetic task D started.
+3162528_2x5_14_3_3162166
+energy_acc_local total: 7479290	3501838
+energy_acc_local total: 10635025	4001958
+4411232_2x5_14_3_4410870
+4412226_2x5_14_3_synthetic task D finished.
+Task id: 3587 terminated at 4413626
+4415408_2x5_14_2_4415046
+4416402_2x5_14_2_synthetic task C finished.
+Task id: 3586 terminated at 4418885

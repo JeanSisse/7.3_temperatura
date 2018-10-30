@@ -1,0 +1,9 @@
+Initializing PE: 0x00000002
+Task id: 2 allocated at 38885
+40648_0x2_0_2_MPEG Task B start: iVLC 
+41843_0x2_0_2_41547
+energy_acc_local total: 11022443	508489
+energy_acc_local total: 11754570	1008763
+1118879_0x2_0_2_1118517
+1119745_0x2_0_2_End Task B - MPEG
+Task id: 2 terminated at 1120843

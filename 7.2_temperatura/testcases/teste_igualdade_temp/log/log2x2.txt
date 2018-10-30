@@ -1,0 +1,2 @@
+Initializing PE: 0x00000202
+INTERRUPTION (NOC)

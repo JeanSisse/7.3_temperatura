@@ -1,0 +1,39 @@
+Initializing PE: 0x00000004
+Task id: 258 allocated at 98390
+100163_0x4_1_2_MPEG Task B start: iVLC 
+101474_0x4_1_2_101145
+energy_acc_local total: 9513449	503739
+energy_acc_local total: 11854051	1007847
+1204547_0x4_1_2_1204185
+1205458_0x4_1_2_End Task B - MPEG
+Task id: 258 terminated at 1206677
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 4
+energy_acc_local total: 4740840	2863373
+teste com stop_execution_flag parando at 2864068
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 4
+energy_acc_local total: 63740	3363291
+teste com stop_execution_flag parando at 3364001
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 4
+energy_acc_local total: 62702	3863292
+teste com stop_execution_flag parando at 3864002
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 4
+energy_acc_local total: 62696	4363297
+teste com stop_execution_flag parando at 4364007
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 4
+energy_acc_local total: 62702	4863316
+teste com stop_execution_flag parando at 4864026
+
+1<- stop_execution_flag??

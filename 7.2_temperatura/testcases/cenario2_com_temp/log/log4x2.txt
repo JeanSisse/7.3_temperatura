@@ -1,0 +1,32 @@
+Initializing PE: 0x00000402
+Task id: 1 allocated at 179572
+180804_4x2_0_1_MPEG Task C start: iquant 
+182125_4x2_0_1_181796
+Task id: 0 allocated at 193864
+195940_4x2_0_0_MPEG Task D start: iDCT 
+197206_4x2_0_0_196877
+energy_acc_local total: 1899617	572115
+energy_acc_local total: 1863907	1011790
+1388564_4x2_0_1_1388202
+1389475_4x2_0_1_End Task C- MPEG
+Task id: 1 terminated at 1390613
+1397222_4x2_0_0_1396860
+1398088_4x2_0_0_End Task D - MPEG
+Task id: 0 terminated at 1399141
+Task id: 3079 allocated at 3017613
+energy_acc_local total: 1991167	3019444
+Task id: 3081 allocated at 3020478
+energy_acc_local total: 219471	3028796
+energy_acc_local total: 186801	3036613
+energy_acc_local total: 37125	3038279
+energy_acc_local total: 11145238	3513071
+Task id: 3081 terminated at 3876728
+energy_acc_local total: 11886826	4017600
+Task id: 3072 allocated at 4445029
+energy_acc_local total: 7776988	4509727
+Task id: 3072 terminated at 4527612
+Task id: 3077 allocated at 4533948
+energy_acc_local total: 12062033	5007173
+Task id: 3077 terminated at 5016983
+Task id: 3073 allocated at 5020683
+Task id: 3073 terminated at 5054020

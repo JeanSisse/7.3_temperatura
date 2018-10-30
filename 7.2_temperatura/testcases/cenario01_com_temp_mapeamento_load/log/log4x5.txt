@@ -1,0 +1,19 @@
+Initializing PE: 0x00000405
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1029
+energy_acc_local total: 40760	5875150
+teste com stop_execution_flag parando at 5875845
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1029
+energy_acc_local total: 64563	6374631
+teste com stop_execution_flag parando at 6375341
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1029
+energy_acc_local total: 64952	6874171
+teste com stop_execution_flag parando at 6874881
+
+1<- stop_execution_flag??

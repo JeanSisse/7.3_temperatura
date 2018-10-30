@@ -1,0 +1,32 @@
+Initializing PE: 0x00000501
+Task id: 1798 allocated at 349266
+energy_acc_local total: 1507011	501717
+Task id: 1798 terminated at 684729
+Task id: 1795 allocated at 889944
+energy_acc_local total: 5466705	1007179
+Task id: 1795 terminated at 1082026
+Task id: 1796 allocated at 1977318
+energy_acc_local total: 1850502	1978984
+energy_acc_local total: 271028	2002238
+Task id: 1800 allocated at 2008179
+Task id: 1796 terminated at 2034123
+Task id: 1800 terminated at 2065559
+Task id: 1803 allocated at 2550153
+energy_acc_local total: 1575380	2551814
+Task id: 1803 terminated at 2611979
+Task id: 3331 allocated at 3104403
+energy_acc_local total: 692148	3106251
+Task id: 3332 allocated at 3107302
+3137420_5x1_13_4_Task P4 INIT
+
+3160853_5x1_13_3_Task P3 INIT
+
+energy_acc_local total: 8167731	3507406
+3722475_5x1_13_4_Task P4 FINISHEDD IN
+
+3723920_5x1_13_4_3723558
+Task id: 3332 terminated at 3725200
+3767683_5x1_13_3_Task P3 FINISHEDD IN
+
+3769128_5x1_13_3_3768766
+Task id: 3331 terminated at 3770408

@@ -1,0 +1,172 @@
+creating PE:0X0
+creating PE:1X0
+creating PE:2X0
+creating PE:3X0
+creating PE:4X0
+creating PE:5X0
+creating PE:0X1
+creating PE:1X1
+creating PE:2X1
+creating PE:3X1
+creating PE:4X1
+creating PE:5X1
+creating PE:0X2
+creating PE:1X2
+creating PE:2X2
+creating PE:3X2
+creating PE:4X2
+creating PE:5X2
+creating PE:0X3
+creating PE:1X3
+creating PE:2X3
+creating PE:3X3
+creating PE:4X3
+creating PE:5X3
+creating PE:0X4
+creating PE:1X4
+creating PE:2X4
+creating PE:3X4
+creating PE:4X4
+creating PE:5X4
+creating PE:0X5
+creating PE:1X5
+creating PE:2X5
+creating PE:3X5
+creating PE:4X5
+creating PE:5X5
+creating MASTER: 0
+creating SLAVE: 1
+creating SLAVE: 2
+creating SLAVE: 3
+creating SLAVE: 4
+creating SLAVE: 5
+creating SLAVE: 6
+creating SLAVE: 7
+creating SLAVE: 8
+creating SLAVE: 9
+creating SLAVE: 10
+creating SLAVE: 11
+creating SLAVE: 12
+creating SLAVE: 13
+creating SLAVE: 14
+creating SLAVE: 15
+creating SLAVE: 16
+creating SLAVE: 17
+creating SLAVE: 18
+creating SLAVE: 19
+creating SLAVE: 20
+creating SLAVE: 21
+creating SLAVE: 22
+creating SLAVE: 23
+creating SLAVE: 24
+creating SLAVE: 25
+creating SLAVE: 26
+creating SLAVE: 27
+creating SLAVE: 28
+creating SLAVE: 29
+creating SLAVE: 30
+creating SLAVE: 31
+creating SLAVE: 32
+creating SLAVE: 33
+creating SLAVE: 34
+creating SLAVE: 35
+Pediu a aplicacao 0
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Master sending msg 
+Recebeu ack!
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master sending msg 
+Master receiving msg 
+Master sending msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master sending msg 
+Master sending msg 
+TIME_SLICE 300000
+CLOCK PAROU NO PROC 0x1 NO TEMPO 896371
+CLOCK PAROU NO PROC 0x1 NO TEMPO 896371
+TIME_SLICE 300000
+CLOCK PAROU NO PROC 0x2 NO TEMPO 896502
+CLOCK PAROU NO PROC 0x2 NO TEMPO 896502
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master sending msg 
+Master sending msg 
+CLOCK PAROU NO PROC 0x1 NO TEMPO 1396168
+CLOCK PAROU NO PROC 0x1 NO TEMPO 1396168
+CLOCK PAROU NO PROC 0x2 NO TEMPO 1396605
+CLOCK PAROU NO PROC 0x2 NO TEMPO 1396605
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+Master receiving msg 
+END OF ALL APPLICATIONS!!!
+Simulation time: 16.1643ms
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+END OF ALL APPLICATIONS!!!
+Simulation time: 16.1643ms
+
+Warning: (W545) sc_stop has already been called
+In file: ../../../../src/sysc/kernel/sc_simcontext.cpp:1045

@@ -1,0 +1,67 @@
+Initializing PE: 0x00000500
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 40760	867932
+teste com stop_execution_flag parando at 868589
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 63113	1369547
+teste com stop_execution_flag parando at 1370257
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64952	1872001
+teste com stop_execution_flag parando at 1872711
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64958	2373578
+teste com stop_execution_flag parando at 2374288
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64952	2874010
+teste com stop_execution_flag parando at 2874720
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64958	3374562
+teste com stop_execution_flag parando at 3375272
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64952	3874563
+teste com stop_execution_flag parando at 3875273
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64958	4375077
+teste com stop_execution_flag parando at 4375787
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64952	4875096
+teste com stop_execution_flag parando at 4875806
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64958	5374639
+teste com stop_execution_flag parando at 5375349
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 64952	5875709
+teste com stop_execution_flag parando at 5876419
+
+1<- stop_execution_flag??

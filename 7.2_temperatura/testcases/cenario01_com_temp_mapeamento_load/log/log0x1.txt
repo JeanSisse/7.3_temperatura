@@ -1,0 +1,160 @@
+Initializing PE: 0x00000001
+Task id: 4 allocated at 32736
+34009_0x1_0_4_MPEG Task A start:  
+35179_0x1_0_4_34883
+38695_0x1_0_4_T1
+39645_0x1_0_4_36865
+40425_0x1_0_4_T2
+41375_0x1_0_4_38588
+43905_0x1_0_4_T1
+44855_0x1_0_4_42157
+45635_0x1_0_4_T2
+46585_0x1_0_4_43798
+49139_0x1_0_4_T1
+50089_0x1_0_4_47367
+51174_0x1_0_4_T2
+52124_0x1_0_4_49032
+99624_0x1_0_4_T1
+100574_0x1_0_4_52906
+101392_0x1_0_4_T2
+102380_0x1_0_4_99517
+164479_0x1_0_4_T1
+165500_0x1_0_4_103200
+166323_0x1_0_4_T2
+167344_0x1_0_4_164372
+219168_0x1_0_4_T1
+220189_0x1_0_4_168169
+221012_0x1_0_4_T2
+222033_0x1_0_4_219061
+Task id: 515 allocated at 245310
+246881_0x1_2_3_MPEG Task PRINT start:
+252447_0x1_2_3_252118
+273006_0x1_0_4_T1
+274332_0x1_0_4_222858
+275155_0x1_0_4_T2
+276176_0x1_0_4_272899
+283587_0x1_2_3_283258
+326564_0x1_0_4_T1
+327585_0x1_0_4_277001
+328408_0x1_0_4_T2
+329429_0x1_0_4_326457
+337155_0x1_2_3_336826
+380208_0x1_0_4_T1
+381229_0x1_0_4_330559
+382052_0x1_0_4_T2
+383073_0x1_0_4_380101
+391086_0x1_2_3_390757
+433613_0x1_0_4_T1
+434634_0x1_0_4_383898
+435457_0x1_0_4_T2
+436478_0x1_0_4_433506
+445045_0x1_2_3_444716
+487446_0x1_0_4_T1
+488467_0x1_0_4_437303
+489290_0x1_0_4_T2
+490311_0x1_0_4_487339
+498309_0x1_2_3_497980
+energy_acc_local total: 10720330	500856
+542560_0x1_0_4_T1
+543581_0x1_0_4_491136
+544404_0x1_0_4_T2
+545425_0x1_0_4_542453
+555746_0x1_2_3_555417
+596624_0x1_0_4_T1
+597645_0x1_0_4_546250
+598468_0x1_0_4_T2
+599489_0x1_0_4_596517
+606900_0x1_2_3_606571
+650453_0x1_0_4_T1
+651779_0x1_0_4_600314
+652602_0x1_0_4_T2
+653623_0x1_0_4_650346
+660467_0x1_2_3_660138
+704097_0x1_0_4_T1
+705118_0x1_0_4_654448
+705941_0x1_0_4_T2
+706962_0x1_0_4_703990
+713577_0x1_2_3_713248
+757838_0x1_0_4_T1
+758859_0x1_0_4_708092
+759682_0x1_0_4_T2
+760703_0x1_0_4_757731
+767542_0x1_2_3_767213
+811671_0x1_0_4_T1
+812692_0x1_0_4_761528
+813515_0x1_0_4_T2
+814536_0x1_0_4_811564
+820817_0x1_2_3_820488
+energy_acc_local total: 11493534	1001116
+energy_acc_local total: 11557406	1501285
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1861622
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 8375544	2361972
+teste com stop_execution_flag parando at 2362682
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 64141	2861894
+teste com stop_execution_flag parando at 2862604
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62696	3361890
+teste com stop_execution_flag parando at 3362600
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62702	3861891
+teste com stop_execution_flag parando at 3862601
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62696	4361896
+teste com stop_execution_flag parando at 4362606
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62702	4861915
+teste com stop_execution_flag parando at 4862625
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62696	5361892
+teste com stop_execution_flag parando at 5362602
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62702	5861899
+teste com stop_execution_flag parando at 5862609
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62696	6361891
+teste com stop_execution_flag parando at 6362601
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62702	6861943
+teste com stop_execution_flag parando at 6862653
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 62696	7361938
+teste com stop_execution_flag parando at 7362648
+
+1<- stop_execution_flag??

@@ -1,0 +1,37 @@
+Initializing PE: 0x00000105
+Task id: 1537 allocated at 299049
+Task id: 1538 allocated at 300924
+energy_acc_local total: 2638783	510340
+energy_acc_local total: 11518468	1001232
+energy_acc_local total: 11728668	1501472
+energy_acc_local total: 11717105	2001137
+energy_acc_local total: 11720012	2501016
+2889036_1x5_6_1_finaliza
+
+2890378_1x5_6_1_2890016
+2891334_1x5_6_1_Dijkstra_1 finished.
+Task id: 1537 terminated at 2892661
+2904316_1x5_6_2_finaliza
+
+2905658_1x5_6_2_2905296
+2906614_1x5_6_2_Dijkstra_2 finished.
+Task id: 1538 terminated at 2907941
+Task id: 2820 allocated at 3047897
+energy_acc_local total: 9614408	3050033
+Task id: 3589 allocated at 3167992
+3169139_1x5_14_5_synthetic task F started.
+3170609_1x5_14_5_3170247
+3230894_1x5_11_4_My id
+3232315_1x5_11_4_4
+3233274_1x5_11_4_GRUPO 0
+3235081_1x5_11_4_96
+3236424_1x5_11_4_GRUPO 1
+3237544_1x5_11_4_120
+3238513_1x5_11_4_fim 
+energy_acc_local total: 8074553	3501026
+energy_acc_local total: 11592907	4001600
+4419746_1x5_14_5_4419384
+4420740_1x5_14_5_synthetic task F finished.
+Task id: 3589 terminated at 4422140
+energy_acc_local total: 11586059	4501161
+energy_acc_local total: 11717081	5001044

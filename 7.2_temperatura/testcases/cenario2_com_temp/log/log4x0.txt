@@ -1,0 +1,44 @@
+Initializing PE: 0x00000400
+Task id: 1802 allocated at 1005567
+energy_acc_local total: 53889	1007202
+energy_acc_local total: 49970	1009405
+energy_acc_local total: 5014463	1500881
+Task id: 1802 terminated at 1941640
+Task id: 3329 allocated at 3087590
+energy_acc_local total: 8303630	3089491
+energy_acc_local total: 35005	3091048
+energy_acc_local total: 31221	3092503
+3095534_4x0_13_1_Task P1 INIT
+
+3097102_4x0_13_1_Task P1 FOR
+
+Task id: 3330 allocated at 3099733
+3105088_4x0_13_2_Task P2 INIT
+
+3168396_4x0_13_1_Task P1 FOR
+
+3231051_4x0_13_1_Task P1 FOR
+
+3294262_4x0_13_1_Task P1 FOR
+
+3357473_4x0_13_1_Task P1 FOR
+
+3420684_4x0_13_1_Task P1 FOR
+
+3483895_4x0_13_1_Task P1 FOR
+
+energy_acc_local total: 8340367	3505010
+3548295_4x0_13_1_Task P1 FOR
+
+3611506_4x0_13_1_Task P1 FOR
+
+3674717_4x0_13_1_Task P1 FOR
+
+3723797_4x0_13_2_Task P2 FINISHEDD IN
+
+3725197_4x0_13_2_3724835
+Task id: 3330 terminated at 3726432
+3737865_4x0_13_1_Task P1 FINISHEDD IN
+
+3739265_4x0_13_1_3738903
+Task id: 3329 terminated at 3740500

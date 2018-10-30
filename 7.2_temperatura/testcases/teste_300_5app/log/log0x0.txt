@@ -1,0 +1,2406 @@
+Kernel Initialized
+This kernel is global master
+total_mpsoc_resources 65
+selected_cluster_proc 0
+energyClustersAcc[0] 0 70
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 277230
+clusterinfo_handle2 69
+total_mpsoc_resources 60
+selected_cluster_proc 0
+energyClustersAcc[0] 0 69
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 554460
+clusterinfo_handle2 68
+clusterinfo_handle2 67
+total_mpsoc_resources 48
+selected_cluster_proc 0
+energyClustersAcc[0] 0 67
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 563151
+clusterinfo_handle2 66
+clusterinfo_handle2 65
+clusterinfo_handle2 64
+clusterinfo_handle2 63
+clusterinfo_handle2 62
+total_mpsoc_resources 43
+selected_cluster_proc 0
+energyClustersAcc[0] 0 62
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 840381
+clusterinfo_handle2 61
+Kernel Initialized
+This kernel is global master
+total_mpsoc_resources 65
+selected_cluster_proc 0
+energyClustersAcc[0] 0 70
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 277230
+clusterinfo_handle2 69
+total_mpsoc_resources 60
+selected_cluster_proc 0
+energyClustersAcc[0] 0 69
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 554460
+clusterinfo_handle2 68
+clusterinfo_handle2 67
+total_mpsoc_resources 48
+selected_cluster_proc 0
+energyClustersAcc[0] 0 67
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 563151
+clusterinfo_handle2 66
+clusterinfo_handle2 65
+clusterinfo_handle2 64
+clusterinfo_handle2 63
+clusterinfo_handle2 62
+total_mpsoc_resources 43
+selected_cluster_proc 0
+energyClustersAcc[0] 0 62
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 840381
+clusterinfo_handle2 61
+clusterinfo_handle2 60
+clusterinfo_handle2 59
+clusterinfo_handle2 58
+clusterinfo_handle2 57
+clusterinfo_handle2 56
+clusterinfo_handle2 55
+clusterinfo_handle2 54
+clusterinfo_handle2 53
+clusterinfo_handle2 52
+clusterinfo_handle2 51
+clusterinfo_handle2 50
+clusterinfo_handle2 49
+temperature tick antes (kernel_master): 700331
+temperatura : 1 450279689
+temperatura : 2 454907355
+temperatura : 3 467148717
+temperatura : 4 450657100
+temperatura : 5 450000000
+temperatura : 6 469867579
+temperatura : 7 453300497
+temperatura : 8 450403515
+temperatura : 9 451184183
+temperatura : 10 450062162
+temperatura : 11 450000000
+temperatura : 12 468693493
+temperatura : 13 463243616
+temperatura : 14 453201166
+temperatura : 15 464444102
+temperatura : 16 451121779
+temperatura : 17 450029009
+temperatura : 18 464159657
+temperatura : 19 453239203
+temperatura : 20 452265245
+temperatura : 21 451208061
+temperatura : 22 464357820
+temperatura : 23 450574962
+temperatura : 24 468216627
+temperatura : 25 452844352
+temperatura : 26 450164398
+temperatura : 27 450033153
+temperatura : 28 450546817
+temperatura : 29 450029009
+temperatura : 30 468253386
+temperatura : 31 450768369
+temperatura : 32 450004144
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 858722
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 469867579
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 468693493
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 464159657
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 468216627
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 468253386
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 450279689
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 453300497
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 463243616
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 453239203
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 452844352
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 450768369
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 454907355
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 450403515
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 453201166
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 452265245
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450164398
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450004144
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 467148717
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 451184183
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 464444102
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 451208061
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450033153
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 450657100
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 450062162
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 451121779
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 464357820
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 450546817
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450029009
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 450574962
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450029009
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 269692
+energySlavesAcc 2 : 1437925
+energySlavesAcc 3 : 9400511
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 10870883
+energySlavesAcc 7 : 1128309
+energySlavesAcc 8 : 503410
+energySlavesAcc 9 : 58888
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 10216254
+energySlavesAcc 13 : 6590666
+energySlavesAcc 14 : 996406
+energySlavesAcc 15 : 8271654
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 7170067
+energySlavesAcc 19 : 1106864
+energySlavesAcc 20 : 1235976
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 8329197
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 9559341
+energySlavesAcc 25 : 1236081
+energySlavesAcc 26 : 437021
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 10219892
+energySlavesAcc 31 : 437021
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 2
+energySlavesAcc_discretizado 3 : 8
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 9
+energySlavesAcc_discretizado 7 : 1
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 8
+energySlavesAcc_discretizado 13 : 6
+energySlavesAcc_discretizado 14 : 1
+energySlavesAcc_discretizado 15 : 7
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 6
+energySlavesAcc_discretizado 19 : 1
+energySlavesAcc_discretizado 20 : 1
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 7
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 8
+energySlavesAcc_discretizado 25 : 1
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 8
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 1200277
+temperatura : 1 450790956
+temperatura : 2 454631061
+temperatura : 3 462708696
+temperatura : 4 451527436
+temperatura : 5 450000000
+temperatura : 6 487338282
+temperatura : 7 455205099
+temperatura : 8 451162411
+temperatura : 9 452622154
+temperatura : 10 450328713
+temperatura : 11 450000000
+temperatura : 12 478515198
+temperatura : 13 461189516
+temperatura : 14 454077356
+temperatura : 15 460033355
+temperatura : 16 452529498
+temperatura : 17 450153399
+temperatura : 18 484840030
+temperatura : 19 455154162
+temperatura : 20 452049173
+temperatura : 21 452742343
+temperatura : 22 459820511
+temperatura : 23 451336506
+temperatura : 24 480874953
+temperatura : 25 454023997
+temperatura : 26 450383271
+temperatura : 27 450175313
+temperatura : 28 451192992
+temperatura : 29 450153399
+temperatura : 30 465691172
+temperatura : 31 451902185
+temperatura : 32 450021914
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 1358706
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 487338282
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 478515198
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 484840030
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 480874953
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 465691172
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 450790956
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 455205099
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 461189516
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 455154162
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 454023997
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 451902185
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 454631061
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 451162411
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 454077356
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 452049173
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450383271
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450021914
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 462708696
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 452622154
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 460033355
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 452742343
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450175313
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 451527436
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 450328713
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 452529498
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 459820511
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 451192992
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450153399
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 451336506
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450153399
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 770
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 14497064
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 6097688
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 14555592
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 8940874
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 10
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 5
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 10
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 7
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 43
+total_mpsoc_resources 44
+total_mpsoc_resources 45
+total_mpsoc_resources 46
+total_mpsoc_resources 47
+temperature tick antes (kernel_master): 1700277
+temperatura : 1 451639068
+temperatura : 2 454780668
+temperatura : 3 472432454
+temperatura : 4 452437590
+temperatura : 5 450000000
+temperatura : 6 492351745
+temperatura : 7 465790245
+temperatura : 8 452240877
+temperatura : 9 456087927
+temperatura : 10 450784530
+temperatura : 11 450000000
+temperatura : 12 482729572
+temperatura : 13 467473939
+temperatura : 14 455097731
+temperatura : 15 467642990
+temperatura : 16 454005053
+temperatura : 17 450331374
+temperatura : 18 479920947
+temperatura : 19 465452462
+temperatura : 20 452379552
+temperatura : 21 454291295
+temperatura : 22 469321337
+temperatura : 23 452190868
+temperatura : 24 486758309
+temperatura : 25 456071636
+temperatura : 26 450506295
+temperatura : 27 450375161
+temperatura : 28 451892177
+temperatura : 29 450331374
+temperatura : 30 481750180
+temperatura : 31 453325492
+temperatura : 32 450043787
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 1858706
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 492351745
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 482729572
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 479920947
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 486758309
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 481750180
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 451639068
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 465790245
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 467473939
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 465452462
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 456071636
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 453325492
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 454780668
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 452240877
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 455097731
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 452379552
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450506295
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450043787
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 472432454
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 456087927
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 467642990
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 454291295
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450375161
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 452437590
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 450784530
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 454005053
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 469321337
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 451892177
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450331374
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 452190868
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450331374
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 213359
+energySlavesAcc 3 : 6641985
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 6799872
+energySlavesAcc 7 : 4436572
+energySlavesAcc 8 : 92209
+energySlavesAcc 9 : 677910
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 3077166
+energySlavesAcc 13 : 3028902
+energySlavesAcc 14 : 286291
+energySlavesAcc 15 : 6473502
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 4980302
+energySlavesAcc 20 : 214809
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 7008206
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 5347226
+energySlavesAcc 25 : 559157
+energySlavesAcc 26 : 93129
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 9159862
+energySlavesAcc 31 : 197559
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 6
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 6
+energySlavesAcc_discretizado 7 : 4
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 1
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 3
+energySlavesAcc_discretizado 13 : 3
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 5
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 4
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 6
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 5
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 8
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 48
+total_mpsoc_resources 49
+total_mpsoc_resources 50
+total_mpsoc_resources 51
+total_mpsoc_resources 52
+total_mpsoc_resources 53
+total_mpsoc_resources 54
+total_mpsoc_resources 55
+total_mpsoc_resources 56
+total_mpsoc_resources 57
+clusterinfo_handle2 63
+clusterinfo_handle2 62
+temperature tick antes (kernel_master): 2200287
+temperatura : 1 452545015
+temperatura : 2 455809588
+temperatura : 3 484290265
+temperatura : 4 453933925
+temperatura : 5 450000000
+temperatura : 6 483623455
+temperatura : 7 464854636
+temperatura : 8 453989127
+temperatura : 9 469453268
+temperatura : 10 451901336
+temperatura : 11 450000000
+temperatura : 12 479681353
+temperatura : 13 466202623
+temperatura : 14 456154961
+temperatura : 15 463238439
+temperatura : 16 455295550
+temperatura : 17 450571724
+temperatura : 18 489329043
+temperatura : 19 464681004
+temperatura : 20 452972459
+temperatura : 21 455592724
+temperatura : 22 463634962
+temperatura : 23 452969487
+temperatura : 24 481291846
+temperatura : 25 457905113
+temperatura : 26 450617913
+temperatura : 27 450634616
+temperatura : 28 452470212
+temperatura : 29 450571724
+temperatura : 30 483044962
+temperatura : 31 454984337
+temperatura : 32 450062891
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 2358716
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 483623455
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 479681353
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 489329043
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 481291846
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 483044962
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 452545015
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 464854636
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 466202623
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 464681004
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 457905113
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 454984337
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 455809588
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 453989127
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 456154961
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 452972459
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450617913
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450062891
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 484290265
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 469453268
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 463238439
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 455592724
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450634616
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 453933925
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 451901336
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 455295550
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 463634962
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452470212
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450571724
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 452969487
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450571724
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 9507938
+energySlavesAcc 4 : 54750
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 7705725
+energySlavesAcc 10 : 54750
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 127001
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 6662862
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 2611611
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 8
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 6
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 6
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 3
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 61
+clusterinfo_handle2 60
+temperature tick antes (kernel_master): 2700317
+temperatura : 1 453203622
+temperatura : 2 457392782
+temperatura : 3 491263532
+temperatura : 4 460052962
+temperatura : 5 450164275
+temperatura : 6 484104790
+temperatura : 7 466135075
+temperatura : 8 455748807
+temperatura : 9 467049144
+temperatura : 10 453410214
+temperatura : 11 450008288
+temperatura : 12 490038692
+temperatura : 13 465756239
+temperatura : 14 457188324
+temperatura : 15 472981894
+temperatura : 16 456448061
+temperatura : 17 450810000
+temperatura : 18 483411830
+temperatura : 19 464339431
+temperatura : 20 453384050
+temperatura : 21 456632141
+temperatura : 22 464163553
+temperatura : 23 453434240
+temperatura : 24 481651660
+temperatura : 25 459121006
+temperatura : 26 450707963
+temperatura : 27 450886999
+temperatura : 28 452752572
+temperatura : 29 450810000
+temperatura : 30 477308056
+temperatura : 31 456067180
+temperatura : 32 450076998
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 2858746
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 484104790
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 490038692
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 483411830
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 481651660
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 477308056
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453203622
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 466135075
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 465756239
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 464339431
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 459121006
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 456067180
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 457392782
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 455748807
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 457188324
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453384050
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450707963
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450076998
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 491263532
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 467049144
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 472981894
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 456632141
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 450886999
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 460052962
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 453410214
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 456448061
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 464163553
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452752572
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450164275
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450008288
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 450810000
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 453434240
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 450810000
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1024
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 9063912
+energySlavesAcc 4 : 1626394
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 2779015
+energySlavesAcc 7 : 952965
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 7444932
+energySlavesAcc 13 : 95175
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 6566478
+energySlavesAcc 16 : 620778
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 95186
+energySlavesAcc 19 : 414689
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 1599609
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 2321935
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 95192
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 7
+energySlavesAcc_discretizado 4 : 2
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 3
+energySlavesAcc_discretizado 7 : 1
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 6
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 6
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 2
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 2
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 3200335
+temperatura : 1 453660207
+temperatura : 2 458560725
+temperatura : 3 481807623
+temperatura : 4 460238518
+temperatura : 5 450381859
+temperatura : 6 478230895
+temperatura : 7 464816729
+temperatura : 8 457307274
+temperatura : 9 471712781
+temperatura : 10 454920250
+temperatura : 11 450043828
+temperatura : 12 484222798
+temperatura : 13 465608879
+temperatura : 14 458043227
+temperatura : 15 467408943
+temperatura : 16 457365562
+temperatura : 17 451023161
+temperatura : 18 479107486
+temperatura : 19 463854654
+temperatura : 20 453691492
+temperatura : 21 457332541
+temperatura : 22 460600659
+temperatura : 23 453676207
+temperatura : 24 477066255
+temperatura : 25 459825218
+temperatura : 26 450765769
+temperatura : 27 451109159
+temperatura : 28 452848144
+temperatura : 29 451023161
+temperatura : 30 472750833
+temperatura : 31 456556667
+temperatura : 32 450085997
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 3358764
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 478230895
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 484222798
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 479107486
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 477066255
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 472750833
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453660207
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 464816729
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 465608879
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 463854654
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 459825218
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 456556667
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 458560725
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 457307274
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 458043227
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453691492
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450765769
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450085997
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 481807623
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 471712781
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 467408943
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 457332541
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451109159
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 460238518
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 454920250
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 457365562
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 460600659
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452848144
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 450381859
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450043828
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451023161
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 453676207
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451023161
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1024
+STOP_EXECUTION enviado p/ processador 1027
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 95186
+energySlavesAcc 7 : 125551
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 3193335
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 95192
+energySlavesAcc 13 : 93753
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 96631
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92314
+energySlavesAcc 19 : 125551
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 97442
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 95192
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 92308
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 3
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 3700299
+temperatura : 1 453882675
+temperatura : 2 459468841
+temperatura : 3 488673489
+temperatura : 4 481704468
+temperatura : 5 451306530
+temperatura : 6 473632071
+temperatura : 7 463595672
+temperatura : 8 458474696
+temperatura : 9 468549313
+temperatura : 10 456886790
+temperatura : 11 450129015
+temperatura : 12 479451530
+temperatura : 13 465085566
+temperatura : 14 458342711
+temperatura : 15 463815012
+temperatura : 16 457615325
+temperatura : 17 451183925
+temperatura : 18 475381568
+temperatura : 19 463239128
+temperatura : 20 453875976
+temperatura : 21 457321636
+temperatura : 22 458312947
+temperatura : 23 453650869
+temperatura : 24 473278175
+temperatura : 25 460002084
+temperatura : 26 450792526
+temperatura : 27 451274548
+temperatura : 28 452733266
+temperatura : 29 451183925
+temperatura : 30 469007120
+temperatura : 31 456659267
+temperatura : 32 450090622
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 3858728
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 473632071
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 479451530
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 475381568
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 473278175
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 469007120
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453882675
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 463595672
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 465085566
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 463239128
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 460002084
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 456659267
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 459468841
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 458474696
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 458342711
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453875976
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450792526
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450090622
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 488673489
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 468549313
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 463815012
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 457321636
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451274548
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 481704468
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 456886790
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 457615325
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 458312947
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452733266
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 451306530
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450129015
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451183925
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 453650869
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451183925
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 260
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1024
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 7484488
+energySlavesAcc 4 : 12548561
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 92314
+energySlavesAcc 7 : 95175
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 127001
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 92308
+energySlavesAcc 13 : 93747
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 93747
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92308
+energySlavesAcc 19 : 95175
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 94570
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 92308
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 92314
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 6
+energySlavesAcc_discretizado 4 : 10
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 4200330
+temperatura : 1 453936636
+temperatura : 2 460069714
+temperatura : 3 481355899
+temperatura : 4 478148586
+temperatura : 5 452512550
+temperatura : 6 469981108
+temperatura : 7 462440770
+temperatura : 8 459130265
+temperatura : 9 466396034
+temperatura : 10 458614921
+temperatura : 11 450349068
+temperatura : 12 475490121
+temperatura : 13 464323005
+temperatura : 14 458279704
+temperatura : 15 461247778
+temperatura : 16 457484337
+temperatura : 17 451284634
+temperatura : 18 472168980
+temperatura : 19 462512157
+temperatura : 20 453935962
+temperatura : 21 456958882
+temperatura : 22 456780352
+temperatura : 23 453479735
+temperatura : 24 470120759
+temperatura : 25 459827092
+temperatura : 26 450793837
+temperatura : 27 451376472
+temperatura : 28 452530299
+temperatura : 29 451284634
+temperatura : 30 465949634
+temperatura : 31 456513679
+temperatura : 32 450091837
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 4358759
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 469981108
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 475490121
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 472168980
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 470120759
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 465949634
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453936636
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 462440770
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 464323005
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 462512157
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 459827092
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 456513679
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 460069714
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 459130265
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 458279704
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453935962
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450793837
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450091837
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 481355899
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 466396034
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 461247778
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 456958882
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451376472
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 478148586
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 458614921
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 457484337
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 456780352
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452530299
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 452512550
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450349068
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451284634
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 453479735
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451284634
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 512
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 770
+STOP_EXECUTION enviado p/ processador 1024
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 423093
+energySlavesAcc 4 : 922562
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 92308
+energySlavesAcc 7 : 93753
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 95175
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 92314
+energySlavesAcc 13 : 93753
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 93753
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92314
+energySlavesAcc 19 : 93753
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 92314
+energySlavesAcc 25 : 609582
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 92308
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 1
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 4700300
+temperatura : 1 453956537
+temperatura : 2 462166020
+temperatura : 3 475896965
+temperatura : 4 473236338
+temperatura : 5 453135134
+temperatura : 6 467045271
+temperatura : 7 461352091
+temperatura : 8 459462668
+temperatura : 9 464546110
+temperatura : 10 459399645
+temperatura : 11 450613782
+temperatura : 12 472170785
+temperatura : 13 463424987
+temperatura : 14 457984086
+temperatura : 15 459359953
+temperatura : 16 457139231
+temperatura : 17 451331690
+temperatura : 18 469403482
+temperatura : 19 461712248
+temperatura : 20 453892476
+temperatura : 21 456441324
+temperatura : 22 455704575
+temperatura : 23 453236130
+temperatura : 24 467470022
+temperatura : 25 459429539
+temperatura : 26 450776206
+temperatura : 27 451422256
+temperatura : 28 452301018
+temperatura : 29 451331690
+temperatura : 30 463456009
+temperatura : 31 456217333
+temperatura : 32 450090565
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 4858729
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 467045271
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 472170785
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 469403482
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 467470022
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 463456009
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453956537
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 461352091
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 463424987
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 461712248
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 459429539
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 456217333
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 462166020
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 459462668
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 457984086
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453892476
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450776206
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450090565
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 475896965
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 464546110
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 459359953
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 456441324
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451422256
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 473236338
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 459399645
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 457139231
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 455704575
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452301018
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 453135134
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450613782
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451331690
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 453236130
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451331690
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 512
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 1024
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 1293311
+energySlavesAcc 3 : 95175
+energySlavesAcc 4 : 95992
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 92314
+energySlavesAcc 7 : 93747
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 93753
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 92308
+energySlavesAcc 13 : 93747
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 93747
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92308
+energySlavesAcc 19 : 93747
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 92308
+energySlavesAcc 25 : 64811
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 92314
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 1
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 5200299
+temperatura : 1 453926765
+temperatura : 2 461193665
+temperatura : 3 471683992
+temperatura : 4 469454053
+temperatura : 5 453342734
+temperatura : 6 464656211
+temperatura : 7 460343510
+temperatura : 8 459502102
+temperatura : 9 462969274
+temperatura : 10 459546261
+temperatura : 11 450844696
+temperatura : 12 469368331
+temperatura : 13 462466300
+temperatura : 14 457549837
+temperatura : 15 457932402
+temperatura : 16 456683779
+temperatura : 17 451336108
+temperatura : 18 467023288
+temperatura : 19 460878297
+temperatura : 20 453772124
+temperatura : 21 455874865
+temperatura : 22 454912530
+temperatura : 23 452963723
+temperatura : 24 465231067
+temperatura : 25 458901767
+temperatura : 26 450745549
+temperatura : 27 451423692
+temperatura : 28 452075043
+temperatura : 29 451336108
+temperatura : 30 461419188
+temperatura : 31 455837169
+temperatura : 32 450087584
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 5358728
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 464656211
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 469368331
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 467023288
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 465231067
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 461419188
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453926765
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 460343510
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 462466300
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 460878297
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 458901767
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 455837169
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 461193665
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 459502102
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 457549837
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453772124
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450745549
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450087584
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 471683992
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 462969274
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 457932402
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 455874865
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451423692
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 469454053
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 459546261
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 456683779
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 454912530
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 452075043
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 453342734
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 450844696
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451336108
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 452963723
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451336108
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 5
+STOP_EXECUTION enviado p/ processador 257
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 512
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 1024
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 63383
+energySlavesAcc 3 : 93753
+energySlavesAcc 4 : 94570
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 92308
+energySlavesAcc 7 : 93753
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 93747
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 92314
+energySlavesAcc 13 : 93753
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92314
+energySlavesAcc 19 : 93753
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 92314
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 92308
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 5700303
+temperatura : 1 453792922
+temperatura : 2 460208426
+temperatura : 3 468323558
+temperatura : 4 466479180
+temperatura : 5 453312824
+temperatura : 6 462690823
+temperatura : 7 459410674
+temperatura : 8 459264829
+temperatura : 9 461614037
+temperatura : 10 459321253
+temperatura : 11 451014122
+temperatura : 12 466987337
+temperatura : 13 461498438
+temperatura : 14 457042702
+temperatura : 15 456824333
+temperatura : 16 456181961
+temperatura : 17 451309182
+temperatura : 18 464973239
+temperatura : 19 460042466
+temperatura : 20 453599732
+temperatura : 21 455314481
+temperatura : 22 454302631
+temperatura : 23 452687920
+temperatura : 24 463330036
+temperatura : 25 458307921
+temperatura : 26 450706690
+temperatura : 27 451392688
+temperatura : 28 451865255
+temperatura : 29 451309182
+temperatura : 30 459749906
+temperatura : 31 455418133
+temperatura : 32 450083507
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 5858732
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 462690823
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 466987337
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 464973239
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 463330036
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 459749906
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453792922
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 459410674
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 461498438
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 460042466
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 458307921
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 455418133
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 460208426
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 459264829
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 457042702
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453599732
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450706690
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450083507
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 468323558
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 461614037
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 456824333
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 455314481
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451392688
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 466479180
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 459321253
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 456181961
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 454302631
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 451865255
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 453312824
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 451014122
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451309182
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 452687920
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451309182
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 259
+STOP_EXECUTION enviado p/ processador 512
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 1024
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 63383
+energySlavesAcc 3 : 93747
+energySlavesAcc 4 : 94564
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 92314
+energySlavesAcc 7 : 93747
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 93753
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 92308
+energySlavesAcc 13 : 93747
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92308
+energySlavesAcc 19 : 93747
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 92308
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 92314
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master): 6200303
+temperatura : 1 453599585
+temperatura : 2 459253656
+temperatura : 3 465615243
+temperatura : 4 464095855
+temperatura : 5 453153469
+temperatura : 6 461058041
+temperatura : 7 458549864
+temperatura : 8 458855702
+temperatura : 9 460437832
+temperatura : 10 458888783
+temperatura : 11 451120652
+temperatura : 12 464953692
+temperatura : 13 460555226
+temperatura : 14 456507231
+temperatura : 15 455943548
+temperatura : 16 455672512
+temperatura : 17 451260737
+temperatura : 18 463205285
+temperatura : 19 459228535
+temperatura : 20 453395736
+temperatura : 21 454786933
+temperatura : 22 453814347
+temperatura : 23 452422911
+temperatura : 24 461708608
+temperatura : 25 457691319
+temperatura : 26 450663315
+temperatura : 27 451339531
+temperatura : 28 451676085
+temperatura : 29 451260737
+temperatura : 30 458375688
+temperatura : 31 454989606
+temperatura : 32 450078795
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master): 6358732
+tem[aux].cluster_proc -> 0
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1
+temp[aux].temperatura -> 461058041
+tem[aux].cluster_proc -> 2
+temp[aux].temperatura -> 464953692
+tem[aux].cluster_proc -> 3
+temp[aux].temperatura -> 463205285
+tem[aux].cluster_proc -> 4
+temp[aux].temperatura -> 461708608
+tem[aux].cluster_proc -> 5
+temp[aux].temperatura -> 458375688
+tem[aux].cluster_proc -> 256
+temp[aux].temperatura -> 453599585
+tem[aux].cluster_proc -> 257
+temp[aux].temperatura -> 458549864
+tem[aux].cluster_proc -> 258
+temp[aux].temperatura -> 460555226
+tem[aux].cluster_proc -> 259
+temp[aux].temperatura -> 459228535
+tem[aux].cluster_proc -> 260
+temp[aux].temperatura -> 457691319
+tem[aux].cluster_proc -> 261
+temp[aux].temperatura -> 454989606
+tem[aux].cluster_proc -> 512
+temp[aux].temperatura -> 459253656
+tem[aux].cluster_proc -> 513
+temp[aux].temperatura -> 458855702
+tem[aux].cluster_proc -> 514
+temp[aux].temperatura -> 456507231
+tem[aux].cluster_proc -> 515
+temp[aux].temperatura -> 453395736
+tem[aux].cluster_proc -> 516
+temp[aux].temperatura -> 450663315
+tem[aux].cluster_proc -> 517
+temp[aux].temperatura -> 450078795
+tem[aux].cluster_proc -> 768
+temp[aux].temperatura -> 465615243
+tem[aux].cluster_proc -> 769
+temp[aux].temperatura -> 460437832
+tem[aux].cluster_proc -> 770
+temp[aux].temperatura -> 455943548
+tem[aux].cluster_proc -> 771
+temp[aux].temperatura -> 454786933
+tem[aux].cluster_proc -> 772
+temp[aux].temperatura -> 451339531
+tem[aux].cluster_proc -> 773
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1024
+temp[aux].temperatura -> 464095855
+tem[aux].cluster_proc -> 1025
+temp[aux].temperatura -> 458888783
+tem[aux].cluster_proc -> 1026
+temp[aux].temperatura -> 455672512
+tem[aux].cluster_proc -> 1027
+temp[aux].temperatura -> 453814347
+tem[aux].cluster_proc -> 1028
+temp[aux].temperatura -> 451676085
+tem[aux].cluster_proc -> 1029
+temp[aux].temperatura -> 450000000
+tem[aux].cluster_proc -> 1280
+temp[aux].temperatura -> 453153469
+tem[aux].cluster_proc -> 1281
+temp[aux].temperatura -> 451120652
+tem[aux].cluster_proc -> 1282
+temp[aux].temperatura -> 451260737
+tem[aux].cluster_proc -> 1283
+temp[aux].temperatura -> 452422911
+tem[aux].cluster_proc -> 1284
+temp[aux].temperatura -> 451260737
+tem[aux].cluster_proc -> 1285
+temp[aux].temperatura -> 450000000
+STOP_EXECUTION enviado p/ processador 1
+STOP_EXECUTION enviado p/ processador 2
+STOP_EXECUTION enviado p/ processador 3
+STOP_EXECUTION enviado p/ processador 4
+STOP_EXECUTION enviado p/ processador 258
+STOP_EXECUTION enviado p/ processador 768
+STOP_EXECUTION enviado p/ processador 769
+STOP_EXECUTION enviado p/ processador 1024
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 63383
+energySlavesAcc 3 : 93753
+energySlavesAcc 4 : 94570
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 92308
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 93747
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 92314
+energySlavesAcc 13 : 93753
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 92314
+energySlavesAcc 19 : 93753
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 92314
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 59
+clusterinfo_handle2 58
+total_mpsoc_resources 58
+total_mpsoc_resources 59
+total_mpsoc_resources 60
+total_mpsoc_resources 61
+total_mpsoc_resources 62
+total_mpsoc_resources 63
+total_mpsoc_resources 64
+total_mpsoc_resources 65
+total_mpsoc_resources 66
+total_mpsoc_resources 67
+total_mpsoc_resources 68
+total_mpsoc_resources 69
+FINISH 6554555

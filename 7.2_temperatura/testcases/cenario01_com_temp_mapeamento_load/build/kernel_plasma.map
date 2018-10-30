@@ -1,0 +1,519 @@
+
+Alocando simbolos comuns
+Tamanho comum do arquivo de símbolos
+
+pipe                0xc78             kernel_plasma.o
+idle_tcb            0xa0              kernel_plasma.o
+msg_write_pipe      0x204             kernel_plasma.o
+net_address         0x4               kernel_plasma.o
+current             0x4               kernel_plasma.o
+tcbs                0x140             kernel_plasma.o
+sh_slot2            0x40              kernel_plasma.o
+message_request     0x60              kernel_plasma.o
+schedule_after_syscall
+                    0x4               kernel_plasma.o
+sh_slot1            0x40              kernel_plasma.o
+pending_services_FIFO
+                    0x4b0             kernel_plasma.o
+
+Seções de entrada descartadas
+
+ .reginfo       0x0000000000000000        0x0 kernel_plasma.o
+
+Configuração de Memória
+
+Nome             Origem             Tamanho            Atributos
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script do link-editor e mapa de memória
+
+Endereço da seção .text ajustado para 0x0
+LOAD boot_plasma.o
+LOAD kernel_plasma.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400000                . = 0x400000
+
+.interp
+ *(.interp)
+
+.reginfo        0x0000000000400000       0x18
+ *(.reginfo)
+ .reginfo       0x0000000000400000       0x18 boot_plasma.o
+
+.dynamic
+ *(.dynamic)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro* .rela.gnu.linkonce.d.rel.ro.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.tdata
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+
+.rela.tdata
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+
+.rel.tbss
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+
+.rela.tbss
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.sdata
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+
+.rela.sdata
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+
+.rel.sbss
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+
+.rela.sbss
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+
+.rel.sdata2
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+
+.rela.sdata2
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+
+.rel.sbss2
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+
+.rela.sbss2
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x0000000000000000     0x234c
+                0x0000000000000000                _ftext = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000000      0x334 boot_plasma.o
+                0x0000000000000000                entry
+                0x0000000000000270                ASM_SetInterruptEnable
+                0x00000000000001a4                ASM_SaveRemainingContext
+                0x00000000000001d8                ASM_RunScheduledTask
+                0x000000000000027c                read_inst
+ .text          0x0000000000000334     0x2018 kernel_plasma.o
+                0x000000000000071c                strcpy
+                0x0000000000000ad4                removeMessageRequest
+                0x0000000000000cec                get_next_pending_service
+                0x00000000000007c4                searchPIPEproducer
+                0x0000000000001080                send_update_task_location
+                0x0000000000000bd8                DMA_send_data
+                0x0000000000001740                add_pending_service
+                0x0000000000000de4                search_free_TCB
+                0x0000000000000850                removePIPE
+                0x0000000000000814                searchForAnyMsgInPIPE
+                0x00000000000011a0                OS_InterruptMaskSet
+                0x0000000000000ca4                read_packet
+                0x0000000000000420                itoh
+                0x0000000000000d78                puts
+                0x00000000000018ac                handle_packet
+                0x0000000000000334                itoa
+                0x000000000000075c                get_net_address
+                0x0000000000000ff8                send_task_request
+                0x0000000000001840                insertMessageRequest
+                0x0000000000000904                getPIPEfreePosition
+                0x00000000000004f0                add
+                0x0000000000000ed8                send_task_terminated
+                0x0000000000001c5c                OS_InterruptServiceRoutine
+                0x00000000000014e4                Scheduler
+                0x0000000000000524                fixetoa
+                0x0000000000000c20                send_packet
+                0x00000000000004c4                rand
+                0x0000000000000b7c                init_service_header_slots
+                0x0000000000001d88                Syscall
+                0x0000000000000e50                searchTCB
+                0x0000000000000500                memset
+                0x0000000000002224                main
+                0x00000000000011c0                OS_Idle
+                0x0000000000000b38                get_service_header_slot
+                0x0000000000001180                OS_InterruptMaskClear
+                0x0000000000000f8c                send_message_delivery
+                0x0000000000000e9c                putsv
+                0x0000000000001210                send_energy_slave
+                0x00000000000010f8                send_message_request
+                0x0000000000000a88                searchMessageRequest
+                0x000000000000073c                strlen
+                0x0000000000000944                addPIPE
+                0x00000000000004b0                abs
+                0x00000000000004f8                sub
+                0x0000000000000770                initCommStructs
+                0x0000000000000b94                DMA_read_data
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+
+.fini
+ *(.fini)
+                0x000000000000234c                PROVIDE (__etext, .)
+                0x000000000000234c                PROVIDE (_etext, .)
+                0x000000000000234c                PROVIDE (etext, .)
+
+.rodata         0x000000000000234c      0x190
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000000234c      0x17c kernel_plasma.o
+                                        0x180 (tamanho de relaxar)
+ .rodata        0x00000000000024c8       0x14 kernel_plasma.o
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00000000000024dc                . = .
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00000000000024dc        0x0
+                0x00000000000024dc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00000000000024dc                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00000000000024dc        0x0
+                0x00000000000024dc                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00000000000024dc                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00000000000024dc        0x0
+                0x00000000000024dc                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x00000000000024dc                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin*.o(.ctors)
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin*.o(.dtors)
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.data           0x00000000000024dc       0xd0
+                0x00000000000024dc                _fdata = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000024dc        0x0 boot_plasma.o
+ .data          0x00000000000024dc       0xd0 kernel_plasma.o
+                0x00000000000025a8                counter_ticks
+                0x00000000000024dc                task_location
+                0x0000000000002540                request_task
+                0x00000000000025a4                pipe_free_positions
+ *(.gnu.linkonce.d.*personality*)
+
+.data1
+ *(.data1)
+                0x00000000000025ac                . = .
+                0x000000000000a5a0                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.sdata
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0x00000000000025ac                _edata = .
+                0x00000000000025ac                PROVIDE (edata, .)
+                0x00000000000025ac                __bss_start = .
+                0x00000000000025ac                _fbss = .
+
+.sbss           0x00000000000025ac        0xc
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+ .scommon       0x00000000000025ac        0xc kernel_plasma.o
+                0x00000000000025ac                net_address
+                0x00000000000025b0                current
+                0x00000000000025b4                schedule_after_syscall
+
+.bss            0x00000000000025b8     0x16c4
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000025b8        0x0 boot_plasma.o
+ .bss           0x00000000000025b8       0xd8 kernel_plasma.o
+                0x0000000000002634                pending_service_last
+                0x00000000000025f0                arith_inst
+                0x00000000000025d4                global_inst
+                0x0000000000002628                mult_div_energy
+                0x000000000000263c                cluster_master_address
+                0x000000000000260c                jump_energy
+                0x0000000000002618                arith_energy
+                0x000000000000262c                router_flits
+                0x00000000000025ec                other_inst
+                0x00000000000025e0                branch_inst
+                0x0000000000002614                other_energy
+                0x00000000000025f4                load_inst
+                0x0000000000002604                logical_energy
+                0x0000000000002624                nop_energy
+                0x0000000000002644                stop_execution_flag
+                0x00000000000025f8                shift_inst
+                0x0000000000002638                add_fifo
+                0x0000000000002620                shift_energy
+                0x0000000000002610                move_energy
+                0x0000000000002630                pending_service_first
+                0x00000000000025b8                task_status
+                0x00000000000025d8                energy_acc_local
+                0x00000000000025e4                jump_inst
+                0x00000000000025e8                move_inst
+                0x0000000000002608                branch_energy
+                0x00000000000025dc                logical_inst
+                0x0000000000002640                router_flits_anterior
+                0x0000000000002600                mult_div_inst
+                0x00000000000025fc                nop_inst
+                0x000000000000261c                load_energy
+ *(COMMON)
+ COMMON         0x0000000000002690     0x15ec kernel_plasma.o
+                0x0000000000002690                pipe
+                0x0000000000003308                idle_tcb
+                0x00000000000033a8                msg_write_pipe
+                0x00000000000035ac                tcbs
+                0x00000000000036ec                sh_slot2
+                0x000000000000372c                message_request
+                0x000000000000378c                sh_slot1
+                0x00000000000037cc                pending_services_FIFO
+                0x0000000000003c7c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000003c7c                . = ALIGN (0x4)
+                0x0000000000003c7c                . = ALIGN (0x4)
+                0x0000000000003c7c                _end = .
+                0x0000000000003c7c                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 kernel_plasma.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+.mdebug.abi32   0x0000000000000012        0x0
+ *(.mdebug.abi32)
+ .mdebug.abi32  0x0000000000000012        0x0 kernel_plasma.o
+
+.mdebug.abiN32
+ *(.mdebug.abiN32)
+
+.mdebug.abi64
+ *(.mdebug.abi64)
+
+.mdebug.abiO64
+ *(.mdebug.abiO64)
+
+.mdebug.eabi32
+ *(.mdebug.eabi32)
+
+.mdebug.eabi64
+ *(.mdebug.eabi64)
+
+.gcc_compiled_long32
+ *(.gcc_compiled_long32)
+
+.gcc_compiled_long64
+ *(.gcc_compiled_long64)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(kernel_plasma.bin elf32-bigmips)
+
+.pdr            0x0000000000000000      0x660
+ .pdr           0x0000000000000000       0xa0 boot_plasma.o
+ .pdr           0x00000000000000a0      0x5c0 kernel_plasma.o

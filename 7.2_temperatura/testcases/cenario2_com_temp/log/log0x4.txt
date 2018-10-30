@@ -1,0 +1,25 @@
+Initializing PE: 0x00000004
+Task id: 1539 allocated at 304987
+Task id: 1540 allocated at 306862
+451919_0x4_6_4_My id
+452840_0x4_6_4_4
+453678_0x4_6_4_GRUPO 0
+454648_0x4_6_4_96
+455491_0x4_6_4_GRUPO 1
+456490_0x4_6_4_120
+474107_0x4_6_4_fim 
+energy_acc_local total: 3069835	507657
+energy_acc_local total: 11579675	1001397
+energy_acc_local total: 11714667	1500892
+energy_acc_local total: 11775858	2003249
+energy_acc_local total: 11675675	2501072
+2922577_0x4_6_3_finaliza
+
+2923874_0x4_6_3_2923512
+2925607_0x4_6_3_Dijkstra_3 finished.
+Task id: 1539 terminated at 2926889
+2935894_0x4_6_4_finaliza
+
+2937191_0x4_6_4_2936829
+2938387_0x4_6_4_Dijkstra_4 finished.
+Task id: 1540 terminated at 2939669

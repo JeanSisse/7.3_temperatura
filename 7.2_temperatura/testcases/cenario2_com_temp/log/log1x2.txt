@@ -1,0 +1,32 @@
+Initializing PE: 0x00000102
+Task id: 259 allocated at 122141
+Task id: 260 allocated at 173711
+395790_1x2_1_4_My id
+396756_1x2_1_4_4
+397639_1x2_1_4_GRUPO 0
+398654_1x2_1_4_96
+399542_1x2_1_4_GRUPO 1
+400586_1x2_1_4_120
+401479_1x2_1_4_fim 
+energy_acc_local total: 3973644	500792
+energy_acc_local total: 11729647	1000997
+energy_acc_local total: 11733371	1501251
+energy_acc_local total: 11844870	2006225
+energy_acc_local total: 11609349	2501148
+2582316_1x2_1_3_finaliza
+
+2583658_1x2_1_3_2583296
+2584614_1x2_1_3_Dijkstra_3 finished.
+Task id: 259 terminated at 2585898
+2596143_1x2_1_4_finaliza
+
+2597485_1x2_1_4_2597123
+2598441_1x2_1_4_Dijkstra_4 finished.
+Task id: 260 terminated at 2599725
+Task id: 2817 allocated at 3027266
+energy_acc_local total: 2426566	3029317
+Task id: 2818 allocated at 3030351
+energy_acc_local total: 7634709	3504295
+energy_acc_local total: 11651734	4001222
+energy_acc_local total: 11724116	4501297
+energy_acc_local total: 11933455	5010194

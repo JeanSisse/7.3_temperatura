@@ -1,0 +1,231 @@
+Initializing PE: 0x00000403
+Task id: 772 allocated at 130121
+131432_4x3_3_4_MPEG Task A start:  
+132763_4x3_3_4_132434
+136412_4x3_3_4_T1
+137523_4x3_3_4_134582
+138436_4x3_3_4_T2
+139547_4x3_3_4_136305
+142210_4x3_3_4_T1
+143321_4x3_3_4_140462
+144234_4x3_3_4_T2
+145345_4x3_3_4_142103
+148337_4x3_3_4_T1
+149448_4x3_3_4_146260
+150361_4x3_3_4_T2
+151472_4x3_3_4_148230
+Task id: 1028 allocated at 165331
+166832_4x3_4_4_MPEG Task A start:  
+168163_4x3_4_4_167834
+172127_4x3_4_4_T1
+173768_4x3_4_4_169982
+174681_4x3_4_4_T2
+175792_4x3_4_4_172020
+178979_4x3_4_4_T1
+180090_4x3_4_4_176707
+181003_4x3_4_4_T2
+182114_4x3_4_4_178872
+185102_4x3_3_4_T1
+186213_4x3_3_4_152387
+187126_4x3_3_4_T2
+188237_4x3_3_4_184995
+191504_4x3_4_4_T1
+192615_4x3_4_4_183029
+193528_4x3_4_4_T2
+194639_4x3_4_4_191397
+197362_4x3_4_4_T1
+198473_4x3_4_4_195554
+199386_4x3_4_4_T2
+200497_4x3_4_4_197255
+228619_4x3_3_4_T1
+229730_4x3_3_4_189152
+230643_4x3_3_4_T2
+232294_4x3_3_4_228512
+235553_4x3_4_4_T1
+236664_4x3_4_4_201412
+237577_4x3_4_4_T2
+238688_4x3_4_4_235446
+283465_4x3_3_4_T1
+284576_4x3_3_4_233209
+285489_4x3_3_4_T2
+287142_4x3_3_4_283358
+290891_4x3_4_4_T1
+292002_4x3_4_4_239603
+292915_4x3_4_4_T2
+294026_4x3_4_4_290784
+337163_4x3_3_4_T1
+338274_4x3_3_4_290222
+339187_4x3_3_4_T2
+340840_4x3_3_4_337056
+344136_4x3_4_4_T1
+345247_4x3_4_4_294941
+346160_4x3_4_4_T2
+347271_4x3_4_4_344029
+390275_4x3_3_4_T1
+391386_4x3_3_4_341755
+392299_4x3_3_4_T2
+393410_4x3_3_4_390168
+396820_4x3_4_4_T1
+398783_4x3_4_4_348186
+399696_4x3_4_4_T2
+400807_4x3_4_4_396713
+443819_4x3_3_4_T1
+444930_4x3_3_4_397999
+445843_4x3_3_4_T2
+446954_4x3_3_4_443712
+450893_4x3_4_4_T1
+452004_4x3_4_4_401722
+452917_4x3_4_4_T2
+454028_4x3_4_4_450786
+498074_4x3_3_4_T1
+499185_4x3_3_4_448411
+500098_4x3_3_4_T2
+501209_4x3_3_4_497967
+energy_acc_local total: 8452416	503496
+505807_4x3_4_4_T1
+507770_4x3_4_4_454943
+508683_4x3_4_4_T2
+509794_4x3_4_4_505700
+552916_4x3_3_4_T1
+554027_4x3_3_4_506999
+554940_4x3_3_4_T2
+556591_4x3_3_4_552809
+559850_4x3_4_4_T1
+560961_4x3_4_4_510709
+561874_4x3_4_4_T2
+562985_4x3_4_4_559743
+605997_4x3_3_4_T1
+607108_4x3_3_4_557506
+608021_4x3_3_4_T2
+609132_4x3_3_4_605890
+612571_4x3_4_4_T1
+613682_4x3_4_4_563900
+615447_4x3_4_4_T2
+616558_4x3_4_4_612464
+659578_4x3_3_4_T1
+660689_4x3_3_4_614886
+661602_4x3_3_4_T2
+662713_4x3_3_4_659471
+666661_4x3_4_4_T1
+667772_4x3_4_4_617473
+668685_4x3_4_4_T2
+669796_4x3_4_4_666554
+713827_4x3_3_4_T1
+714938_4x3_3_4_664170
+715851_4x3_3_4_T2
+716962_4x3_3_4_713720
+720372_4x3_4_4_T1
+721483_4x3_4_4_670711
+722396_4x3_4_4_T2
+724359_4x3_4_4_720265
+767487_4x3_3_4_T1
+768598_4x3_3_4_723575
+769511_4x3_3_4_T2
+770622_4x3_3_4_767380
+774561_4x3_4_4_T1
+775672_4x3_4_4_725274
+776585_4x3_4_4_T2
+777696_4x3_4_4_774454
+820716_4x3_3_4_T1
+821827_4x3_3_4_772079
+822740_4x3_3_4_T2
+823851_4x3_3_4_820609
+827518_4x3_4_4_T1
+828629_4x3_4_4_778611
+829542_4x3_4_4_T2
+831505_4x3_4_4_827411
+874509_4x3_3_4_T1
+875620_4x3_3_4_830721
+876533_4x3_3_4_T2
+877644_4x3_3_4_874402
+928501_4x3_3_4_T1
+929612_4x3_3_4_878559
+931269_4x3_3_4_T2
+932380_4x3_3_4_928394
+981309_4x3_3_4_T1
+982420_4x3_3_4_933295
+983333_4x3_3_4_T2
+984444_4x3_3_4_981202
+energy_acc_local total: 11330356	1001061
+1036533_4x3_3_4_T1
+1037682_4x3_3_4_985359
+1038633_4x3_3_4_T2
+1039815_4x3_3_4_1036426
+1041136_4x3_3_4_1040774
+1042092_4x3_3_4_End Task A - MPEG
+Task id: 772 terminated at 1043356
+energy_acc_local total: 11522753	1501190
+energy_acc_local total: 11532439	2000950
+energy_acc_local total: 11543151	2501174
+energy_acc_local total: 11532439	3000934
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+teste com stop_execution_flag parando at 3373426
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 8646757	3873455
+teste com stop_execution_flag parando at 3874165
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 66391	4373896
+teste com stop_execution_flag parando at 4374606
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64958	4873915
+teste com stop_execution_flag parando at 4874625
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64952	5373458
+teste com stop_execution_flag parando at 5374168
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64958	5873974
+teste com stop_execution_flag parando at 5874684
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64952	6373457
+teste com stop_execution_flag parando at 6374167
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64958	6872997
+teste com stop_execution_flag parando at 6873707
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64952	7371929
+teste com stop_execution_flag parando at 7372639
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64958	7870436
+teste com stop_execution_flag parando at 7871146
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64952	8369053
+teste com stop_execution_flag parando at 8369763
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1027
+energy_acc_local total: 64958	8868514
+teste com stop_execution_flag parando at 8869224
+
+1<- stop_execution_flag??

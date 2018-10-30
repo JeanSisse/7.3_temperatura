@@ -1,0 +1,1274 @@
+Kernel Initialized
+This kernel is global master
+total_mpsoc_resources 65
+selected_cluster_proc 0
+energyClustersAcc[0] 0 70
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 277230
+clusterinfo_handle2 69
+total_mpsoc_resources 59
+selected_cluster_proc 0
+energyClustersAcc[0] 0 69
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 690332
+clusterinfo_handle2 68
+clusterinfo_handle2 67
+total_mpsoc_resources 47
+selected_cluster_proc 0
+energyClustersAcc[0] 0 67
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 699023
+clusterinfo_handle2 66
+clusterinfo_handle2 65
+clusterinfo_handle2 64
+clusterinfo_handle2 63
+clusterinfo_handle2 62
+clusterinfo_handle2 61
+clusterinfo_handle2 60
+clusterinfo_handle2 59
+total_mpsoc_resources 41
+selected_cluster_proc 0
+energyClustersAcc[0] 0 59
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 948175
+clusterinfo_handle2 58
+clusterinfo_handle2 57
+clusterinfo_handle2 56
+clusterinfo_handle2 55
+clusterinfo_handle2 54
+clusterinfo_handle2 53
+clusterinfo_handle2 52
+clusterinfo_handle2 51
+clusterinfo_handle2 50
+total_mpsoc_resources 35
+selected_cluster_proc 0
+energyClustersAcc[0] 0 50
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 1005949
+clusterinfo_handle2 49
+clusterinfo_handle2 48
+clusterinfo_handle2 47
+clusterinfo_handle2 46
+total_mpsoc_resources 30
+selected_cluster_proc 0
+energyClustersAcc[0] 0 46
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 1283179
+clusterinfo_handle2 45
+total_mpsoc_resources 24
+selected_cluster_proc 0
+energyClustersAcc[0] 0 45
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 1696281
+clusterinfo_handle2 44
+clusterinfo_handle2 43
+clusterinfo_handle2 42
+clusterinfo_handle2 41
+clusterinfo_handle2 40
+clusterinfo_handle2 39
+clusterinfo_handle2 38
+clusterinfo_handle2 37
+clusterinfo_handle2 36
+clusterinfo_handle2 35
+total_mpsoc_resources 12
+selected_cluster_proc 0
+energyClustersAcc[0] 0 35
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 1704972
+clusterinfo_handle2 34
+clusterinfo_handle2 33
+clusterinfo_handle2 32
+clusterinfo_handle2 31
+clusterinfo_handle2 30
+clusterinfo_handle2 29
+clusterinfo_handle2 28
+temperature tick antes
+700170
+temperatura : 1 456776326
+temperatura : 2 450600321
+temperatura : 3 450423737
+temperatura : 4 450341476
+temperatura : 5 450172810
+temperatura : 6 450419593
+temperatura : 7 461147530
+temperatura : 8 459778625
+temperatura : 9 461640602
+temperatura : 10 458956386
+temperatura : 11 454582949
+temperatura : 12 450353909
+temperatura : 13 459758027
+temperatura : 14 470519118
+temperatura : 15 470354843
+temperatura : 16 455672369
+temperatura : 17 450361950
+temperatura : 18 450674294
+temperatura : 19 461669611
+temperatura : 20 468628502
+temperatura : 21 466642822
+temperatura : 22 463071052
+temperatura : 23 450501113
+temperatura : 24 456792903
+temperatura : 25 461652911
+temperatura : 26 464185038
+temperatura : 27 461431363
+temperatura : 28 450912541
+temperatura : 29 450024864
+temperatura : 30 450501483
+temperatura : 31 457207736
+temperatura : 32 461453969
+temperatura : 33 452949191
+temperatura : 34 450102858
+temperatura : 35 450000000
+temperature tick depois
+858456
+energySlavesAcc 1 : 2662313
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 5557375
+energySlavesAcc 8 : 4030687
+energySlavesAcc 9 : 6329869
+energySlavesAcc 10 : 4048509
+energySlavesAcc 11 : 1507011
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 3973644
+energySlavesAcc 14 : 10803163
+energySlavesAcc 15 : 10450555
+energySlavesAcc 16 : 1899617
+energySlavesAcc 17 : 417076
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 6463416
+energySlavesAcc 20 : 9163908
+energySlavesAcc 21 : 9000979
+energySlavesAcc 22 : 6575777
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 3069835
+energySlavesAcc 25 : 5495148
+energySlavesAcc 26 : 6546098
+energySlavesAcc 27 : 6103452
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 2638783
+energySlavesAcc 32 : 5215668
+energySlavesAcc 33 : 804027
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 3
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 5
+energySlavesAcc_discretizado 8 : 4
+energySlavesAcc_discretizado 9 : 5
+energySlavesAcc_discretizado 10 : 4
+energySlavesAcc_discretizado 11 : 2
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 4
+energySlavesAcc_discretizado 14 : 9
+energySlavesAcc_discretizado 15 : 9
+energySlavesAcc_discretizado 16 : 2
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 5
+energySlavesAcc_discretizado 20 : 8
+energySlavesAcc_discretizado 21 : 7
+energySlavesAcc_discretizado 22 : 6
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 3
+energySlavesAcc_discretizado 25 : 5
+energySlavesAcc_discretizado 26 : 6
+energySlavesAcc_discretizado 27 : 5
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 3
+energySlavesAcc_discretizado 32 : 5
+energySlavesAcc_discretizado 33 : 1
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 27
+clusterinfo_handle2 26
+total_mpsoc_resources 12
+total_mpsoc_resources 13
+total_mpsoc_resources 14
+total_mpsoc_resources 15
+total_mpsoc_resources 16
+total_mpsoc_resources 17
+clusterinfo_handle2 31
+clusterinfo_handle2 30
+temperature tick antes
+1200310
+temperatura : 1 464564721
+temperatura : 2 452645521
+temperatura : 3 451809241
+temperatura : 4 451596179
+temperatura : 5 450856393
+temperatura : 6 451532256
+temperatura : 7 473293164
+temperatura : 8 481822139
+temperatura : 9 481017544
+temperatura : 10 477169012
+temperatura : 11 465252058
+temperatura : 12 451744183
+temperatura : 13 481669135
+temperatura : 14 489108378
+temperatura : 15 489639526
+temperatura : 16 462188583
+temperatura : 17 451534012
+temperatura : 18 453143183
+temperatura : 19 481118926
+temperatura : 20 487498688
+temperatura : 21 476936807
+temperatura : 22 460878619
+temperatura : 23 451197693
+temperatura : 24 475535159
+temperatura : 25 481657825
+temperatura : 26 483511395
+temperatura : 27 461195242
+temperatura : 28 452181536
+temperatura : 29 450131484
+temperatura : 30 452673228
+temperatura : 31 477333099
+temperatura : 32 482584113
+temperatura : 33 458583906
+temperatura : 34 450464775
+temperatura : 35 450000000
+temperature tick depois
+1358634
+energySlavesAcc 1 : 4039994
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 49970
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 7632872
+energySlavesAcc 8 : 11713092
+energySlavesAcc 9 : 11623095
+energySlavesAcc 10 : 11579309
+energySlavesAcc 11 : 5466705
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 11729647
+energySlavesAcc 14 : 10926757
+energySlavesAcc 15 : 11903483
+energySlavesAcc 16 : 1863907
+energySlavesAcc 17 : 346391
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 11593468
+energySlavesAcc 20 : 11616674
+energySlavesAcc 21 : 6022779
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 11579675
+energySlavesAcc 25 : 10591935
+energySlavesAcc 26 : 11068177
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 11518468
+energySlavesAcc 32 : 11847098
+energySlavesAcc 33 : 1666398
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 4
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 6
+energySlavesAcc_discretizado 8 : 10
+energySlavesAcc_discretizado 9 : 9
+energySlavesAcc_discretizado 10 : 9
+energySlavesAcc_discretizado 11 : 5
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 10
+energySlavesAcc_discretizado 14 : 9
+energySlavesAcc_discretizado 15 : 10
+energySlavesAcc_discretizado 16 : 2
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 9
+energySlavesAcc_discretizado 20 : 9
+energySlavesAcc_discretizado 21 : 5
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 9
+energySlavesAcc_discretizado 25 : 9
+energySlavesAcc_discretizado 26 : 9
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 9
+energySlavesAcc_discretizado 32 : 10
+energySlavesAcc_discretizado 33 : 2
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 18
+total_mpsoc_resources 19
+total_mpsoc_resources 20
+total_mpsoc_resources 21
+total_mpsoc_resources 22
+total_mpsoc_resources 23
+total_mpsoc_resources 24
+total_mpsoc_resources 25
+total_mpsoc_resources 26
+total_mpsoc_resources 27
+total_mpsoc_resources 28
+total_mpsoc_resources 29
+total_mpsoc_resources 30
+total_mpsoc_resources 31
+total_mpsoc_resources 32
+total_mpsoc_resources 33
+temperature tick antes
+1701856
+temperatura : 1 471101593
+temperatura : 2 455951753
+temperatura : 3 454431770
+temperatura : 4 462271260
+temperatura : 5 452001214
+temperatura : 6 453257481
+temperatura : 7 486637929
+temperatura : 8 500030213
+temperatura : 9 497867369
+temperatura : 10 493555306
+temperatura : 11 463645018
+temperatura : 12 454135896
+temperatura : 13 499616776
+temperatura : 14 504914987
+temperatura : 15 503519182
+temperatura : 16 464926800
+temperatura : 17 452802401
+temperatura : 18 457488456
+temperatura : 19 500209700
+temperatura : 20 506023771
+temperatura : 21 476052290
+temperatura : 22 460023088
+temperatura : 23 451586867
+temperatura : 24 492603620
+temperatura : 25 499946556
+temperatura : 26 495388936
+temperatura : 27 462652866
+temperatura : 28 452936709
+temperatura : 29 450262721
+temperatura : 30 456646014
+temperatura : 31 495757161
+temperatura : 32 478980426
+temperatura : 33 458850978
+temperatura : 34 450843372
+temperatura : 35 450000000
+temperature tick depois
+1860180
+energySlavesAcc 1 : 4745928
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 5014463
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 8961304
+energySlavesAcc 8 : 11724895
+energySlavesAcc 9 : 11633361
+energySlavesAcc 10 : 11980536
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 11733371
+energySlavesAcc 14 : 10148470
+energySlavesAcc 15 : 11651853
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 11716278
+energySlavesAcc 20 : 11850943
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 11714667
+energySlavesAcc 25 : 10737772
+energySlavesAcc 26 : 8546865
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 11728668
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 4
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 4
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 7
+energySlavesAcc_discretizado 8 : 10
+energySlavesAcc_discretizado 9 : 9
+energySlavesAcc_discretizado 10 : 10
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 10
+energySlavesAcc_discretizado 14 : 8
+energySlavesAcc_discretizado 15 : 9
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 10
+energySlavesAcc_discretizado 20 : 10
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 10
+energySlavesAcc_discretizado 25 : 9
+energySlavesAcc_discretizado 26 : 7
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 10
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 45
+clusterinfo_handle2 44
+clusterinfo_handle2 43
+clusterinfo_handle2 42
+clusterinfo_handle2 41
+clusterinfo_handle2 40
+clusterinfo_handle2 39
+clusterinfo_handle2 38
+temperature tick antes
+2200294
+temperatura : 1 467713686
+temperatura : 2 459498268
+temperatura : 3 457005611
+temperatura : 4 462322415
+temperatura : 5 453087904
+temperatura : 6 454848653
+temperatura : 7 483677396
+temperatura : 8 514234158
+temperatura : 9 494074882
+temperatura : 10 499194309
+temperatura : 11 463442603
+temperatura : 12 457004477
+temperatura : 13 513434965
+temperatura : 14 520038572
+temperatura : 15 516606109
+temperatura : 16 468658511
+temperatura : 17 453707808
+temperatura : 18 462157134
+temperatura : 19 496004125
+temperatura : 20 514079688
+temperatura : 21 477459432
+temperatura : 22 459527620
+temperatura : 23 451776707
+temperatura : 24 506371124
+temperatura : 25 515090705
+temperatura : 26 491041018
+temperatura : 27 463863936
+temperatura : 28 453353276
+temperatura : 29 450377346
+temperatura : 30 461574665
+temperatura : 31 510096844
+temperatura : 32 477689151
+temperatura : 33 458832708
+temperatura : 34 451060171
+temperatura : 35 450000000
+temperature tick depois
+2358618
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 11731060
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 8009576
+energySlavesAcc 11 : 271028
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 11844870
+energySlavesAcc 14 : 10356774
+energySlavesAcc 15 : 11727885
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 8129755
+energySlavesAcc 21 : 258890
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 11775858
+energySlavesAcc 25 : 10897207
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 11717105
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 10
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 7
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 10
+energySlavesAcc_discretizado 14 : 8
+energySlavesAcc_discretizado 15 : 10
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 7
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 10
+energySlavesAcc_discretizado 25 : 9
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 10
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 37
+clusterinfo_handle2 36
+clusterinfo_handle2 35
+clusterinfo_handle2 34
+total_mpsoc_resources 34
+total_mpsoc_resources 35
+total_mpsoc_resources 36
+total_mpsoc_resources 37
+total_mpsoc_resources 38
+total_mpsoc_resources 39
+total_mpsoc_resources 40
+total_mpsoc_resources 41
+total_mpsoc_resources 42
+total_mpsoc_resources 43
+total_mpsoc_resources 44
+total_mpsoc_resources 45
+total_mpsoc_resources 46
+total_mpsoc_resources 47
+total_mpsoc_resources 48
+total_mpsoc_resources 49
+total_mpsoc_resources 50
+total_mpsoc_resources 51
+total_mpsoc_resources 52
+total_mpsoc_resources 53
+total_mpsoc_resources 54
+total_mpsoc_resources 55
+total_mpsoc_resources 56
+total_mpsoc_resources 57
+total_mpsoc_resources 52
+selected_cluster_proc 0
+energyClustersAcc[0] 1610612736 58
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 1954124
+clusterinfo_handle2 57
+clusterinfo_handle2 56
+total_mpsoc_resources 46
+selected_cluster_proc 0
+energyClustersAcc[0] 1610612736 56
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 2011898
+clusterinfo_handle2 55
+clusterinfo_handle2 54
+temperature tick antes
+2706439
+temperatura : 1 465292804
+temperatura : 2 462577607
+temperatura : 3 458786869
+temperatura : 4 463042643
+temperatura : 5 454060515
+temperatura : 6 455936264
+temperatura : 7 483492098
+temperatura : 8 524636891
+temperatura : 9 494514425
+temperatura : 10 509321723
+temperatura : 11 468309005
+temperatura : 12 459753088
+temperatura : 13 521475132
+temperatura : 14 533857256
+temperatura : 15 526811166
+temperatura : 16 472751671
+temperatura : 17 454591743
+temperatura : 18 466285648
+temperatura : 19 496135799
+temperatura : 20 526565320
+temperatura : 21 484181192
+temperatura : 22 459478620
+temperatura : 23 451835063
+temperatura : 24 515482795
+temperatura : 25 526647904
+temperatura : 26 489930873
+temperatura : 27 464589576
+temperatura : 28 453540203
+temperatura : 29 450461989
+temperatura : 30 466750684
+temperatura : 31 521449002
+temperatura : 32 477438083
+temperatura : 33 458609130
+temperatura : 34 451165324
+temperatura : 35 450000000
+temperature tick depois
+2864763
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 11724319
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 12068970
+energySlavesAcc 11 : 1575380
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 11609349
+energySlavesAcc 14 : 10105804
+energySlavesAcc 15 : 11709302
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 11909651
+energySlavesAcc 21 : 1558948
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 11675675
+energySlavesAcc 25 : 10729860
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 11720012
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 10
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 10
+energySlavesAcc_discretizado 11 : 2
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 9
+energySlavesAcc_discretizado 14 : 8
+energySlavesAcc_discretizado 15 : 10
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 10
+energySlavesAcc_discretizado 21 : 2
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 9
+energySlavesAcc_discretizado 25 : 9
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 10
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 46
+total_mpsoc_resources 47
+total_mpsoc_resources 48
+total_mpsoc_resources 49
+total_mpsoc_resources 50
+total_mpsoc_resources 51
+clusterinfo_handle2 59
+clusterinfo_handle2 58
+clusterinfo_handle2 57
+clusterinfo_handle2 56
+clusterinfo_handle2 55
+total_mpsoc_resources 47
+selected_cluster_proc 0
+energyClustersAcc[0] 1610612736 55
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 2289128
+clusterinfo_handle2 54
+total_mpsoc_resources 41
+selected_cluster_proc 0
+energyClustersAcc[0] 2684354560 54
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 2702230
+clusterinfo_handle2 53
+clusterinfo_handle2 52
+clusterinfo_handle2 51
+clusterinfo_handle2 50
+total_mpsoc_resources 29
+selected_cluster_proc 0
+energyClustersAcc[0] 3758096384 50
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 2710921
+clusterinfo_handle2 49
+clusterinfo_handle2 48
+clusterinfo_handle2 47
+clusterinfo_handle2 46
+clusterinfo_handle2 45
+clusterinfo_handle2 44
+clusterinfo_handle2 43
+clusterinfo_handle2 42
+clusterinfo_handle2 41
+clusterinfo_handle2 40
+clusterinfo_handle2 39
+total_mpsoc_resources 23
+selected_cluster_proc 0
+energyClustersAcc[0] 0 39
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 2960073
+clusterinfo_handle2 38
+clusterinfo_handle2 37
+clusterinfo_handle2 36
+clusterinfo_handle2 35
+clusterinfo_handle2 34
+clusterinfo_handle2 33
+clusterinfo_handle2 32
+total_mpsoc_resources 17
+selected_cluster_proc 0
+energyClustersAcc[0] 1073741824 32
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 3017847
+clusterinfo_handle2 31
+clusterinfo_handle2 30
+clusterinfo_handle2 29
+clusterinfo_handle2 28
+clusterinfo_handle2 27
+clusterinfo_handle2 26
+clusterinfo_handle2 25
+temperature tick antes
+3200188
+temperatura : 1 463607932
+temperatura : 2 464346057
+temperatura : 3 460333505
+temperatura : 4 463597641
+temperatura : 5 455005898
+temperatura : 6 456735707
+temperatura : 7 483424496
+temperatura : 8 512115902
+temperatura : 9 499783174
+temperatura : 10 500256595
+temperatura : 11 469850126
+temperatura : 12 461569661
+temperatura : 13 513535558
+temperatura : 14 542135416
+temperatura : 15 529271090
+temperatura : 16 476123439
+temperatura : 17 455492651
+temperatura : 18 469344484
+temperatura : 19 499609500
+temperatura : 20 523976932
+temperatura : 21 491589362
+temperatura : 22 459931158
+temperatura : 23 451809703
+temperatura : 24 504007202
+temperatura : 25 532923021
+temperatura : 26 492298324
+temperatura : 27 465301868
+temperatura : 28 453605189
+temperatura : 29 450515985
+temperatura : 30 470933658
+temperatura : 31 526203325
+temperatura : 32 477821708
+temperatura : 33 458238395
+temperatura : 34 451195703
+temperatura : 35 450000000
+temperature tick depois
+3358512
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 31221
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 2277224
+energySlavesAcc 10 : 2570171
+energySlavesAcc 11 : 692148
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 2426566
+energySlavesAcc 14 : 8921750
+energySlavesAcc 15 : 8779289
+energySlavesAcc 16 : 37125
+energySlavesAcc 17 : 40817
+energySlavesAcc 18 : 39308
+energySlavesAcc 19 : 687361
+energySlavesAcc 20 : 4764173
+energySlavesAcc 21 : 3028480
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 10397294
+energySlavesAcc 26 : 796742
+energySlavesAcc 27 : 41568
+energySlavesAcc 28 : 376446
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 33531
+energySlavesAcc 31 : 9614408
+energySlavesAcc 32 : 33531
+energySlavesAcc 33 : 61996
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 2
+energySlavesAcc_discretizado 10 : 2
+energySlavesAcc_discretizado 11 : 1
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 2
+energySlavesAcc_discretizado 14 : 7
+energySlavesAcc_discretizado 15 : 7
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 1
+energySlavesAcc_discretizado 20 : 4
+energySlavesAcc_discretizado 21 : 3
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 8
+energySlavesAcc_discretizado 26 : 1
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 8
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 17
+total_mpsoc_resources 18
+total_mpsoc_resources 19
+total_mpsoc_resources 20
+total_mpsoc_resources 21
+total_mpsoc_resources 22
+clusterinfo_handle2 30
+total_mpsoc_resources 23
+total_mpsoc_resources 24
+total_mpsoc_resources 25
+total_mpsoc_resources 26
+total_mpsoc_resources 27
+total_mpsoc_resources 28
+clusterinfo_handle2 35
+temperature tick antes
+3700188
+temperatura : 1 462341231
+temperatura : 2 464753590
+temperatura : 3 462715373
+temperatura : 4 478964154
+temperatura : 5 456829634
+temperatura : 6 457289000
+temperatura : 7 482723480
+temperatura : 8 505187516
+temperatura : 9 515605103
+temperatura : 10 509270652
+temperatura : 11 484276006
+temperatura : 12 463277800
+temperatura : 13 517992181
+temperatura : 14 552075741
+temperatura : 15 536291712
+temperatura : 16 497776776
+temperatura : 17 468070760
+temperatura : 18 486622072
+temperatura : 19 519890311
+temperatura : 20 535805873
+temperatura : 21 509866540
+temperatura : 22 462087687
+temperatura : 23 452169776
+temperatura : 24 497438264
+temperatura : 25 540510767
+temperatura : 26 514071464
+temperatura : 27 474125623
+temperatura : 28 458020353
+temperatura : 29 450708010
+temperatura : 30 480327702
+temperatura : 31 528924528
+temperatura : 32 492487398
+temperatura : 33 473421376
+temperatura : 34 451921374
+temperatura : 35 450008288
+temperature tick depois
+3858512
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 8340367
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 9987165
+energySlavesAcc 10 : 9970714
+energySlavesAcc 11 : 8167731
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 7634709
+energySlavesAcc 14 : 10738835
+energySlavesAcc 15 : 10248033
+energySlavesAcc 16 : 11145238
+energySlavesAcc 17 : 5860400
+energySlavesAcc 18 : 8022557
+energySlavesAcc 19 : 10882333
+energySlavesAcc 20 : 11542902
+energySlavesAcc 21 : 10702497
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 10674208
+energySlavesAcc 26 : 11733980
+energySlavesAcc 27 : 2832392
+energySlavesAcc 28 : 1460306
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 3393733
+energySlavesAcc 31 : 8074553
+energySlavesAcc 32 : 7479290
+energySlavesAcc 33 : 8025608
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 7
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 8
+energySlavesAcc_discretizado 10 : 8
+energySlavesAcc_discretizado 11 : 7
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 6
+energySlavesAcc_discretizado 14 : 9
+energySlavesAcc_discretizado 15 : 8
+energySlavesAcc_discretizado 16 : 9
+energySlavesAcc_discretizado 17 : 5
+energySlavesAcc_discretizado 18 : 7
+energySlavesAcc_discretizado 19 : 9
+energySlavesAcc_discretizado 20 : 9
+energySlavesAcc_discretizado 21 : 9
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 9
+energySlavesAcc_discretizado 26 : 10
+energySlavesAcc_discretizado 27 : 3
+energySlavesAcc_discretizado 28 : 2
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 3
+energySlavesAcc_discretizado 31 : 7
+energySlavesAcc_discretizado 32 : 6
+energySlavesAcc_discretizado 33 : 7
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 29
+total_mpsoc_resources 30
+total_mpsoc_resources 31
+total_mpsoc_resources 32
+total_mpsoc_resources 33
+total_mpsoc_resources 34
+temperature tick antes
+4200300
+temperatura : 1 461296564
+temperatura : 2 464529108
+temperatura : 3 464941454
+temperatura : 4 475233790
+temperatura : 5 458723206
+temperatura : 6 457694015
+temperatura : 7 482278596
+temperatura : 8 501505380
+temperatura : 9 509652967
+temperatura : 10 501208320
+temperatura : 11 480191658
+temperatura : 12 466172440
+temperatura : 13 529100989
+temperatura : 14 561978314
+temperatura : 15 534470657
+temperatura : 16 514851258
+temperatura : 17 468074125
+temperatura : 18 506212559
+temperatura : 19 536702096
+temperatura : 20 548277275
+temperatura : 21 525616129
+temperatura : 22 466317409
+temperatura : 23 452772048
+temperatura : 24 495185908
+temperatura : 25 550288410
+temperatura : 26 531742350
+temperatura : 27 481722229
+temperatura : 28 461590114
+temperatura : 29 451097159
+temperatura : 30 489811223
+temperatura : 31 537409862
+temperatura : 32 512188612
+temperatura : 33 492159424
+temperatura : 34 453859012
+temperatura : 35 450052116
+temperature tick depois
+4358624
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 11651734
+energySlavesAcc 14 : 11712113
+energySlavesAcc 15 : 3713278
+energySlavesAcc 16 : 11886826
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 11713836
+energySlavesAcc 19 : 10602784
+energySlavesAcc 20 : 11496339
+energySlavesAcc 21 : 11707886
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 11722214
+energySlavesAcc 26 : 11757920
+energySlavesAcc 27 : 2205406
+energySlavesAcc 28 : 1512148
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 4607752
+energySlavesAcc 31 : 11592907
+energySlavesAcc 32 : 10635025
+energySlavesAcc 33 : 11724370
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 9
+energySlavesAcc_discretizado 14 : 10
+energySlavesAcc_discretizado 15 : 3
+energySlavesAcc_discretizado 16 : 10
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 10
+energySlavesAcc_discretizado 19 : 9
+energySlavesAcc_discretizado 20 : 9
+energySlavesAcc_discretizado 21 : 10
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 10
+energySlavesAcc_discretizado 26 : 10
+energySlavesAcc_discretizado 27 : 2
+energySlavesAcc_discretizado 28 : 2
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 4
+energySlavesAcc_discretizado 31 : 9
+energySlavesAcc_discretizado 32 : 9
+energySlavesAcc_discretizado 33 : 10
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 35
+total_mpsoc_resources 36
+total_mpsoc_resources 37
+total_mpsoc_resources 38
+total_mpsoc_resources 39
+total_mpsoc_resources 40
+total_mpsoc_resources 41
+total_mpsoc_resources 42
+total_mpsoc_resources 43
+total_mpsoc_resources 44
+total_mpsoc_resources 45
+clusterinfo_handle2 51
+clusterinfo_handle2 50
+clusterinfo_handle2 49
+clusterinfo_handle2 48
+temperature tick antes
+4700363
+temperatura : 1 460377784
+temperatura : 2 463960694
+temperatura : 3 465879594
+temperatura : 4 472160335
+temperatura : 5 459585612
+temperatura : 6 458059864
+temperatura : 7 482292459
+temperatura : 8 499230885
+temperatura : 9 504750797
+temperatura : 10 495853108
+temperatura : 11 476874774
+temperatura : 12 470029274
+temperatura : 13 540448181
+temperatura : 14 569609700
+temperatura : 15 529430242
+temperatura : 16 517481606
+temperatura : 17 468606318
+temperatura : 18 519066825
+temperatura : 19 551414537
+temperatura : 20 560550643
+temperatura : 21 537172441
+temperatura : 22 470961767
+temperatura : 23 453297355
+temperatura : 24 495501135
+temperatura : 25 559405975
+temperatura : 26 543922012
+temperatura : 27 485093548
+temperatura : 28 460427651
+temperatura : 29 451410404
+temperatura : 30 488690532
+temperatura : 31 544683821
+temperatura : 32 509068730
+temperatura : 33 485097884
+temperatura : 34 455595366
+temperatura : 35 450131402
+temperature tick depois
+4858687
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 11724116
+energySlavesAcc 14 : 11718618
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 7776988
+energySlavesAcc 17 : 258890
+energySlavesAcc 18 : 11624345
+energySlavesAcc 19 : 10567714
+energySlavesAcc 20 : 11013314
+energySlavesAcc 21 : 11733497
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 11718959
+energySlavesAcc 26 : 11373552
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 11586059
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 10
+energySlavesAcc_discretizado 14 : 10
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 6
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 9
+energySlavesAcc_discretizado 19 : 9
+energySlavesAcc_discretizado 20 : 9
+energySlavesAcc_discretizado 21 : 10
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 10
+energySlavesAcc_discretizado 26 : 9
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 9
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+clusterinfo_handle2 47
+clusterinfo_handle2 46

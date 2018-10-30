@@ -1,0 +1,24 @@
+Initializing PE: 0x00000401
+Task id: 1799 allocated at 334745
+Task id: 1801 allocated at 336400
+energy_acc_local total: 4048509	503913
+energy_acc_local total: 11579309	1001135
+Task id: 1801 terminated at 1304840
+energy_acc_local total: 11980536	1507475
+Task id: 1792 allocated at 1945800
+energy_acc_local total: 8009576	2009042
+Task id: 1792 terminated at 2026927
+Task id: 1797 allocated at 2034935
+energy_acc_local total: 12068970	2506797
+Task id: 1797 terminated at 2516607
+Task id: 1793 allocated at 2520307
+Task id: 1793 terminated at 2556854
+Task id: 1799 terminated at 2611627
+Task id: 3074 allocated at 3042771
+energy_acc_local total: 2570171	3044457
+Task id: 3328 allocated at 3080973
+energy_acc_local total: 9970714	3500866
+Task id: 3074 terminated at 3574962
+3669224_4x1_13_0_Bank sendedd all patterns
+
+Task id: 3328 terminated at 3670579

@@ -1,0 +1,166 @@
+Initializing PE: 0x00000203
+Task id: 1024 allocated at 246995
+249106_2x3_4_0_MPEG Task D start: iDCT 
+250417_2x3_4_0_250088
+energy_acc_local total: 1002413	507793
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+teste com stop_execution_flag parando at 864925
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 1222961	1365970
+teste com stop_execution_flag parando at 1366680
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65580	1867325
+teste com stop_execution_flag parando at 1868035
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	2367331
+teste com stop_execution_flag parando at 2368041
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	2867763
+teste com stop_execution_flag parando at 2868473
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	3367759
+teste com stop_execution_flag parando at 3368469
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	3867760
+teste com stop_execution_flag parando at 3868470
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	4368274
+teste com stop_execution_flag parando at 4368984
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	4868293
+teste com stop_execution_flag parando at 4869003
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	5367836
+teste com stop_execution_flag parando at 5368546
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	5867843
+teste com stop_execution_flag parando at 5868553
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	6367835
+teste com stop_execution_flag parando at 6368545
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	6867378
+teste com stop_execution_flag parando at 6868088
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	7367373
+teste com stop_execution_flag parando at 7368083
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	7866943
+teste com stop_execution_flag parando at 7867653
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	8366069
+teste com stop_execution_flag parando at 8366779
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	8865532
+teste com stop_execution_flag parando at 8866242
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	9364012
+teste com stop_execution_flag parando at 9364722
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64141	9862457
+teste com stop_execution_flag parando at 9863167
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 64135	10362599
+teste com stop_execution_flag parando at 10363352
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65775	10862551
+teste com stop_execution_flag parando at 10863304
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65769	11362548
+teste com stop_execution_flag parando at 11363301
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65775	11862588
+teste com stop_execution_flag parando at 11863341
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65769	12362567
+teste com stop_execution_flag parando at 12363320
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65775	12862541
+teste com stop_execution_flag parando at 12863294
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65769	13362581
+teste com stop_execution_flag parando at 13363334
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 515
+energy_acc_local total: 65775	13862599
+teste com stop_execution_flag parando at 13863352
+
+1<- stop_execution_flag??

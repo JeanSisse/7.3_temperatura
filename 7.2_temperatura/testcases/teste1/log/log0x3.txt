@@ -1,0 +1,12 @@
+Initializing PE: 0x00000003
+Task id: 1 allocated at 111148
+112384_0x3_0_1_MPEG Task C start: iquant 
+113660_0x3_0_1_113331
+energy_acc_local total: 1167023	542451
+energy_acc_local total: 1158967	1303174
+energy_acc_local total: 278027	2505694
+energy_acc_local total: 327225	2520617
+3106054_0x3_0_1_3105692
+3106920_0x3_0_1_End Task C- MPEG
+Task id: 1 terminated at 3108013
+energy_acc_local total: 13300452	3109469

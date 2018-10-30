@@ -1,0 +1,15 @@
+Initializing PE: 0x00000003
+Task id: 2819 allocated at 3034079
+energy_acc_local total: 61029	3036054
+energy_acc_local total: 33680	3037616
+Task id: 2309 allocated at 3038970
+energy_acc_local total: 71905	3040978
+3042071_0x3_9_5_synthetic task F started.
+3043458_0x3_9_5_3043096
+energy_acc_local total: 90986	3045281
+energy_acc_local total: 60981	3047985
+energy_acc_local total: 39308	3049795
+energy_acc_local total: 8022557	3500892
+energy_acc_local total: 11713836	4003086
+energy_acc_local total: 11624345	4500954
+energy_acc_local total: 11670778	5001347

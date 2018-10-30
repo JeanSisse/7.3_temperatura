@@ -1,0 +1,15 @@
+
+# Line Format: <unit-name>\t<width>\t<height>\t<left-x>\t<bottom-y>
+# all dimensions are in meters
+# comment lines begin with a '#' 
+# comments and empty lines are ignored
+
+p0	0.001	0.001	0.000	0.000	
+p1	0.001	0.001	0.001	0.000	
+p2	0.001	0.001	0.002	0.000	
+p3	0.001	0.001	0.000	0.001	
+p4	0.001	0.001	0.001	0.001	
+p5	0.001	0.001	0.002	0.001	
+p6	0.001	0.001	0.000	0.002	
+p7	0.001	0.001	0.001	0.002	
+p8	0.001	0.001	0.002	0.002

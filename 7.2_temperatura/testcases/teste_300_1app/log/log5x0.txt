@@ -1,0 +1,2 @@
+Initializing PE: 0x00000500
+INTERRUPTION (NOC)

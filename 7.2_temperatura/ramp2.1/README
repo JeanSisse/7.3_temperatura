@@ -1,0 +1,203 @@
+RAMP 2.0 - Information Manual
+--------------------------------
+
+CONTENTS
+--------
+	1) License
+	2) Introduction
+	3) Using RAMP 2.0
+	5) Contact 
+	6) References
+
+LICENSE
+-------
+
+LICENSE TERMS
+
+
+University of Illinois/NCSA Open Source License for the RAMP Lifetime
+Reliability Model Version 2.0
+
+Copyright (c) 2005 The Board of Trustees of the University of Illinois and IBM
+Corporation
+
+All rights reserved.
+
+The RAMP software was developed as part of the Reliability-Aware MicroProcessors
+research project at the University of Illinois at Urbana-Champaign and IBM T. J.
+Watson Research Center, directed by Prof.  Sarita V. Adve, Dr. Pradip Bose, and
+Dr. Jude A. Rivers. It was written by Jayanth Srinivasan while he was a co-op at
+IBM T. J. Watson Research Center over the summers of 2003 and 2004.
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal with
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+Redistributions of source code must retain the above copyright notice, this list
+of conditions and the following disclaimers.
+
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimers in the documentation and/or
+other materials provided with the distribution.
+
+Neither the names of Professor Sarita Adve's research group, the University of
+Illinois at Urbana-Champaign, IBM Corporation,  nor the names of its
+contributors may be used to endorse or promote products derived from this
+Software without specific prior written permission.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
+
+If you use this software or a modified version of it, please cite the following
+paper: J. Srinivasan, S. V. Adve, P. Bose, J. A. Rivers, "The Case for
+Lifetime Reliability-Aware Microprocessors," In Proceedings of the 31st
+International Symposium on Computer Architecture, June 2004.
+
+
+
+INTRODUCTION
+------------
+
+RAMP (short for Reliability-Aware MicroProcessors) is the first
+architecture-level model that allows lifetime reliability analysis for
+applications and architectures. RAMP was developed by researchers at the
+University of Illinois at Urbana-Champaign and IBM T.J.  Watson Research Center
+and is based on state-of-the-art device level analytic models for different
+wear-out based failure mechanisms.  
+
+After extensive discussions with device failure researchers at IBM T.J. Watson
+Research Center, we incorporated five critical failure mechanisms into RAMP 2.0 -
+Electromigration (EM) and Stress Migration (SM) in the interconnects,
+Time-Dependent Dielectric Breakdown (TDDB or gate-oxide breakdown) and
+Negative-Bias Temperature Instability (NBTI) in the transistors, and Thermal
+Cycling (TC) in the package.  In addition, RAMP's modular design makes the
+addition of other failure mechanisms straightforward.  
+
+RAMP 2.0 models failure mechanisms with lognormal (versus the less accurate
+exponential) distributions, and can also model processors that are
+series-parallel failure systems (versus series failure).  It is written in 'C++'
+and 'C' and can be easily interfaced with typical temperature/power/performance
+simulators available in the community. RAMP 2.0 can be downloaded from
+http://rsim.cs.uiuc.edu/ramp/
+
+RAMP was primarily developed by Jayanth Srinivasan (srinivsn@cs.uiuc.edu) while:
+
+1.  He was a member of the Power and Reliability Aware Systems Group in the Computer
+Science Department at the University of Illinois at Urbana-Champaign, headed by
+Prof. Sarita V. Adve, and, 
+
+2. He was an intern over the summers of 2003 and 2004 at IBM T. J. Watson
+Research Center, Yorktown Heights, NY, where he was mentored by Dr. Pradip Bose and
+Dr. Jude A. Rivers.
+
+
+
+USING RAMP 2.0
+-------------
+
+RAMP models reliability at the granularity of functional units on chip. The crux
+of RAMP consists of state-of-the-art device level models for five critical
+failure mechanisms, EM, SM, TDDB, NBTI, and TC.  These failure models assume
+steady state operation at specific (generally worst-case) temperature and
+utilization, and express reliability in terms of MTTF (mean time to failure or
+the expected lifetime of the processor).  RAMP uses these models to calculate an
+instantaneous MTTF based on current processor temperature and utilization.  Much
+like previous power and temperature models (for e.g., Wattch from Princeton and
+HotSpot from U.Virginia), RAMP divides the processor into a few structures (for
+e.g., ALUs, FPUs, register files, etc.) and applies the analytic models to each
+structure as an aggregate.  RAMP then combines the structure-level MTTF models
+to give the MTTF of the full processor, incorporating application-driven
+temporal variations of temperature and structure utilization.
+
+RAMP should be used in conjunction with a timing simulator to determine workload
+behavior, and a power and thermal simulator for power and temperature profiles.
+In addition, RAMP requires floorplan data, which is typically provided by the
+temperature simulator.  In our files, we identify the places where data from the
+performance, power, and temperature simulators should be fed in. In order to
+obtain a proper understanding of the design and working of RAMP, the user is
+urged to refer to our ISCA 2004[1] and ISCA 2005[2] papers.
+
+This release has the following files:
+
+1. intialization.cc - this file consists of initialization code to be inserted
+in startup file of performance simulator.  This code should be inserted during
+the initialization phase of the performance simulator (for e.g., in mainsim.cc
+for RSIM and sim-outorder.c for SimpleScalar). The code initializes some global
+reliability variables and creates the reliability objects.  
+
+2.  runtime.cc - this file consists of run-time code that should be inserted in
+the file that provides regular temperature and power samples (for e.g., in
+power.cc when using Wattch/HotSpot). Everytime power and temperature samples are
+calculated, the function allmodels(temperature,activity
+factor,voltage,frequency) is called. This file  contains code that describes
+how FIT values are added to obtain total processor FIT rates. This file also
+contains code that describes the process of creating a final FIT file which
+needs to be fed into the Monte-Carlo simulation module.
+
+3. reliability.h and reliability.cc - the main reliability file with models for
+each failure mechainsm. Currently, there are models for EM, SM, TDDB, TC, and
+NBTI.  Further failure models should be added to this file.
+
+4. montecarlo.c - this file contains the code for Monte-Carlo simulation for
+RAMP with MIN-MAX code for series-parallel failure analysis. This is a
+post-processing step that should be performed after the performance simulation
+ends. When the performance simulation finishes simulating the application, RAMP
+writes application-average FIT values into a file (the exact format of the file
+is described in runtime.cc). This file is then fed into montecarlo.c which
+calculates the processor reliability assuming lognormal failure distributions
+and series-parallel failure systems.  This file should be compiled separately
+from the rest of RAMP. The command line for using this file is:
+a.out FITFILE
+where FITFILE is produced in runtime.cc.
+This file can  be used to model any series-parallel arrangement of structures in
+a processor.
+
+
+5. SAMPLE_FITS - a sample FIT file is provided for a processor with 10
+structures and 5 failure mechanisms. If montecarlo.c is compiled and the command
+"a.out SAMPLE_FITS" is executed, an MTTF of around 30 years will be calculated.
+
+
+
+CONTACT 
+------------------------
+
+RAMP 2.0 can be downloaded from "http://rsim.cs.uiuc.edu/ramp/". Questions about
+RAMP can be directed to Jayanth Srinivasan at srinivsn@cs.uiuc.edu.
+
+
+REFERENCES
+----------
+
+[1] "The Case for Lifetime Reliability-Aware Microprocessors," J. Srinivasan, S.
+V. Adve, P. Bose, J. A. Rivers, 31st International Symposium on Computer
+Architecture (ISCA-2004), Munich, Germany, June 2004. 
+
+[2] "Exploiting Structural Duplication for Lifetime Reliability Enhancement" J.
+Srinivasan, S. V. Adve, P. Bose, J. A. Rivers, to appear in the 32nd
+International Symposium on Computer Architecture (ISCA-2005), June 2005.
+
+Other references that relate to the design, implementation, and use of RAMP 2.0
+are:
+
+[3] "The Impact of Technology Scaling on Lifetime Reliability," J. Srinivasan,
+S. V. Adve, P. Bose, J. A. Rivers, International Conference on Dependable
+Systems and Networks (DSN-2004), Florence, Italy, June 2004.
+
+[4] "A Reliability Odometer - Lemon Check Your Processor!," J. Srinivasan, S. V.
+Adve, P. Bose, J. A. Rivers, Wild and Crazy Ideas Session at the International
+Conference on Architectural Support for Programming Languages and Operating
+Systems (ASPLOS), Boston, Oct. 2004. 
+
+[5]  "Lifetime Reliability: Toward an Architectural Solution," J. Srinivasan, S.
+V. Adve, P. Bose, J. A. Rivers, in May/June 2005 issue (Vol. 25, No. 3) of IEEE
+Micro, Special Issue on Future Trends in Microarchitecture
+

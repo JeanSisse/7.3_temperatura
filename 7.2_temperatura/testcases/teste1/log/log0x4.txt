@@ -1,0 +1,11 @@
+Initializing PE: 0x00000004
+Task id: 0 allocated at 122099
+124195_0x4_0_0_MPEG Task D start: iDCT 
+125416_0x4_0_0_125087
+energy_acc_local total: 1480193	548410
+energy_acc_local total: 1494307	1309171
+energy_acc_local total: 352850	3106663
+3113060_0x4_0_0_3112698
+3113881_0x4_0_0_End Task D - MPEG
+Task id: 0 terminated at 3114889
+energy_acc_local total: 217114	3116264

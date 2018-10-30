@@ -1,0 +1,53 @@
+Initializing PE: 0x00000301
+Task id: 768 allocated at 240016
+242127_3x1_3_0_MPEG Task D start: iDCT 
+243438_3x1_3_0_243109
+energy_acc_local total: 1178707	506288
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 1038560	2369046
+teste com stop_execution_flag parando at 2369741
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 65185	2869400
+teste com stop_execution_flag parando at 2870110
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 64135	3369396
+teste com stop_execution_flag parando at 3370106
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 64141	3869397
+teste com stop_execution_flag parando at 3870107
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 64135	4369914
+teste com stop_execution_flag parando at 4370624
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 64141	4869933
+teste com stop_execution_flag parando at 4870643
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 64135	5369476
+teste com stop_execution_flag parando at 5370186
+
+1<- stop_execution_flag??
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 769
+energy_acc_local total: 64141	5869992
+teste com stop_execution_flag parando at 5870702
+
+1<- stop_execution_flag??

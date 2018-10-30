@@ -1,0 +1,24 @@
+[project name]
+teste_200_1app
+[tasks per pe]
+2
+[processor description]
+sc
+[noc buffer size]
+8
+[noc routing algorithm]
+xy
+[mapping]
+WithLoad
+[dimensions]
+6
+6
+[cluster size]
+6
+6
+[masters location]
+LB
+[global master]
+0
+[application]
+mpeg

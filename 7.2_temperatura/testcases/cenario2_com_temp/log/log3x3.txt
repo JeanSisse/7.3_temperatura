@@ -1,0 +1,35 @@
+Initializing PE: 0x00000303
+Task id: 518 allocated at 127577
+Task id: 768 allocated at 170290
+energy_acc_local total: 9000979	513672
+Task id: 518 terminated at 679013
+713652_3x3_3_0_Bank sendedd all patterns
+
+Task id: 768 terminated at 714888
+Task id: 515 allocated at 888456
+energy_acc_local total: 6022779	1005523
+Task id: 515 terminated at 1081775
+Task id: 516 allocated at 1978776
+energy_acc_local total: 1884900	1980452
+energy_acc_local total: 258890	2001115
+Task id: 520 allocated at 2010571
+Task id: 516 terminated at 2034800
+Task id: 520 terminated at 2064565
+Task id: 523 allocated at 2553986
+energy_acc_local total: 1558948	2555647
+Task id: 523 terminated at 2616904
+Task id: 2305 allocated at 2897926
+2899092_3x3_9_1_synthetic task B started.
+2900524_3x3_9_1_2900162
+Task id: 2052 allocated at 2909413
+2915039_3x3_8_4_Task P4 INIT
+
+energy_acc_local total: 3028480	3008782
+3454841_3x3_8_4_Task P4 FINISHEDD IN
+
+3456248_3x3_8_4_3455886
+Task id: 2052 terminated at 3457490
+energy_acc_local total: 10702497	3501035
+energy_acc_local total: 11707886	4000830
+energy_acc_local total: 11733497	4501319
+energy_acc_local total: 11725550	5001475

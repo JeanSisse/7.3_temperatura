@@ -1,0 +1,338 @@
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 4 allocated at 32875
+34149_0x1_0_4_MPEG Task A start:  
+35319_0x1_0_4_35023
+38949_0x1_0_4_T1
+39899_0x1_0_4_37005
+40679_0x1_0_4_T2
+41629_0x1_0_4_38842
+44272_0x1_0_4_T1
+45222_0x1_0_4_42411
+46002_0x1_0_4_T2
+46952_0x1_0_4_44165
+49619_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+51059_0x1_0_4_47734
+51839_0x1_0_4_T2
+52789_0x1_0_4_49512
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+103148_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+104626_0x1_0_4_53571
+105444_0x1_0_4_T2
+106465_0x1_0_4_103041
+INTERRUPTION (NOC)
+157706_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+159217_0x1_0_4_107290
+160040_0x1_0_4_T2
+161061_0x1_0_4_157599
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+213355_0x1_0_4_T1
+214376_0x1_0_4_161886
+215199_0x1_0_4_T2
+216220_0x1_0_4_213248
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+268081_0x1_0_4_T1
+269102_0x1_0_4_217045
+269925_0x1_0_4_T2
+270946_0x1_0_4_267974
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+322677_0x1_0_4_T1
+323698_0x1_0_4_271771
+324521_0x1_0_4_T2
+325542_0x1_0_4_322570
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+377350_0x1_0_4_T1
+378371_0x1_0_4_326367
+379194_0x1_0_4_T2
+380215_0x1_0_4_377243
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+432076_0x1_0_4_T1
+433097_0x1_0_4_381040
+433920_0x1_0_4_T2
+434941_0x1_0_4_431969
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+486672_0x1_0_4_T1
+487693_0x1_0_4_435766
+488516_0x1_0_4_T2
+489537_0x1_0_4_486565
+energy_acc_local total: 10870883	501392
+energy_acc_local (k_slave): 10870883 502352
+INTERRUPTION (NOC)
+542930_0x1_0_4_T1
+543951_0x1_0_4_490362
+544774_0x1_0_4_T2
+545795_0x1_0_4_542823
+INTERRUPTION (NOC)
+597861_0x1_0_4_T1
+598882_0x1_0_4_546620
+599705_0x1_0_4_T2
+600726_0x1_0_4_597754
+INTERRUPTION (NOC)
+652660_0x1_0_4_T1
+653681_0x1_0_4_601551
+654504_0x1_0_4_T2
+655525_0x1_0_4_652553
+INTERRUPTION (NOC)
+707537_0x1_0_4_T1
+708558_0x1_0_4_656350
+709381_0x1_0_4_T2
+710402_0x1_0_4_707430
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 895602
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1000350_0x1_0_4_T1
+1001409_0x1_0_4_711227
+1002270_0x1_0_4_T2
+1003362_0x1_0_4_1000243
+energy_acc_local total: 10415858	1005599
+energy_acc_local (k_slave): 10415858 1006597
+INTERRUPTION (NOC)
+1056108_0x1_0_4_T1
+1057200_0x1_0_4_1004230
+1058066_0x1_0_4_T2
+1059158_0x1_0_4_1056001
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+1111009_0x1_0_4_T1
+1112101_0x1_0_4_1060026
+1112967_0x1_0_4_T2
+1114059_0x1_0_4_1110902
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+1165963_0x1_0_4_T1
+1167055_0x1_0_4_1114927
+1167921_0x1_0_4_T2
+1169013_0x1_0_4_1165856
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+1220787_0x1_0_4_T1
+1221879_0x1_0_4_1169881
+1222745_0x1_0_4_T2
+1223837_0x1_0_4_1220680
+1225068_0x1_0_4_1224706
+1225934_0x1_0_4_End Task A - MPEG
+Task id: 4 terminated at 1227032
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1395559
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 5282621	1896365
+energy_acc_local (k_slave): 5282621 1897320
+teste com stop_execution_flag parando at 1897932
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 95192	2395967
+energy_acc_local (k_slave): 95192 2396846
+teste com stop_execution_flag parando at 2397458
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??

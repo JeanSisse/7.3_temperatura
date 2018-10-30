@@ -1,0 +1,16 @@
+Initializing PE: 0x00000100
+Task id: 1028 allocated at 285627
+286762_1x0_4_4_synthetic task E started.
+288078_1x0_4_4_287749
+Task id: 1029 allocated at 297541
+299023_1x0_4_5_synthetic task F started.
+300339_1x0_4_5_300010
+energy_acc_local total: 2662313	503018
+energy_acc_local total: 4039994	1002965
+energy_acc_local total: 4745928	1501384
+1692054_1x0_4_4_1691692
+1692965_1x0_4_4_synthetic task E finished.
+Task id: 1028 terminated at 1694282
+1696599_1x0_4_5_1696237
+1697510_1x0_4_5_synthetic task F finished.
+Task id: 1029 terminated at 1698827

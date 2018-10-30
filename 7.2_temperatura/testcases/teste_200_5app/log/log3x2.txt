@@ -1,0 +1,193 @@
+Initializing PE: 0x00000302
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 770 allocated at 147598
+149410_3x2_3_2_MPEG Task B start: iVLC 
+150766_3x2_3_2_150437
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 8271654	501070
+energy_acc_local (k_slave): 8271654 501987
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 770
+teste com stop_execution_flag parando at 899501
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 9350158	1100983
+energy_acc_local (k_slave): 9350158 1101938
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 770
+teste com stop_execution_flag parando at 1400530
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+1472348_3x2_3_2_1471986
+1473304_3x2_3_2_End Task B - MPEG
+Task id: 770 terminated at 1474568
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 770
+energy_acc_local total: 8703939	1900528
+energy_acc_local (k_slave): 8703939 1901483
+teste com stop_execution_flag parando at 1902095
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 770
+energy_acc_local total: 96625	2401511
+energy_acc_local (k_slave): 96625 2402390
+teste com stop_execution_flag parando at 2403002
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??

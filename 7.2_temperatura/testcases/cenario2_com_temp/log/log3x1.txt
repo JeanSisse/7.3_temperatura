@@ -1,0 +1,30 @@
+Initializing PE: 0x00000301
+Task id: 1025 allocated at 231435
+232563_3x1_4_1_synthetic task B started.
+233924_3x1_4_1_233595
+Task id: 1794 allocated at 340764
+energy_acc_local total: 6329869	501130
+energy_acc_local total: 11623095	1002611
+Task id: 1794 terminated at 1007532
+energy_acc_local total: 11633361	1501484
+1670784_3x1_4_1_1670422
+1671740_3x1_4_1_synthetic task B finished.
+Task id: 1025 terminated at 1673102
+Task id: 2050 allocated at 2901954
+energy_acc_local total: 4117941	2903840
+energy_acc_local total: 35005	2905397
+Task id: 2051 allocated at 2907204
+2909441_3x1_8_2_Task P2 INIT
+
+2914489_3x1_8_3_Task P3 INIT
+
+energy_acc_local total: 2277224	3015248
+energy_acc_local total: 9987165	3511516
+3540515_3x1_8_3_Task P3 FINISHEDD IN
+
+3541922_3x1_8_3_3541560
+Task id: 2051 terminated at 3543164
+3554413_3x1_8_2_Task P2 FINISHEDD IN
+
+3555820_3x1_8_2_3555458
+Task id: 2050 terminated at 3557062

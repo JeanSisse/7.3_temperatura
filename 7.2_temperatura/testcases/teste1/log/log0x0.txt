@@ -1,0 +1,4089 @@
+Kernel Initialized
+This kernel is global master
+initialize_slaves-proc num: 0
+initialize_slaves-proc num: 1
+initialize_slaves-proc num: 2
+initialize_slaves-proc num: 3
+initialize_slaves-proc num: 4
+initialize_slaves-proc num: 5
+initialize_slaves-proc num: 256
+initialize_slaves-proc num: 257
+initialize_slaves-proc num: 258
+initialize_slaves-proc num: 259
+initialize_slaves-proc num: 260
+initialize_slaves-proc num: 261
+initialize_slaves-proc num: 512
+initialize_slaves-proc num: 513
+initialize_slaves-proc num: 514
+initialize_slaves-proc num: 515
+initialize_slaves-proc num: 516
+initialize_slaves-proc num: 517
+initialize_slaves-proc num: 768
+initialize_slaves-proc num: 769
+initialize_slaves-proc num: 770
+initialize_slaves-proc num: 771
+initialize_slaves-proc num: 772
+initialize_slaves-proc num: 773
+initialize_slaves-proc num: 1024
+initialize_slaves-proc num: 1025
+initialize_slaves-proc num: 1026
+initialize_slaves-proc num: 1027
+initialize_slaves-proc num: 1028
+initialize_slaves-proc num: 1029
+initialize_slaves-proc num: 1280
+initialize_slaves-proc num: 1281
+initialize_slaves-proc num: 1282
+initialize_slaves-proc num: 1283
+initialize_slaves-proc num: 1284
+initialize_slaves-proc num: 1285
+total_mpsoc_resources 65
+selected_cluster_proc 0
+energyClustersAcc[0] 0 70
+energyClustersAcc[1] 0 0
+energyClustersAcc[2] 0 0
+energyClustersAcc[3] 0 0
+clusters_load[0]: 277230
+clusterinfo_handle2 69
+clusterinfo_handle2 68
+clusterinfo_handle2 67
+clusterinfo_handle2 66
+clusterinfo_handle2 65
+temperature tick antes (kernel_master)
+700303
+temperatura : 1 450037297
+temperatura : 2 450000000
+temperatura : 3 450000000
+temperatura : 4 450000000
+temperatura : 5 450000000
+temperatura : 6 469846735
+temperatura : 7 450776535
+temperatura : 8 450000000
+temperatura : 9 450000000
+temperatura : 10 450000000
+temperatura : 11 450000000
+temperatura : 12 469928871
+temperatura : 13 450780679
+temperatura : 14 450000000
+temperatura : 15 450000000
+temperatura : 16 450000000
+temperatura : 17 450000000
+temperatura : 18 453026567
+temperatura : 19 450127723
+temperatura : 20 450000000
+temperatura : 21 450000000
+temperatura : 22 450000000
+temperatura : 23 450000000
+temperatura : 24 454328248
+temperatura : 25 450168419
+temperatura : 26 450000000
+temperatura : 27 450000000
+temperatura : 28 450000000
+temperatura : 29 450000000
+temperatura : 30 450156233
+temperatura : 31 450008288
+temperatura : 32 450000000
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master)
+858689
+TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : 
+Testando temperatura dos procs: 0 e 1
+Testando temperatura dos procs: 0 e 2
+Testando temperatura dos procs: 0 e 3
+Testando temperatura dos procs: 0 e 4
+Testando temperatura dos procs: 0 e 5
+Testando temperatura dos procs: 0 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 0 e 257
+Testando temperatura dos procs: 0 e 258
+Testando temperatura dos procs: 0 e 259
+Testando temperatura dos procs: 0 e 260
+Testando temperatura dos procs: 0 e 261
+Testando temperatura dos procs: 0 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 0 e 513
+Testando temperatura dos procs: 0 e 514
+Testando temperatura dos procs: 0 e 515
+Testando temperatura dos procs: 0 e 516
+Testando temperatura dos procs: 0 e 517
+Testando temperatura dos procs: 0 e 768
+Testando temperatura dos procs: 0 e 769
+Testando temperatura dos procs: 0 e 770
+Testando temperatura dos procs: 0 e 771
+Testando temperatura dos procs: 0 e 772
+Testando temperatura dos procs: 0 e 773
+Testando temperatura dos procs: 0 e 1024
+Testando temperatura dos procs: 0 e 1025
+Testando temperatura dos procs: 0 e 1026
+Testando temperatura dos procs: 0 e 1027
+Testando temperatura dos procs: 0 e 1028
+Testando temperatura dos procs: 0 e 1029
+Testando temperatura dos procs: 0 e 1280
+Testando temperatura dos procs: 0 e 1281
+Testando temperatura dos procs: 0 e 1282
+Testando temperatura dos procs: 0 e 1283
+Testando temperatura dos procs: 0 e 1284
+Testando temperatura dos procs: 0 e 1285
+Testando temperatura dos procs: 1 e 2
+Testando temperatura dos procs: 1 e 3
+Testando temperatura dos procs: 1 e 4
+Testando temperatura dos procs: 1 e 5
+Testando temperatura dos procs: 1 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 1 e 257
+Testando temperatura dos procs: 1 e 258
+Testando temperatura dos procs: 1 e 259
+Testando temperatura dos procs: 1 e 260
+Testando temperatura dos procs: 1 e 261
+Testando temperatura dos procs: 1 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 1 e 513
+Testando temperatura dos procs: 1 e 514
+Testando temperatura dos procs: 1 e 515
+Testando temperatura dos procs: 1 e 516
+Testando temperatura dos procs: 1 e 517
+Testando temperatura dos procs: 1 e 768
+Testando temperatura dos procs: 1 e 769
+Testando temperatura dos procs: 1 e 770
+Testando temperatura dos procs: 1 e 771
+Testando temperatura dos procs: 1 e 772
+Testando temperatura dos procs: 1 e 773
+Testando temperatura dos procs: 1 e 1024
+Testando temperatura dos procs: 1 e 1025
+Testando temperatura dos procs: 1 e 1026
+Testando temperatura dos procs: 1 e 1027
+Testando temperatura dos procs: 1 e 1028
+Testando temperatura dos procs: 1 e 1029
+Testando temperatura dos procs: 1 e 1280
+Testando temperatura dos procs: 1 e 1281
+Testando temperatura dos procs: 1 e 1282
+Testando temperatura dos procs: 1 e 1283
+Testando temperatura dos procs: 1 e 1284
+Testando temperatura dos procs: 1 e 1285
+Testando temperatura dos procs: 2 e 3
+Testando temperatura dos procs: 2 e 4
+Testando temperatura dos procs: 2 e 5
+Testando temperatura dos procs: 2 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 2 e 257
+Testando temperatura dos procs: 2 e 258
+Testando temperatura dos procs: 2 e 259
+Testando temperatura dos procs: 2 e 260
+Testando temperatura dos procs: 2 e 261
+Testando temperatura dos procs: 2 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 2 e 513
+Testando temperatura dos procs: 2 e 514
+Testando temperatura dos procs: 2 e 515
+Testando temperatura dos procs: 2 e 516
+Testando temperatura dos procs: 2 e 517
+Testando temperatura dos procs: 2 e 768
+Testando temperatura dos procs: 2 e 769
+Testando temperatura dos procs: 2 e 770
+Testando temperatura dos procs: 2 e 771
+Testando temperatura dos procs: 2 e 772
+Testando temperatura dos procs: 2 e 773
+Testando temperatura dos procs: 2 e 1024
+Testando temperatura dos procs: 2 e 1025
+Testando temperatura dos procs: 2 e 1026
+Testando temperatura dos procs: 2 e 1027
+Testando temperatura dos procs: 2 e 1028
+Testando temperatura dos procs: 2 e 1029
+Testando temperatura dos procs: 2 e 1280
+Testando temperatura dos procs: 2 e 1281
+Testando temperatura dos procs: 2 e 1282
+Testando temperatura dos procs: 2 e 1283
+Testando temperatura dos procs: 2 e 1284
+Testando temperatura dos procs: 2 e 1285
+Testando temperatura dos procs: 3 e 4
+Testando temperatura dos procs: 3 e 5
+Testando temperatura dos procs: 3 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 3 e 257
+Testando temperatura dos procs: 3 e 258
+Testando temperatura dos procs: 3 e 259
+Testando temperatura dos procs: 3 e 260
+Testando temperatura dos procs: 3 e 261
+Testando temperatura dos procs: 3 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 3 e 513
+Testando temperatura dos procs: 3 e 514
+Testando temperatura dos procs: 3 e 515
+Testando temperatura dos procs: 3 e 516
+Testando temperatura dos procs: 3 e 517
+Testando temperatura dos procs: 3 e 768
+Testando temperatura dos procs: 3 e 769
+Testando temperatura dos procs: 3 e 770
+Testando temperatura dos procs: 3 e 771
+Testando temperatura dos procs: 3 e 772
+Testando temperatura dos procs: 3 e 773
+Testando temperatura dos procs: 3 e 1024
+Testando temperatura dos procs: 3 e 1025
+Testando temperatura dos procs: 3 e 1026
+Testando temperatura dos procs: 3 e 1027
+Testando temperatura dos procs: 3 e 1028
+Testando temperatura dos procs: 3 e 1029
+Testando temperatura dos procs: 3 e 1280
+Testando temperatura dos procs: 3 e 1281
+Testando temperatura dos procs: 3 e 1282
+Testando temperatura dos procs: 3 e 1283
+Testando temperatura dos procs: 3 e 1284
+Testando temperatura dos procs: 3 e 1285
+Testando temperatura dos procs: 4 e 5
+Testando temperatura dos procs: 4 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 4 e 257
+Testando temperatura dos procs: 4 e 258
+Testando temperatura dos procs: 4 e 259
+Testando temperatura dos procs: 4 e 260
+Testando temperatura dos procs: 4 e 261
+Testando temperatura dos procs: 4 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 4 e 513
+Testando temperatura dos procs: 4 e 514
+Testando temperatura dos procs: 4 e 515
+Testando temperatura dos procs: 4 e 516
+Testando temperatura dos procs: 4 e 517
+Testando temperatura dos procs: 4 e 768
+Testando temperatura dos procs: 4 e 769
+Testando temperatura dos procs: 4 e 770
+Testando temperatura dos procs: 4 e 771
+Testando temperatura dos procs: 4 e 772
+Testando temperatura dos procs: 4 e 773
+Testando temperatura dos procs: 4 e 1024
+Testando temperatura dos procs: 4 e 1025
+Testando temperatura dos procs: 4 e 1026
+Testando temperatura dos procs: 4 e 1027
+Testando temperatura dos procs: 4 e 1028
+Testando temperatura dos procs: 4 e 1029
+Testando temperatura dos procs: 4 e 1280
+Testando temperatura dos procs: 4 e 1281
+Testando temperatura dos procs: 4 e 1282
+Testando temperatura dos procs: 4 e 1283
+Testando temperatura dos procs: 4 e 1284
+Testando temperatura dos procs: 4 e 1285
+Testando temperatura dos procs: 5 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 5 e 257
+Testando temperatura dos procs: 5 e 258
+Testando temperatura dos procs: 5 e 259
+Testando temperatura dos procs: 5 e 260
+Testando temperatura dos procs: 5 e 261
+Testando temperatura dos procs: 5 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 5 e 513
+Testando temperatura dos procs: 5 e 514
+Testando temperatura dos procs: 5 e 515
+Testando temperatura dos procs: 5 e 516
+Testando temperatura dos procs: 5 e 517
+Testando temperatura dos procs: 5 e 768
+Testando temperatura dos procs: 5 e 769
+Testando temperatura dos procs: 5 e 770
+Testando temperatura dos procs: 5 e 771
+Testando temperatura dos procs: 5 e 772
+Testando temperatura dos procs: 5 e 773
+Testando temperatura dos procs: 5 e 1024
+Testando temperatura dos procs: 5 e 1025
+Testando temperatura dos procs: 5 e 1026
+Testando temperatura dos procs: 5 e 1027
+Testando temperatura dos procs: 5 e 1028
+Testando temperatura dos procs: 5 e 1029
+Testando temperatura dos procs: 5 e 1280
+Testando temperatura dos procs: 5 e 1281
+Testando temperatura dos procs: 5 e 1282
+Testando temperatura dos procs: 5 e 1283
+Testando temperatura dos procs: 5 e 1284
+Testando temperatura dos procs: 5 e 1285
+Testando temperatura dos procs: 256 e 257
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 258
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 259
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 260
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 261
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 512
+Testando temperatura dos procs: 256 e 513
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 514
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 515
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 516
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 517
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 768
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 769
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 770
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 771
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 772
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 773
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1024
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1025
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1026
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1027
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1028
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1029
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1280
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1281
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1282
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1283
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1284
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1285
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 257 e 258
+Testando temperatura dos procs: 257 e 259
+Testando temperatura dos procs: 257 e 260
+Testando temperatura dos procs: 257 e 261
+Testando temperatura dos procs: 257 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 257 e 513
+Testando temperatura dos procs: 257 e 514
+Testando temperatura dos procs: 257 e 515
+Testando temperatura dos procs: 257 e 516
+Testando temperatura dos procs: 257 e 517
+Testando temperatura dos procs: 257 e 768
+Testando temperatura dos procs: 257 e 769
+Testando temperatura dos procs: 257 e 770
+Testando temperatura dos procs: 257 e 771
+Testando temperatura dos procs: 257 e 772
+Testando temperatura dos procs: 257 e 773
+Testando temperatura dos procs: 257 e 1024
+Testando temperatura dos procs: 257 e 1025
+Testando temperatura dos procs: 257 e 1026
+Testando temperatura dos procs: 257 e 1027
+Testando temperatura dos procs: 257 e 1028
+Testando temperatura dos procs: 257 e 1029
+Testando temperatura dos procs: 257 e 1280
+Testando temperatura dos procs: 257 e 1281
+Testando temperatura dos procs: 257 e 1282
+Testando temperatura dos procs: 257 e 1283
+Testando temperatura dos procs: 257 e 1284
+Testando temperatura dos procs: 257 e 1285
+Testando temperatura dos procs: 258 e 259
+Testando temperatura dos procs: 258 e 260
+Testando temperatura dos procs: 258 e 261
+Testando temperatura dos procs: 258 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 258 e 513
+Testando temperatura dos procs: 258 e 514
+Testando temperatura dos procs: 258 e 515
+Testando temperatura dos procs: 258 e 516
+Testando temperatura dos procs: 258 e 517
+Testando temperatura dos procs: 258 e 768
+Testando temperatura dos procs: 258 e 769
+Testando temperatura dos procs: 258 e 770
+Testando temperatura dos procs: 258 e 771
+Testando temperatura dos procs: 258 e 772
+Testando temperatura dos procs: 258 e 773
+Testando temperatura dos procs: 258 e 1024
+Testando temperatura dos procs: 258 e 1025
+Testando temperatura dos procs: 258 e 1026
+Testando temperatura dos procs: 258 e 1027
+Testando temperatura dos procs: 258 e 1028
+Testando temperatura dos procs: 258 e 1029
+Testando temperatura dos procs: 258 e 1280
+Testando temperatura dos procs: 258 e 1281
+Testando temperatura dos procs: 258 e 1282
+Testando temperatura dos procs: 258 e 1283
+Testando temperatura dos procs: 258 e 1284
+Testando temperatura dos procs: 258 e 1285
+Testando temperatura dos procs: 259 e 260
+Testando temperatura dos procs: 259 e 261
+Testando temperatura dos procs: 259 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 259 e 513
+Testando temperatura dos procs: 259 e 514
+Testando temperatura dos procs: 259 e 515
+Testando temperatura dos procs: 259 e 516
+Testando temperatura dos procs: 259 e 517
+Testando temperatura dos procs: 259 e 768
+Testando temperatura dos procs: 259 e 769
+Testando temperatura dos procs: 259 e 770
+Testando temperatura dos procs: 259 e 771
+Testando temperatura dos procs: 259 e 772
+Testando temperatura dos procs: 259 e 773
+Testando temperatura dos procs: 259 e 1024
+Testando temperatura dos procs: 259 e 1025
+Testando temperatura dos procs: 259 e 1026
+Testando temperatura dos procs: 259 e 1027
+Testando temperatura dos procs: 259 e 1028
+Testando temperatura dos procs: 259 e 1029
+Testando temperatura dos procs: 259 e 1280
+Testando temperatura dos procs: 259 e 1281
+Testando temperatura dos procs: 259 e 1282
+Testando temperatura dos procs: 259 e 1283
+Testando temperatura dos procs: 259 e 1284
+Testando temperatura dos procs: 259 e 1285
+Testando temperatura dos procs: 260 e 261
+Testando temperatura dos procs: 260 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 260 e 513
+Testando temperatura dos procs: 260 e 514
+Testando temperatura dos procs: 260 e 515
+Testando temperatura dos procs: 260 e 516
+Testando temperatura dos procs: 260 e 517
+Testando temperatura dos procs: 260 e 768
+Testando temperatura dos procs: 260 e 769
+Testando temperatura dos procs: 260 e 770
+Testando temperatura dos procs: 260 e 771
+Testando temperatura dos procs: 260 e 772
+Testando temperatura dos procs: 260 e 773
+Testando temperatura dos procs: 260 e 1024
+Testando temperatura dos procs: 260 e 1025
+Testando temperatura dos procs: 260 e 1026
+Testando temperatura dos procs: 260 e 1027
+Testando temperatura dos procs: 260 e 1028
+Testando temperatura dos procs: 260 e 1029
+Testando temperatura dos procs: 260 e 1280
+Testando temperatura dos procs: 260 e 1281
+Testando temperatura dos procs: 260 e 1282
+Testando temperatura dos procs: 260 e 1283
+Testando temperatura dos procs: 260 e 1284
+Testando temperatura dos procs: 260 e 1285
+Testando temperatura dos procs: 261 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 261 e 513
+Testando temperatura dos procs: 261 e 514
+Testando temperatura dos procs: 261 e 515
+Testando temperatura dos procs: 261 e 516
+Testando temperatura dos procs: 261 e 517
+Testando temperatura dos procs: 261 e 768
+Testando temperatura dos procs: 261 e 769
+Testando temperatura dos procs: 261 e 770
+Testando temperatura dos procs: 261 e 771
+Testando temperatura dos procs: 261 e 772
+Testando temperatura dos procs: 261 e 773
+Testando temperatura dos procs: 261 e 1024
+Testando temperatura dos procs: 261 e 1025
+Testando temperatura dos procs: 261 e 1026
+Testando temperatura dos procs: 261 e 1027
+Testando temperatura dos procs: 261 e 1028
+Testando temperatura dos procs: 261 e 1029
+Testando temperatura dos procs: 261 e 1280
+Testando temperatura dos procs: 261 e 1281
+Testando temperatura dos procs: 261 e 1282
+Testando temperatura dos procs: 261 e 1283
+Testando temperatura dos procs: 261 e 1284
+Testando temperatura dos procs: 261 e 1285
+Testando temperatura dos procs: 512 e 513
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 514
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 515
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 516
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 517
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 768
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 769
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 770
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 771
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 772
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 773
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1024
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1025
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1026
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1027
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1028
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1029
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1280
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1281
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1282
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1283
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1284
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1285
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 513 e 514
+Testando temperatura dos procs: 513 e 515
+Testando temperatura dos procs: 513 e 516
+Testando temperatura dos procs: 513 e 517
+Testando temperatura dos procs: 513 e 768
+Testando temperatura dos procs: 513 e 769
+Testando temperatura dos procs: 513 e 770
+Testando temperatura dos procs: 513 e 771
+Testando temperatura dos procs: 513 e 772
+Testando temperatura dos procs: 513 e 773
+Testando temperatura dos procs: 513 e 1024
+Testando temperatura dos procs: 513 e 1025
+Testando temperatura dos procs: 513 e 1026
+Testando temperatura dos procs: 513 e 1027
+Testando temperatura dos procs: 513 e 1028
+Testando temperatura dos procs: 513 e 1029
+Testando temperatura dos procs: 513 e 1280
+Testando temperatura dos procs: 513 e 1281
+Testando temperatura dos procs: 513 e 1282
+Testando temperatura dos procs: 513 e 1283
+Testando temperatura dos procs: 513 e 1284
+Testando temperatura dos procs: 513 e 1285
+Testando temperatura dos procs: 514 e 515
+Testando temperatura dos procs: 514 e 516
+Testando temperatura dos procs: 514 e 517
+Testando temperatura dos procs: 514 e 768
+Testando temperatura dos procs: 514 e 769
+Testando temperatura dos procs: 514 e 770
+Testando temperatura dos procs: 514 e 771
+Testando temperatura dos procs: 514 e 772
+Testando temperatura dos procs: 514 e 773
+Testando temperatura dos procs: 514 e 1024
+Testando temperatura dos procs: 514 e 1025
+Testando temperatura dos procs: 514 e 1026
+Testando temperatura dos procs: 514 e 1027
+Testando temperatura dos procs: 514 e 1028
+Testando temperatura dos procs: 514 e 1029
+Testando temperatura dos procs: 514 e 1280
+Testando temperatura dos procs: 514 e 1281
+Testando temperatura dos procs: 514 e 1282
+Testando temperatura dos procs: 514 e 1283
+Testando temperatura dos procs: 514 e 1284
+Testando temperatura dos procs: 514 e 1285
+Testando temperatura dos procs: 515 e 516
+Testando temperatura dos procs: 515 e 517
+Testando temperatura dos procs: 515 e 768
+Testando temperatura dos procs: 515 e 769
+Testando temperatura dos procs: 515 e 770
+Testando temperatura dos procs: 515 e 771
+Testando temperatura dos procs: 515 e 772
+Testando temperatura dos procs: 515 e 773
+Testando temperatura dos procs: 515 e 1024
+Testando temperatura dos procs: 515 e 1025
+Testando temperatura dos procs: 515 e 1026
+Testando temperatura dos procs: 515 e 1027
+Testando temperatura dos procs: 515 e 1028
+Testando temperatura dos procs: 515 e 1029
+Testando temperatura dos procs: 515 e 1280
+Testando temperatura dos procs: 515 e 1281
+Testando temperatura dos procs: 515 e 1282
+Testando temperatura dos procs: 515 e 1283
+Testando temperatura dos procs: 515 e 1284
+Testando temperatura dos procs: 515 e 1285
+Testando temperatura dos procs: 516 e 517
+Testando temperatura dos procs: 516 e 768
+Testando temperatura dos procs: 516 e 769
+Testando temperatura dos procs: 516 e 770
+Testando temperatura dos procs: 516 e 771
+Testando temperatura dos procs: 516 e 772
+Testando temperatura dos procs: 516 e 773
+Testando temperatura dos procs: 516 e 1024
+Testando temperatura dos procs: 516 e 1025
+Testando temperatura dos procs: 516 e 1026
+Testando temperatura dos procs: 516 e 1027
+Testando temperatura dos procs: 516 e 1028
+Testando temperatura dos procs: 516 e 1029
+Testando temperatura dos procs: 516 e 1280
+Testando temperatura dos procs: 516 e 1281
+Testando temperatura dos procs: 516 e 1282
+Testando temperatura dos procs: 516 e 1283
+Testando temperatura dos procs: 516 e 1284
+Testando temperatura dos procs: 516 e 1285
+Testando temperatura dos procs: 517 e 768
+Testando temperatura dos procs: 517 e 769
+Testando temperatura dos procs: 517 e 770
+Testando temperatura dos procs: 517 e 771
+Testando temperatura dos procs: 517 e 772
+Testando temperatura dos procs: 517 e 773
+Testando temperatura dos procs: 517 e 1024
+Testando temperatura dos procs: 517 e 1025
+Testando temperatura dos procs: 517 e 1026
+Testando temperatura dos procs: 517 e 1027
+Testando temperatura dos procs: 517 e 1028
+Testando temperatura dos procs: 517 e 1029
+Testando temperatura dos procs: 517 e 1280
+Testando temperatura dos procs: 517 e 1281
+Testando temperatura dos procs: 517 e 1282
+Testando temperatura dos procs: 517 e 1283
+Testando temperatura dos procs: 517 e 1284
+Testando temperatura dos procs: 517 e 1285
+Testando temperatura dos procs: 768 e 769
+Testando temperatura dos procs: 768 e 770
+Testando temperatura dos procs: 768 e 771
+Testando temperatura dos procs: 768 e 772
+Testando temperatura dos procs: 768 e 773
+Testando temperatura dos procs: 768 e 1024
+Testando temperatura dos procs: 768 e 1025
+Testando temperatura dos procs: 768 e 1026
+Testando temperatura dos procs: 768 e 1027
+Testando temperatura dos procs: 768 e 1028
+Testando temperatura dos procs: 768 e 1029
+Testando temperatura dos procs: 768 e 1280
+Testando temperatura dos procs: 768 e 1281
+Testando temperatura dos procs: 768 e 1282
+Testando temperatura dos procs: 768 e 1283
+Testando temperatura dos procs: 768 e 1284
+Testando temperatura dos procs: 768 e 1285
+Testando temperatura dos procs: 769 e 770
+Testando temperatura dos procs: 769 e 771
+Testando temperatura dos procs: 769 e 772
+Testando temperatura dos procs: 769 e 773
+Testando temperatura dos procs: 769 e 1024
+Testando temperatura dos procs: 769 e 1025
+Testando temperatura dos procs: 769 e 1026
+Testando temperatura dos procs: 769 e 1027
+Testando temperatura dos procs: 769 e 1028
+Testando temperatura dos procs: 769 e 1029
+Testando temperatura dos procs: 769 e 1280
+Testando temperatura dos procs: 769 e 1281
+Testando temperatura dos procs: 769 e 1282
+Testando temperatura dos procs: 769 e 1283
+Testando temperatura dos procs: 769 e 1284
+Testando temperatura dos procs: 769 e 1285
+Testando temperatura dos procs: 770 e 771
+Testando temperatura dos procs: 770 e 772
+Testando temperatura dos procs: 770 e 773
+Testando temperatura dos procs: 770 e 1024
+Testando temperatura dos procs: 770 e 1025
+Testando temperatura dos procs: 770 e 1026
+Testando temperatura dos procs: 770 e 1027
+Testando temperatura dos procs: 770 e 1028
+Testando temperatura dos procs: 770 e 1029
+Testando temperatura dos procs: 770 e 1280
+Testando temperatura dos procs: 770 e 1281
+Testando temperatura dos procs: 770 e 1282
+Testando temperatura dos procs: 770 e 1283
+Testando temperatura dos procs: 770 e 1284
+Testando temperatura dos procs: 770 e 1285
+Testando temperatura dos procs: 771 e 772
+Testando temperatura dos procs: 771 e 773
+Testando temperatura dos procs: 771 e 1024
+Testando temperatura dos procs: 771 e 1025
+Testando temperatura dos procs: 771 e 1026
+Testando temperatura dos procs: 771 e 1027
+Testando temperatura dos procs: 771 e 1028
+Testando temperatura dos procs: 771 e 1029
+Testando temperatura dos procs: 771 e 1280
+Testando temperatura dos procs: 771 e 1281
+Testando temperatura dos procs: 771 e 1282
+Testando temperatura dos procs: 771 e 1283
+Testando temperatura dos procs: 771 e 1284
+Testando temperatura dos procs: 771 e 1285
+Testando temperatura dos procs: 772 e 773
+Testando temperatura dos procs: 772 e 1024
+Testando temperatura dos procs: 772 e 1025
+Testando temperatura dos procs: 772 e 1026
+Testando temperatura dos procs: 772 e 1027
+Testando temperatura dos procs: 772 e 1028
+Testando temperatura dos procs: 772 e 1029
+Testando temperatura dos procs: 772 e 1280
+Testando temperatura dos procs: 772 e 1281
+Testando temperatura dos procs: 772 e 1282
+Testando temperatura dos procs: 772 e 1283
+Testando temperatura dos procs: 772 e 1284
+Testando temperatura dos procs: 772 e 1285
+Testando temperatura dos procs: 773 e 1024
+Testando temperatura dos procs: 773 e 1025
+Testando temperatura dos procs: 773 e 1026
+Testando temperatura dos procs: 773 e 1027
+Testando temperatura dos procs: 773 e 1028
+Testando temperatura dos procs: 773 e 1029
+Testando temperatura dos procs: 773 e 1280
+Testando temperatura dos procs: 773 e 1281
+Testando temperatura dos procs: 773 e 1282
+Testando temperatura dos procs: 773 e 1283
+Testando temperatura dos procs: 773 e 1284
+Testando temperatura dos procs: 773 e 1285
+Testando temperatura dos procs: 1024 e 1025
+Testando temperatura dos procs: 1024 e 1026
+Testando temperatura dos procs: 1024 e 1027
+Testando temperatura dos procs: 1024 e 1028
+Testando temperatura dos procs: 1024 e 1029
+Testando temperatura dos procs: 1024 e 1280
+Testando temperatura dos procs: 1024 e 1281
+Testando temperatura dos procs: 1024 e 1282
+Testando temperatura dos procs: 1024 e 1283
+Testando temperatura dos procs: 1024 e 1284
+Testando temperatura dos procs: 1024 e 1285
+Testando temperatura dos procs: 1025 e 1026
+Testando temperatura dos procs: 1025 e 1027
+Testando temperatura dos procs: 1025 e 1028
+Testando temperatura dos procs: 1025 e 1029
+Testando temperatura dos procs: 1025 e 1280
+Testando temperatura dos procs: 1025 e 1281
+Testando temperatura dos procs: 1025 e 1282
+Testando temperatura dos procs: 1025 e 1283
+Testando temperatura dos procs: 1025 e 1284
+Testando temperatura dos procs: 1025 e 1285
+Testando temperatura dos procs: 1026 e 1027
+Testando temperatura dos procs: 1026 e 1028
+Testando temperatura dos procs: 1026 e 1029
+Testando temperatura dos procs: 1026 e 1280
+Testando temperatura dos procs: 1026 e 1281
+Testando temperatura dos procs: 1026 e 1282
+Testando temperatura dos procs: 1026 e 1283
+Testando temperatura dos procs: 1026 e 1284
+Testando temperatura dos procs: 1026 e 1285
+Testando temperatura dos procs: 1027 e 1028
+Testando temperatura dos procs: 1027 e 1029
+Testando temperatura dos procs: 1027 e 1280
+Testando temperatura dos procs: 1027 e 1281
+Testando temperatura dos procs: 1027 e 1282
+Testando temperatura dos procs: 1027 e 1283
+Testando temperatura dos procs: 1027 e 1284
+Testando temperatura dos procs: 1027 e 1285
+Testando temperatura dos procs: 1028 e 1029
+Testando temperatura dos procs: 1028 e 1280
+Testando temperatura dos procs: 1028 e 1281
+Testando temperatura dos procs: 1028 e 1282
+Testando temperatura dos procs: 1028 e 1283
+Testando temperatura dos procs: 1028 e 1284
+Testando temperatura dos procs: 1028 e 1285
+Testando temperatura dos procs: 1029 e 1280
+Testando temperatura dos procs: 1029 e 1281
+Testando temperatura dos procs: 1029 e 1282
+Testando temperatura dos procs: 1029 e 1283
+Testando temperatura dos procs: 1029 e 1284
+Testando temperatura dos procs: 1029 e 1285
+Testando temperatura dos procs: 1280 e 1281
+Testando temperatura dos procs: 1280 e 1282
+Testando temperatura dos procs: 1280 e 1283
+Testando temperatura dos procs: 1280 e 1284
+Testando temperatura dos procs: 1280 e 1285
+Testando temperatura dos procs: 1281 e 1282
+Testando temperatura dos procs: 1281 e 1283
+Testando temperatura dos procs: 1281 e 1284
+Testando temperatura dos procs: 1281 e 1285
+Testando temperatura dos procs: 1282 e 1283
+Testando temperatura dos procs: 1282 e 1284
+Testando temperatura dos procs: 1282 e 1285
+Testando temperatura dos procs: 1283 e 1284
+Testando temperatura dos procs: 1283 e 1285
+Testando temperatura dos procs: 1284 e 1285
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 10445434
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 10631007
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 1167023
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 1480193
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 476352
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 9
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 9
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 1
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 2
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master)
+1302592
+temperatura : 1 450197228
+temperatura : 2 450000000
+temperatura : 3 450000000
+temperatura : 4 450000000
+temperatura : 5 450000000
+temperatura : 6 466407434
+temperatura : 7 451957036
+temperatura : 8 450000000
+temperatura : 9 450000000
+temperatura : 10 450000000
+temperatura : 11 450000000
+temperatura : 12 487007538
+temperatura : 13 452758884
+temperatura : 14 450000000
+temperatura : 15 450000000
+temperatura : 16 450000000
+temperatura : 17 450000000
+temperatura : 18 454462452
+temperatura : 19 450473427
+temperatura : 20 450000000
+temperatura : 21 450000000
+temperatura : 22 450000000
+temperatura : 23 450000000
+temperatura : 24 453272639
+temperatura : 25 450403773
+temperatura : 26 450000000
+temperatura : 27 450000000
+temperatura : 28 450000000
+temperatura : 29 450000000
+temperatura : 30 450340854
+temperatura : 31 450043828
+temperatura : 32 450000000
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master)
+1461016
+TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : 
+Testando temperatura dos procs: 0 e 1
+Testando temperatura dos procs: 0 e 2
+Testando temperatura dos procs: 0 e 3
+Testando temperatura dos procs: 0 e 4
+Testando temperatura dos procs: 0 e 5
+Testando temperatura dos procs: 0 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 0 e 257
+Testando temperatura dos procs: 0 e 258
+Testando temperatura dos procs: 0 e 259
+Testando temperatura dos procs: 0 e 260
+Testando temperatura dos procs: 0 e 261
+Testando temperatura dos procs: 0 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 0 e 513
+Testando temperatura dos procs: 0 e 514
+Testando temperatura dos procs: 0 e 515
+Testando temperatura dos procs: 0 e 516
+Testando temperatura dos procs: 0 e 517
+Testando temperatura dos procs: 0 e 768
+Testando temperatura dos procs: 0 e 769
+Testando temperatura dos procs: 0 e 770
+Testando temperatura dos procs: 0 e 771
+Testando temperatura dos procs: 0 e 772
+Testando temperatura dos procs: 0 e 773
+Testando temperatura dos procs: 0 e 1024
+Testando temperatura dos procs: 0 e 1025
+Testando temperatura dos procs: 0 e 1026
+Testando temperatura dos procs: 0 e 1027
+Testando temperatura dos procs: 0 e 1028
+Testando temperatura dos procs: 0 e 1029
+Testando temperatura dos procs: 0 e 1280
+Testando temperatura dos procs: 0 e 1281
+Testando temperatura dos procs: 0 e 1282
+Testando temperatura dos procs: 0 e 1283
+Testando temperatura dos procs: 0 e 1284
+Testando temperatura dos procs: 0 e 1285
+Testando temperatura dos procs: 1 e 2
+Testando temperatura dos procs: 1 e 3
+Testando temperatura dos procs: 1 e 4
+Testando temperatura dos procs: 1 e 5
+Testando temperatura dos procs: 1 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 1 e 257
+Testando temperatura dos procs: 1 e 258
+Testando temperatura dos procs: 1 e 259
+Testando temperatura dos procs: 1 e 260
+Testando temperatura dos procs: 1 e 261
+Testando temperatura dos procs: 1 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 1 e 513
+Testando temperatura dos procs: 1 e 514
+Testando temperatura dos procs: 1 e 515
+Testando temperatura dos procs: 1 e 516
+Testando temperatura dos procs: 1 e 517
+Testando temperatura dos procs: 1 e 768
+Testando temperatura dos procs: 1 e 769
+Testando temperatura dos procs: 1 e 770
+Testando temperatura dos procs: 1 e 771
+Testando temperatura dos procs: 1 e 772
+Testando temperatura dos procs: 1 e 773
+Testando temperatura dos procs: 1 e 1024
+Testando temperatura dos procs: 1 e 1025
+Testando temperatura dos procs: 1 e 1026
+Testando temperatura dos procs: 1 e 1027
+Testando temperatura dos procs: 1 e 1028
+Testando temperatura dos procs: 1 e 1029
+Testando temperatura dos procs: 1 e 1280
+Testando temperatura dos procs: 1 e 1281
+Testando temperatura dos procs: 1 e 1282
+Testando temperatura dos procs: 1 e 1283
+Testando temperatura dos procs: 1 e 1284
+Testando temperatura dos procs: 1 e 1285
+Testando temperatura dos procs: 2 e 3
+Testando temperatura dos procs: 2 e 4
+Testando temperatura dos procs: 2 e 5
+Testando temperatura dos procs: 2 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 2 e 257
+Testando temperatura dos procs: 2 e 258
+Testando temperatura dos procs: 2 e 259
+Testando temperatura dos procs: 2 e 260
+Testando temperatura dos procs: 2 e 261
+Testando temperatura dos procs: 2 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 2 e 513
+Testando temperatura dos procs: 2 e 514
+Testando temperatura dos procs: 2 e 515
+Testando temperatura dos procs: 2 e 516
+Testando temperatura dos procs: 2 e 517
+Testando temperatura dos procs: 2 e 768
+Testando temperatura dos procs: 2 e 769
+Testando temperatura dos procs: 2 e 770
+Testando temperatura dos procs: 2 e 771
+Testando temperatura dos procs: 2 e 772
+Testando temperatura dos procs: 2 e 773
+Testando temperatura dos procs: 2 e 1024
+Testando temperatura dos procs: 2 e 1025
+Testando temperatura dos procs: 2 e 1026
+Testando temperatura dos procs: 2 e 1027
+Testando temperatura dos procs: 2 e 1028
+Testando temperatura dos procs: 2 e 1029
+Testando temperatura dos procs: 2 e 1280
+Testando temperatura dos procs: 2 e 1281
+Testando temperatura dos procs: 2 e 1282
+Testando temperatura dos procs: 2 e 1283
+Testando temperatura dos procs: 2 e 1284
+Testando temperatura dos procs: 2 e 1285
+Testando temperatura dos procs: 3 e 4
+Testando temperatura dos procs: 3 e 5
+Testando temperatura dos procs: 3 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 3 e 257
+Testando temperatura dos procs: 3 e 258
+Testando temperatura dos procs: 3 e 259
+Testando temperatura dos procs: 3 e 260
+Testando temperatura dos procs: 3 e 261
+Testando temperatura dos procs: 3 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 3 e 513
+Testando temperatura dos procs: 3 e 514
+Testando temperatura dos procs: 3 e 515
+Testando temperatura dos procs: 3 e 516
+Testando temperatura dos procs: 3 e 517
+Testando temperatura dos procs: 3 e 768
+Testando temperatura dos procs: 3 e 769
+Testando temperatura dos procs: 3 e 770
+Testando temperatura dos procs: 3 e 771
+Testando temperatura dos procs: 3 e 772
+Testando temperatura dos procs: 3 e 773
+Testando temperatura dos procs: 3 e 1024
+Testando temperatura dos procs: 3 e 1025
+Testando temperatura dos procs: 3 e 1026
+Testando temperatura dos procs: 3 e 1027
+Testando temperatura dos procs: 3 e 1028
+Testando temperatura dos procs: 3 e 1029
+Testando temperatura dos procs: 3 e 1280
+Testando temperatura dos procs: 3 e 1281
+Testando temperatura dos procs: 3 e 1282
+Testando temperatura dos procs: 3 e 1283
+Testando temperatura dos procs: 3 e 1284
+Testando temperatura dos procs: 3 e 1285
+Testando temperatura dos procs: 4 e 5
+Testando temperatura dos procs: 4 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 4 e 257
+Testando temperatura dos procs: 4 e 258
+Testando temperatura dos procs: 4 e 259
+Testando temperatura dos procs: 4 e 260
+Testando temperatura dos procs: 4 e 261
+Testando temperatura dos procs: 4 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 4 e 513
+Testando temperatura dos procs: 4 e 514
+Testando temperatura dos procs: 4 e 515
+Testando temperatura dos procs: 4 e 516
+Testando temperatura dos procs: 4 e 517
+Testando temperatura dos procs: 4 e 768
+Testando temperatura dos procs: 4 e 769
+Testando temperatura dos procs: 4 e 770
+Testando temperatura dos procs: 4 e 771
+Testando temperatura dos procs: 4 e 772
+Testando temperatura dos procs: 4 e 773
+Testando temperatura dos procs: 4 e 1024
+Testando temperatura dos procs: 4 e 1025
+Testando temperatura dos procs: 4 e 1026
+Testando temperatura dos procs: 4 e 1027
+Testando temperatura dos procs: 4 e 1028
+Testando temperatura dos procs: 4 e 1029
+Testando temperatura dos procs: 4 e 1280
+Testando temperatura dos procs: 4 e 1281
+Testando temperatura dos procs: 4 e 1282
+Testando temperatura dos procs: 4 e 1283
+Testando temperatura dos procs: 4 e 1284
+Testando temperatura dos procs: 4 e 1285
+Testando temperatura dos procs: 5 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 5 e 257
+Testando temperatura dos procs: 5 e 258
+Testando temperatura dos procs: 5 e 259
+Testando temperatura dos procs: 5 e 260
+Testando temperatura dos procs: 5 e 261
+Testando temperatura dos procs: 5 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 5 e 513
+Testando temperatura dos procs: 5 e 514
+Testando temperatura dos procs: 5 e 515
+Testando temperatura dos procs: 5 e 516
+Testando temperatura dos procs: 5 e 517
+Testando temperatura dos procs: 5 e 768
+Testando temperatura dos procs: 5 e 769
+Testando temperatura dos procs: 5 e 770
+Testando temperatura dos procs: 5 e 771
+Testando temperatura dos procs: 5 e 772
+Testando temperatura dos procs: 5 e 773
+Testando temperatura dos procs: 5 e 1024
+Testando temperatura dos procs: 5 e 1025
+Testando temperatura dos procs: 5 e 1026
+Testando temperatura dos procs: 5 e 1027
+Testando temperatura dos procs: 5 e 1028
+Testando temperatura dos procs: 5 e 1029
+Testando temperatura dos procs: 5 e 1280
+Testando temperatura dos procs: 5 e 1281
+Testando temperatura dos procs: 5 e 1282
+Testando temperatura dos procs: 5 e 1283
+Testando temperatura dos procs: 5 e 1284
+Testando temperatura dos procs: 5 e 1285
+Testando temperatura dos procs: 256 e 257
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 258
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 259
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 260
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 261
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 256 e 513
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 514
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 515
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 516
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 517
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 768
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 769
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 770
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 771
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 772
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 773
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1024
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1025
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1026
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1027
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1028
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1029
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1280
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1281
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1282
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1283
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1284
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1285
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 257 e 258
+Testando temperatura dos procs: 257 e 259
+Testando temperatura dos procs: 257 e 260
+Testando temperatura dos procs: 257 e 261
+Testando temperatura dos procs: 257 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 257 e 513
+Testando temperatura dos procs: 257 e 514
+Testando temperatura dos procs: 257 e 515
+Testando temperatura dos procs: 257 e 516
+Testando temperatura dos procs: 257 e 517
+Testando temperatura dos procs: 257 e 768
+Testando temperatura dos procs: 257 e 769
+Testando temperatura dos procs: 257 e 770
+Testando temperatura dos procs: 257 e 771
+Testando temperatura dos procs: 257 e 772
+Testando temperatura dos procs: 257 e 773
+Testando temperatura dos procs: 257 e 1024
+Testando temperatura dos procs: 257 e 1025
+Testando temperatura dos procs: 257 e 1026
+Testando temperatura dos procs: 257 e 1027
+Testando temperatura dos procs: 257 e 1028
+Testando temperatura dos procs: 257 e 1029
+Testando temperatura dos procs: 257 e 1280
+Testando temperatura dos procs: 257 e 1281
+Testando temperatura dos procs: 257 e 1282
+Testando temperatura dos procs: 257 e 1283
+Testando temperatura dos procs: 257 e 1284
+Testando temperatura dos procs: 257 e 1285
+Testando temperatura dos procs: 258 e 259
+Testando temperatura dos procs: 258 e 260
+Testando temperatura dos procs: 258 e 261
+Testando temperatura dos procs: 258 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 258 e 513
+Testando temperatura dos procs: 258 e 514
+Testando temperatura dos procs: 258 e 515
+Testando temperatura dos procs: 258 e 516
+Testando temperatura dos procs: 258 e 517
+Testando temperatura dos procs: 258 e 768
+Testando temperatura dos procs: 258 e 769
+Testando temperatura dos procs: 258 e 770
+Testando temperatura dos procs: 258 e 771
+Testando temperatura dos procs: 258 e 772
+Testando temperatura dos procs: 258 e 773
+Testando temperatura dos procs: 258 e 1024
+Testando temperatura dos procs: 258 e 1025
+Testando temperatura dos procs: 258 e 1026
+Testando temperatura dos procs: 258 e 1027
+Testando temperatura dos procs: 258 e 1028
+Testando temperatura dos procs: 258 e 1029
+Testando temperatura dos procs: 258 e 1280
+Testando temperatura dos procs: 258 e 1281
+Testando temperatura dos procs: 258 e 1282
+Testando temperatura dos procs: 258 e 1283
+Testando temperatura dos procs: 258 e 1284
+Testando temperatura dos procs: 258 e 1285
+Testando temperatura dos procs: 259 e 260
+Testando temperatura dos procs: 259 e 261
+Testando temperatura dos procs: 259 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 259 e 513
+Testando temperatura dos procs: 259 e 514
+Testando temperatura dos procs: 259 e 515
+Testando temperatura dos procs: 259 e 516
+Testando temperatura dos procs: 259 e 517
+Testando temperatura dos procs: 259 e 768
+Testando temperatura dos procs: 259 e 769
+Testando temperatura dos procs: 259 e 770
+Testando temperatura dos procs: 259 e 771
+Testando temperatura dos procs: 259 e 772
+Testando temperatura dos procs: 259 e 773
+Testando temperatura dos procs: 259 e 1024
+Testando temperatura dos procs: 259 e 1025
+Testando temperatura dos procs: 259 e 1026
+Testando temperatura dos procs: 259 e 1027
+Testando temperatura dos procs: 259 e 1028
+Testando temperatura dos procs: 259 e 1029
+Testando temperatura dos procs: 259 e 1280
+Testando temperatura dos procs: 259 e 1281
+Testando temperatura dos procs: 259 e 1282
+Testando temperatura dos procs: 259 e 1283
+Testando temperatura dos procs: 259 e 1284
+Testando temperatura dos procs: 259 e 1285
+Testando temperatura dos procs: 260 e 261
+Testando temperatura dos procs: 260 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 260 e 513
+Testando temperatura dos procs: 260 e 514
+Testando temperatura dos procs: 260 e 515
+Testando temperatura dos procs: 260 e 516
+Testando temperatura dos procs: 260 e 517
+Testando temperatura dos procs: 260 e 768
+Testando temperatura dos procs: 260 e 769
+Testando temperatura dos procs: 260 e 770
+Testando temperatura dos procs: 260 e 771
+Testando temperatura dos procs: 260 e 772
+Testando temperatura dos procs: 260 e 773
+Testando temperatura dos procs: 260 e 1024
+Testando temperatura dos procs: 260 e 1025
+Testando temperatura dos procs: 260 e 1026
+Testando temperatura dos procs: 260 e 1027
+Testando temperatura dos procs: 260 e 1028
+Testando temperatura dos procs: 260 e 1029
+Testando temperatura dos procs: 260 e 1280
+Testando temperatura dos procs: 260 e 1281
+Testando temperatura dos procs: 260 e 1282
+Testando temperatura dos procs: 260 e 1283
+Testando temperatura dos procs: 260 e 1284
+Testando temperatura dos procs: 260 e 1285
+Testando temperatura dos procs: 261 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 261 e 513
+Testando temperatura dos procs: 261 e 514
+Testando temperatura dos procs: 261 e 515
+Testando temperatura dos procs: 261 e 516
+Testando temperatura dos procs: 261 e 517
+Testando temperatura dos procs: 261 e 768
+Testando temperatura dos procs: 261 e 769
+Testando temperatura dos procs: 261 e 770
+Testando temperatura dos procs: 261 e 771
+Testando temperatura dos procs: 261 e 772
+Testando temperatura dos procs: 261 e 773
+Testando temperatura dos procs: 261 e 1024
+Testando temperatura dos procs: 261 e 1025
+Testando temperatura dos procs: 261 e 1026
+Testando temperatura dos procs: 261 e 1027
+Testando temperatura dos procs: 261 e 1028
+Testando temperatura dos procs: 261 e 1029
+Testando temperatura dos procs: 261 e 1280
+Testando temperatura dos procs: 261 e 1281
+Testando temperatura dos procs: 261 e 1282
+Testando temperatura dos procs: 261 e 1283
+Testando temperatura dos procs: 261 e 1284
+Testando temperatura dos procs: 261 e 1285
+Testando temperatura dos procs: 512 e 513
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 514
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 515
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 516
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 517
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 768
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 769
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 770
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 771
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 772
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 773
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1024
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1025
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1026
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1027
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1028
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1029
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1280
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1281
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1282
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1283
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1284
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1285
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 513 e 514
+Testando temperatura dos procs: 513 e 515
+Testando temperatura dos procs: 513 e 516
+Testando temperatura dos procs: 513 e 517
+Testando temperatura dos procs: 513 e 768
+Testando temperatura dos procs: 513 e 769
+Testando temperatura dos procs: 513 e 770
+Testando temperatura dos procs: 513 e 771
+Testando temperatura dos procs: 513 e 772
+Testando temperatura dos procs: 513 e 773
+Testando temperatura dos procs: 513 e 1024
+Testando temperatura dos procs: 513 e 1025
+Testando temperatura dos procs: 513 e 1026
+Testando temperatura dos procs: 513 e 1027
+Testando temperatura dos procs: 513 e 1028
+Testando temperatura dos procs: 513 e 1029
+Testando temperatura dos procs: 513 e 1280
+Testando temperatura dos procs: 513 e 1281
+Testando temperatura dos procs: 513 e 1282
+Testando temperatura dos procs: 513 e 1283
+Testando temperatura dos procs: 513 e 1284
+Testando temperatura dos procs: 513 e 1285
+Testando temperatura dos procs: 514 e 515
+Testando temperatura dos procs: 514 e 516
+Testando temperatura dos procs: 514 e 517
+Testando temperatura dos procs: 514 e 768
+Testando temperatura dos procs: 514 e 769
+Testando temperatura dos procs: 514 e 770
+Testando temperatura dos procs: 514 e 771
+Testando temperatura dos procs: 514 e 772
+Testando temperatura dos procs: 514 e 773
+Testando temperatura dos procs: 514 e 1024
+Testando temperatura dos procs: 514 e 1025
+Testando temperatura dos procs: 514 e 1026
+Testando temperatura dos procs: 514 e 1027
+Testando temperatura dos procs: 514 e 1028
+Testando temperatura dos procs: 514 e 1029
+Testando temperatura dos procs: 514 e 1280
+Testando temperatura dos procs: 514 e 1281
+Testando temperatura dos procs: 514 e 1282
+Testando temperatura dos procs: 514 e 1283
+Testando temperatura dos procs: 514 e 1284
+Testando temperatura dos procs: 514 e 1285
+Testando temperatura dos procs: 515 e 516
+Testando temperatura dos procs: 515 e 517
+Testando temperatura dos procs: 515 e 768
+Testando temperatura dos procs: 515 e 769
+Testando temperatura dos procs: 515 e 770
+Testando temperatura dos procs: 515 e 771
+Testando temperatura dos procs: 515 e 772
+Testando temperatura dos procs: 515 e 773
+Testando temperatura dos procs: 515 e 1024
+Testando temperatura dos procs: 515 e 1025
+Testando temperatura dos procs: 515 e 1026
+Testando temperatura dos procs: 515 e 1027
+Testando temperatura dos procs: 515 e 1028
+Testando temperatura dos procs: 515 e 1029
+Testando temperatura dos procs: 515 e 1280
+Testando temperatura dos procs: 515 e 1281
+Testando temperatura dos procs: 515 e 1282
+Testando temperatura dos procs: 515 e 1283
+Testando temperatura dos procs: 515 e 1284
+Testando temperatura dos procs: 515 e 1285
+Testando temperatura dos procs: 516 e 517
+Testando temperatura dos procs: 516 e 768
+Testando temperatura dos procs: 516 e 769
+Testando temperatura dos procs: 516 e 770
+Testando temperatura dos procs: 516 e 771
+Testando temperatura dos procs: 516 e 772
+Testando temperatura dos procs: 516 e 773
+Testando temperatura dos procs: 516 e 1024
+Testando temperatura dos procs: 516 e 1025
+Testando temperatura dos procs: 516 e 1026
+Testando temperatura dos procs: 516 e 1027
+Testando temperatura dos procs: 516 e 1028
+Testando temperatura dos procs: 516 e 1029
+Testando temperatura dos procs: 516 e 1280
+Testando temperatura dos procs: 516 e 1281
+Testando temperatura dos procs: 516 e 1282
+Testando temperatura dos procs: 516 e 1283
+Testando temperatura dos procs: 516 e 1284
+Testando temperatura dos procs: 516 e 1285
+Testando temperatura dos procs: 517 e 768
+Testando temperatura dos procs: 517 e 769
+Testando temperatura dos procs: 517 e 770
+Testando temperatura dos procs: 517 e 771
+Testando temperatura dos procs: 517 e 772
+Testando temperatura dos procs: 517 e 773
+Testando temperatura dos procs: 517 e 1024
+Testando temperatura dos procs: 517 e 1025
+Testando temperatura dos procs: 517 e 1026
+Testando temperatura dos procs: 517 e 1027
+Testando temperatura dos procs: 517 e 1028
+Testando temperatura dos procs: 517 e 1029
+Testando temperatura dos procs: 517 e 1280
+Testando temperatura dos procs: 517 e 1281
+Testando temperatura dos procs: 517 e 1282
+Testando temperatura dos procs: 517 e 1283
+Testando temperatura dos procs: 517 e 1284
+Testando temperatura dos procs: 517 e 1285
+Testando temperatura dos procs: 768 e 769
+Testando temperatura dos procs: 768 e 770
+Testando temperatura dos procs: 768 e 771
+Testando temperatura dos procs: 768 e 772
+Testando temperatura dos procs: 768 e 773
+Testando temperatura dos procs: 768 e 1024
+Testando temperatura dos procs: 768 e 1025
+Testando temperatura dos procs: 768 e 1026
+Testando temperatura dos procs: 768 e 1027
+Testando temperatura dos procs: 768 e 1028
+Testando temperatura dos procs: 768 e 1029
+Testando temperatura dos procs: 768 e 1280
+Testando temperatura dos procs: 768 e 1281
+Testando temperatura dos procs: 768 e 1282
+Testando temperatura dos procs: 768 e 1283
+Testando temperatura dos procs: 768 e 1284
+Testando temperatura dos procs: 768 e 1285
+Testando temperatura dos procs: 769 e 770
+Testando temperatura dos procs: 769 e 771
+Testando temperatura dos procs: 769 e 772
+Testando temperatura dos procs: 769 e 773
+Testando temperatura dos procs: 769 e 1024
+Testando temperatura dos procs: 769 e 1025
+Testando temperatura dos procs: 769 e 1026
+Testando temperatura dos procs: 769 e 1027
+Testando temperatura dos procs: 769 e 1028
+Testando temperatura dos procs: 769 e 1029
+Testando temperatura dos procs: 769 e 1280
+Testando temperatura dos procs: 769 e 1281
+Testando temperatura dos procs: 769 e 1282
+Testando temperatura dos procs: 769 e 1283
+Testando temperatura dos procs: 769 e 1284
+Testando temperatura dos procs: 769 e 1285
+Testando temperatura dos procs: 770 e 771
+Testando temperatura dos procs: 770 e 772
+Testando temperatura dos procs: 770 e 773
+Testando temperatura dos procs: 770 e 1024
+Testando temperatura dos procs: 770 e 1025
+Testando temperatura dos procs: 770 e 1026
+Testando temperatura dos procs: 770 e 1027
+Testando temperatura dos procs: 770 e 1028
+Testando temperatura dos procs: 770 e 1029
+Testando temperatura dos procs: 770 e 1280
+Testando temperatura dos procs: 770 e 1281
+Testando temperatura dos procs: 770 e 1282
+Testando temperatura dos procs: 770 e 1283
+Testando temperatura dos procs: 770 e 1284
+Testando temperatura dos procs: 770 e 1285
+Testando temperatura dos procs: 771 e 772
+Testando temperatura dos procs: 771 e 773
+Testando temperatura dos procs: 771 e 1024
+Testando temperatura dos procs: 771 e 1025
+Testando temperatura dos procs: 771 e 1026
+Testando temperatura dos procs: 771 e 1027
+Testando temperatura dos procs: 771 e 1028
+Testando temperatura dos procs: 771 e 1029
+Testando temperatura dos procs: 771 e 1280
+Testando temperatura dos procs: 771 e 1281
+Testando temperatura dos procs: 771 e 1282
+Testando temperatura dos procs: 771 e 1283
+Testando temperatura dos procs: 771 e 1284
+Testando temperatura dos procs: 771 e 1285
+Testando temperatura dos procs: 772 e 773
+Testando temperatura dos procs: 772 e 1024
+Testando temperatura dos procs: 772 e 1025
+Testando temperatura dos procs: 772 e 1026
+Testando temperatura dos procs: 772 e 1027
+Testando temperatura dos procs: 772 e 1028
+Testando temperatura dos procs: 772 e 1029
+Testando temperatura dos procs: 772 e 1280
+Testando temperatura dos procs: 772 e 1281
+Testando temperatura dos procs: 772 e 1282
+Testando temperatura dos procs: 772 e 1283
+Testando temperatura dos procs: 772 e 1284
+Testando temperatura dos procs: 772 e 1285
+Testando temperatura dos procs: 773 e 1024
+Testando temperatura dos procs: 773 e 1025
+Testando temperatura dos procs: 773 e 1026
+Testando temperatura dos procs: 773 e 1027
+Testando temperatura dos procs: 773 e 1028
+Testando temperatura dos procs: 773 e 1029
+Testando temperatura dos procs: 773 e 1280
+Testando temperatura dos procs: 773 e 1281
+Testando temperatura dos procs: 773 e 1282
+Testando temperatura dos procs: 773 e 1283
+Testando temperatura dos procs: 773 e 1284
+Testando temperatura dos procs: 773 e 1285
+Testando temperatura dos procs: 1024 e 1025
+Testando temperatura dos procs: 1024 e 1026
+Testando temperatura dos procs: 1024 e 1027
+Testando temperatura dos procs: 1024 e 1028
+Testando temperatura dos procs: 1024 e 1029
+Testando temperatura dos procs: 1024 e 1280
+Testando temperatura dos procs: 1024 e 1281
+Testando temperatura dos procs: 1024 e 1282
+Testando temperatura dos procs: 1024 e 1283
+Testando temperatura dos procs: 1024 e 1284
+Testando temperatura dos procs: 1024 e 1285
+Testando temperatura dos procs: 1025 e 1026
+Testando temperatura dos procs: 1025 e 1027
+Testando temperatura dos procs: 1025 e 1028
+Testando temperatura dos procs: 1025 e 1029
+Testando temperatura dos procs: 1025 e 1280
+Testando temperatura dos procs: 1025 e 1281
+Testando temperatura dos procs: 1025 e 1282
+Testando temperatura dos procs: 1025 e 1283
+Testando temperatura dos procs: 1025 e 1284
+Testando temperatura dos procs: 1025 e 1285
+Testando temperatura dos procs: 1026 e 1027
+Testando temperatura dos procs: 1026 e 1028
+Testando temperatura dos procs: 1026 e 1029
+Testando temperatura dos procs: 1026 e 1280
+Testando temperatura dos procs: 1026 e 1281
+Testando temperatura dos procs: 1026 e 1282
+Testando temperatura dos procs: 1026 e 1283
+Testando temperatura dos procs: 1026 e 1284
+Testando temperatura dos procs: 1026 e 1285
+Testando temperatura dos procs: 1027 e 1028
+Testando temperatura dos procs: 1027 e 1029
+Testando temperatura dos procs: 1027 e 1280
+Testando temperatura dos procs: 1027 e 1281
+Testando temperatura dos procs: 1027 e 1282
+Testando temperatura dos procs: 1027 e 1283
+Testando temperatura dos procs: 1027 e 1284
+Testando temperatura dos procs: 1027 e 1285
+Testando temperatura dos procs: 1028 e 1029
+Testando temperatura dos procs: 1028 e 1280
+Testando temperatura dos procs: 1028 e 1281
+Testando temperatura dos procs: 1028 e 1282
+Testando temperatura dos procs: 1028 e 1283
+Testando temperatura dos procs: 1028 e 1284
+Testando temperatura dos procs: 1028 e 1285
+Testando temperatura dos procs: 1029 e 1280
+Testando temperatura dos procs: 1029 e 1281
+Testando temperatura dos procs: 1029 e 1282
+Testando temperatura dos procs: 1029 e 1283
+Testando temperatura dos procs: 1029 e 1284
+Testando temperatura dos procs: 1029 e 1285
+Testando temperatura dos procs: 1280 e 1281
+Testando temperatura dos procs: 1280 e 1282
+Testando temperatura dos procs: 1280 e 1283
+Testando temperatura dos procs: 1280 e 1284
+Testando temperatura dos procs: 1280 e 1285
+Testando temperatura dos procs: 1281 e 1282
+Testando temperatura dos procs: 1281 e 1283
+Testando temperatura dos procs: 1281 e 1284
+Testando temperatura dos procs: 1281 e 1285
+Testando temperatura dos procs: 1282 e 1283
+Testando temperatura dos procs: 1282 e 1284
+Testando temperatura dos procs: 1282 e 1285
+Testando temperatura dos procs: 1283 e 1284
+Testando temperatura dos procs: 1283 e 1285
+Testando temperatura dos procs: 1284 e 1285
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 11754835
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 10
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master)
+1904525
+temperatura : 1 450394084
+temperatura : 2 450000000
+temperatura : 3 450000000
+temperatura : 4 450000000
+temperatura : 5 450000000
+temperatura : 6 464364705
+temperatura : 7 452796427
+temperatura : 8 450000000
+temperatura : 9 450000000
+temperatura : 10 450000000
+temperatura : 11 450000000
+temperatura : 12 478188667
+temperatura : 13 454534511
+temperatura : 14 450000000
+temperatura : 15 450000000
+temperatura : 16 450000000
+temperatura : 17 450000000
+temperatura : 18 458006334
+temperatura : 19 451033804
+temperatura : 20 450000000
+temperatura : 21 450000000
+temperatura : 22 450000000
+temperatura : 23 450000000
+temperatura : 24 456853538
+temperatura : 25 450697361
+temperatura : 26 450000000
+temperatura : 27 450000000
+temperatura : 28 450000000
+temperatura : 29 450000000
+temperatura : 30 450562940
+temperatura : 31 450095862
+temperatura : 32 450000000
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master)
+2062949
+TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : 
+Testando temperatura dos procs: 0 e 1
+Testando temperatura dos procs: 0 e 2
+Testando temperatura dos procs: 0 e 3
+Testando temperatura dos procs: 0 e 4
+Testando temperatura dos procs: 0 e 5
+Testando temperatura dos procs: 0 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 0 e 257
+Testando temperatura dos procs: 0 e 258
+Testando temperatura dos procs: 0 e 259
+Testando temperatura dos procs: 0 e 260
+Testando temperatura dos procs: 0 e 261
+Testando temperatura dos procs: 0 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 0 e 513
+Testando temperatura dos procs: 0 e 514
+Testando temperatura dos procs: 0 e 515
+Testando temperatura dos procs: 0 e 516
+Testando temperatura dos procs: 0 e 517
+Testando temperatura dos procs: 0 e 768
+Testando temperatura dos procs: 0 e 769
+Testando temperatura dos procs: 0 e 770
+Testando temperatura dos procs: 0 e 771
+Testando temperatura dos procs: 0 e 772
+Testando temperatura dos procs: 0 e 773
+Testando temperatura dos procs: 0 e 1024
+Testando temperatura dos procs: 0 e 1025
+Testando temperatura dos procs: 0 e 1026
+Testando temperatura dos procs: 0 e 1027
+Testando temperatura dos procs: 0 e 1028
+Testando temperatura dos procs: 0 e 1029
+Testando temperatura dos procs: 0 e 1280
+Testando temperatura dos procs: 0 e 1281
+Testando temperatura dos procs: 0 e 1282
+Testando temperatura dos procs: 0 e 1283
+Testando temperatura dos procs: 0 e 1284
+Testando temperatura dos procs: 0 e 1285
+Testando temperatura dos procs: 1 e 2
+Testando temperatura dos procs: 1 e 3
+Testando temperatura dos procs: 1 e 4
+Testando temperatura dos procs: 1 e 5
+Testando temperatura dos procs: 1 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 1 e 257
+Testando temperatura dos procs: 1 e 258
+Testando temperatura dos procs: 1 e 259
+Testando temperatura dos procs: 1 e 260
+Testando temperatura dos procs: 1 e 261
+Testando temperatura dos procs: 1 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 1 e 513
+Testando temperatura dos procs: 1 e 514
+Testando temperatura dos procs: 1 e 515
+Testando temperatura dos procs: 1 e 516
+Testando temperatura dos procs: 1 e 517
+Testando temperatura dos procs: 1 e 768
+Testando temperatura dos procs: 1 e 769
+Testando temperatura dos procs: 1 e 770
+Testando temperatura dos procs: 1 e 771
+Testando temperatura dos procs: 1 e 772
+Testando temperatura dos procs: 1 e 773
+Testando temperatura dos procs: 1 e 1024
+Testando temperatura dos procs: 1 e 1025
+Testando temperatura dos procs: 1 e 1026
+Testando temperatura dos procs: 1 e 1027
+Testando temperatura dos procs: 1 e 1028
+Testando temperatura dos procs: 1 e 1029
+Testando temperatura dos procs: 1 e 1280
+Testando temperatura dos procs: 1 e 1281
+Testando temperatura dos procs: 1 e 1282
+Testando temperatura dos procs: 1 e 1283
+Testando temperatura dos procs: 1 e 1284
+Testando temperatura dos procs: 1 e 1285
+Testando temperatura dos procs: 2 e 3
+Testando temperatura dos procs: 2 e 4
+Testando temperatura dos procs: 2 e 5
+Testando temperatura dos procs: 2 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 2 e 257
+Testando temperatura dos procs: 2 e 258
+Testando temperatura dos procs: 2 e 259
+Testando temperatura dos procs: 2 e 260
+Testando temperatura dos procs: 2 e 261
+Testando temperatura dos procs: 2 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 2 e 513
+Testando temperatura dos procs: 2 e 514
+Testando temperatura dos procs: 2 e 515
+Testando temperatura dos procs: 2 e 516
+Testando temperatura dos procs: 2 e 517
+Testando temperatura dos procs: 2 e 768
+Testando temperatura dos procs: 2 e 769
+Testando temperatura dos procs: 2 e 770
+Testando temperatura dos procs: 2 e 771
+Testando temperatura dos procs: 2 e 772
+Testando temperatura dos procs: 2 e 773
+Testando temperatura dos procs: 2 e 1024
+Testando temperatura dos procs: 2 e 1025
+Testando temperatura dos procs: 2 e 1026
+Testando temperatura dos procs: 2 e 1027
+Testando temperatura dos procs: 2 e 1028
+Testando temperatura dos procs: 2 e 1029
+Testando temperatura dos procs: 2 e 1280
+Testando temperatura dos procs: 2 e 1281
+Testando temperatura dos procs: 2 e 1282
+Testando temperatura dos procs: 2 e 1283
+Testando temperatura dos procs: 2 e 1284
+Testando temperatura dos procs: 2 e 1285
+Testando temperatura dos procs: 3 e 4
+Testando temperatura dos procs: 3 e 5
+Testando temperatura dos procs: 3 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 3 e 257
+Testando temperatura dos procs: 3 e 258
+Testando temperatura dos procs: 3 e 259
+Testando temperatura dos procs: 3 e 260
+Testando temperatura dos procs: 3 e 261
+Testando temperatura dos procs: 3 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 3 e 513
+Testando temperatura dos procs: 3 e 514
+Testando temperatura dos procs: 3 e 515
+Testando temperatura dos procs: 3 e 516
+Testando temperatura dos procs: 3 e 517
+Testando temperatura dos procs: 3 e 768
+Testando temperatura dos procs: 3 e 769
+Testando temperatura dos procs: 3 e 770
+Testando temperatura dos procs: 3 e 771
+Testando temperatura dos procs: 3 e 772
+Testando temperatura dos procs: 3 e 773
+Testando temperatura dos procs: 3 e 1024
+Testando temperatura dos procs: 3 e 1025
+Testando temperatura dos procs: 3 e 1026
+Testando temperatura dos procs: 3 e 1027
+Testando temperatura dos procs: 3 e 1028
+Testando temperatura dos procs: 3 e 1029
+Testando temperatura dos procs: 3 e 1280
+Testando temperatura dos procs: 3 e 1281
+Testando temperatura dos procs: 3 e 1282
+Testando temperatura dos procs: 3 e 1283
+Testando temperatura dos procs: 3 e 1284
+Testando temperatura dos procs: 3 e 1285
+Testando temperatura dos procs: 4 e 5
+Testando temperatura dos procs: 4 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 4 e 257
+Testando temperatura dos procs: 4 e 258
+Testando temperatura dos procs: 4 e 259
+Testando temperatura dos procs: 4 e 260
+Testando temperatura dos procs: 4 e 261
+Testando temperatura dos procs: 4 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 4 e 513
+Testando temperatura dos procs: 4 e 514
+Testando temperatura dos procs: 4 e 515
+Testando temperatura dos procs: 4 e 516
+Testando temperatura dos procs: 4 e 517
+Testando temperatura dos procs: 4 e 768
+Testando temperatura dos procs: 4 e 769
+Testando temperatura dos procs: 4 e 770
+Testando temperatura dos procs: 4 e 771
+Testando temperatura dos procs: 4 e 772
+Testando temperatura dos procs: 4 e 773
+Testando temperatura dos procs: 4 e 1024
+Testando temperatura dos procs: 4 e 1025
+Testando temperatura dos procs: 4 e 1026
+Testando temperatura dos procs: 4 e 1027
+Testando temperatura dos procs: 4 e 1028
+Testando temperatura dos procs: 4 e 1029
+Testando temperatura dos procs: 4 e 1280
+Testando temperatura dos procs: 4 e 1281
+Testando temperatura dos procs: 4 e 1282
+Testando temperatura dos procs: 4 e 1283
+Testando temperatura dos procs: 4 e 1284
+Testando temperatura dos procs: 4 e 1285
+Testando temperatura dos procs: 5 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 5 e 257
+Testando temperatura dos procs: 5 e 258
+Testando temperatura dos procs: 5 e 259
+Testando temperatura dos procs: 5 e 260
+Testando temperatura dos procs: 5 e 261
+Testando temperatura dos procs: 5 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 5 e 513
+Testando temperatura dos procs: 5 e 514
+Testando temperatura dos procs: 5 e 515
+Testando temperatura dos procs: 5 e 516
+Testando temperatura dos procs: 5 e 517
+Testando temperatura dos procs: 5 e 768
+Testando temperatura dos procs: 5 e 769
+Testando temperatura dos procs: 5 e 770
+Testando temperatura dos procs: 5 e 771
+Testando temperatura dos procs: 5 e 772
+Testando temperatura dos procs: 5 e 773
+Testando temperatura dos procs: 5 e 1024
+Testando temperatura dos procs: 5 e 1025
+Testando temperatura dos procs: 5 e 1026
+Testando temperatura dos procs: 5 e 1027
+Testando temperatura dos procs: 5 e 1028
+Testando temperatura dos procs: 5 e 1029
+Testando temperatura dos procs: 5 e 1280
+Testando temperatura dos procs: 5 e 1281
+Testando temperatura dos procs: 5 e 1282
+Testando temperatura dos procs: 5 e 1283
+Testando temperatura dos procs: 5 e 1284
+Testando temperatura dos procs: 5 e 1285
+Testando temperatura dos procs: 256 e 257
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 258
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 259
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 260
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 261
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 256 e 513
+Testando temperatura dos procs: 256 e 514
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 515
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 516
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 517
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 768
+Testando temperatura dos procs: 256 e 769
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 770
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 771
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 772
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 773
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1024
+Testando temperatura dos procs: 256 e 1025
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1026
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1027
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1028
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1029
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1280
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1281
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1282
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1283
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1284
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1285
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 257 e 258
+Testando temperatura dos procs: 257 e 259
+Testando temperatura dos procs: 257 e 260
+Testando temperatura dos procs: 257 e 261
+Testando temperatura dos procs: 257 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 257 e 513
+Testando temperatura dos procs: 257 e 514
+Testando temperatura dos procs: 257 e 515
+Testando temperatura dos procs: 257 e 516
+Testando temperatura dos procs: 257 e 517
+Testando temperatura dos procs: 257 e 768
+Testando temperatura dos procs: 257 e 769
+Testando temperatura dos procs: 257 e 770
+Testando temperatura dos procs: 257 e 771
+Testando temperatura dos procs: 257 e 772
+Testando temperatura dos procs: 257 e 773
+Testando temperatura dos procs: 257 e 1024
+Testando temperatura dos procs: 257 e 1025
+Testando temperatura dos procs: 257 e 1026
+Testando temperatura dos procs: 257 e 1027
+Testando temperatura dos procs: 257 e 1028
+Testando temperatura dos procs: 257 e 1029
+Testando temperatura dos procs: 257 e 1280
+Testando temperatura dos procs: 257 e 1281
+Testando temperatura dos procs: 257 e 1282
+Testando temperatura dos procs: 257 e 1283
+Testando temperatura dos procs: 257 e 1284
+Testando temperatura dos procs: 257 e 1285
+Testando temperatura dos procs: 258 e 259
+Testando temperatura dos procs: 258 e 260
+Testando temperatura dos procs: 258 e 261
+Testando temperatura dos procs: 258 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 258 e 513
+Testando temperatura dos procs: 258 e 514
+Testando temperatura dos procs: 258 e 515
+Testando temperatura dos procs: 258 e 516
+Testando temperatura dos procs: 258 e 517
+Testando temperatura dos procs: 258 e 768
+Testando temperatura dos procs: 258 e 769
+Testando temperatura dos procs: 258 e 770
+Testando temperatura dos procs: 258 e 771
+Testando temperatura dos procs: 258 e 772
+Testando temperatura dos procs: 258 e 773
+Testando temperatura dos procs: 258 e 1024
+Testando temperatura dos procs: 258 e 1025
+Testando temperatura dos procs: 258 e 1026
+Testando temperatura dos procs: 258 e 1027
+Testando temperatura dos procs: 258 e 1028
+Testando temperatura dos procs: 258 e 1029
+Testando temperatura dos procs: 258 e 1280
+Testando temperatura dos procs: 258 e 1281
+Testando temperatura dos procs: 258 e 1282
+Testando temperatura dos procs: 258 e 1283
+Testando temperatura dos procs: 258 e 1284
+Testando temperatura dos procs: 258 e 1285
+Testando temperatura dos procs: 259 e 260
+Testando temperatura dos procs: 259 e 261
+Testando temperatura dos procs: 259 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 259 e 513
+Testando temperatura dos procs: 259 e 514
+Testando temperatura dos procs: 259 e 515
+Testando temperatura dos procs: 259 e 516
+Testando temperatura dos procs: 259 e 517
+Testando temperatura dos procs: 259 e 768
+Testando temperatura dos procs: 259 e 769
+Testando temperatura dos procs: 259 e 770
+Testando temperatura dos procs: 259 e 771
+Testando temperatura dos procs: 259 e 772
+Testando temperatura dos procs: 259 e 773
+Testando temperatura dos procs: 259 e 1024
+Testando temperatura dos procs: 259 e 1025
+Testando temperatura dos procs: 259 e 1026
+Testando temperatura dos procs: 259 e 1027
+Testando temperatura dos procs: 259 e 1028
+Testando temperatura dos procs: 259 e 1029
+Testando temperatura dos procs: 259 e 1280
+Testando temperatura dos procs: 259 e 1281
+Testando temperatura dos procs: 259 e 1282
+Testando temperatura dos procs: 259 e 1283
+Testando temperatura dos procs: 259 e 1284
+Testando temperatura dos procs: 259 e 1285
+Testando temperatura dos procs: 260 e 261
+Testando temperatura dos procs: 260 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 260 e 513
+Testando temperatura dos procs: 260 e 514
+Testando temperatura dos procs: 260 e 515
+Testando temperatura dos procs: 260 e 516
+Testando temperatura dos procs: 260 e 517
+Testando temperatura dos procs: 260 e 768
+Testando temperatura dos procs: 260 e 769
+Testando temperatura dos procs: 260 e 770
+Testando temperatura dos procs: 260 e 771
+Testando temperatura dos procs: 260 e 772
+Testando temperatura dos procs: 260 e 773
+Testando temperatura dos procs: 260 e 1024
+Testando temperatura dos procs: 260 e 1025
+Testando temperatura dos procs: 260 e 1026
+Testando temperatura dos procs: 260 e 1027
+Testando temperatura dos procs: 260 e 1028
+Testando temperatura dos procs: 260 e 1029
+Testando temperatura dos procs: 260 e 1280
+Testando temperatura dos procs: 260 e 1281
+Testando temperatura dos procs: 260 e 1282
+Testando temperatura dos procs: 260 e 1283
+Testando temperatura dos procs: 260 e 1284
+Testando temperatura dos procs: 260 e 1285
+Testando temperatura dos procs: 261 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 261 e 513
+Testando temperatura dos procs: 261 e 514
+Testando temperatura dos procs: 261 e 515
+Testando temperatura dos procs: 261 e 516
+Testando temperatura dos procs: 261 e 517
+Testando temperatura dos procs: 261 e 768
+Testando temperatura dos procs: 261 e 769
+Testando temperatura dos procs: 261 e 770
+Testando temperatura dos procs: 261 e 771
+Testando temperatura dos procs: 261 e 772
+Testando temperatura dos procs: 261 e 773
+Testando temperatura dos procs: 261 e 1024
+Testando temperatura dos procs: 261 e 1025
+Testando temperatura dos procs: 261 e 1026
+Testando temperatura dos procs: 261 e 1027
+Testando temperatura dos procs: 261 e 1028
+Testando temperatura dos procs: 261 e 1029
+Testando temperatura dos procs: 261 e 1280
+Testando temperatura dos procs: 261 e 1281
+Testando temperatura dos procs: 261 e 1282
+Testando temperatura dos procs: 261 e 1283
+Testando temperatura dos procs: 261 e 1284
+Testando temperatura dos procs: 261 e 1285
+Testando temperatura dos procs: 512 e 513
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 514
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 515
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 516
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 517
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 768
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 769
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 770
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 771
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 772
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 773
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1024
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1025
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1026
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1027
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1028
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1029
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1280
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1281
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1282
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1283
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1284
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1285
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 513 e 514
+Testando temperatura dos procs: 513 e 515
+Testando temperatura dos procs: 513 e 516
+Testando temperatura dos procs: 513 e 517
+Testando temperatura dos procs: 513 e 768
+Testando temperatura dos procs: 513 e 769
+Testando temperatura dos procs: 513 e 770
+Testando temperatura dos procs: 513 e 771
+Testando temperatura dos procs: 513 e 772
+Testando temperatura dos procs: 513 e 773
+Testando temperatura dos procs: 513 e 1024
+Testando temperatura dos procs: 513 e 1025
+Testando temperatura dos procs: 513 e 1026
+Testando temperatura dos procs: 513 e 1027
+Testando temperatura dos procs: 513 e 1028
+Testando temperatura dos procs: 513 e 1029
+Testando temperatura dos procs: 513 e 1280
+Testando temperatura dos procs: 513 e 1281
+Testando temperatura dos procs: 513 e 1282
+Testando temperatura dos procs: 513 e 1283
+Testando temperatura dos procs: 513 e 1284
+Testando temperatura dos procs: 513 e 1285
+Testando temperatura dos procs: 514 e 515
+Testando temperatura dos procs: 514 e 516
+Testando temperatura dos procs: 514 e 517
+Testando temperatura dos procs: 514 e 768
+Testando temperatura dos procs: 514 e 769
+Testando temperatura dos procs: 514 e 770
+Testando temperatura dos procs: 514 e 771
+Testando temperatura dos procs: 514 e 772
+Testando temperatura dos procs: 514 e 773
+Testando temperatura dos procs: 514 e 1024
+Testando temperatura dos procs: 514 e 1025
+Testando temperatura dos procs: 514 e 1026
+Testando temperatura dos procs: 514 e 1027
+Testando temperatura dos procs: 514 e 1028
+Testando temperatura dos procs: 514 e 1029
+Testando temperatura dos procs: 514 e 1280
+Testando temperatura dos procs: 514 e 1281
+Testando temperatura dos procs: 514 e 1282
+Testando temperatura dos procs: 514 e 1283
+Testando temperatura dos procs: 514 e 1284
+Testando temperatura dos procs: 514 e 1285
+Testando temperatura dos procs: 515 e 516
+Testando temperatura dos procs: 515 e 517
+Testando temperatura dos procs: 515 e 768
+Testando temperatura dos procs: 515 e 769
+Testando temperatura dos procs: 515 e 770
+Testando temperatura dos procs: 515 e 771
+Testando temperatura dos procs: 515 e 772
+Testando temperatura dos procs: 515 e 773
+Testando temperatura dos procs: 515 e 1024
+Testando temperatura dos procs: 515 e 1025
+Testando temperatura dos procs: 515 e 1026
+Testando temperatura dos procs: 515 e 1027
+Testando temperatura dos procs: 515 e 1028
+Testando temperatura dos procs: 515 e 1029
+Testando temperatura dos procs: 515 e 1280
+Testando temperatura dos procs: 515 e 1281
+Testando temperatura dos procs: 515 e 1282
+Testando temperatura dos procs: 515 e 1283
+Testando temperatura dos procs: 515 e 1284
+Testando temperatura dos procs: 515 e 1285
+Testando temperatura dos procs: 516 e 517
+Testando temperatura dos procs: 516 e 768
+Testando temperatura dos procs: 516 e 769
+Testando temperatura dos procs: 516 e 770
+Testando temperatura dos procs: 516 e 771
+Testando temperatura dos procs: 516 e 772
+Testando temperatura dos procs: 516 e 773
+Testando temperatura dos procs: 516 e 1024
+Testando temperatura dos procs: 516 e 1025
+Testando temperatura dos procs: 516 e 1026
+Testando temperatura dos procs: 516 e 1027
+Testando temperatura dos procs: 516 e 1028
+Testando temperatura dos procs: 516 e 1029
+Testando temperatura dos procs: 516 e 1280
+Testando temperatura dos procs: 516 e 1281
+Testando temperatura dos procs: 516 e 1282
+Testando temperatura dos procs: 516 e 1283
+Testando temperatura dos procs: 516 e 1284
+Testando temperatura dos procs: 516 e 1285
+Testando temperatura dos procs: 517 e 768
+Testando temperatura dos procs: 517 e 769
+Testando temperatura dos procs: 517 e 770
+Testando temperatura dos procs: 517 e 771
+Testando temperatura dos procs: 517 e 772
+Testando temperatura dos procs: 517 e 773
+Testando temperatura dos procs: 517 e 1024
+Testando temperatura dos procs: 517 e 1025
+Testando temperatura dos procs: 517 e 1026
+Testando temperatura dos procs: 517 e 1027
+Testando temperatura dos procs: 517 e 1028
+Testando temperatura dos procs: 517 e 1029
+Testando temperatura dos procs: 517 e 1280
+Testando temperatura dos procs: 517 e 1281
+Testando temperatura dos procs: 517 e 1282
+Testando temperatura dos procs: 517 e 1283
+Testando temperatura dos procs: 517 e 1284
+Testando temperatura dos procs: 517 e 1285
+Testando temperatura dos procs: 768 e 769
+Testando temperatura dos procs: 768 e 770
+Testando temperatura dos procs: 768 e 771
+Testando temperatura dos procs: 768 e 772
+Testando temperatura dos procs: 768 e 773
+Testando temperatura dos procs: 768 e 1024
+Testando temperatura dos procs: 768 e 1025
+Testando temperatura dos procs: 768 e 1026
+Testando temperatura dos procs: 768 e 1027
+Testando temperatura dos procs: 768 e 1028
+Testando temperatura dos procs: 768 e 1029
+Testando temperatura dos procs: 768 e 1280
+Testando temperatura dos procs: 768 e 1281
+Testando temperatura dos procs: 768 e 1282
+Testando temperatura dos procs: 768 e 1283
+Testando temperatura dos procs: 768 e 1284
+Testando temperatura dos procs: 768 e 1285
+Testando temperatura dos procs: 769 e 770
+Testando temperatura dos procs: 769 e 771
+Testando temperatura dos procs: 769 e 772
+Testando temperatura dos procs: 769 e 773
+Testando temperatura dos procs: 769 e 1024
+Testando temperatura dos procs: 769 e 1025
+Testando temperatura dos procs: 769 e 1026
+Testando temperatura dos procs: 769 e 1027
+Testando temperatura dos procs: 769 e 1028
+Testando temperatura dos procs: 769 e 1029
+Testando temperatura dos procs: 769 e 1280
+Testando temperatura dos procs: 769 e 1281
+Testando temperatura dos procs: 769 e 1282
+Testando temperatura dos procs: 769 e 1283
+Testando temperatura dos procs: 769 e 1284
+Testando temperatura dos procs: 769 e 1285
+Testando temperatura dos procs: 770 e 771
+Testando temperatura dos procs: 770 e 772
+Testando temperatura dos procs: 770 e 773
+Testando temperatura dos procs: 770 e 1024
+Testando temperatura dos procs: 770 e 1025
+Testando temperatura dos procs: 770 e 1026
+Testando temperatura dos procs: 770 e 1027
+Testando temperatura dos procs: 770 e 1028
+Testando temperatura dos procs: 770 e 1029
+Testando temperatura dos procs: 770 e 1280
+Testando temperatura dos procs: 770 e 1281
+Testando temperatura dos procs: 770 e 1282
+Testando temperatura dos procs: 770 e 1283
+Testando temperatura dos procs: 770 e 1284
+Testando temperatura dos procs: 770 e 1285
+Testando temperatura dos procs: 771 e 772
+Testando temperatura dos procs: 771 e 773
+Testando temperatura dos procs: 771 e 1024
+Testando temperatura dos procs: 771 e 1025
+Testando temperatura dos procs: 771 e 1026
+Testando temperatura dos procs: 771 e 1027
+Testando temperatura dos procs: 771 e 1028
+Testando temperatura dos procs: 771 e 1029
+Testando temperatura dos procs: 771 e 1280
+Testando temperatura dos procs: 771 e 1281
+Testando temperatura dos procs: 771 e 1282
+Testando temperatura dos procs: 771 e 1283
+Testando temperatura dos procs: 771 e 1284
+Testando temperatura dos procs: 771 e 1285
+Testando temperatura dos procs: 772 e 773
+Testando temperatura dos procs: 772 e 1024
+Testando temperatura dos procs: 772 e 1025
+Testando temperatura dos procs: 772 e 1026
+Testando temperatura dos procs: 772 e 1027
+Testando temperatura dos procs: 772 e 1028
+Testando temperatura dos procs: 772 e 1029
+Testando temperatura dos procs: 772 e 1280
+Testando temperatura dos procs: 772 e 1281
+Testando temperatura dos procs: 772 e 1282
+Testando temperatura dos procs: 772 e 1283
+Testando temperatura dos procs: 772 e 1284
+Testando temperatura dos procs: 772 e 1285
+Testando temperatura dos procs: 773 e 1024
+Testando temperatura dos procs: 773 e 1025
+Testando temperatura dos procs: 773 e 1026
+Testando temperatura dos procs: 773 e 1027
+Testando temperatura dos procs: 773 e 1028
+Testando temperatura dos procs: 773 e 1029
+Testando temperatura dos procs: 773 e 1280
+Testando temperatura dos procs: 773 e 1281
+Testando temperatura dos procs: 773 e 1282
+Testando temperatura dos procs: 773 e 1283
+Testando temperatura dos procs: 773 e 1284
+Testando temperatura dos procs: 773 e 1285
+Testando temperatura dos procs: 1024 e 1025
+Testando temperatura dos procs: 1024 e 1026
+Testando temperatura dos procs: 1024 e 1027
+Testando temperatura dos procs: 1024 e 1028
+Testando temperatura dos procs: 1024 e 1029
+Testando temperatura dos procs: 1024 e 1280
+Testando temperatura dos procs: 1024 e 1281
+Testando temperatura dos procs: 1024 e 1282
+Testando temperatura dos procs: 1024 e 1283
+Testando temperatura dos procs: 1024 e 1284
+Testando temperatura dos procs: 1024 e 1285
+Testando temperatura dos procs: 1025 e 1026
+Testando temperatura dos procs: 1025 e 1027
+Testando temperatura dos procs: 1025 e 1028
+Testando temperatura dos procs: 1025 e 1029
+Testando temperatura dos procs: 1025 e 1280
+Testando temperatura dos procs: 1025 e 1281
+Testando temperatura dos procs: 1025 e 1282
+Testando temperatura dos procs: 1025 e 1283
+Testando temperatura dos procs: 1025 e 1284
+Testando temperatura dos procs: 1025 e 1285
+Testando temperatura dos procs: 1026 e 1027
+Testando temperatura dos procs: 1026 e 1028
+Testando temperatura dos procs: 1026 e 1029
+Testando temperatura dos procs: 1026 e 1280
+Testando temperatura dos procs: 1026 e 1281
+Testando temperatura dos procs: 1026 e 1282
+Testando temperatura dos procs: 1026 e 1283
+Testando temperatura dos procs: 1026 e 1284
+Testando temperatura dos procs: 1026 e 1285
+Testando temperatura dos procs: 1027 e 1028
+Testando temperatura dos procs: 1027 e 1029
+Testando temperatura dos procs: 1027 e 1280
+Testando temperatura dos procs: 1027 e 1281
+Testando temperatura dos procs: 1027 e 1282
+Testando temperatura dos procs: 1027 e 1283
+Testando temperatura dos procs: 1027 e 1284
+Testando temperatura dos procs: 1027 e 1285
+Testando temperatura dos procs: 1028 e 1029
+Testando temperatura dos procs: 1028 e 1280
+Testando temperatura dos procs: 1028 e 1281
+Testando temperatura dos procs: 1028 e 1282
+Testando temperatura dos procs: 1028 e 1283
+Testando temperatura dos procs: 1028 e 1284
+Testando temperatura dos procs: 1028 e 1285
+Testando temperatura dos procs: 1029 e 1280
+Testando temperatura dos procs: 1029 e 1281
+Testando temperatura dos procs: 1029 e 1282
+Testando temperatura dos procs: 1029 e 1283
+Testando temperatura dos procs: 1029 e 1284
+Testando temperatura dos procs: 1029 e 1285
+Testando temperatura dos procs: 1280 e 1281
+Testando temperatura dos procs: 1280 e 1282
+Testando temperatura dos procs: 1280 e 1283
+Testando temperatura dos procs: 1280 e 1284
+Testando temperatura dos procs: 1280 e 1285
+Testando temperatura dos procs: 1281 e 1282
+Testando temperatura dos procs: 1281 e 1283
+Testando temperatura dos procs: 1281 e 1284
+Testando temperatura dos procs: 1281 e 1285
+Testando temperatura dos procs: 1282 e 1283
+Testando temperatura dos procs: 1282 e 1284
+Testando temperatura dos procs: 1282 e 1285
+Testando temperatura dos procs: 1283 e 1284
+Testando temperatura dos procs: 1283 e 1285
+Testando temperatura dos procs: 1284 e 1285
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 0
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 1158967
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 1494307
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 431873
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 0
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 1
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 2
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master)
+2505199
+temperatura : 1 450566022
+temperatura : 2 450000000
+temperatura : 3 450000000
+temperatura : 4 450000000
+temperatura : 5 450000000
+temperatura : 6 463108777
+temperatura : 7 453377933
+temperatura : 8 450000000
+temperatura : 9 450000000
+temperatura : 10 450000000
+temperatura : 11 450000000
+temperatura : 12 486834473
+temperatura : 13 455996597
+temperatura : 14 450000000
+temperatura : 15 450000000
+temperatura : 16 450000000
+temperatura : 17 450000000
+temperatura : 18 458652153
+temperatura : 19 451654003
+temperatura : 20 450000000
+temperatura : 21 450000000
+temperatura : 22 450000000
+temperatura : 23 450000000
+temperatura : 24 455258310
+temperatura : 25 450987781
+temperatura : 26 450000000
+temperatura : 27 450000000
+temperatura : 28 450000000
+temperatura : 29 450000000
+temperatura : 30 450754467
+temperatura : 31 450169610
+temperatura : 32 450000000
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master)
+2663623
+TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : 
+Testando temperatura dos procs: 0 e 1
+Testando temperatura dos procs: 0 e 2
+Testando temperatura dos procs: 0 e 3
+Testando temperatura dos procs: 0 e 4
+Testando temperatura dos procs: 0 e 5
+Testando temperatura dos procs: 0 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 0 e 257
+Testando temperatura dos procs: 0 e 258
+Testando temperatura dos procs: 0 e 259
+Testando temperatura dos procs: 0 e 260
+Testando temperatura dos procs: 0 e 261
+Testando temperatura dos procs: 0 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 0 e 513
+Testando temperatura dos procs: 0 e 514
+Testando temperatura dos procs: 0 e 515
+Testando temperatura dos procs: 0 e 516
+Testando temperatura dos procs: 0 e 517
+Testando temperatura dos procs: 0 e 768
+Testando temperatura dos procs: 0 e 769
+Testando temperatura dos procs: 0 e 770
+Testando temperatura dos procs: 0 e 771
+Testando temperatura dos procs: 0 e 772
+Testando temperatura dos procs: 0 e 773
+Testando temperatura dos procs: 0 e 1024
+Testando temperatura dos procs: 0 e 1025
+Testando temperatura dos procs: 0 e 1026
+Testando temperatura dos procs: 0 e 1027
+Testando temperatura dos procs: 0 e 1028
+Testando temperatura dos procs: 0 e 1029
+Testando temperatura dos procs: 0 e 1280
+Testando temperatura dos procs: 0 e 1281
+Testando temperatura dos procs: 0 e 1282
+Testando temperatura dos procs: 0 e 1283
+Testando temperatura dos procs: 0 e 1284
+Testando temperatura dos procs: 0 e 1285
+Testando temperatura dos procs: 1 e 2
+Testando temperatura dos procs: 1 e 3
+Testando temperatura dos procs: 1 e 4
+Testando temperatura dos procs: 1 e 5
+Testando temperatura dos procs: 1 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 1 e 257
+Testando temperatura dos procs: 1 e 258
+Testando temperatura dos procs: 1 e 259
+Testando temperatura dos procs: 1 e 260
+Testando temperatura dos procs: 1 e 261
+Testando temperatura dos procs: 1 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 1 e 513
+Testando temperatura dos procs: 1 e 514
+Testando temperatura dos procs: 1 e 515
+Testando temperatura dos procs: 1 e 516
+Testando temperatura dos procs: 1 e 517
+Testando temperatura dos procs: 1 e 768
+Testando temperatura dos procs: 1 e 769
+Testando temperatura dos procs: 1 e 770
+Testando temperatura dos procs: 1 e 771
+Testando temperatura dos procs: 1 e 772
+Testando temperatura dos procs: 1 e 773
+Testando temperatura dos procs: 1 e 1024
+Testando temperatura dos procs: 1 e 1025
+Testando temperatura dos procs: 1 e 1026
+Testando temperatura dos procs: 1 e 1027
+Testando temperatura dos procs: 1 e 1028
+Testando temperatura dos procs: 1 e 1029
+Testando temperatura dos procs: 1 e 1280
+Testando temperatura dos procs: 1 e 1281
+Testando temperatura dos procs: 1 e 1282
+Testando temperatura dos procs: 1 e 1283
+Testando temperatura dos procs: 1 e 1284
+Testando temperatura dos procs: 1 e 1285
+Testando temperatura dos procs: 2 e 3
+Testando temperatura dos procs: 2 e 4
+Testando temperatura dos procs: 2 e 5
+Testando temperatura dos procs: 2 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 2 e 257
+Testando temperatura dos procs: 2 e 258
+Testando temperatura dos procs: 2 e 259
+Testando temperatura dos procs: 2 e 260
+Testando temperatura dos procs: 2 e 261
+Testando temperatura dos procs: 2 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 2 e 513
+Testando temperatura dos procs: 2 e 514
+Testando temperatura dos procs: 2 e 515
+Testando temperatura dos procs: 2 e 516
+Testando temperatura dos procs: 2 e 517
+Testando temperatura dos procs: 2 e 768
+Testando temperatura dos procs: 2 e 769
+Testando temperatura dos procs: 2 e 770
+Testando temperatura dos procs: 2 e 771
+Testando temperatura dos procs: 2 e 772
+Testando temperatura dos procs: 2 e 773
+Testando temperatura dos procs: 2 e 1024
+Testando temperatura dos procs: 2 e 1025
+Testando temperatura dos procs: 2 e 1026
+Testando temperatura dos procs: 2 e 1027
+Testando temperatura dos procs: 2 e 1028
+Testando temperatura dos procs: 2 e 1029
+Testando temperatura dos procs: 2 e 1280
+Testando temperatura dos procs: 2 e 1281
+Testando temperatura dos procs: 2 e 1282
+Testando temperatura dos procs: 2 e 1283
+Testando temperatura dos procs: 2 e 1284
+Testando temperatura dos procs: 2 e 1285
+Testando temperatura dos procs: 3 e 4
+Testando temperatura dos procs: 3 e 5
+Testando temperatura dos procs: 3 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 3 e 257
+Testando temperatura dos procs: 3 e 258
+Testando temperatura dos procs: 3 e 259
+Testando temperatura dos procs: 3 e 260
+Testando temperatura dos procs: 3 e 261
+Testando temperatura dos procs: 3 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 3 e 513
+Testando temperatura dos procs: 3 e 514
+Testando temperatura dos procs: 3 e 515
+Testando temperatura dos procs: 3 e 516
+Testando temperatura dos procs: 3 e 517
+Testando temperatura dos procs: 3 e 768
+Testando temperatura dos procs: 3 e 769
+Testando temperatura dos procs: 3 e 770
+Testando temperatura dos procs: 3 e 771
+Testando temperatura dos procs: 3 e 772
+Testando temperatura dos procs: 3 e 773
+Testando temperatura dos procs: 3 e 1024
+Testando temperatura dos procs: 3 e 1025
+Testando temperatura dos procs: 3 e 1026
+Testando temperatura dos procs: 3 e 1027
+Testando temperatura dos procs: 3 e 1028
+Testando temperatura dos procs: 3 e 1029
+Testando temperatura dos procs: 3 e 1280
+Testando temperatura dos procs: 3 e 1281
+Testando temperatura dos procs: 3 e 1282
+Testando temperatura dos procs: 3 e 1283
+Testando temperatura dos procs: 3 e 1284
+Testando temperatura dos procs: 3 e 1285
+Testando temperatura dos procs: 4 e 5
+Testando temperatura dos procs: 4 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 4 e 257
+Testando temperatura dos procs: 4 e 258
+Testando temperatura dos procs: 4 e 259
+Testando temperatura dos procs: 4 e 260
+Testando temperatura dos procs: 4 e 261
+Testando temperatura dos procs: 4 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 4 e 513
+Testando temperatura dos procs: 4 e 514
+Testando temperatura dos procs: 4 e 515
+Testando temperatura dos procs: 4 e 516
+Testando temperatura dos procs: 4 e 517
+Testando temperatura dos procs: 4 e 768
+Testando temperatura dos procs: 4 e 769
+Testando temperatura dos procs: 4 e 770
+Testando temperatura dos procs: 4 e 771
+Testando temperatura dos procs: 4 e 772
+Testando temperatura dos procs: 4 e 773
+Testando temperatura dos procs: 4 e 1024
+Testando temperatura dos procs: 4 e 1025
+Testando temperatura dos procs: 4 e 1026
+Testando temperatura dos procs: 4 e 1027
+Testando temperatura dos procs: 4 e 1028
+Testando temperatura dos procs: 4 e 1029
+Testando temperatura dos procs: 4 e 1280
+Testando temperatura dos procs: 4 e 1281
+Testando temperatura dos procs: 4 e 1282
+Testando temperatura dos procs: 4 e 1283
+Testando temperatura dos procs: 4 e 1284
+Testando temperatura dos procs: 4 e 1285
+Testando temperatura dos procs: 5 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 5 e 257
+Testando temperatura dos procs: 5 e 258
+Testando temperatura dos procs: 5 e 259
+Testando temperatura dos procs: 5 e 260
+Testando temperatura dos procs: 5 e 261
+Testando temperatura dos procs: 5 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 5 e 513
+Testando temperatura dos procs: 5 e 514
+Testando temperatura dos procs: 5 e 515
+Testando temperatura dos procs: 5 e 516
+Testando temperatura dos procs: 5 e 517
+Testando temperatura dos procs: 5 e 768
+Testando temperatura dos procs: 5 e 769
+Testando temperatura dos procs: 5 e 770
+Testando temperatura dos procs: 5 e 771
+Testando temperatura dos procs: 5 e 772
+Testando temperatura dos procs: 5 e 773
+Testando temperatura dos procs: 5 e 1024
+Testando temperatura dos procs: 5 e 1025
+Testando temperatura dos procs: 5 e 1026
+Testando temperatura dos procs: 5 e 1027
+Testando temperatura dos procs: 5 e 1028
+Testando temperatura dos procs: 5 e 1029
+Testando temperatura dos procs: 5 e 1280
+Testando temperatura dos procs: 5 e 1281
+Testando temperatura dos procs: 5 e 1282
+Testando temperatura dos procs: 5 e 1283
+Testando temperatura dos procs: 5 e 1284
+Testando temperatura dos procs: 5 e 1285
+Testando temperatura dos procs: 256 e 257
+Testando temperatura dos procs: 256 e 258
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 259
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 260
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 261
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 256 e 513
+Testando temperatura dos procs: 256 e 514
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 515
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 516
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 517
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 768
+Testando temperatura dos procs: 256 e 769
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 770
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 771
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 772
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 773
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1024
+Testando temperatura dos procs: 256 e 1025
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1026
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1027
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1028
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1029
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1280
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1281
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1282
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1283
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1284
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1285
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 257 e 258
+Testando temperatura dos procs: 257 e 259
+Testando temperatura dos procs: 257 e 260
+Testando temperatura dos procs: 257 e 261
+Testando temperatura dos procs: 257 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 257 e 513
+Testando temperatura dos procs: 257 e 514
+Testando temperatura dos procs: 257 e 515
+Testando temperatura dos procs: 257 e 516
+Testando temperatura dos procs: 257 e 517
+Testando temperatura dos procs: 257 e 768
+Testando temperatura dos procs: 257 e 769
+Testando temperatura dos procs: 257 e 770
+Testando temperatura dos procs: 257 e 771
+Testando temperatura dos procs: 257 e 772
+Testando temperatura dos procs: 257 e 773
+Testando temperatura dos procs: 257 e 1024
+Testando temperatura dos procs: 257 e 1025
+Testando temperatura dos procs: 257 e 1026
+Testando temperatura dos procs: 257 e 1027
+Testando temperatura dos procs: 257 e 1028
+Testando temperatura dos procs: 257 e 1029
+Testando temperatura dos procs: 257 e 1280
+Testando temperatura dos procs: 257 e 1281
+Testando temperatura dos procs: 257 e 1282
+Testando temperatura dos procs: 257 e 1283
+Testando temperatura dos procs: 257 e 1284
+Testando temperatura dos procs: 257 e 1285
+Testando temperatura dos procs: 258 e 259
+Testando temperatura dos procs: 258 e 260
+Testando temperatura dos procs: 258 e 261
+Testando temperatura dos procs: 258 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 258 e 513
+Testando temperatura dos procs: 258 e 514
+Testando temperatura dos procs: 258 e 515
+Testando temperatura dos procs: 258 e 516
+Testando temperatura dos procs: 258 e 517
+Testando temperatura dos procs: 258 e 768
+Testando temperatura dos procs: 258 e 769
+Testando temperatura dos procs: 258 e 770
+Testando temperatura dos procs: 258 e 771
+Testando temperatura dos procs: 258 e 772
+Testando temperatura dos procs: 258 e 773
+Testando temperatura dos procs: 258 e 1024
+Testando temperatura dos procs: 258 e 1025
+Testando temperatura dos procs: 258 e 1026
+Testando temperatura dos procs: 258 e 1027
+Testando temperatura dos procs: 258 e 1028
+Testando temperatura dos procs: 258 e 1029
+Testando temperatura dos procs: 258 e 1280
+Testando temperatura dos procs: 258 e 1281
+Testando temperatura dos procs: 258 e 1282
+Testando temperatura dos procs: 258 e 1283
+Testando temperatura dos procs: 258 e 1284
+Testando temperatura dos procs: 258 e 1285
+Testando temperatura dos procs: 259 e 260
+Testando temperatura dos procs: 259 e 261
+Testando temperatura dos procs: 259 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 259 e 513
+Testando temperatura dos procs: 259 e 514
+Testando temperatura dos procs: 259 e 515
+Testando temperatura dos procs: 259 e 516
+Testando temperatura dos procs: 259 e 517
+Testando temperatura dos procs: 259 e 768
+Testando temperatura dos procs: 259 e 769
+Testando temperatura dos procs: 259 e 770
+Testando temperatura dos procs: 259 e 771
+Testando temperatura dos procs: 259 e 772
+Testando temperatura dos procs: 259 e 773
+Testando temperatura dos procs: 259 e 1024
+Testando temperatura dos procs: 259 e 1025
+Testando temperatura dos procs: 259 e 1026
+Testando temperatura dos procs: 259 e 1027
+Testando temperatura dos procs: 259 e 1028
+Testando temperatura dos procs: 259 e 1029
+Testando temperatura dos procs: 259 e 1280
+Testando temperatura dos procs: 259 e 1281
+Testando temperatura dos procs: 259 e 1282
+Testando temperatura dos procs: 259 e 1283
+Testando temperatura dos procs: 259 e 1284
+Testando temperatura dos procs: 259 e 1285
+Testando temperatura dos procs: 260 e 261
+Testando temperatura dos procs: 260 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 260 e 513
+Testando temperatura dos procs: 260 e 514
+Testando temperatura dos procs: 260 e 515
+Testando temperatura dos procs: 260 e 516
+Testando temperatura dos procs: 260 e 517
+Testando temperatura dos procs: 260 e 768
+Testando temperatura dos procs: 260 e 769
+Testando temperatura dos procs: 260 e 770
+Testando temperatura dos procs: 260 e 771
+Testando temperatura dos procs: 260 e 772
+Testando temperatura dos procs: 260 e 773
+Testando temperatura dos procs: 260 e 1024
+Testando temperatura dos procs: 260 e 1025
+Testando temperatura dos procs: 260 e 1026
+Testando temperatura dos procs: 260 e 1027
+Testando temperatura dos procs: 260 e 1028
+Testando temperatura dos procs: 260 e 1029
+Testando temperatura dos procs: 260 e 1280
+Testando temperatura dos procs: 260 e 1281
+Testando temperatura dos procs: 260 e 1282
+Testando temperatura dos procs: 260 e 1283
+Testando temperatura dos procs: 260 e 1284
+Testando temperatura dos procs: 260 e 1285
+Testando temperatura dos procs: 261 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 261 e 513
+Testando temperatura dos procs: 261 e 514
+Testando temperatura dos procs: 261 e 515
+Testando temperatura dos procs: 261 e 516
+Testando temperatura dos procs: 261 e 517
+Testando temperatura dos procs: 261 e 768
+Testando temperatura dos procs: 261 e 769
+Testando temperatura dos procs: 261 e 770
+Testando temperatura dos procs: 261 e 771
+Testando temperatura dos procs: 261 e 772
+Testando temperatura dos procs: 261 e 773
+Testando temperatura dos procs: 261 e 1024
+Testando temperatura dos procs: 261 e 1025
+Testando temperatura dos procs: 261 e 1026
+Testando temperatura dos procs: 261 e 1027
+Testando temperatura dos procs: 261 e 1028
+Testando temperatura dos procs: 261 e 1029
+Testando temperatura dos procs: 261 e 1280
+Testando temperatura dos procs: 261 e 1281
+Testando temperatura dos procs: 261 e 1282
+Testando temperatura dos procs: 261 e 1283
+Testando temperatura dos procs: 261 e 1284
+Testando temperatura dos procs: 261 e 1285
+Testando temperatura dos procs: 512 e 513
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 514
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 515
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 516
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 517
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 768
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 769
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 770
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 771
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 772
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 773
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1024
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1025
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1026
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1027
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1028
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1029
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1280
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1281
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1282
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1283
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1284
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1285
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 513 e 514
+Testando temperatura dos procs: 513 e 515
+Testando temperatura dos procs: 513 e 516
+Testando temperatura dos procs: 513 e 517
+Testando temperatura dos procs: 513 e 768
+Testando temperatura dos procs: 513 e 769
+Testando temperatura dos procs: 513 e 770
+Testando temperatura dos procs: 513 e 771
+Testando temperatura dos procs: 513 e 772
+Testando temperatura dos procs: 513 e 773
+Testando temperatura dos procs: 513 e 1024
+Testando temperatura dos procs: 513 e 1025
+Testando temperatura dos procs: 513 e 1026
+Testando temperatura dos procs: 513 e 1027
+Testando temperatura dos procs: 513 e 1028
+Testando temperatura dos procs: 513 e 1029
+Testando temperatura dos procs: 513 e 1280
+Testando temperatura dos procs: 513 e 1281
+Testando temperatura dos procs: 513 e 1282
+Testando temperatura dos procs: 513 e 1283
+Testando temperatura dos procs: 513 e 1284
+Testando temperatura dos procs: 513 e 1285
+Testando temperatura dos procs: 514 e 515
+Testando temperatura dos procs: 514 e 516
+Testando temperatura dos procs: 514 e 517
+Testando temperatura dos procs: 514 e 768
+Testando temperatura dos procs: 514 e 769
+Testando temperatura dos procs: 514 e 770
+Testando temperatura dos procs: 514 e 771
+Testando temperatura dos procs: 514 e 772
+Testando temperatura dos procs: 514 e 773
+Testando temperatura dos procs: 514 e 1024
+Testando temperatura dos procs: 514 e 1025
+Testando temperatura dos procs: 514 e 1026
+Testando temperatura dos procs: 514 e 1027
+Testando temperatura dos procs: 514 e 1028
+Testando temperatura dos procs: 514 e 1029
+Testando temperatura dos procs: 514 e 1280
+Testando temperatura dos procs: 514 e 1281
+Testando temperatura dos procs: 514 e 1282
+Testando temperatura dos procs: 514 e 1283
+Testando temperatura dos procs: 514 e 1284
+Testando temperatura dos procs: 514 e 1285
+Testando temperatura dos procs: 515 e 516
+Testando temperatura dos procs: 515 e 517
+Testando temperatura dos procs: 515 e 768
+Testando temperatura dos procs: 515 e 769
+Testando temperatura dos procs: 515 e 770
+Testando temperatura dos procs: 515 e 771
+Testando temperatura dos procs: 515 e 772
+Testando temperatura dos procs: 515 e 773
+Testando temperatura dos procs: 515 e 1024
+Testando temperatura dos procs: 515 e 1025
+Testando temperatura dos procs: 515 e 1026
+Testando temperatura dos procs: 515 e 1027
+Testando temperatura dos procs: 515 e 1028
+Testando temperatura dos procs: 515 e 1029
+Testando temperatura dos procs: 515 e 1280
+Testando temperatura dos procs: 515 e 1281
+Testando temperatura dos procs: 515 e 1282
+Testando temperatura dos procs: 515 e 1283
+Testando temperatura dos procs: 515 e 1284
+Testando temperatura dos procs: 515 e 1285
+Testando temperatura dos procs: 516 e 517
+Testando temperatura dos procs: 516 e 768
+Testando temperatura dos procs: 516 e 769
+Testando temperatura dos procs: 516 e 770
+Testando temperatura dos procs: 516 e 771
+Testando temperatura dos procs: 516 e 772
+Testando temperatura dos procs: 516 e 773
+Testando temperatura dos procs: 516 e 1024
+Testando temperatura dos procs: 516 e 1025
+Testando temperatura dos procs: 516 e 1026
+Testando temperatura dos procs: 516 e 1027
+Testando temperatura dos procs: 516 e 1028
+Testando temperatura dos procs: 516 e 1029
+Testando temperatura dos procs: 516 e 1280
+Testando temperatura dos procs: 516 e 1281
+Testando temperatura dos procs: 516 e 1282
+Testando temperatura dos procs: 516 e 1283
+Testando temperatura dos procs: 516 e 1284
+Testando temperatura dos procs: 516 e 1285
+Testando temperatura dos procs: 517 e 768
+Testando temperatura dos procs: 517 e 769
+Testando temperatura dos procs: 517 e 770
+Testando temperatura dos procs: 517 e 771
+Testando temperatura dos procs: 517 e 772
+Testando temperatura dos procs: 517 e 773
+Testando temperatura dos procs: 517 e 1024
+Testando temperatura dos procs: 517 e 1025
+Testando temperatura dos procs: 517 e 1026
+Testando temperatura dos procs: 517 e 1027
+Testando temperatura dos procs: 517 e 1028
+Testando temperatura dos procs: 517 e 1029
+Testando temperatura dos procs: 517 e 1280
+Testando temperatura dos procs: 517 e 1281
+Testando temperatura dos procs: 517 e 1282
+Testando temperatura dos procs: 517 e 1283
+Testando temperatura dos procs: 517 e 1284
+Testando temperatura dos procs: 517 e 1285
+Testando temperatura dos procs: 768 e 769
+Testando temperatura dos procs: 768 e 770
+Testando temperatura dos procs: 768 e 771
+Testando temperatura dos procs: 768 e 772
+Testando temperatura dos procs: 768 e 773
+Testando temperatura dos procs: 768 e 1024
+Testando temperatura dos procs: 768 e 1025
+Testando temperatura dos procs: 768 e 1026
+Testando temperatura dos procs: 768 e 1027
+Testando temperatura dos procs: 768 e 1028
+Testando temperatura dos procs: 768 e 1029
+Testando temperatura dos procs: 768 e 1280
+Testando temperatura dos procs: 768 e 1281
+Testando temperatura dos procs: 768 e 1282
+Testando temperatura dos procs: 768 e 1283
+Testando temperatura dos procs: 768 e 1284
+Testando temperatura dos procs: 768 e 1285
+Testando temperatura dos procs: 769 e 770
+Testando temperatura dos procs: 769 e 771
+Testando temperatura dos procs: 769 e 772
+Testando temperatura dos procs: 769 e 773
+Testando temperatura dos procs: 769 e 1024
+Testando temperatura dos procs: 769 e 1025
+Testando temperatura dos procs: 769 e 1026
+Testando temperatura dos procs: 769 e 1027
+Testando temperatura dos procs: 769 e 1028
+Testando temperatura dos procs: 769 e 1029
+Testando temperatura dos procs: 769 e 1280
+Testando temperatura dos procs: 769 e 1281
+Testando temperatura dos procs: 769 e 1282
+Testando temperatura dos procs: 769 e 1283
+Testando temperatura dos procs: 769 e 1284
+Testando temperatura dos procs: 769 e 1285
+Testando temperatura dos procs: 770 e 771
+Testando temperatura dos procs: 770 e 772
+Testando temperatura dos procs: 770 e 773
+Testando temperatura dos procs: 770 e 1024
+Testando temperatura dos procs: 770 e 1025
+Testando temperatura dos procs: 770 e 1026
+Testando temperatura dos procs: 770 e 1027
+Testando temperatura dos procs: 770 e 1028
+Testando temperatura dos procs: 770 e 1029
+Testando temperatura dos procs: 770 e 1280
+Testando temperatura dos procs: 770 e 1281
+Testando temperatura dos procs: 770 e 1282
+Testando temperatura dos procs: 770 e 1283
+Testando temperatura dos procs: 770 e 1284
+Testando temperatura dos procs: 770 e 1285
+Testando temperatura dos procs: 771 e 772
+Testando temperatura dos procs: 771 e 773
+Testando temperatura dos procs: 771 e 1024
+Testando temperatura dos procs: 771 e 1025
+Testando temperatura dos procs: 771 e 1026
+Testando temperatura dos procs: 771 e 1027
+Testando temperatura dos procs: 771 e 1028
+Testando temperatura dos procs: 771 e 1029
+Testando temperatura dos procs: 771 e 1280
+Testando temperatura dos procs: 771 e 1281
+Testando temperatura dos procs: 771 e 1282
+Testando temperatura dos procs: 771 e 1283
+Testando temperatura dos procs: 771 e 1284
+Testando temperatura dos procs: 771 e 1285
+Testando temperatura dos procs: 772 e 773
+Testando temperatura dos procs: 772 e 1024
+Testando temperatura dos procs: 772 e 1025
+Testando temperatura dos procs: 772 e 1026
+Testando temperatura dos procs: 772 e 1027
+Testando temperatura dos procs: 772 e 1028
+Testando temperatura dos procs: 772 e 1029
+Testando temperatura dos procs: 772 e 1280
+Testando temperatura dos procs: 772 e 1281
+Testando temperatura dos procs: 772 e 1282
+Testando temperatura dos procs: 772 e 1283
+Testando temperatura dos procs: 772 e 1284
+Testando temperatura dos procs: 772 e 1285
+Testando temperatura dos procs: 773 e 1024
+Testando temperatura dos procs: 773 e 1025
+Testando temperatura dos procs: 773 e 1026
+Testando temperatura dos procs: 773 e 1027
+Testando temperatura dos procs: 773 e 1028
+Testando temperatura dos procs: 773 e 1029
+Testando temperatura dos procs: 773 e 1280
+Testando temperatura dos procs: 773 e 1281
+Testando temperatura dos procs: 773 e 1282
+Testando temperatura dos procs: 773 e 1283
+Testando temperatura dos procs: 773 e 1284
+Testando temperatura dos procs: 773 e 1285
+Testando temperatura dos procs: 1024 e 1025
+Testando temperatura dos procs: 1024 e 1026
+Testando temperatura dos procs: 1024 e 1027
+Testando temperatura dos procs: 1024 e 1028
+Testando temperatura dos procs: 1024 e 1029
+Testando temperatura dos procs: 1024 e 1280
+Testando temperatura dos procs: 1024 e 1281
+Testando temperatura dos procs: 1024 e 1282
+Testando temperatura dos procs: 1024 e 1283
+Testando temperatura dos procs: 1024 e 1284
+Testando temperatura dos procs: 1024 e 1285
+Testando temperatura dos procs: 1025 e 1026
+Testando temperatura dos procs: 1025 e 1027
+Testando temperatura dos procs: 1025 e 1028
+Testando temperatura dos procs: 1025 e 1029
+Testando temperatura dos procs: 1025 e 1280
+Testando temperatura dos procs: 1025 e 1281
+Testando temperatura dos procs: 1025 e 1282
+Testando temperatura dos procs: 1025 e 1283
+Testando temperatura dos procs: 1025 e 1284
+Testando temperatura dos procs: 1025 e 1285
+Testando temperatura dos procs: 1026 e 1027
+Testando temperatura dos procs: 1026 e 1028
+Testando temperatura dos procs: 1026 e 1029
+Testando temperatura dos procs: 1026 e 1280
+Testando temperatura dos procs: 1026 e 1281
+Testando temperatura dos procs: 1026 e 1282
+Testando temperatura dos procs: 1026 e 1283
+Testando temperatura dos procs: 1026 e 1284
+Testando temperatura dos procs: 1026 e 1285
+Testando temperatura dos procs: 1027 e 1028
+Testando temperatura dos procs: 1027 e 1029
+Testando temperatura dos procs: 1027 e 1280
+Testando temperatura dos procs: 1027 e 1281
+Testando temperatura dos procs: 1027 e 1282
+Testando temperatura dos procs: 1027 e 1283
+Testando temperatura dos procs: 1027 e 1284
+Testando temperatura dos procs: 1027 e 1285
+Testando temperatura dos procs: 1028 e 1029
+Testando temperatura dos procs: 1028 e 1280
+Testando temperatura dos procs: 1028 e 1281
+Testando temperatura dos procs: 1028 e 1282
+Testando temperatura dos procs: 1028 e 1283
+Testando temperatura dos procs: 1028 e 1284
+Testando temperatura dos procs: 1028 e 1285
+Testando temperatura dos procs: 1029 e 1280
+Testando temperatura dos procs: 1029 e 1281
+Testando temperatura dos procs: 1029 e 1282
+Testando temperatura dos procs: 1029 e 1283
+Testando temperatura dos procs: 1029 e 1284
+Testando temperatura dos procs: 1029 e 1285
+Testando temperatura dos procs: 1280 e 1281
+Testando temperatura dos procs: 1280 e 1282
+Testando temperatura dos procs: 1280 e 1283
+Testando temperatura dos procs: 1280 e 1284
+Testando temperatura dos procs: 1280 e 1285
+Testando temperatura dos procs: 1281 e 1282
+Testando temperatura dos procs: 1281 e 1283
+Testando temperatura dos procs: 1281 e 1284
+Testando temperatura dos procs: 1281 e 1285
+Testando temperatura dos procs: 1282 e 1283
+Testando temperatura dos procs: 1282 e 1284
+Testando temperatura dos procs: 1282 e 1285
+Testando temperatura dos procs: 1283 e 1284
+Testando temperatura dos procs: 1283 e 1285
+Testando temperatura dos procs: 1284 e 1285
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 8040142
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 0
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 71008
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 7
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+temperature tick antes (kernel_master)
+3105547
+temperatura : 1 450692986
+temperatura : 2 450000000
+temperatura : 3 450000000
+temperatura : 4 450000000
+temperatura : 5 450000000
+temperatura : 6 462997631
+temperatura : 7 453845529
+temperatura : 8 450000000
+temperatura : 9 450000000
+temperatura : 10 450000000
+temperatura : 11 450000000
+temperatura : 12 497337129
+temperatura : 13 457828034
+temperatura : 14 450000000
+temperatura : 15 450000000
+temperatura : 16 450000000
+temperatura : 17 450000000
+temperatura : 18 459824016
+temperatura : 19 452255962
+temperatura : 20 450000000
+temperatura : 21 450000000
+temperatura : 22 450000000
+temperatura : 23 450000000
+temperatura : 24 454114142
+temperatura : 25 451124368
+temperatura : 26 450000000
+temperatura : 27 450000000
+temperatura : 28 450000000
+temperatura : 29 450000000
+temperatura : 30 450799910
+temperatura : 31 450241570
+temperatura : 32 450000000
+temperatura : 33 450000000
+temperatura : 34 450000000
+temperatura : 35 450000000
+temperature tick depois (kernel_master)
+3263971
+TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : 
+Testando temperatura dos procs: 0 e 1
+Testando temperatura dos procs: 0 e 2
+Testando temperatura dos procs: 0 e 3
+Testando temperatura dos procs: 0 e 4
+Testando temperatura dos procs: 0 e 5
+Testando temperatura dos procs: 0 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 0 e 257
+Testando temperatura dos procs: 0 e 258
+Testando temperatura dos procs: 0 e 259
+Testando temperatura dos procs: 0 e 260
+Testando temperatura dos procs: 0 e 261
+Testando temperatura dos procs: 0 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 0 e 513
+Testando temperatura dos procs: 0 e 514
+Testando temperatura dos procs: 0 e 515
+Testando temperatura dos procs: 0 e 516
+Testando temperatura dos procs: 0 e 517
+Testando temperatura dos procs: 0 e 768
+Testando temperatura dos procs: 0 e 769
+Testando temperatura dos procs: 0 e 770
+Testando temperatura dos procs: 0 e 771
+Testando temperatura dos procs: 0 e 772
+Testando temperatura dos procs: 0 e 773
+Testando temperatura dos procs: 0 e 1024
+Testando temperatura dos procs: 0 e 1025
+Testando temperatura dos procs: 0 e 1026
+Testando temperatura dos procs: 0 e 1027
+Testando temperatura dos procs: 0 e 1028
+Testando temperatura dos procs: 0 e 1029
+Testando temperatura dos procs: 0 e 1280
+Testando temperatura dos procs: 0 e 1281
+Testando temperatura dos procs: 0 e 1282
+Testando temperatura dos procs: 0 e 1283
+Testando temperatura dos procs: 0 e 1284
+Testando temperatura dos procs: 0 e 1285
+Testando temperatura dos procs: 1 e 2
+Testando temperatura dos procs: 1 e 3
+Testando temperatura dos procs: 1 e 4
+Testando temperatura dos procs: 1 e 5
+Testando temperatura dos procs: 1 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 1 e 257
+Testando temperatura dos procs: 1 e 258
+Testando temperatura dos procs: 1 e 259
+Testando temperatura dos procs: 1 e 260
+Testando temperatura dos procs: 1 e 261
+Testando temperatura dos procs: 1 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 1 e 513
+Testando temperatura dos procs: 1 e 514
+Testando temperatura dos procs: 1 e 515
+Testando temperatura dos procs: 1 e 516
+Testando temperatura dos procs: 1 e 517
+Testando temperatura dos procs: 1 e 768
+Testando temperatura dos procs: 1 e 769
+Testando temperatura dos procs: 1 e 770
+Testando temperatura dos procs: 1 e 771
+Testando temperatura dos procs: 1 e 772
+Testando temperatura dos procs: 1 e 773
+Testando temperatura dos procs: 1 e 1024
+Testando temperatura dos procs: 1 e 1025
+Testando temperatura dos procs: 1 e 1026
+Testando temperatura dos procs: 1 e 1027
+Testando temperatura dos procs: 1 e 1028
+Testando temperatura dos procs: 1 e 1029
+Testando temperatura dos procs: 1 e 1280
+Testando temperatura dos procs: 1 e 1281
+Testando temperatura dos procs: 1 e 1282
+Testando temperatura dos procs: 1 e 1283
+Testando temperatura dos procs: 1 e 1284
+Testando temperatura dos procs: 1 e 1285
+Testando temperatura dos procs: 2 e 3
+Testando temperatura dos procs: 2 e 4
+Testando temperatura dos procs: 2 e 5
+Testando temperatura dos procs: 2 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 2 e 257
+Testando temperatura dos procs: 2 e 258
+Testando temperatura dos procs: 2 e 259
+Testando temperatura dos procs: 2 e 260
+Testando temperatura dos procs: 2 e 261
+Testando temperatura dos procs: 2 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 2 e 513
+Testando temperatura dos procs: 2 e 514
+Testando temperatura dos procs: 2 e 515
+Testando temperatura dos procs: 2 e 516
+Testando temperatura dos procs: 2 e 517
+Testando temperatura dos procs: 2 e 768
+Testando temperatura dos procs: 2 e 769
+Testando temperatura dos procs: 2 e 770
+Testando temperatura dos procs: 2 e 771
+Testando temperatura dos procs: 2 e 772
+Testando temperatura dos procs: 2 e 773
+Testando temperatura dos procs: 2 e 1024
+Testando temperatura dos procs: 2 e 1025
+Testando temperatura dos procs: 2 e 1026
+Testando temperatura dos procs: 2 e 1027
+Testando temperatura dos procs: 2 e 1028
+Testando temperatura dos procs: 2 e 1029
+Testando temperatura dos procs: 2 e 1280
+Testando temperatura dos procs: 2 e 1281
+Testando temperatura dos procs: 2 e 1282
+Testando temperatura dos procs: 2 e 1283
+Testando temperatura dos procs: 2 e 1284
+Testando temperatura dos procs: 2 e 1285
+Testando temperatura dos procs: 3 e 4
+Testando temperatura dos procs: 3 e 5
+Testando temperatura dos procs: 3 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 3 e 257
+Testando temperatura dos procs: 3 e 258
+Testando temperatura dos procs: 3 e 259
+Testando temperatura dos procs: 3 e 260
+Testando temperatura dos procs: 3 e 261
+Testando temperatura dos procs: 3 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 3 e 513
+Testando temperatura dos procs: 3 e 514
+Testando temperatura dos procs: 3 e 515
+Testando temperatura dos procs: 3 e 516
+Testando temperatura dos procs: 3 e 517
+Testando temperatura dos procs: 3 e 768
+Testando temperatura dos procs: 3 e 769
+Testando temperatura dos procs: 3 e 770
+Testando temperatura dos procs: 3 e 771
+Testando temperatura dos procs: 3 e 772
+Testando temperatura dos procs: 3 e 773
+Testando temperatura dos procs: 3 e 1024
+Testando temperatura dos procs: 3 e 1025
+Testando temperatura dos procs: 3 e 1026
+Testando temperatura dos procs: 3 e 1027
+Testando temperatura dos procs: 3 e 1028
+Testando temperatura dos procs: 3 e 1029
+Testando temperatura dos procs: 3 e 1280
+Testando temperatura dos procs: 3 e 1281
+Testando temperatura dos procs: 3 e 1282
+Testando temperatura dos procs: 3 e 1283
+Testando temperatura dos procs: 3 e 1284
+Testando temperatura dos procs: 3 e 1285
+Testando temperatura dos procs: 4 e 5
+Testando temperatura dos procs: 4 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 4 e 257
+Testando temperatura dos procs: 4 e 258
+Testando temperatura dos procs: 4 e 259
+Testando temperatura dos procs: 4 e 260
+Testando temperatura dos procs: 4 e 261
+Testando temperatura dos procs: 4 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 4 e 513
+Testando temperatura dos procs: 4 e 514
+Testando temperatura dos procs: 4 e 515
+Testando temperatura dos procs: 4 e 516
+Testando temperatura dos procs: 4 e 517
+Testando temperatura dos procs: 4 e 768
+Testando temperatura dos procs: 4 e 769
+Testando temperatura dos procs: 4 e 770
+Testando temperatura dos procs: 4 e 771
+Testando temperatura dos procs: 4 e 772
+Testando temperatura dos procs: 4 e 773
+Testando temperatura dos procs: 4 e 1024
+Testando temperatura dos procs: 4 e 1025
+Testando temperatura dos procs: 4 e 1026
+Testando temperatura dos procs: 4 e 1027
+Testando temperatura dos procs: 4 e 1028
+Testando temperatura dos procs: 4 e 1029
+Testando temperatura dos procs: 4 e 1280
+Testando temperatura dos procs: 4 e 1281
+Testando temperatura dos procs: 4 e 1282
+Testando temperatura dos procs: 4 e 1283
+Testando temperatura dos procs: 4 e 1284
+Testando temperatura dos procs: 4 e 1285
+Testando temperatura dos procs: 5 e 256
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 5 e 257
+Testando temperatura dos procs: 5 e 258
+Testando temperatura dos procs: 5 e 259
+Testando temperatura dos procs: 5 e 260
+Testando temperatura dos procs: 5 e 261
+Testando temperatura dos procs: 5 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 5 e 513
+Testando temperatura dos procs: 5 e 514
+Testando temperatura dos procs: 5 e 515
+Testando temperatura dos procs: 5 e 516
+Testando temperatura dos procs: 5 e 517
+Testando temperatura dos procs: 5 e 768
+Testando temperatura dos procs: 5 e 769
+Testando temperatura dos procs: 5 e 770
+Testando temperatura dos procs: 5 e 771
+Testando temperatura dos procs: 5 e 772
+Testando temperatura dos procs: 5 e 773
+Testando temperatura dos procs: 5 e 1024
+Testando temperatura dos procs: 5 e 1025
+Testando temperatura dos procs: 5 e 1026
+Testando temperatura dos procs: 5 e 1027
+Testando temperatura dos procs: 5 e 1028
+Testando temperatura dos procs: 5 e 1029
+Testando temperatura dos procs: 5 e 1280
+Testando temperatura dos procs: 5 e 1281
+Testando temperatura dos procs: 5 e 1282
+Testando temperatura dos procs: 5 e 1283
+Testando temperatura dos procs: 5 e 1284
+Testando temperatura dos procs: 5 e 1285
+Testando temperatura dos procs: 256 e 257
+Testando temperatura dos procs: 256 e 258
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 259
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 260
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 261
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 256 e 513
+Testando temperatura dos procs: 256 e 514
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 515
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 516
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 517
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 768
+Testando temperatura dos procs: 256 e 769
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 770
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 771
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 772
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 773
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1024
+Testando temperatura dos procs: 256 e 1025
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1026
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1027
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1028
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1029
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1280
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1281
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1282
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1283
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1284
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 256 e 1285
+STOP_EXECUTION enviado p/ processador 256
+Testando temperatura dos procs: 257 e 258
+Testando temperatura dos procs: 257 e 259
+Testando temperatura dos procs: 257 e 260
+Testando temperatura dos procs: 257 e 261
+Testando temperatura dos procs: 257 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 257 e 513
+Testando temperatura dos procs: 257 e 514
+Testando temperatura dos procs: 257 e 515
+Testando temperatura dos procs: 257 e 516
+Testando temperatura dos procs: 257 e 517
+Testando temperatura dos procs: 257 e 768
+Testando temperatura dos procs: 257 e 769
+Testando temperatura dos procs: 257 e 770
+Testando temperatura dos procs: 257 e 771
+Testando temperatura dos procs: 257 e 772
+Testando temperatura dos procs: 257 e 773
+Testando temperatura dos procs: 257 e 1024
+Testando temperatura dos procs: 257 e 1025
+Testando temperatura dos procs: 257 e 1026
+Testando temperatura dos procs: 257 e 1027
+Testando temperatura dos procs: 257 e 1028
+Testando temperatura dos procs: 257 e 1029
+Testando temperatura dos procs: 257 e 1280
+Testando temperatura dos procs: 257 e 1281
+Testando temperatura dos procs: 257 e 1282
+Testando temperatura dos procs: 257 e 1283
+Testando temperatura dos procs: 257 e 1284
+Testando temperatura dos procs: 257 e 1285
+Testando temperatura dos procs: 258 e 259
+Testando temperatura dos procs: 258 e 260
+Testando temperatura dos procs: 258 e 261
+Testando temperatura dos procs: 258 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 258 e 513
+Testando temperatura dos procs: 258 e 514
+Testando temperatura dos procs: 258 e 515
+Testando temperatura dos procs: 258 e 516
+Testando temperatura dos procs: 258 e 517
+Testando temperatura dos procs: 258 e 768
+Testando temperatura dos procs: 258 e 769
+Testando temperatura dos procs: 258 e 770
+Testando temperatura dos procs: 258 e 771
+Testando temperatura dos procs: 258 e 772
+Testando temperatura dos procs: 258 e 773
+Testando temperatura dos procs: 258 e 1024
+Testando temperatura dos procs: 258 e 1025
+Testando temperatura dos procs: 258 e 1026
+Testando temperatura dos procs: 258 e 1027
+Testando temperatura dos procs: 258 e 1028
+Testando temperatura dos procs: 258 e 1029
+Testando temperatura dos procs: 258 e 1280
+Testando temperatura dos procs: 258 e 1281
+Testando temperatura dos procs: 258 e 1282
+Testando temperatura dos procs: 258 e 1283
+Testando temperatura dos procs: 258 e 1284
+Testando temperatura dos procs: 258 e 1285
+Testando temperatura dos procs: 259 e 260
+Testando temperatura dos procs: 259 e 261
+Testando temperatura dos procs: 259 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 259 e 513
+Testando temperatura dos procs: 259 e 514
+Testando temperatura dos procs: 259 e 515
+Testando temperatura dos procs: 259 e 516
+Testando temperatura dos procs: 259 e 517
+Testando temperatura dos procs: 259 e 768
+Testando temperatura dos procs: 259 e 769
+Testando temperatura dos procs: 259 e 770
+Testando temperatura dos procs: 259 e 771
+Testando temperatura dos procs: 259 e 772
+Testando temperatura dos procs: 259 e 773
+Testando temperatura dos procs: 259 e 1024
+Testando temperatura dos procs: 259 e 1025
+Testando temperatura dos procs: 259 e 1026
+Testando temperatura dos procs: 259 e 1027
+Testando temperatura dos procs: 259 e 1028
+Testando temperatura dos procs: 259 e 1029
+Testando temperatura dos procs: 259 e 1280
+Testando temperatura dos procs: 259 e 1281
+Testando temperatura dos procs: 259 e 1282
+Testando temperatura dos procs: 259 e 1283
+Testando temperatura dos procs: 259 e 1284
+Testando temperatura dos procs: 259 e 1285
+Testando temperatura dos procs: 260 e 261
+Testando temperatura dos procs: 260 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 260 e 513
+Testando temperatura dos procs: 260 e 514
+Testando temperatura dos procs: 260 e 515
+Testando temperatura dos procs: 260 e 516
+Testando temperatura dos procs: 260 e 517
+Testando temperatura dos procs: 260 e 768
+Testando temperatura dos procs: 260 e 769
+Testando temperatura dos procs: 260 e 770
+Testando temperatura dos procs: 260 e 771
+Testando temperatura dos procs: 260 e 772
+Testando temperatura dos procs: 260 e 773
+Testando temperatura dos procs: 260 e 1024
+Testando temperatura dos procs: 260 e 1025
+Testando temperatura dos procs: 260 e 1026
+Testando temperatura dos procs: 260 e 1027
+Testando temperatura dos procs: 260 e 1028
+Testando temperatura dos procs: 260 e 1029
+Testando temperatura dos procs: 260 e 1280
+Testando temperatura dos procs: 260 e 1281
+Testando temperatura dos procs: 260 e 1282
+Testando temperatura dos procs: 260 e 1283
+Testando temperatura dos procs: 260 e 1284
+Testando temperatura dos procs: 260 e 1285
+Testando temperatura dos procs: 261 e 512
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 261 e 513
+Testando temperatura dos procs: 261 e 514
+Testando temperatura dos procs: 261 e 515
+Testando temperatura dos procs: 261 e 516
+Testando temperatura dos procs: 261 e 517
+Testando temperatura dos procs: 261 e 768
+Testando temperatura dos procs: 261 e 769
+Testando temperatura dos procs: 261 e 770
+Testando temperatura dos procs: 261 e 771
+Testando temperatura dos procs: 261 e 772
+Testando temperatura dos procs: 261 e 773
+Testando temperatura dos procs: 261 e 1024
+Testando temperatura dos procs: 261 e 1025
+Testando temperatura dos procs: 261 e 1026
+Testando temperatura dos procs: 261 e 1027
+Testando temperatura dos procs: 261 e 1028
+Testando temperatura dos procs: 261 e 1029
+Testando temperatura dos procs: 261 e 1280
+Testando temperatura dos procs: 261 e 1281
+Testando temperatura dos procs: 261 e 1282
+Testando temperatura dos procs: 261 e 1283
+Testando temperatura dos procs: 261 e 1284
+Testando temperatura dos procs: 261 e 1285
+Testando temperatura dos procs: 512 e 513
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 514
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 515
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 516
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 517
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 768
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 769
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 770
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 771
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 772
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 773
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1024
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1025
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1026
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1027
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1028
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1029
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1280
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1281
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1282
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1283
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1284
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 512 e 1285
+STOP_EXECUTION enviado p/ processador 512
+Testando temperatura dos procs: 513 e 514
+Testando temperatura dos procs: 513 e 515
+Testando temperatura dos procs: 513 e 516
+Testando temperatura dos procs: 513 e 517
+Testando temperatura dos procs: 513 e 768
+Testando temperatura dos procs: 513 e 769
+Testando temperatura dos procs: 513 e 770
+Testando temperatura dos procs: 513 e 771
+Testando temperatura dos procs: 513 e 772
+Testando temperatura dos procs: 513 e 773
+Testando temperatura dos procs: 513 e 1024
+Testando temperatura dos procs: 513 e 1025
+Testando temperatura dos procs: 513 e 1026
+Testando temperatura dos procs: 513 e 1027
+Testando temperatura dos procs: 513 e 1028
+Testando temperatura dos procs: 513 e 1029
+Testando temperatura dos procs: 513 e 1280
+Testando temperatura dos procs: 513 e 1281
+Testando temperatura dos procs: 513 e 1282
+Testando temperatura dos procs: 513 e 1283
+Testando temperatura dos procs: 513 e 1284
+Testando temperatura dos procs: 513 e 1285
+Testando temperatura dos procs: 514 e 515
+Testando temperatura dos procs: 514 e 516
+Testando temperatura dos procs: 514 e 517
+Testando temperatura dos procs: 514 e 768
+Testando temperatura dos procs: 514 e 769
+Testando temperatura dos procs: 514 e 770
+Testando temperatura dos procs: 514 e 771
+Testando temperatura dos procs: 514 e 772
+Testando temperatura dos procs: 514 e 773
+Testando temperatura dos procs: 514 e 1024
+Testando temperatura dos procs: 514 e 1025
+Testando temperatura dos procs: 514 e 1026
+Testando temperatura dos procs: 514 e 1027
+Testando temperatura dos procs: 514 e 1028
+Testando temperatura dos procs: 514 e 1029
+Testando temperatura dos procs: 514 e 1280
+Testando temperatura dos procs: 514 e 1281
+Testando temperatura dos procs: 514 e 1282
+Testando temperatura dos procs: 514 e 1283
+Testando temperatura dos procs: 514 e 1284
+Testando temperatura dos procs: 514 e 1285
+Testando temperatura dos procs: 515 e 516
+Testando temperatura dos procs: 515 e 517
+Testando temperatura dos procs: 515 e 768
+Testando temperatura dos procs: 515 e 769
+Testando temperatura dos procs: 515 e 770
+Testando temperatura dos procs: 515 e 771
+Testando temperatura dos procs: 515 e 772
+Testando temperatura dos procs: 515 e 773
+Testando temperatura dos procs: 515 e 1024
+Testando temperatura dos procs: 515 e 1025
+Testando temperatura dos procs: 515 e 1026
+Testando temperatura dos procs: 515 e 1027
+Testando temperatura dos procs: 515 e 1028
+Testando temperatura dos procs: 515 e 1029
+Testando temperatura dos procs: 515 e 1280
+Testando temperatura dos procs: 515 e 1281
+Testando temperatura dos procs: 515 e 1282
+Testando temperatura dos procs: 515 e 1283
+Testando temperatura dos procs: 515 e 1284
+Testando temperatura dos procs: 515 e 1285
+Testando temperatura dos procs: 516 e 517
+Testando temperatura dos procs: 516 e 768
+Testando temperatura dos procs: 516 e 769
+Testando temperatura dos procs: 516 e 770
+Testando temperatura dos procs: 516 e 771
+Testando temperatura dos procs: 516 e 772
+Testando temperatura dos procs: 516 e 773
+Testando temperatura dos procs: 516 e 1024
+Testando temperatura dos procs: 516 e 1025
+Testando temperatura dos procs: 516 e 1026
+Testando temperatura dos procs: 516 e 1027
+Testando temperatura dos procs: 516 e 1028
+Testando temperatura dos procs: 516 e 1029
+Testando temperatura dos procs: 516 e 1280
+Testando temperatura dos procs: 516 e 1281
+Testando temperatura dos procs: 516 e 1282
+Testando temperatura dos procs: 516 e 1283
+Testando temperatura dos procs: 516 e 1284
+Testando temperatura dos procs: 516 e 1285
+Testando temperatura dos procs: 517 e 768
+Testando temperatura dos procs: 517 e 769
+Testando temperatura dos procs: 517 e 770
+Testando temperatura dos procs: 517 e 771
+Testando temperatura dos procs: 517 e 772
+Testando temperatura dos procs: 517 e 773
+Testando temperatura dos procs: 517 e 1024
+Testando temperatura dos procs: 517 e 1025
+Testando temperatura dos procs: 517 e 1026
+Testando temperatura dos procs: 517 e 1027
+Testando temperatura dos procs: 517 e 1028
+Testando temperatura dos procs: 517 e 1029
+Testando temperatura dos procs: 517 e 1280
+Testando temperatura dos procs: 517 e 1281
+Testando temperatura dos procs: 517 e 1282
+Testando temperatura dos procs: 517 e 1283
+Testando temperatura dos procs: 517 e 1284
+Testando temperatura dos procs: 517 e 1285
+Testando temperatura dos procs: 768 e 769
+Testando temperatura dos procs: 768 e 770
+Testando temperatura dos procs: 768 e 771
+Testando temperatura dos procs: 768 e 772
+Testando temperatura dos procs: 768 e 773
+Testando temperatura dos procs: 768 e 1024
+Testando temperatura dos procs: 768 e 1025
+Testando temperatura dos procs: 768 e 1026
+Testando temperatura dos procs: 768 e 1027
+Testando temperatura dos procs: 768 e 1028
+Testando temperatura dos procs: 768 e 1029
+Testando temperatura dos procs: 768 e 1280
+Testando temperatura dos procs: 768 e 1281
+Testando temperatura dos procs: 768 e 1282
+Testando temperatura dos procs: 768 e 1283
+Testando temperatura dos procs: 768 e 1284
+Testando temperatura dos procs: 768 e 1285
+Testando temperatura dos procs: 769 e 770
+Testando temperatura dos procs: 769 e 771
+Testando temperatura dos procs: 769 e 772
+Testando temperatura dos procs: 769 e 773
+Testando temperatura dos procs: 769 e 1024
+Testando temperatura dos procs: 769 e 1025
+Testando temperatura dos procs: 769 e 1026
+Testando temperatura dos procs: 769 e 1027
+Testando temperatura dos procs: 769 e 1028
+Testando temperatura dos procs: 769 e 1029
+Testando temperatura dos procs: 769 e 1280
+Testando temperatura dos procs: 769 e 1281
+Testando temperatura dos procs: 769 e 1282
+Testando temperatura dos procs: 769 e 1283
+Testando temperatura dos procs: 769 e 1284
+Testando temperatura dos procs: 769 e 1285
+Testando temperatura dos procs: 770 e 771
+Testando temperatura dos procs: 770 e 772
+Testando temperatura dos procs: 770 e 773
+Testando temperatura dos procs: 770 e 1024
+Testando temperatura dos procs: 770 e 1025
+Testando temperatura dos procs: 770 e 1026
+Testando temperatura dos procs: 770 e 1027
+Testando temperatura dos procs: 770 e 1028
+Testando temperatura dos procs: 770 e 1029
+Testando temperatura dos procs: 770 e 1280
+Testando temperatura dos procs: 770 e 1281
+Testando temperatura dos procs: 770 e 1282
+Testando temperatura dos procs: 770 e 1283
+Testando temperatura dos procs: 770 e 1284
+Testando temperatura dos procs: 770 e 1285
+Testando temperatura dos procs: 771 e 772
+Testando temperatura dos procs: 771 e 773
+Testando temperatura dos procs: 771 e 1024
+Testando temperatura dos procs: 771 e 1025
+Testando temperatura dos procs: 771 e 1026
+Testando temperatura dos procs: 771 e 1027
+Testando temperatura dos procs: 771 e 1028
+Testando temperatura dos procs: 771 e 1029
+Testando temperatura dos procs: 771 e 1280
+Testando temperatura dos procs: 771 e 1281
+Testando temperatura dos procs: 771 e 1282
+Testando temperatura dos procs: 771 e 1283
+Testando temperatura dos procs: 771 e 1284
+Testando temperatura dos procs: 771 e 1285
+Testando temperatura dos procs: 772 e 773
+Testando temperatura dos procs: 772 e 1024
+Testando temperatura dos procs: 772 e 1025
+Testando temperatura dos procs: 772 e 1026
+Testando temperatura dos procs: 772 e 1027
+Testando temperatura dos procs: 772 e 1028
+Testando temperatura dos procs: 772 e 1029
+Testando temperatura dos procs: 772 e 1280
+Testando temperatura dos procs: 772 e 1281
+Testando temperatura dos procs: 772 e 1282
+Testando temperatura dos procs: 772 e 1283
+Testando temperatura dos procs: 772 e 1284
+Testando temperatura dos procs: 772 e 1285
+Testando temperatura dos procs: 773 e 1024
+Testando temperatura dos procs: 773 e 1025
+Testando temperatura dos procs: 773 e 1026
+Testando temperatura dos procs: 773 e 1027
+Testando temperatura dos procs: 773 e 1028
+Testando temperatura dos procs: 773 e 1029
+Testando temperatura dos procs: 773 e 1280
+Testando temperatura dos procs: 773 e 1281
+Testando temperatura dos procs: 773 e 1282
+Testando temperatura dos procs: 773 e 1283
+Testando temperatura dos procs: 773 e 1284
+Testando temperatura dos procs: 773 e 1285
+Testando temperatura dos procs: 1024 e 1025
+Testando temperatura dos procs: 1024 e 1026
+Testando temperatura dos procs: 1024 e 1027
+Testando temperatura dos procs: 1024 e 1028
+Testando temperatura dos procs: 1024 e 1029
+Testando temperatura dos procs: 1024 e 1280
+Testando temperatura dos procs: 1024 e 1281
+Testando temperatura dos procs: 1024 e 1282
+Testando temperatura dos procs: 1024 e 1283
+Testando temperatura dos procs: 1024 e 1284
+Testando temperatura dos procs: 1024 e 1285
+Testando temperatura dos procs: 1025 e 1026
+Testando temperatura dos procs: 1025 e 1027
+Testando temperatura dos procs: 1025 e 1028
+Testando temperatura dos procs: 1025 e 1029
+Testando temperatura dos procs: 1025 e 1280
+Testando temperatura dos procs: 1025 e 1281
+Testando temperatura dos procs: 1025 e 1282
+Testando temperatura dos procs: 1025 e 1283
+Testando temperatura dos procs: 1025 e 1284
+Testando temperatura dos procs: 1025 e 1285
+Testando temperatura dos procs: 1026 e 1027
+Testando temperatura dos procs: 1026 e 1028
+Testando temperatura dos procs: 1026 e 1029
+Testando temperatura dos procs: 1026 e 1280
+Testando temperatura dos procs: 1026 e 1281
+Testando temperatura dos procs: 1026 e 1282
+Testando temperatura dos procs: 1026 e 1283
+Testando temperatura dos procs: 1026 e 1284
+Testando temperatura dos procs: 1026 e 1285
+Testando temperatura dos procs: 1027 e 1028
+Testando temperatura dos procs: 1027 e 1029
+Testando temperatura dos procs: 1027 e 1280
+Testando temperatura dos procs: 1027 e 1281
+Testando temperatura dos procs: 1027 e 1282
+Testando temperatura dos procs: 1027 e 1283
+Testando temperatura dos procs: 1027 e 1284
+Testando temperatura dos procs: 1027 e 1285
+Testando temperatura dos procs: 1028 e 1029
+Testando temperatura dos procs: 1028 e 1280
+Testando temperatura dos procs: 1028 e 1281
+Testando temperatura dos procs: 1028 e 1282
+Testando temperatura dos procs: 1028 e 1283
+Testando temperatura dos procs: 1028 e 1284
+Testando temperatura dos procs: 1028 e 1285
+Testando temperatura dos procs: 1029 e 1280
+Testando temperatura dos procs: 1029 e 1281
+Testando temperatura dos procs: 1029 e 1282
+Testando temperatura dos procs: 1029 e 1283
+Testando temperatura dos procs: 1029 e 1284
+Testando temperatura dos procs: 1029 e 1285
+Testando temperatura dos procs: 1280 e 1281
+Testando temperatura dos procs: 1280 e 1282
+Testando temperatura dos procs: 1280 e 1283
+Testando temperatura dos procs: 1280 e 1284
+Testando temperatura dos procs: 1280 e 1285
+Testando temperatura dos procs: 1281 e 1282
+Testando temperatura dos procs: 1281 e 1283
+Testando temperatura dos procs: 1281 e 1284
+Testando temperatura dos procs: 1281 e 1285
+Testando temperatura dos procs: 1282 e 1283
+Testando temperatura dos procs: 1282 e 1284
+Testando temperatura dos procs: 1282 e 1285
+Testando temperatura dos procs: 1283 e 1284
+Testando temperatura dos procs: 1283 e 1285
+Testando temperatura dos procs: 1284 e 1285
+energySlavesAcc 1 : 0
+energySlavesAcc 2 : 0
+energySlavesAcc 3 : 0
+energySlavesAcc 4 : 0
+energySlavesAcc 5 : 0
+energySlavesAcc 6 : 0
+energySlavesAcc 7 : 0
+energySlavesAcc 8 : 0
+energySlavesAcc 9 : 0
+energySlavesAcc 10 : 0
+energySlavesAcc 11 : 0
+energySlavesAcc 12 : 11430437
+energySlavesAcc 13 : 0
+energySlavesAcc 14 : 0
+energySlavesAcc 15 : 0
+energySlavesAcc 16 : 0
+energySlavesAcc 17 : 0
+energySlavesAcc 18 : 327225
+energySlavesAcc 19 : 0
+energySlavesAcc 20 : 0
+energySlavesAcc 21 : 0
+energySlavesAcc 22 : 0
+energySlavesAcc 23 : 0
+energySlavesAcc 24 : 0
+energySlavesAcc 25 : 0
+energySlavesAcc 26 : 0
+energySlavesAcc 27 : 0
+energySlavesAcc 28 : 0
+energySlavesAcc 29 : 0
+energySlavesAcc 30 : 0
+energySlavesAcc 31 : 0
+energySlavesAcc 32 : 0
+energySlavesAcc 33 : 0
+energySlavesAcc 34 : 0
+energySlavesAcc 35 : 0
+energySlavesAcc_discretizado 1 : 0
+energySlavesAcc_discretizado 2 : 0
+energySlavesAcc_discretizado 3 : 0
+energySlavesAcc_discretizado 4 : 0
+energySlavesAcc_discretizado 5 : 0
+energySlavesAcc_discretizado 6 : 0
+energySlavesAcc_discretizado 7 : 0
+energySlavesAcc_discretizado 8 : 0
+energySlavesAcc_discretizado 9 : 0
+energySlavesAcc_discretizado 10 : 0
+energySlavesAcc_discretizado 11 : 0
+energySlavesAcc_discretizado 12 : 9
+energySlavesAcc_discretizado 13 : 0
+energySlavesAcc_discretizado 14 : 0
+energySlavesAcc_discretizado 15 : 0
+energySlavesAcc_discretizado 16 : 0
+energySlavesAcc_discretizado 17 : 0
+energySlavesAcc_discretizado 18 : 0
+energySlavesAcc_discretizado 19 : 0
+energySlavesAcc_discretizado 20 : 0
+energySlavesAcc_discretizado 21 : 0
+energySlavesAcc_discretizado 22 : 0
+energySlavesAcc_discretizado 23 : 0
+energySlavesAcc_discretizado 24 : 0
+energySlavesAcc_discretizado 25 : 0
+energySlavesAcc_discretizado 26 : 0
+energySlavesAcc_discretizado 27 : 0
+energySlavesAcc_discretizado 28 : 0
+energySlavesAcc_discretizado 29 : 0
+energySlavesAcc_discretizado 30 : 0
+energySlavesAcc_discretizado 31 : 0
+energySlavesAcc_discretizado 32 : 0
+energySlavesAcc_discretizado 33 : 0
+energySlavesAcc_discretizado 34 : 0
+energySlavesAcc_discretizado 35 : 0
+total_mpsoc_resources 65
+total_mpsoc_resources 66
+total_mpsoc_resources 67
+total_mpsoc_resources 68
+total_mpsoc_resources 69
+FINISH 3707647

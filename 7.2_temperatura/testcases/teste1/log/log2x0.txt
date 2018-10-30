@@ -1,0 +1,349 @@
+Initializing PE: 0x00000200
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 512
