@@ -4,7 +4,7 @@ print_3_debug.bin: formato do arquivo elf32-bigmips
 Disassembly of section .text:
 
 00000000 <entry>:
-   0:	241d3fff 	li	sp,16383
+   0:	341dffff 	li	sp,0xffff
    4:	0c000116 	jal	458 <main>
    8:	00000000 	nop
    c:	00002021 	move	a0,zero

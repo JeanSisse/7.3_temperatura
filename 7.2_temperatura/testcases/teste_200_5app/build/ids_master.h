@@ -26,27 +26,30 @@ typedef struct {
 #define XCLUSTER		6
 #define YCLUSTER		6
 #define CLUSTER_NUMBER		1
-#define APP_NUMBER		4
-#define TASK_NUMBER		27
+#define APP_NUMBER		5
+#define TASK_NUMBER		35
 #define MAX_APP_SIZE		12
-#define APP_REPO_SIZE		4634
+#define APP_REPO_SIZE		4937
 
 #define mpeg 0
-#define MPEG4 1
+#define dijkstra 1
+#define MPEG4 2
+#define dtw 3
+#define synthetic 4
 unsigned int energySlavesAcc[XDIMENSION][YDIMENSION];
 unsigned int energySlavesAcc_discretizado[XDIMENSION][YDIMENSION];
 unsigned int energyLocalClusterAcc;
 unsigned int energyClustersAcc[CLUSTER_NUMBER];
 
 //Application id relation
- int appstype[4] = {mpeg,mpeg,MPEG4,mpeg,};
+ int appstype[5] = {mpeg,dijkstra,MPEG4,dtw,synthetic,};
 
  int proc_available = 70;
- int task_location[APP_NUMBER][MAX_APP_SIZE] = { {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, };
- int task_terminated[APP_NUMBER][MAX_APP_SIZE] = { {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, };
+ int task_location[APP_NUMBER][MAX_APP_SIZE] = { {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, };
+ int task_terminated[APP_NUMBER][MAX_APP_SIZE] = { {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, }, };
 
 char proc_free_pages[XDIMENSION][YDIMENSION] = {{MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS}, {MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS}, {MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS}, {MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS}, {MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS}, {MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS, MAX_LOCAL_TASKS}};
- int applications_terminated[APP_NUMBER] = {-1, -1, -1, -1};
+ int applications_terminated[APP_NUMBER] = {-1, -1, -1, -1, -1};
  int proc_load_total[XDIMENSION][YDIMENSION] = {{0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}};
  int clusters_load[CLUSTER_NUMBER] = {0};
 ClusterInfo cluster_info[CLUSTER_NUMBER] = {

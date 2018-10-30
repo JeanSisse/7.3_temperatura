@@ -22,7 +22,7 @@ Disassembly of section .text:
 
 0000004c <interrupt_service_routine>:
       4c:	3c1b0004 	lui	k1,0x4
-      50:	277b27a0 	addiu	k1,k1,10144
+      50:	277b2804 	addiu	k1,k1,10244
       54:	8f7b0000 	lw	k1,0(k1)
       58:	af620000 	sw	v0,0(k1)
       5c:	af630004 	sw	v1,4(k1)
@@ -67,7 +67,7 @@ Disassembly of section .text:
 
 000000f8 <system_service_routine>:
       f8:	3c1b0004 	lui	k1,0x4
-      fc:	277b27a0 	addiu	k1,k1,10144
+      fc:	277b2804 	addiu	k1,k1,10244
      100:	8f7b0000 	lw	k1,0(k1)
      104:	af640008 	sw	a0,8(k1)
      108:	af65000c 	sw	a1,12(k1)
@@ -82,26 +82,26 @@ Disassembly of section .text:
      12c:	0c000738 	jal	1ce0 <Syscall>
      130:	00000000 	nop
      134:	3c1a0004 	lui	k0,0x4
-     138:	275a27a4 	addiu	k0,k0,10148
+     138:	275a2808 	addiu	k0,k0,10248
      13c:	8f5a0000 	lw	k0,0(k0)
      140:	1340000d 	beqz	k0,178 <system_service_restore>
      144:	00000000 	nop
      148:	3c040004 	lui	a0,0x4
-     14c:	248427a0 	addiu	a0,a0,10144
+     14c:	24842804 	addiu	a0,a0,10244
      150:	8c840000 	lw	a0,0(a0)
      154:	0c000069 	jal	1a4 <ASM_SaveRemainingContext>
      158:	00000000 	nop
      15c:	0c000541 	jal	1504 <Scheduler>
      160:	00000000 	nop
      164:	3c040004 	lui	a0,0x4
-     168:	248427a0 	addiu	a0,a0,10144
+     168:	24842804 	addiu	a0,a0,10244
      16c:	8c840000 	lw	a0,0(a0)
      170:	0c000076 	jal	1d8 <ASM_RunScheduledTask>
      174:	00000000 	nop
 
 00000178 <system_service_restore>:
      178:	3c1b0004 	lui	k1,0x4
-     17c:	277b27a0 	addiu	k1,k1,10144
+     17c:	277b2804 	addiu	k1,k1,10244
      180:	8f7b0000 	lw	k1,0(k1)
      184:	8f7d0064 	lw	sp,100(k1)
      188:	8f7f006c 	lw	ra,108(k1)
@@ -174,47 +174,47 @@ Disassembly of section .text:
 
 0000027c <read_inst>:
      27c:	3c1b0004 	lui	k1,0x4
-     280:	277b27d8 	addiu	k1,k1,10200
+     280:	277b2848 	addiu	k1,k1,10312
      284:	401a8000 	mfc0	k0,$16
      288:	af7a0000 	sw	k0,0(k1)
      28c:	3c1b0004 	lui	k1,0x4
-     290:	277b27e0 	addiu	k1,k1,10208
+     290:	277b2850 	addiu	k1,k1,10320
      294:	401a8800 	mfc0	k0,$17
      298:	af7a0000 	sw	k0,0(k1)
      29c:	3c1b0004 	lui	k1,0x4
-     2a0:	277b27e4 	addiu	k1,k1,10212
+     2a0:	277b2854 	addiu	k1,k1,10324
      2a4:	401a9000 	mfc0	k0,$18
      2a8:	af7a0000 	sw	k0,0(k1)
      2ac:	3c1b0004 	lui	k1,0x4
-     2b0:	277b27e8 	addiu	k1,k1,10216
+     2b0:	277b2858 	addiu	k1,k1,10328
      2b4:	401a9800 	mfc0	k0,$19
      2b8:	af7a0000 	sw	k0,0(k1)
      2bc:	3c1b0004 	lui	k1,0x4
-     2c0:	277b27ec 	addiu	k1,k1,10220
+     2c0:	277b285c 	addiu	k1,k1,10332
      2c4:	401aa000 	mfc0	k0,$20
      2c8:	af7a0000 	sw	k0,0(k1)
      2cc:	3c1b0004 	lui	k1,0x4
-     2d0:	277b27f0 	addiu	k1,k1,10224
+     2d0:	277b2860 	addiu	k1,k1,10336
      2d4:	401aa800 	mfc0	k0,$21
      2d8:	af7a0000 	sw	k0,0(k1)
      2dc:	3c1b0004 	lui	k1,0x4
-     2e0:	277b27f4 	addiu	k1,k1,10228
+     2e0:	277b2864 	addiu	k1,k1,10340
      2e4:	401ab000 	mfc0	k0,$22
      2e8:	af7a0000 	sw	k0,0(k1)
      2ec:	3c1b0004 	lui	k1,0x4
-     2f0:	277b27f8 	addiu	k1,k1,10232
+     2f0:	277b2868 	addiu	k1,k1,10344
      2f4:	401ab800 	mfc0	k0,$23
      2f8:	af7a0000 	sw	k0,0(k1)
      2fc:	3c1b0004 	lui	k1,0x4
-     300:	277b27fc 	addiu	k1,k1,10236
+     300:	277b286c 	addiu	k1,k1,10348
      304:	401ac000 	mfc0	k0,$24
      308:	af7a0000 	sw	k0,0(k1)
      30c:	3c1b0004 	lui	k1,0x4
-     310:	277b2800 	addiu	k1,k1,10240
+     310:	277b2870 	addiu	k1,k1,10352
      314:	401ac800 	mfc0	k0,$25
      318:	af7a0000 	sw	k0,0(k1)
      31c:	3c1b0004 	lui	k1,0x4
-     320:	277b2804 	addiu	k1,k1,10244
+     320:	277b2874 	addiu	k1,k1,10356
      324:	401ad000 	mfc0	k0,$26
      328:	af7a0000 	sw	k0,0(k1)
      32c:	03e00008 	jr	ra
@@ -223,17 +223,17 @@ Disassembly of section .text:
 00000334 <itoa>:
      334:	14800007 	bnez	a0,354 <itoa+0x20>
      338:	3c050004 	lui	a1,0x4
-     33c:	24a32888 	addiu	v1,a1,10376
+     33c:	24a328f8 	addiu	v1,a1,10488
      340:	24020030 	li	v0,48
      344:	00602021 	move	a0,v1
-     348:	a0a22888 	sb	v0,10376(a1)
+     348:	a0a228f8 	sb	v0,10488(a1)
      34c:	08000106 	j	418 <itoa+0xe4>
      350:	a0600001 	sb	zero,1(v1)
      354:	3c02cccc 	lui	v0,0xcccc
      358:	3442cccd 	ori	v0,v0,0xcccd
      35c:	00820019 	multu	a0,v0
      360:	00404021 	move	t0,v0
-     364:	24a72888 	addiu	a3,a1,10376
+     364:	24a728f8 	addiu	a3,a1,10488
      368:	24060001 	li	a2,1
      36c:	2409000b 	li	t1,11
      370:	00001810 	mfhi	v1
@@ -244,7 +244,7 @@ Disassembly of section .text:
      384:	00831823 	subu	v1,a0,v1
      388:	24630030 	addiu	v1,v1,48
      38c:	080000f0 	j	3c0 <itoa+0x8c>
-     390:	a0a32888 	sb	v1,10376(a1)
+     390:	a0a328f8 	sb	v1,10488(a1)
      394:	00880019 	multu	a0,t0
      398:	24c60001 	addiu	a2,a2,1
      39c:	00001010 	mfhi	v0
@@ -262,11 +262,11 @@ Disassembly of section .text:
      3cc:	1480fff1 	bnez	a0,394 <itoa+0x60>
      3d0:	24e70001 	addiu	a3,a3,1
      3d4:	3c020004 	lui	v0,0x4
-     3d8:	2442287c 	addiu	v0,v0,10364
+     3d8:	244228ec 	addiu	v0,v0,10476
      3dc:	24c4ffff 	addiu	a0,a2,-1
      3e0:	3c030004 	lui	v1,0x4
      3e4:	00822821 	addu	a1,a0,v0
-     3e8:	24632888 	addiu	v1,v1,10376
+     3e8:	246328f8 	addiu	v1,v1,10488
      3ec:	00c21021 	addu	v0,a2,v0
      3f0:	08000101 	j	404 <itoa+0xd0>
      3f4:	a0400000 	sb	zero,0(v0)
@@ -277,15 +277,15 @@ Disassembly of section .text:
      408:	0481fffb 	bgez	a0,3f8 <itoa+0xc4>
      40c:	24a5ffff 	addiu	a1,a1,-1
      410:	3c020004 	lui	v0,0x4
-     414:	2444287c 	addiu	a0,v0,10364
+     414:	244428ec 	addiu	a0,v0,10476
      418:	03e00008 	jr	ra
      41c:	00801021 	move	v0,a0
 
 00000420 <itoh>:
      420:	3c020004 	lui	v0,0x4
      424:	24050030 	li	a1,48
-     428:	24432870 	addiu	v1,v0,10352
-     42c:	a0452870 	sb	a1,10352(v0)
+     428:	244328e0 	addiu	v1,v0,10464
+     42c:	a04528e0 	sb	a1,10464(v0)
      430:	24020078 	li	v0,120
      434:	a0620001 	sb	v0,1(v1)
      438:	1480000a 	bnez	a0,464 <itoh+0x44>
@@ -300,9 +300,9 @@ Disassembly of section .text:
      45c:	08000129 	j	4a4 <itoh+0x84>
      460:	a0650008 	sb	a1,8(v1)
      464:	3c020004 	lui	v0,0x4
-     468:	24452879 	addiu	a1,v0,10361
+     468:	244528e9 	addiu	a1,v0,10473
      46c:	3c020004 	lui	v0,0x4
-     470:	24472871 	addiu	a3,v0,10353
+     470:	244728e1 	addiu	a3,v0,10465
      474:	3082000f 	andi	v0,a0,0xf
      478:	24460030 	addiu	a2,v0,48
      47c:	24430057 	addiu	v1,v0,87
@@ -317,7 +317,7 @@ Disassembly of section .text:
      4a0:	00042102 	srl	a0,a0,0x4
      4a4:	3c020004 	lui	v0,0x4
      4a8:	03e00008 	jr	ra
-     4ac:	24422870 	addiu	v0,v0,10352
+     4ac:	244228e0 	addiu	v0,v0,10464
 
 000004b0 <abs>:
      4b0:	04810002 	bgez	a0,4bc <abs+0xc>
@@ -362,7 +362,7 @@ Disassembly of section .text:
      524:	0481003c 	bgez	a0,618 <fixetoa+0xf4>
      528:	00801021 	move	v0,a0
      52c:	3c020004 	lui	v0,0x4
-     530:	24472860 	addiu	a3,v0,10336
+     530:	244728d0 	addiu	a3,v0,10448
      534:	3c026666 	lui	v0,0x6666
      538:	00042823 	negu	a1,a0
      53c:	344a6667 	ori	t2,v0,0x6667
@@ -392,11 +392,11 @@ Disassembly of section .text:
      59c:	1440ffec 	bnez	v0,550 <fixetoa+0x2c>
      5a0:	00000000 	nop
      5a4:	3c030004 	lui	v1,0x4
-     5a8:	24632850 	addiu	v1,v1,10320
+     5a8:	246328c0 	addiu	v1,v1,10432
      5ac:	3c020004 	lui	v0,0x4
      5b0:	24c40001 	addiu	a0,a2,1
      5b4:	00604021 	move	t0,v1
-     5b8:	24472860 	addiu	a3,v0,10336
+     5b8:	244728d0 	addiu	a3,v0,10448
      5bc:	00c31821 	addu	v1,a2,v1
      5c0:	00002821 	move	a1,zero
      5c4:	24090004 	li	t1,4
@@ -417,19 +417,19 @@ Disassembly of section .text:
      600:	00881021 	addu	v0,a0,t0
      604:	3c030004 	lui	v1,0x4
      608:	2402002d 	li	v0,45
-     60c:	24652850 	addiu	a1,v1,10320
+     60c:	246528c0 	addiu	a1,v1,10432
      610:	080001c5 	j	714 <fixetoa+0x1f0>
-     614:	a0622850 	sb	v0,10320(v1)
+     614:	a06228c0 	sb	v0,10432(v1)
      618:	10400005 	beqz	v0,630 <fixetoa+0x10c>
      61c:	3c040004 	lui	a0,0x4
      620:	00402821 	move	a1,v0
-     624:	24872860 	addiu	a3,a0,10336
+     624:	248728d0 	addiu	a3,a0,10448
      628:	080001a6 	j	698 <fixetoa+0x174>
      62c:	00003021 	move	a2,zero
-     630:	24832860 	addiu	v1,a0,10336
+     630:	248328d0 	addiu	v1,a0,10448
      634:	24020030 	li	v0,48
      638:	00602821 	move	a1,v1
-     63c:	a0822860 	sb	v0,10336(a0)
+     63c:	a08228d0 	sb	v0,10448(a0)
      640:	080001c5 	j	714 <fixetoa+0x1f0>
      644:	a0600001 	sb	zero,1(v1)
      648:	24020030 	li	v0,48
@@ -458,11 +458,11 @@ Disassembly of section .text:
      6a4:	1440ffe8 	bnez	v0,648 <fixetoa+0x124>
      6a8:	00000000 	nop
      6ac:	3c030004 	lui	v1,0x4
-     6b0:	24632850 	addiu	v1,v1,10320
+     6b0:	246328c0 	addiu	v1,v1,10432
      6b4:	3c020004 	lui	v0,0x4
      6b8:	00c02021 	move	a0,a2
      6bc:	00604021 	move	t0,v1
-     6c0:	24472860 	addiu	a3,v0,10336
+     6c0:	244728d0 	addiu	a3,v0,10448
      6c4:	00c31821 	addu	v1,a2,v1
      6c8:	00002821 	move	a1,zero
      6cc:	24090004 	li	t1,4
@@ -482,7 +482,7 @@ Disassembly of section .text:
      704:	0481fff5 	bgez	a0,6dc <fixetoa+0x1b8>
      708:	00881021 	addu	v0,a0,t0
      70c:	3c020004 	lui	v0,0x4
-     710:	24452850 	addiu	a1,v0,10320
+     710:	244528c0 	addiu	a1,v0,10432
      714:	03e00008 	jr	ra
      718:	00a01021 	move	v0,a1
 
@@ -515,7 +515,7 @@ Disassembly of section .text:
 
 00000770 <initCommStructs>:
      770:	3c020004 	lui	v0,0x4
-     774:	24422894 	addiu	v0,v0,10388
+     774:	24422904 	addiu	v0,v0,10500
      778:	a0400c70 	sb	zero,3184(v0)
      77c:	a040020c 	sb	zero,524(v0)
      780:	a0400420 	sb	zero,1056(v0)
@@ -523,9 +523,9 @@ Disassembly of section .text:
      788:	a0400848 	sb	zero,2120(v0)
      78c:	a0400a5c 	sb	zero,2652(v0)
      790:	3c020004 	lui	v0,0x4
-     794:	24433934 	addiu	v1,v0,14644
+     794:	244339a4 	addiu	v1,v0,14756
      798:	3c020004 	lui	v0,0x4
-     79c:	24423a3c 	addiu	v0,v0,14908
+     79c:	24423aac 	addiu	v0,v0,15020
      7a0:	2404ffff 	li	a0,-1
      7a4:	ac640000 	sw	a0,0(v1)
      7a8:	ac64fffc 	sw	a0,-4(v1)
@@ -538,9 +538,9 @@ Disassembly of section .text:
 
 000007c4 <searchPIPEproducer>:
      7c4:	3c020004 	lui	v0,0x4
-     7c8:	24432aa0 	addiu	v1,v0,10912
+     7c8:	24432b10 	addiu	v1,v0,11024
      7cc:	3c020004 	lui	v0,0x4
-     7d0:	24473718 	addiu	a3,v0,14104
+     7d0:	24473788 	addiu	a3,v0,14216
      7d4:	00002821 	move	a1,zero
      7d8:	24060002 	li	a2,2
      7dc:	80620000 	lb	v0,0(v1)
@@ -560,9 +560,9 @@ Disassembly of section .text:
 
 00000814 <searchForAnyMsgInPIPE>:
      814:	3c020004 	lui	v0,0x4
-     818:	24432aa0 	addiu	v1,v0,10912
+     818:	24432b10 	addiu	v1,v0,11024
      81c:	3c020004 	lui	v0,0x4
-     820:	24463718 	addiu	a2,v0,14104
+     820:	24463788 	addiu	a2,v0,14216
      824:	00002021 	move	a0,zero
      828:	24050002 	li	a1,2
      82c:	80620000 	lb	v0,0(v1)
@@ -577,16 +577,16 @@ Disassembly of section .text:
 
 00000850 <removePIPE>:
      850:	3c020004 	lui	v0,0x4
-     854:	90432794 	lbu	v1,10132(v0)
+     854:	904327f8 	lbu	v1,10232(v0)
      858:	24020006 	li	v0,6
      85c:	14620003 	bne	v1,v0,86c <removePIPE+0x1c>
      860:	00004021 	move	t0,zero
      864:	0800023f 	j	8fc <removePIPE+0xac>
      868:	00002021 	move	a0,zero
      86c:	3c020004 	lui	v0,0x4
-     870:	24462894 	addiu	a2,v0,10388
+     870:	24462904 	addiu	a2,v0,10500
      874:	3c020004 	lui	v0,0x4
-     878:	244a350c 	addiu	t2,v0,13580
+     878:	244a357c 	addiu	t2,v0,13692
      87c:	2407ffff 	li	a3,-1
      880:	24090002 	li	t1,2
      884:	80c2020c 	lb	v0,524(a2)
@@ -615,18 +615,18 @@ Disassembly of section .text:
      8e0:	01002021 	move	a0,t0
      8e4:	a100020c 	sb	zero,524(t0)
      8e8:	3c030004 	lui	v1,0x4
-     8ec:	90622794 	lbu	v0,10132(v1)
+     8ec:	906227f8 	lbu	v0,10232(v1)
      8f0:	00000000 	nop
      8f4:	24420001 	addiu	v0,v0,1
-     8f8:	a0622794 	sb	v0,10132(v1)
+     8f8:	a06227f8 	sb	v0,10232(v1)
      8fc:	03e00008 	jr	ra
      900:	00801021 	move	v0,a0
 
 00000904 <getPIPEfreePosition>:
      904:	3c020004 	lui	v0,0x4
-     908:	24442aa0 	addiu	a0,v0,10912
+     908:	24442b10 	addiu	a0,v0,11024
      90c:	3c020004 	lui	v0,0x4
-     910:	24452894 	addiu	a1,v0,10388
+     910:	24452904 	addiu	a1,v0,10500
      914:	00001821 	move	v1,zero
      918:	24060006 	li	a2,6
      91c:	80820000 	lb	v0,0(a0)
@@ -648,15 +648,15 @@ Disassembly of section .text:
      954:	afbf0020 	sw	ra,32(sp)
      958:	afb00010 	sw	s0,16(sp)
      95c:	3c020004 	lui	v0,0x4
-     960:	90422794 	lbu	v0,10132(v0)
+     960:	904227f8 	lbu	v0,10232(v0)
      964:	00809021 	move	s2,a0
      968:	00a09821 	move	s3,a1
      96c:	1040003d 	beqz	v0,a64 <addPIPE+0x120>
      970:	00c08821 	move	s1,a2
      974:	3c020004 	lui	v0,0x4
-     978:	24442aa0 	addiu	a0,v0,10912
+     978:	24442b10 	addiu	a0,v0,11024
      97c:	3c020004 	lui	v0,0x4
-     980:	24473718 	addiu	a3,v0,14104
+     980:	24473788 	addiu	a3,v0,14216
      984:	00008021 	move	s0,zero
      988:	00002821 	move	a1,zero
      98c:	24060002 	li	a2,2
@@ -708,11 +708,11 @@ Disassembly of section .text:
      a44:	1440fffa 	bnez	v0,a30 <addPIPE+0xec>
      a48:	24840001 	addiu	a0,a0,1
      a4c:	3c030004 	lui	v1,0x4
-     a50:	90622794 	lbu	v0,10132(v1)
+     a50:	906227f8 	lbu	v0,10232(v1)
      a54:	24040001 	li	a0,1
      a58:	2442ffff 	addiu	v0,v0,-1
      a5c:	0800029a 	j	a68 <addPIPE+0x124>
-     a60:	a0622794 	sb	v0,10132(v1)
+     a60:	a06227f8 	sb	v0,10232(v1)
      a64:	00002021 	move	a0,zero
      a68:	8fbf0020 	lw	ra,32(sp)
      a6c:	8fb3001c 	lw	s3,28(sp)
@@ -725,9 +725,9 @@ Disassembly of section .text:
 
 00000a88 <searchMessageRequest>:
      a88:	3c020004 	lui	v0,0x4
-     a8c:	24433934 	addiu	v1,v0,14644
+     a8c:	244339a4 	addiu	v1,v0,14756
      a90:	3c020004 	lui	v0,0x4
-     a94:	24463a3c 	addiu	a2,v0,14908
+     a94:	24463aac 	addiu	a2,v0,15020
      a98:	8c620000 	lw	v0,0(v1)
      a9c:	00000000 	nop
      aa0:	14440007 	bne	v0,a0,ac0 <searchMessageRequest+0x38>
@@ -746,9 +746,9 @@ Disassembly of section .text:
 
 00000ad4 <removeMessageRequest>:
      ad4:	3c020004 	lui	v0,0x4
-     ad8:	24463934 	addiu	a2,v0,14644
+     ad8:	244639a4 	addiu	a2,v0,14756
      adc:	3c020004 	lui	v0,0x4
-     ae0:	24433930 	addiu	v1,v0,14640
+     ae0:	244339a0 	addiu	v1,v0,14752
      ae4:	00003821 	move	a3,zero
      ae8:	2408ffff 	li	t0,-1
      aec:	24090016 	li	t1,22
@@ -773,12 +773,12 @@ Disassembly of section .text:
 
 00000b38 <get_service_header_slot>:
      b38:	3c020004 	lui	v0,0x4
-     b3c:	24443a38 	addiu	a0,v0,14904
+     b3c:	24443aa8 	addiu	a0,v0,15016
      b40:	8c83003c 	lw	v1,60(a0)
      b44:	3c020004 	lui	v0,0x4
      b48:	00803821 	move	a3,a0
      b4c:	10600005 	beqz	v1,b64 <get_service_header_slot+0x2c>
-     b50:	244638f0 	addiu	a2,v0,14576
+     b50:	24463960 	addiu	a2,v0,14688
      b54:	24020001 	li	v0,1
      b58:	acc2003c 	sw	v0,60(a2)
      b5c:	080002dd 	j	b74 <get_service_header_slot+0x3c>
@@ -793,10 +793,10 @@ Disassembly of section .text:
 00000b7c <init_service_header_slots>:
      b7c:	24020001 	li	v0,1
      b80:	3c030004 	lui	v1,0x4
-     b84:	ac62392c 	sw	v0,14636(v1)
+     b84:	ac62399c 	sw	v0,14748(v1)
      b88:	3c030004 	lui	v1,0x4
      b8c:	03e00008 	jr	ra
-     b90:	ac623a74 	sw	v0,14964(v1)
+     b90:	ac623ae4 	sw	v0,15076(v1)
 
 00000b94 <DMA_read_data>:
      b94:	3c022000 	lui	v0,0x2000
@@ -894,18 +894,18 @@ Disassembly of section .text:
 
 00000cec <get_next_pending_service>:
      cec:	3c020004 	lui	v0,0x4
-     cf0:	8c442834 	lw	a0,10292(v0)
+     cf0:	8c4428a4 	lw	a0,10404(v0)
      cf4:	3c020004 	lui	v0,0x4
-     cf8:	8c472838 	lw	a3,10296(v0)
+     cf8:	8c4728a8 	lw	a3,10408(v0)
      cfc:	00041980 	sll	v1,a0,0x6
      d00:	00041080 	sll	v0,a0,0x2
      d04:	00621823 	subu	v1,v1,v0
      d08:	3c020004 	lui	v0,0x4
-     d0c:	24423a78 	addiu	v0,v0,14968
+     d0c:	24423ae8 	addiu	v0,v0,15080
      d10:	14870008 	bne	a0,a3,d34 <get_next_pending_service+0x48>
      d14:	00623021 	addu	a2,v1,v0
      d18:	3c020004 	lui	v0,0x4
-     d1c:	9042283c 	lbu	v0,10300(v0)
+     d1c:	904228ac 	lbu	v0,10412(v0)
      d20:	00000000 	nop
      d24:	14400003 	bnez	v0,d34 <get_next_pending_service+0x48>
      d28:	00000000 	nop
@@ -916,13 +916,13 @@ Disassembly of section .text:
      d3c:	14820003 	bne	a0,v0,d4c <get_next_pending_service+0x60>
      d40:	3c050004 	lui	a1,0x4
      d44:	08000354 	j	d50 <get_next_pending_service+0x64>
-     d48:	aca02834 	sw	zero,10292(a1)
-     d4c:	aca32834 	sw	v1,10292(a1)
+     d48:	aca028a4 	sw	zero,10404(a1)
+     d4c:	aca328a4 	sw	v1,10404(a1)
      d50:	3c020004 	lui	v0,0x4
-     d54:	8c432834 	lw	v1,10292(v0)
+     d54:	8c4328a4 	lw	v1,10404(v0)
      d58:	3c020004 	lui	v0,0x4
      d5c:	14670004 	bne	v1,a3,d70 <get_next_pending_service+0x84>
-     d60:	a040283c 	sb	zero,10300(v0)
+     d60:	a04028ac 	sb	zero,10412(v0)
      d64:	3c022000 	lui	v0,0x2000
      d68:	34420400 	ori	v0,v0,0x400
      d6c:	ac400000 	sw	zero,0(v0)
@@ -962,7 +962,7 @@ Disassembly of section .text:
      de4:	3c020004 	lui	v0,0x4
      de8:	27bdffe8 	addiu	sp,sp,-24
      dec:	afbf0010 	sw	ra,16(sp)
-     df0:	244437b0 	addiu	a0,v0,14256
+     df0:	24443820 	addiu	a0,v0,14368
      df4:	8c820084 	lw	v0,132(a0)
      df8:	24050005 	li	a1,5
      dfc:	10450006 	beq	v0,a1,e18 <search_free_TCB+0x34>
@@ -970,13 +970,13 @@ Disassembly of section .text:
      e04:	8c820124 	lw	v0,292(a0)
      e08:	3c040000 	lui	a0,0x0
      e0c:	14450009 	bne	v0,a1,e34 <search_free_TCB+0x50>
-     e10:	24842414 	addiu	a0,a0,9236
+     e10:	24842418 	addiu	a0,a0,9240
      e14:	24030001 	li	v1,1
      e18:	000311c0 	sll	v0,v1,0x7
      e1c:	00031940 	sll	v1,v1,0x5
      e20:	00621821 	addu	v1,v1,v0
      e24:	3c020004 	lui	v0,0x4
-     e28:	244237b0 	addiu	v0,v0,14256
+     e28:	24423820 	addiu	v0,v0,14368
      e2c:	08000390 	j	e40 <search_free_TCB+0x5c>
      e30:	00621021 	addu	v0,v1,v0
      e34:	0c00035e 	jal	d78 <puts>
@@ -989,7 +989,7 @@ Disassembly of section .text:
 
 00000e50 <searchTCB>:
      e50:	3c020004 	lui	v0,0x4
-     e54:	244537b0 	addiu	a1,v0,14256
+     e54:	24453820 	addiu	a1,v0,14368
      e58:	8ca20080 	lw	v0,128(a1)
      e5c:	00000000 	nop
      e60:	10440006 	beq	v0,a0,e7c <searchTCB+0x2c>
@@ -1003,7 +1003,7 @@ Disassembly of section .text:
      e80:	00031940 	sll	v1,v1,0x5
      e84:	00621821 	addu	v1,v1,v0
      e88:	3c020004 	lui	v0,0x4
-     e8c:	244237b0 	addiu	v0,v0,14256
+     e8c:	24423820 	addiu	v0,v0,14368
      e90:	00621821 	addu	v1,v1,v0
      e94:	03e00008 	jr	ra
      e98:	00601021 	move	v0,v1
@@ -1021,7 +1021,7 @@ Disassembly of section .text:
      ec0:	3c040000 	lui	a0,0x0
      ec4:	8fbf0014 	lw	ra,20(sp)
      ec8:	8fb00010 	lw	s0,16(sp)
-     ecc:	24842540 	addiu	a0,a0,9536
+     ecc:	24842544 	addiu	a0,a0,9540
      ed0:	0800035e 	j	d78 <puts>
      ed4:	27bd0018 	addiu	sp,sp,24
 
@@ -1040,14 +1040,14 @@ Disassembly of section .text:
      f04:	24020070 	li	v0,112
      f08:	ae220008 	sw	v0,8(s1)
      f0c:	8e420080 	lw	v0,128(s2)
-     f10:	8e032840 	lw	v1,10304(s0)
+     f10:	8e0328b0 	lw	v1,10416(s0)
      f14:	02202021 	move	a0,s1
      f18:	ae22000c 	sw	v0,12(s1)
      f1c:	ae230010 	sw	v1,16(s1)
      f20:	00002821 	move	a1,zero
      f24:	0c000308 	jal	c20 <send_packet>
      f28:	00003021 	move	a2,zero
-     f2c:	8e032840 	lw	v1,10304(s0)
+     f2c:	8e0328b0 	lw	v1,10416(s0)
      f30:	8e420098 	lw	v0,152(s2)
      f34:	02202021 	move	a0,s1
      f38:	00002821 	move	a1,zero
@@ -1127,7 +1127,7 @@ Disassembly of section .text:
     1050:	321000ff 	andi	s0,s0,0xff
     1054:	00701821 	addu	v1,v1,s0
     1058:	3c020004 	lui	v0,0x4
-    105c:	24422614 	addiu	v0,v0,9748
+    105c:	24422618 	addiu	v0,v0,9752
     1060:	00031880 	sll	v1,v1,0x2
     1064:	00621821 	addu	v1,v1,v0
     1068:	2402fffe 	li	v0,-2
@@ -1155,7 +1155,7 @@ Disassembly of section .text:
     10b8:	24030230 	li	v1,560
     10bc:	ac430008 	sw	v1,8(v0)
     10c0:	3c030004 	lui	v1,0x4
-    10c4:	24632614 	addiu	v1,v1,9748
+    10c4:	24632618 	addiu	v1,v1,9752
     10c8:	00042080 	sll	a0,a0,0x2
     10cc:	ac510000 	sw	s1,0(v0)
     10d0:	ac50000c 	sw	s0,12(v0)
@@ -1188,7 +1188,7 @@ Disassembly of section .text:
     1134:	320300ff 	andi	v1,s0,0xff
     1138:	00832021 	addu	a0,a0,v1
     113c:	3c030004 	lui	v1,0x4
-    1140:	24632614 	addiu	v1,v1,9748
+    1140:	24632618 	addiu	v1,v1,9752
     1144:	00042080 	sll	a0,a0,0x2
     1148:	00832021 	addu	a0,a0,v1
     114c:	8c830000 	lw	v1,0(a0)
@@ -1232,7 +1232,7 @@ Disassembly of section .text:
     11cc:	27bdffe8 	addiu	sp,sp,-24
     11d0:	afbf0010 	sw	ra,16(sp)
     11d4:	3c020004 	lui	v0,0x4
-    11d8:	8c422848 	lw	v0,10312(v0)
+    11d8:	8c4228b8 	lw	v0,10424(v0)
     11dc:	24030001 	li	v1,1
     11e0:	1443000e 	bne	v0,v1,121c <OS_Idle+0x50>
     11e4:	24040001 	li	a0,1
@@ -1246,7 +1246,7 @@ Disassembly of section .text:
     1204:	00402021 	move	a0,v0
     1208:	3c040000 	lui	a0,0x0
     120c:	0c00035e 	jal	d78 <puts>
-    1210:	2484242c 	addiu	a0,a0,9260
+    1210:	24842430 	addiu	a0,a0,9264
     1214:	08000476 	j	11d8 <OS_Idle+0xc>
     1218:	3c020004 	lui	v0,0x4
     121c:	3c022000 	lui	v0,0x2000
@@ -1271,28 +1271,28 @@ Disassembly of section .text:
     1260:	0c00009f 	jal	27c <read_inst>
     1264:	0040f021 	move	s8,v0
     1268:	3c020004 	lui	v0,0x4
-    126c:	8c4b27e0 	lw	t3,10208(v0)
+    126c:	8c4b2850 	lw	t3,10320(v0)
     1270:	3c020004 	lui	v0,0x4
-    1274:	8c4f27ec 	lw	t7,10220(v0)
+    1274:	8c4f285c 	lw	t7,10332(v0)
     1278:	3c020004 	lui	v0,0x4
-    127c:	8c4c27f0 	lw	t4,10224(v0)
+    127c:	8c4c2860 	lw	t4,10336(v0)
     1280:	3c020004 	lui	v0,0x4
-    1284:	8c4a27f4 	lw	t2,10228(v0)
+    1284:	8c4a2864 	lw	t2,10340(v0)
     1288:	3c020004 	lui	v0,0x4
-    128c:	8c5527f8 	lw	s5,10232(v0)
+    128c:	8c552868 	lw	s5,10344(v0)
     1290:	3c020004 	lui	v0,0x4
-    1294:	8c5227fc 	lw	s2,10236(v0)
+    1294:	8c52286c 	lw	s2,10348(v0)
     1298:	3c020004 	lui	v0,0x4
-    129c:	8c5827e4 	lw	t8,10212(v0)
+    129c:	8c582854 	lw	t8,10324(v0)
     12a0:	3c020004 	lui	v0,0x4
-    12a4:	8c5127e8 	lw	s1,10216(v0)
+    12a4:	8c512858 	lw	s1,10328(v0)
     12a8:	000a6900 	sll	t5,t2,0x4
     12ac:	000a1080 	sll	v0,t2,0x2
     12b0:	01a26823 	subu	t5,t5,v0
     12b4:	3c020004 	lui	v0,0x4
-    12b8:	8c562804 	lw	s6,10244(v0)
+    12b8:	8c562874 	lw	s6,10356(v0)
     12bc:	3c020004 	lui	v0,0x4
-    12c0:	8c462808 	lw	a2,10248(v0)
+    12c0:	8c462878 	lw	a2,10360(v0)
     12c4:	000b28c0 	sll	a1,t3,0x3
     12c8:	000c1880 	sll	v1,t4,0x2
     12cc:	000ba140 	sll	s4,t3,0x5
@@ -1302,41 +1302,41 @@ Disassembly of section .text:
     12dc:	000f9880 	sll	s3,t7,0x2
     12e0:	0285a023 	subu	s4,s4,a1
     12e4:	01c37023 	subu	t6,t6,v1
-    12e8:	8c452810 	lw	a1,10256(v0)
+    12e8:	8c452880 	lw	a1,10368(v0)
     12ec:	3c030004 	lui	v1,0x4
     12f0:	3c020004 	lui	v0,0x4
     12f4:	02649821 	addu	s3,s3,a0
     12f8:	00123900 	sll	a3,s2,0x4
-    12fc:	8c64280c 	lw	a0,10252(v1)
-    1300:	8c432814 	lw	v1,10260(v0)
+    12fc:	8c64287c 	lw	a0,10364(v1)
+    1300:	8c432884 	lw	v1,10372(v0)
     1304:	00121080 	sll	v0,s2,0x2
     1308:	0018b940 	sll	s7,t8,0x5
     130c:	00e23823 	subu	a3,a3,v0
     1310:	3c020004 	lui	v0,0x4
     1314:	02f8b823 	subu	s7,s7,t8
-    1318:	8c582800 	lw	t8,10240(v0)
+    1318:	8c582870 	lw	t8,10352(v0)
     131c:	3c020004 	lui	v0,0x4
     1320:	026f9821 	addu	s3,s3,t7
     1324:	00118100 	sll	s0,s1,0x4
-    1328:	8c4f2818 	lw	t7,10264(v0)
+    1328:	8c4f2888 	lw	t7,10376(v0)
     132c:	00118880 	sll	s1,s1,0x2
     1330:	3c020004 	lui	v0,0x4
     1334:	02308821 	addu	s1,s1,s0
     1338:	00154880 	sll	t1,s5,0x2
-    133c:	8c50281c 	lw	s0,10268(v0)
+    133c:	8c50288c 	lw	s0,10380(v0)
     1340:	00154100 	sll	t0,s5,0x4
     1344:	3c020004 	lui	v0,0x4
     1348:	028ba023 	subu	s4,s4,t3
     134c:	01cc7021 	addu	t6,t6,t4
     1350:	01aa6821 	addu	t5,t5,t2
     1354:	01094023 	subu	t0,t0,t1
-    1358:	8c492820 	lw	t1,10272(v0)
+    1358:	8c492890 	lw	t1,10384(v0)
     135c:	3c020004 	lui	v0,0x4
     1360:	3c1f0004 	lui	ra,0x4
     1364:	000e7040 	sll	t6,t6,0x1
     1368:	000d6840 	sll	t5,t5,0x1
     136c:	3c190004 	lui	t9,0x4
-    1370:	8c4a2824 	lw	t2,10276(v0)
+    1370:	8c4a2894 	lw	t2,10388(v0)
     1374:	02e42023 	subu	a0,s7,a0
     1378:	02252823 	subu	a1,s1,a1
     137c:	001610c0 	sll	v0,s6,0x3
@@ -1353,8 +1353,8 @@ Disassembly of section .text:
     13a8:	01826023 	subu	t4,t4,v0
     13ac:	00c43021 	addu	a2,a2,a0
     13b0:	00651821 	addu	v1,v1,a1
-    13b4:	8fe42828 	lw	a0,10280(ra)
-    13b8:	8f25282c 	lw	a1,10284(t9)
+    13b4:	8fe42898 	lw	a0,10392(ra)
+    13b8:	8f25289c 	lw	a1,10396(t9)
     13bc:	01966023 	subu	t4,t4,s6
     13c0:	01785823 	subu	t3,t3,t8
     13c4:	00cf3021 	addu	a2,a2,t7
@@ -1369,41 +1369,41 @@ Disassembly of section .text:
     13e8:	00c43021 	addu	a2,a2,a0
     13ec:	00c33021 	addu	a2,a2,v1
     13f0:	3c030004 	lui	v1,0x4
-    13f4:	ac742808 	sw	s4,10248(v1)
+    13f4:	ac742878 	sw	s4,10360(v1)
     13f8:	3c030004 	lui	v1,0x4
-    13fc:	ac77280c 	sw	s7,10252(v1)
+    13fc:	ac77287c 	sw	s7,10364(v1)
     1400:	3c030004 	lui	v1,0x4
-    1404:	ac712810 	sw	s1,10256(v1)
+    1404:	ac712880 	sw	s1,10368(v1)
     1408:	3c030004 	lui	v1,0x4
-    140c:	ac732814 	sw	s3,10260(v1)
+    140c:	ac732884 	sw	s3,10372(v1)
     1410:	3c102000 	lui	s0,0x2000
     1414:	3c030004 	lui	v1,0x4
-    1418:	ac6e2818 	sw	t6,10264(v1)
+    1418:	ac6e2888 	sw	t6,10376(v1)
     141c:	36020310 	ori	v0,s0,0x310
     1420:	3c030004 	lui	v1,0x4
-    1424:	ac6d281c 	sw	t5,10268(v1)
+    1424:	ac6d288c 	sw	t5,10380(v1)
     1428:	8c420000 	lw	v0,0(v0)
     142c:	3c030004 	lui	v1,0x4
     1430:	3c040000 	lui	a0,0x0
-    1434:	ac682820 	sw	t0,10272(v1)
+    1434:	ac682890 	sw	t0,10384(v1)
     1438:	3c120004 	lui	s2,0x4
     143c:	3c030004 	lui	v1,0x4
     1440:	3c150004 	lui	s5,0x4
-    1444:	24842448 	addiu	a0,a0,9288
-    1448:	ae4627dc 	sw	a2,10204(s2)
-    144c:	ac672824 	sw	a3,10276(v1)
-    1450:	afeb2828 	sw	t3,10280(ra)
-    1454:	af2c282c 	sw	t4,10284(t9)
+    1444:	2484244c 	addiu	a0,a0,9292
+    1448:	ae46284c 	sw	a2,10316(s2)
+    144c:	ac672894 	sw	a3,10388(v1)
+    1450:	afeb2898 	sw	t3,10392(ra)
+    1454:	af2c289c 	sw	t4,10396(t9)
     1458:	0c00035e 	jal	d78 <puts>
-    145c:	aea22830 	sw	v0,10288(s5)
-    1460:	8e4427dc 	lw	a0,10204(s2)
+    145c:	aea228a0 	sw	v0,10400(s5)
+    1460:	8e44284c 	lw	a0,10316(s2)
     1464:	0c0000cd 	jal	334 <itoa>
     1468:	36100300 	ori	s0,s0,0x300
     146c:	0c00035e 	jal	d78 <puts>
     1470:	00402021 	move	a0,v0
     1474:	3c040000 	lui	a0,0x0
     1478:	0c00035e 	jal	d78 <puts>
-    147c:	24842464 	addiu	a0,a0,9316
+    147c:	24842468 	addiu	a0,a0,9320
     1480:	8e040000 	lw	a0,0(s0)
     1484:	0c0000cd 	jal	334 <itoa>
     1488:	00000000 	nop
@@ -1411,13 +1411,13 @@ Disassembly of section .text:
     1490:	00402021 	move	a0,v0
     1494:	3c040000 	lui	a0,0x0
     1498:	0c00035e 	jal	d78 <puts>
-    149c:	24842540 	addiu	a0,a0,9536
-    14a0:	8ea32830 	lw	v1,10288(s5)
+    149c:	24842544 	addiu	a0,a0,9540
+    14a0:	8ea328a0 	lw	v1,10400(s5)
     14a4:	3c020004 	lui	v0,0x4
-    14a8:	8c442840 	lw	a0,10304(v0)
-    14ac:	8e4527dc 	lw	a1,10204(s2)
+    14a8:	8c4428b0 	lw	a0,10416(v0)
+    14ac:	8e45284c 	lw	a1,10316(s2)
     14b0:	3c020004 	lui	v0,0x4
-    14b4:	ac432844 	sw	v1,10308(v0)
+    14b4:	ac4328b4 	sw	v1,10420(v0)
     14b8:	24020240 	li	v0,576
     14bc:	afc40000 	sw	a0,0(s8)
     14c0:	afc50038 	sw	a1,56(s8)
@@ -1452,7 +1452,7 @@ Disassembly of section .text:
     152c:	ac620000 	sw	v0,0(v1)
     1530:	3c040004 	lui	a0,0x4
     1534:	8e220000 	lw	v0,0(s1)
-    1538:	8c832798 	lw	v1,10136(a0)
+    1538:	8c8327fc 	lw	v1,10236(a0)
     153c:	00000000 	nop
     1540:	0043102b 	sltu	v0,v0,v1
     1544:	1440001b 	bnez	v0,15b4 <Scheduler+0xb0>
@@ -1461,19 +1461,19 @@ Disassembly of section .text:
     1550:	3442a120 	ori	v0,v0,0xa120
     1554:	00621021 	addu	v0,v1,v0
     1558:	0c00048c 	jal	1230 <send_energy_slave>
-    155c:	ac822798 	sw	v0,10136(a0)
+    155c:	ac8227fc 	sw	v0,10236(a0)
     1560:	3c040000 	lui	a0,0x0
     1564:	0c00035e 	jal	d78 <puts>
-    1568:	24842468 	addiu	a0,a0,9320
+    1568:	2484246c 	addiu	a0,a0,9324
     156c:	3c020004 	lui	v0,0x4
-    1570:	8c4427dc 	lw	a0,10204(v0)
+    1570:	8c44284c 	lw	a0,10316(v0)
     1574:	0c0000cd 	jal	334 <itoa>
     1578:	00000000 	nop
     157c:	0c00035e 	jal	d78 <puts>
     1580:	00402021 	move	a0,v0
     1584:	3c040000 	lui	a0,0x0
     1588:	0c00035e 	jal	d78 <puts>
-    158c:	248425fc 	addiu	a0,a0,9724
+    158c:	24842600 	addiu	a0,a0,9728
     1590:	8e240000 	lw	a0,0(s1)
     1594:	0c0000cd 	jal	334 <itoa>
     1598:	00000000 	nop
@@ -1481,9 +1481,9 @@ Disassembly of section .text:
     15a0:	00402021 	move	a0,v0
     15a4:	3c040000 	lui	a0,0x0
     15a8:	0c00035e 	jal	d78 <puts>
-    15ac:	24842540 	addiu	a0,a0,9536
+    15ac:	24842544 	addiu	a0,a0,9540
     15b0:	3c020004 	lui	v0,0x4
-    15b4:	8c4427a0 	lw	a0,10144(v0)
+    15b4:	8c442804 	lw	a0,10244(v0)
     15b8:	24020004 	li	v0,4
     15bc:	8c830084 	lw	v1,132(a0)
     15c0:	00000000 	nop
@@ -1500,30 +1500,30 @@ Disassembly of section .text:
     15ec:	24023fbe 	li	v0,16318
     15f0:	ac82009c 	sw	v0,156(a0)
     15f4:	3c130004 	lui	s3,0x4
-    15f8:	8e622848 	lw	v0,10312(s3)
+    15f8:	8e6228b8 	lw	v0,10424(s3)
     15fc:	00000000 	nop
     1600:	10400026 	beqz	v0,169c <Scheduler+0x198>
     1604:	3c020004 	lui	v0,0x4
     1608:	3c020004 	lui	v0,0x4
-    160c:	2442350c 	addiu	v0,v0,13580
+    160c:	2442357c 	addiu	v0,v0,13692
     1610:	8c510084 	lw	s1,132(v0)
     1614:	3c120004 	lui	s2,0x4
-    1618:	ae4227a0 	sw	v0,10144(s2)
+    1618:	ae422804 	sw	v0,10244(s2)
     161c:	24020001 	li	v0,1
     1620:	16220051 	bne	s1,v0,1768 <Scheduler+0x264>
     1624:	3c040000 	lui	a0,0x0
     1628:	3c102000 	lui	s0,0x2000
     162c:	0c00035e 	jal	d78 <puts>
-    1630:	24842488 	addiu	a0,a0,9352
+    1630:	2484248c 	addiu	a0,a0,9356
     1634:	36020300 	ori	v0,s0,0x300
     1638:	8c450000 	lw	a1,0(v0)
     163c:	3c040000 	lui	a0,0x0
     1640:	0c0003a7 	jal	e9c <putsv>
-    1644:	248424b0 	addiu	a0,a0,9392
+    1644:	248424b4 	addiu	a0,a0,9396
     1648:	3c040000 	lui	a0,0x0
     164c:	0c00035e 	jal	d78 <puts>
-    1650:	24842540 	addiu	a0,a0,9536
-    1654:	8e4427a0 	lw	a0,10144(s2)
+    1650:	24842544 	addiu	a0,a0,9540
+    1654:	8e442804 	lw	a0,10244(s2)
     1658:	24020004 	li	v0,4
     165c:	ac820084 	sw	v0,132(a0)
     1660:	36030010 	ori	v1,s0,0x10
@@ -1537,11 +1537,11 @@ Disassembly of section .text:
     1680:	36100270 	ori	s0,s0,0x270
     1684:	aca20000 	sw	v0,0(a1)
     1688:	8c820080 	lw	v0,128(a0)
-    168c:	ae712848 	sw	s1,10312(s3)
+    168c:	ae7128b8 	sw	s1,10424(s3)
     1690:	ae020000 	sw	v0,0(s0)
     1694:	080005e7 	j	179c <Scheduler+0x298>
     1698:	00000000 	nop
-    169c:	8c43284c 	lw	v1,10316(v0)
+    169c:	8c4328bc 	lw	v1,10428(v0)
     16a0:	24020001 	li	v0,1
     16a4:	10620002 	beq	v1,v0,16b0 <Scheduler+0x1ac>
     16a8:	00003821 	move	a3,zero
@@ -1550,7 +1550,7 @@ Disassembly of section .text:
     16b4:	00071940 	sll	v1,a3,0x5
     16b8:	00621821 	addu	v1,v1,v0
     16bc:	3c020004 	lui	v0,0x4
-    16c0:	244237b0 	addiu	v0,v0,14256
+    16c0:	24423820 	addiu	v0,v0,14368
     16c4:	00623021 	addu	a2,v1,v0
     16c8:	8cc20084 	lw	v0,132(a2)
     16cc:	24030001 	li	v1,1
@@ -1565,7 +1565,7 @@ Disassembly of section .text:
     16f0:	00071940 	sll	v1,a3,0x5
     16f4:	00621821 	addu	v1,v1,v0
     16f8:	3c020004 	lui	v0,0x4
-    16fc:	244237b0 	addiu	v0,v0,14256
+    16fc:	24423820 	addiu	v0,v0,14368
     1700:	00623021 	addu	a2,v1,v0
     1704:	8cc30084 	lw	v1,132(a2)
     1708:	24020001 	li	v0,1
@@ -1584,14 +1584,14 @@ Disassembly of section .text:
     173c:	aca20000 	sw	v0,0(a1)
     1740:	8cc40080 	lw	a0,128(a2)
     1744:	3c020004 	lui	v0,0x4
-    1748:	ac47284c 	sw	a3,10316(v0)
+    1748:	ac4728bc 	sw	a3,10428(v0)
     174c:	3c020004 	lui	v0,0x4
     1750:	ac640000 	sw	a0,0(v1)
     1754:	080005e7 	j	179c <Scheduler+0x298>
-    1758:	ac4627a0 	sw	a2,10144(v0)
-    175c:	ac4627a0 	sw	a2,10144(v0)
+    1758:	ac462804 	sw	a2,10244(v0)
+    175c:	ac462804 	sw	a2,10244(v0)
     1760:	3c020004 	lui	v0,0x4
-    1764:	ac47284c 	sw	a3,10316(v0)
+    1764:	ac4728bc 	sw	a3,10428(v0)
     1768:	3c042000 	lui	a0,0x2000
     176c:	34850010 	ori	a1,a0,0x10
     1770:	8ca20000 	lw	v0,0(a1)
@@ -1599,10 +1599,10 @@ Disassembly of section .text:
     1778:	00431024 	and	v0,v0,v1
     177c:	aca20000 	sw	v0,0(a1)
     1780:	3c020004 	lui	v0,0x4
-    1784:	2442350c 	addiu	v0,v0,13580
+    1784:	2442357c 	addiu	v0,v0,13692
     1788:	3c030004 	lui	v1,0x4
     178c:	34840270 	ori	a0,a0,0x270
-    1790:	ac6227a0 	sw	v0,10144(v1)
+    1790:	ac622804 	sw	v0,10244(v1)
     1794:	3c020008 	lui	v0,0x8
     1798:	ac820000 	sw	v0,0(a0)
     179c:	8fbf0020 	lw	ra,32(sp)
@@ -1617,27 +1617,27 @@ Disassembly of section .text:
     17b8:	27bdffe8 	addiu	sp,sp,-24
     17bc:	afbf0010 	sw	ra,16(sp)
     17c0:	3c020004 	lui	v0,0x4
-    17c4:	8c452838 	lw	a1,10296(v0)
+    17c4:	8c4528a8 	lw	a1,10408(v0)
     17c8:	3c020004 	lui	v0,0x4
-    17cc:	8c422834 	lw	v0,10292(v0)
+    17cc:	8c4228a4 	lw	v0,10404(v0)
     17d0:	00000000 	nop
     17d4:	1445000c 	bne	v0,a1,1808 <add_pending_service+0x50>
     17d8:	00051080 	sll	v0,a1,0x2
     17dc:	3c020004 	lui	v0,0x4
-    17e0:	9043283c 	lbu	v1,10300(v0)
+    17e0:	904328ac 	lbu	v1,10412(v0)
     17e4:	24020001 	li	v0,1
     17e8:	14620006 	bne	v1,v0,1804 <add_pending_service+0x4c>
     17ec:	00000000 	nop
     17f0:	3c040000 	lui	a0,0x0
     17f4:	0c00035e 	jal	d78 <puts>
-    17f8:	248424b8 	addiu	a0,a0,9400
+    17f8:	248424bc 	addiu	a0,a0,9404
     17fc:	0800062a 	j	18a8 <add_pending_service+0xf0>
     1800:	00001021 	move	v0,zero
     1804:	00051080 	sll	v0,a1,0x2
     1808:	00051980 	sll	v1,a1,0x6
     180c:	00621823 	subu	v1,v1,v0
     1810:	3c020004 	lui	v0,0x4
-    1814:	24423a78 	addiu	v0,v0,14968
+    1814:	24423ae8 	addiu	v0,v0,15080
     1818:	00803021 	move	a2,a0
     181c:	00623821 	addu	a3,v1,v0
     1820:	24880030 	addiu	t0,a0,48
@@ -1656,19 +1656,19 @@ Disassembly of section .text:
     1854:	3c080004 	lui	t0,0x4
     1858:	8cc30000 	lw	v1,0(a2)
     185c:	8cc40004 	lw	a0,4(a2)
-    1860:	8d052838 	lw	a1,10296(t0)
+    1860:	8d0528a8 	lw	a1,10408(t0)
     1864:	ace20008 	sw	v0,8(a3)
     1868:	24020013 	li	v0,19
     186c:	ace30000 	sw	v1,0(a3)
     1870:	14a20003 	bne	a1,v0,1880 <add_pending_service+0xc8>
     1874:	ace40004 	sw	a0,4(a3)
     1878:	08000622 	j	1888 <add_pending_service+0xd0>
-    187c:	ad002838 	sw	zero,10296(t0)
+    187c:	ad0028a8 	sw	zero,10408(t0)
     1880:	24a20001 	addiu	v0,a1,1
-    1884:	ad022838 	sw	v0,10296(t0)
+    1884:	ad0228a8 	sw	v0,10408(t0)
     1888:	24030001 	li	v1,1
     188c:	3c020004 	lui	v0,0x4
-    1890:	a043283c 	sb	v1,10300(v0)
+    1890:	a04328ac 	sb	v1,10412(v0)
     1894:	3c022000 	lui	v0,0x2000
     1898:	34420400 	ori	v0,v0,0x400
     189c:	24030001 	li	v1,1
@@ -1682,7 +1682,7 @@ Disassembly of section .text:
 000018b8 <insertMessageRequest>:
     18b8:	3c020004 	lui	v0,0x4
     18bc:	27bdffe8 	addiu	sp,sp,-24
-    18c0:	24483930 	addiu	t0,v0,14640
+    18c0:	244839a0 	addiu	t0,v0,14752
     18c4:	afbf0010 	sw	ra,16(sp)
     18c8:	00003821 	move	a3,zero
     18cc:	240affff 	li	t2,-1
@@ -1701,7 +1701,7 @@ Disassembly of section .text:
     1900:	2463000c 	addiu	v1,v1,12
     1904:	3c040000 	lui	a0,0x0
     1908:	0c00035e 	jal	d78 <puts>
-    190c:	248424e4 	addiu	a0,a0,9444
+    190c:	248424e8 	addiu	a0,a0,9448
     1910:	00001021 	move	v0,zero
     1914:	8fbf0010 	lw	ra,16(sp)
     1918:	00000000 	nop
@@ -1750,7 +1750,7 @@ Disassembly of section .text:
     19bc:	00021080 	sll	v0,v0,0x2
     19c0:	00621823 	subu	v1,v1,v0
     19c4:	3c020004 	lui	v0,0x4
-    19c8:	244227a8 	addiu	v0,v0,10152
+    19c8:	2442280c 	addiu	v0,v0,10252
     19cc:	00621821 	addu	v1,v1,v0
     19d0:	308200ff 	andi	v0,a0,0xff
     19d4:	00621821 	addu	v1,v1,v0
@@ -1777,7 +1777,7 @@ Disassembly of section .text:
     1a28:	08000732 	j	1cc8 <handle_packet+0x3a4>
     1a2c:	00003021 	move	a2,zero
     1a30:	3c020004 	lui	v0,0x4
-    1a34:	8c42279c 	lw	v0,10140(v0)
+    1a34:	8c422800 	lw	v0,10240(v0)
     1a38:	8e260020 	lw	a2,32(s1)
     1a3c:	8e250010 	lw	a1,16(s1)
     1a40:	10c20006 	beq	a2,v0,1a5c <handle_packet+0x138>
@@ -1825,9 +1825,9 @@ Disassembly of section .text:
     1ae8:	0c0002e5 	jal	b94 <DMA_read_data>
     1aec:	24840004 	addiu	a0,a0,4
     1af0:	3c020004 	lui	v0,0x4
-    1af4:	8c4327a0 	lw	v1,10144(v0)
+    1af4:	8c432804 	lw	v1,10244(v0)
     1af8:	3c020004 	lui	v0,0x4
-    1afc:	2442350c 	addiu	v0,v0,13580
+    1afc:	2442357c 	addiu	v0,v0,13692
     1b00:	00621823 	subu	v1,v1,v0
     1b04:	2c660001 	sltiu	a2,v1,1
     1b08:	24020001 	li	v0,1
@@ -1842,7 +1842,7 @@ Disassembly of section .text:
     1b2c:	3c040000 	lui	a0,0x0
     1b30:	ae020080 	sw	v0,128(s0)
     1b34:	0c00035e 	jal	d78 <puts>
-    1b38:	24842504 	addiu	a0,a0,9476
+    1b38:	24842508 	addiu	a0,a0,9480
     1b3c:	8e040080 	lw	a0,128(s0)
     1b40:	0c0000cd 	jal	334 <itoa>
     1b44:	00000000 	nop
@@ -1853,7 +1853,7 @@ Disassembly of section .text:
     1b58:	8c450000 	lw	a1,0(v0)
     1b5c:	3c040000 	lui	a0,0x0
     1b60:	0c0003a7 	jal	e9c <putsv>
-    1b64:	24842510 	addiu	a0,a0,9488
+    1b64:	24842514 	addiu	a0,a0,9492
     1b68:	8e220024 	lw	v0,36(s1)
     1b6c:	8e250028 	lw	a1,40(s1)
     1b70:	ae02008c 	sw	v0,140(s0)
@@ -1876,19 +1876,19 @@ Disassembly of section .text:
     1bb4:	00021080 	sll	v0,v0,0x2
     1bb8:	00621823 	subu	v1,v1,v0
     1bbc:	3c020004 	lui	v0,0x4
-    1bc0:	8c4627a0 	lw	a2,10144(v0)
+    1bc0:	8c462804 	lw	a2,10244(v0)
     1bc4:	3c020004 	lui	v0,0x4
     1bc8:	30a500ff 	andi	a1,a1,0xff
-    1bcc:	244227a8 	addiu	v0,v0,10152
+    1bcc:	2442280c 	addiu	v0,v0,10252
     1bd0:	00652021 	addu	a0,v1,a1
     1bd4:	00621821 	addu	v1,v1,v0
     1bd8:	3c020004 	lui	v0,0x4
-    1bdc:	2442350c 	addiu	v0,v0,13580
+    1bdc:	2442357c 	addiu	v0,v0,13692
     1be0:	00c23023 	subu	a2,a2,v0
     1be4:	3c020004 	lui	v0,0x4
-    1be8:	8c47279c 	lw	a3,10140(v0)
+    1be8:	8c472800 	lw	a3,10240(v0)
     1bec:	3c020004 	lui	v0,0x4
-    1bf0:	24422614 	addiu	v0,v0,9748
+    1bf0:	24422618 	addiu	v0,v0,9752
     1bf4:	00042080 	sll	a0,a0,0x2
     1bf8:	00822021 	addu	a0,a0,v0
     1bfc:	00651821 	addu	v1,v1,a1
@@ -1909,19 +1909,19 @@ Disassembly of section .text:
     1c38:	3c020004 	lui	v0,0x4
     1c3c:	00031880 	sll	v1,v1,0x2
     1c40:	8e240020 	lw	a0,32(s1)
-    1c44:	24422614 	addiu	v0,v0,9748
+    1c44:	24422618 	addiu	v0,v0,9752
     1c48:	00621821 	addu	v1,v1,v0
     1c4c:	08000732 	j	1cc8 <handle_packet+0x3a4>
     1c50:	ac640000 	sw	a0,0(v1)
     1c54:	8c830014 	lw	v1,20(a0)
     1c58:	08000732 	j	1cc8 <handle_packet+0x3a4>
-    1c5c:	ac432840 	sw	v1,10304(v0)
+    1c5c:	ac4328b0 	sw	v1,10416(v0)
     1c60:	3c040000 	lui	a0,0x0
     1c64:	0c00035e 	jal	d78 <puts>
-    1c68:	24842520 	addiu	a0,a0,9504
+    1c68:	24842524 	addiu	a0,a0,9508
     1c6c:	3c040000 	lui	a0,0x0
     1c70:	0c00035e 	jal	d78 <puts>
-    1c74:	24842544 	addiu	a0,a0,9540
+    1c74:	24842548 	addiu	a0,a0,9544
     1c78:	8e240000 	lw	a0,0(s1)
     1c7c:	0c0000cd 	jal	334 <itoa>
     1c80:	00000000 	nop
@@ -1929,18 +1929,18 @@ Disassembly of section .text:
     1c88:	00402021 	move	a0,v0
     1c8c:	3c040000 	lui	a0,0x0
     1c90:	0c00035e 	jal	d78 <puts>
-    1c94:	24842540 	addiu	a0,a0,9536
+    1c94:	24842544 	addiu	a0,a0,9540
     1c98:	24030001 	li	v1,1
     1c9c:	3c020004 	lui	v0,0x4
     1ca0:	24060001 	li	a2,1
     1ca4:	08000732 	j	1cc8 <handle_packet+0x3a4>
-    1ca8:	ac432848 	sw	v1,10312(v0)
+    1ca8:	ac4328b8 	sw	v1,10424(v0)
     1cac:	3c022000 	lui	v0,0x2000
     1cb0:	34420300 	ori	v0,v0,0x300
     1cb4:	3c040000 	lui	a0,0x0
     1cb8:	8c450000 	lw	a1,0(v0)
     1cbc:	0c0003a7 	jal	e9c <putsv>
-    1cc0:	24842568 	addiu	a0,a0,9576
+    1cc0:	2484256c 	addiu	a0,a0,9580
     1cc4:	00003021 	move	a2,zero
     1cc8:	8fbf0018 	lw	ra,24(sp)
     1ccc:	8fb10014 	lw	s1,20(sp)
@@ -1961,10 +1961,10 @@ Disassembly of section .text:
     1d00:	afb00010 	sw	s0,16(sp)
     1d04:	00a0a021 	move	s4,a1
     1d08:	10600112 	beqz	v1,2154 <Syscall+0x474>
-    1d0c:	ac4027a4 	sw	zero,10148(v0)
+    1d0c:	ac402808 	sw	zero,10248(v0)
     1d10:	3c030000 	lui	v1,0x0
     1d14:	00041080 	sll	v0,a0,0x2
-    1d18:	24632600 	addiu	v1,v1,9728
+    1d18:	24632604 	addiu	v1,v1,9732
     1d1c:	00431021 	addu	v0,v0,v1
     1d20:	8c420000 	lw	v0,0(v0)
     1d24:	00000000 	nop
@@ -1976,12 +1976,12 @@ Disassembly of section .text:
     1d3c:	24030001 	li	v1,1
     1d40:	3c020004 	lui	v0,0x4
     1d44:	14800103 	bnez	a0,2154 <Syscall+0x474>
-    1d48:	ac4327a4 	sw	v1,10148(v0)
+    1d48:	ac432808 	sw	v1,10248(v0)
     1d4c:	3c040000 	lui	a0,0x0
     1d50:	3c100004 	lui	s0,0x4
     1d54:	0c00035e 	jal	d78 <puts>
-    1d58:	24842504 	addiu	a0,a0,9476
-    1d5c:	8e0227a0 	lw	v0,10144(s0)
+    1d58:	24842508 	addiu	a0,a0,9480
+    1d5c:	8e022804 	lw	v0,10244(s0)
     1d60:	00000000 	nop
     1d64:	8c440080 	lw	a0,128(v0)
     1d68:	0c0000cd 	jal	334 <itoa>
@@ -1992,8 +1992,8 @@ Disassembly of section .text:
     1d7c:	8c450000 	lw	a1,0(v0)
     1d80:	3c040000 	lui	a0,0x0
     1d84:	0c0003a7 	jal	e9c <putsv>
-    1d88:	24842584 	addiu	a0,a0,9604
-    1d8c:	8e0427a0 	lw	a0,10144(s0)
+    1d88:	24842588 	addiu	a0,a0,9608
+    1d8c:	8e042804 	lw	a0,10244(s0)
     1d90:	24020005 	li	v0,5
     1d94:	0c0003b6 	jal	ed8 <send_task_terminated>
     1d98:	ac820084 	sw	v0,132(a0)
@@ -2005,7 +2005,7 @@ Disassembly of section .text:
     1db0:	00000000 	nop
     1db4:	144000e7 	bnez	v0,2154 <Syscall+0x474>
     1db8:	3c110004 	lui	s1,0x4
-    1dbc:	8e2427a0 	lw	a0,10144(s1)
+    1dbc:	8e242804 	lw	a0,10244(s1)
     1dc0:	2413ffff 	li	s3,-1
     1dc4:	8c920080 	lw	s2,128(a0)
     1dc8:	00000000 	nop
@@ -2019,7 +2019,7 @@ Disassembly of section .text:
     1de8:	320200ff 	andi	v0,s0,0xff
     1dec:	00621821 	addu	v1,v1,v0
     1df0:	3c020004 	lui	v0,0x4
-    1df4:	24422614 	addiu	v0,v0,9748
+    1df4:	24422618 	addiu	v0,v0,9752
     1df8:	00031880 	sll	v1,v1,0x2
     1dfc:	00621821 	addu	v1,v1,v0
     1e00:	8c620000 	lw	v0,0(v1)
@@ -2028,7 +2028,7 @@ Disassembly of section .text:
     1e0c:	00000000 	nop
     1e10:	0c0003fe 	jal	ff8 <send_task_request>
     1e14:	02002821 	move	a1,s0
-    1e18:	8e2227a0 	lw	v0,10144(s1)
+    1e18:	8e222804 	lw	v0,10244(s1)
     1e1c:	02402021 	move	a0,s2
     1e20:	8c42007c 	lw	v0,124(v0)
     1e24:	02002821 	move	a1,s0
@@ -2037,7 +2037,7 @@ Disassembly of section .text:
     1e30:	10530036 	beq	v0,s3,1f0c <Syscall+0x22c>
     1e34:	00403021 	move	a2,v0
     1e38:	3c020004 	lui	v0,0x4
-    1e3c:	8c42279c 	lw	v0,10140(v0)
+    1e3c:	8c422800 	lw	v0,10240(v0)
     1e40:	00000000 	nop
     1e44:	14c2001a 	bne	a2,v0,1eb0 <Syscall+0x1d0>
     1e48:	3c030004 	lui	v1,0x4
@@ -2068,10 +2068,10 @@ Disassembly of section .text:
     1eac:	aca20000 	sw	v0,0(a1)
     1eb0:	8e220000 	lw	v0,0(s1)
     1eb4:	00000000 	nop
-    1eb8:	ac6235ac 	sw	v0,13740(v1)
+    1eb8:	ac62361c 	sw	v0,13852(v1)
     1ebc:	8e270000 	lw	a3,0(s1)
     1ec0:	3c020004 	lui	v0,0x4
-    1ec4:	244535b0 	addiu	a1,v0,13744
+    1ec4:	24453620 	addiu	a1,v0,13856
     1ec8:	26240004 	addiu	a0,s1,4
     1ecc:	080007b9 	j	1ee4 <Syscall+0x204>
     1ed0:	00001821 	move	v1,zero
@@ -2086,7 +2086,7 @@ Disassembly of section .text:
     1ef4:	02402021 	move	a0,s2
     1ef8:	02002821 	move	a1,s0
     1efc:	0c0003e3 	jal	f8c <send_message_delivery>
-    1f00:	24e735ac 	addiu	a3,a3,13740
+    1f00:	24e7361c 	addiu	a3,a3,13852
     1f04:	08000858 	j	2160 <Syscall+0x480>
     1f08:	24040001 	li	a0,1
     1f0c:	02402021 	move	a0,s2
@@ -2103,7 +2103,7 @@ Disassembly of section .text:
     1f38:	00000000 	nop
     1f3c:	14400085 	bnez	v0,2154 <Syscall+0x474>
     1f40:	3c130004 	lui	s3,0x4
-    1f44:	8e6427a0 	lw	a0,10144(s3)
+    1f44:	8e642804 	lw	a0,10244(s3)
     1f48:	00000000 	nop
     1f4c:	8c920080 	lw	s2,128(a0)
     1f50:	00000000 	nop
@@ -2117,7 +2117,7 @@ Disassembly of section .text:
     1f70:	322200ff 	andi	v0,s1,0xff
     1f74:	00621821 	addu	v1,v1,v0
     1f78:	3c020004 	lui	v0,0x4
-    1f7c:	24422614 	addiu	v0,v0,9748
+    1f7c:	24422618 	addiu	v0,v0,9752
     1f80:	00031880 	sll	v1,v1,0x2
     1f84:	00621821 	addu	v1,v1,v0
     1f88:	8c700000 	lw	s0,0(v1)
@@ -2138,7 +2138,7 @@ Disassembly of section .text:
     1fc4:	14400017 	bnez	v0,2024 <Syscall+0x344>
     1fc8:	00403821 	move	a3,v0
     1fcc:	3c020004 	lui	v0,0x4
-    1fd0:	8c46279c 	lw	a2,10140(v0)
+    1fd0:	8c462800 	lw	a2,10240(v0)
     1fd4:	00000000 	nop
     1fd8:	16060006 	bne	s0,a2,1ff4 <Syscall+0x314>
     1fdc:	00000000 	nop
@@ -2151,15 +2151,15 @@ Disassembly of section .text:
     1ff8:	0c000440 	jal	1100 <send_message_request>
     1ffc:	02402821 	move	a1,s2
     2000:	3c020004 	lui	v0,0x4
-    2004:	8c4327a0 	lw	v1,10144(v0)
+    2004:	8c432804 	lw	v1,10244(v0)
     2008:	24020002 	li	v0,2
     200c:	00002021 	move	a0,zero
     2010:	ac620084 	sw	v0,132(v1)
     2014:	24030001 	li	v1,1
     2018:	3c020004 	lui	v0,0x4
     201c:	08000858 	j	2160 <Syscall+0x480>
-    2020:	ac4327a4 	sw	v1,10148(v0)
-    2024:	8e6227a0 	lw	v0,10144(s3)
+    2020:	ac432808 	sw	v1,10248(v0)
+    2024:	8e622804 	lw	v0,10244(s3)
     2028:	8ce30008 	lw	v1,8(a3)
     202c:	8c42007c 	lw	v0,124(v0)
     2030:	00e02021 	move	a0,a3
@@ -2192,8 +2192,8 @@ Disassembly of section .text:
     209c:	00402021 	move	a0,v0
     20a0:	3c120004 	lui	s2,0x4
     20a4:	0c00035e 	jal	d78 <puts>
-    20a8:	26042594 	addiu	a0,s0,9620
-    20ac:	8e44279c 	lw	a0,10140(s2)
+    20a8:	26042598 	addiu	a0,s0,9624
+    20ac:	8e442800 	lw	a0,10240(s2)
     20b0:	3c110004 	lui	s1,0x4
     20b4:	0c0000cd 	jal	334 <itoa>
     20b8:	00042202 	srl	a0,a0,0x8
@@ -2201,15 +2201,15 @@ Disassembly of section .text:
     20c0:	00402021 	move	a0,v0
     20c4:	3c040000 	lui	a0,0x0
     20c8:	0c00035e 	jal	d78 <puts>
-    20cc:	24842598 	addiu	a0,a0,9624
-    20d0:	9244279f 	lbu	a0,10143(s2)
+    20cc:	2484259c 	addiu	a0,a0,9628
+    20d0:	92442803 	lbu	a0,10243(s2)
     20d4:	0c0000cd 	jal	334 <itoa>
     20d8:	00000000 	nop
     20dc:	0c00035e 	jal	d78 <puts>
     20e0:	00402021 	move	a0,v0
     20e4:	0c00035e 	jal	d78 <puts>
-    20e8:	26042594 	addiu	a0,s0,9620
-    20ec:	8e2227a0 	lw	v0,10144(s1)
+    20e8:	26042598 	addiu	a0,s0,9624
+    20ec:	8e222804 	lw	v0,10244(s1)
     20f0:	00000000 	nop
     20f4:	8c440080 	lw	a0,128(v0)
     20f8:	0c0000cd 	jal	334 <itoa>
@@ -2217,8 +2217,8 @@ Disassembly of section .text:
     2100:	0c00035e 	jal	d78 <puts>
     2104:	00402021 	move	a0,v0
     2108:	0c00035e 	jal	d78 <puts>
-    210c:	26042594 	addiu	a0,s0,9620
-    2110:	8e2227a0 	lw	v0,10144(s1)
+    210c:	26042598 	addiu	a0,s0,9624
+    2110:	8e222804 	lw	v0,10244(s1)
     2114:	00000000 	nop
     2118:	90440083 	lbu	a0,131(v0)
     211c:	0c0000cd 	jal	334 <itoa>
@@ -2226,15 +2226,15 @@ Disassembly of section .text:
     2124:	0c00035e 	jal	d78 <puts>
     2128:	00402021 	move	a0,v0
     212c:	0c00035e 	jal	d78 <puts>
-    2130:	26042594 	addiu	a0,s0,9620
-    2134:	8e2227a0 	lw	v0,10144(s1)
+    2130:	26042598 	addiu	a0,s0,9624
+    2134:	8e222804 	lw	v0,10244(s1)
     2138:	00000000 	nop
     213c:	8c44007c 	lw	a0,124(v0)
     2140:	0c00035e 	jal	d78 <puts>
     2144:	02842025 	or	a0,s4,a0
     2148:	3c040000 	lui	a0,0x0
     214c:	0c00035e 	jal	d78 <puts>
-    2150:	24842540 	addiu	a0,a0,9536
+    2150:	24842544 	addiu	a0,a0,9540
     2154:	08000858 	j	2160 <Syscall+0x480>
     2158:	00002021 	move	a0,zero
     215c:	24040001 	li	a0,1
@@ -2266,7 +2266,7 @@ Disassembly of section .text:
     21bc:	02202021 	move	a0,s1
     21c0:	3c040000 	lui	a0,0x0
     21c4:	0c00035e 	jal	d78 <puts>
-    21c8:	2484259c 	addiu	a0,a0,9628
+    21c8:	248425a0 	addiu	a0,a0,9632
     21cc:	36020250 	ori	v0,s0,0x250
     21d0:	8c420000 	lw	v0,0(v0)
     21d4:	00000000 	nop
@@ -2290,7 +2290,7 @@ Disassembly of section .text:
     221c:	30a20008 	andi	v0,a1,0x8
     2220:	3c040000 	lui	a0,0x0
     2224:	0c00035e 	jal	d78 <puts>
-    2228:	248425b0 	addiu	a0,a0,9648
+    2228:	248425b4 	addiu	a0,a0,9652
     222c:	0c00033b 	jal	cec <get_next_pending_service>
     2230:	00000000 	nop
     2234:	10400017 	beqz	v0,2294 <OS_InterruptServiceRoutine+0x110>
@@ -2300,7 +2300,7 @@ Disassembly of section .text:
     2244:	10400013 	beqz	v0,2294 <OS_InterruptServiceRoutine+0x110>
     2248:	3c040000 	lui	a0,0x0
     224c:	0c00035e 	jal	d78 <puts>
-    2250:	248425d0 	addiu	a0,a0,9680
+    2250:	248425d4 	addiu	a0,a0,9684
     2254:	36030010 	ori	v1,s0,0x10
     2258:	8c620000 	lw	v0,0(v1)
     225c:	00000000 	nop
@@ -2308,7 +2308,7 @@ Disassembly of section .text:
     2264:	ac620000 	sw	v0,0(v1)
     2268:	3c020004 	lui	v0,0x4
     226c:	080008a1 	j	2284 <OS_InterruptServiceRoutine+0x100>
-    2270:	ac402848 	sw	zero,10312(v0)
+    2270:	ac4028b8 	sw	zero,10424(v0)
     2274:	0c000649 	jal	1924 <handle_packet>
     2278:	00000000 	nop
     227c:	10400005 	beqz	v0,2294 <OS_InterruptServiceRoutine+0x110>
@@ -2318,9 +2318,9 @@ Disassembly of section .text:
     228c:	080008b2 	j	22c8 <OS_InterruptServiceRoutine+0x144>
     2290:	3c020004 	lui	v0,0x4
     2294:	3c020004 	lui	v0,0x4
-    2298:	8c4327a0 	lw	v1,10144(v0)
+    2298:	8c432804 	lw	v1,10244(v0)
     229c:	3c020004 	lui	v0,0x4
-    22a0:	2442350c 	addiu	v0,v0,13580
+    22a0:	2442357c 	addiu	v0,v0,13692
     22a4:	14620003 	bne	v1,v0,22b4 <OS_InterruptServiceRoutine+0x130>
     22a8:	00000000 	nop
     22ac:	080008ae 	j	22b8 <OS_InterruptServiceRoutine+0x134>
@@ -2330,7 +2330,7 @@ Disassembly of section .text:
     22bc:	34420270 	ori	v0,v0,0x270
     22c0:	ac430000 	sw	v1,0(v0)
     22c4:	3c020004 	lui	v0,0x4
-    22c8:	8c4427a0 	lw	a0,10144(v0)
+    22c8:	8c442804 	lw	a0,10244(v0)
     22cc:	0c000076 	jal	1d8 <ASM_RunScheduledTask>
     22d0:	00000000 	nop
     22d4:	8fbf0058 	lw	ra,88(sp)
@@ -2344,74 +2344,75 @@ Disassembly of section .text:
     22ec:	afb00010 	sw	s0,16(sp)
     22f0:	00002021 	move	a0,zero
     22f4:	3c102000 	lui	s0,0x2000
-    22f8:	afbf0020 	sw	ra,32(sp)
-    22fc:	afb3001c 	sw	s3,28(sp)
-    2300:	afb20018 	sw	s2,24(sp)
-    2304:	0c00009c 	jal	270 <ASM_SetInterruptEnable>
-    2308:	afb10014 	sw	s1,20(sp)
-    230c:	36020140 	ori	v0,s0,0x140
-    2310:	8c450000 	lw	a1,0(v0)
-    2314:	3c030004 	lui	v1,0x4
-    2318:	3c020000 	lui	v0,0x0
-    231c:	2463350c 	addiu	v1,v1,13580
-    2320:	244211cc 	addiu	v0,v0,4556
-    2324:	ac620078 	sw	v0,120(v1)
-    2328:	3c020003 	lui	v0,0x3
+    22f8:	afbf0024 	sw	ra,36(sp)
+    22fc:	afb40020 	sw	s4,32(sp)
+    2300:	afb3001c 	sw	s3,28(sp)
+    2304:	afb20018 	sw	s2,24(sp)
+    2308:	0c00009c 	jal	270 <ASM_SetInterruptEnable>
+    230c:	afb10014 	sw	s1,20(sp)
+    2310:	36020140 	ori	v0,s0,0x140
+    2314:	8c460000 	lw	a2,0(v0)
+    2318:	3c140003 	lui	s4,0x3
+    231c:	3c030004 	lui	v1,0x4
+    2320:	3c020000 	lui	v0,0x0
+    2324:	2463357c 	addiu	v1,v1,13692
+    2328:	36850d40 	ori	a1,s4,0xd40
     232c:	24120001 	li	s2,1
-    2330:	34420d40 	ori	v0,v0,0xd40
+    2330:	244211cc 	addiu	v0,v0,4556
     2334:	3c040000 	lui	a0,0x0
-    2338:	ac720084 	sw	s2,132(v1)
-    233c:	ac62009c 	sw	v0,156(v1)
-    2340:	ac600080 	sw	zero,128(v1)
-    2344:	ac60007c 	sw	zero,124(v1)
-    2348:	3c130004 	lui	s3,0x4
-    234c:	3c110004 	lui	s1,0x4
-    2350:	248425ec 	addiu	a0,a0,9708
-    2354:	ae6327a0 	sw	v1,10144(s3)
-    2358:	0c00035e 	jal	d78 <puts>
-    235c:	ae25279c 	sw	a1,10140(s1)
-    2360:	8e24279c 	lw	a0,10140(s1)
-    2364:	0c000108 	jal	420 <itoh>
-    2368:	36100010 	ori	s0,s0,0x10
-    236c:	0c00035e 	jal	d78 <puts>
-    2370:	00402021 	move	a0,v0
-    2374:	3c040000 	lui	a0,0x0
-    2378:	0c00035e 	jal	d78 <puts>
-    237c:	24842540 	addiu	a0,a0,9536
-    2380:	0c0001dc 	jal	770 <initCommStructs>
-    2384:	00000000 	nop
-    2388:	8e020000 	lw	v0,0(s0)
-    238c:	ae000000 	sw	zero,0(s0)
-    2390:	8e050000 	lw	a1,0(s0)
-    2394:	3c090002 	lui	t1,0x2
+    2338:	ac65009c 	sw	a1,156(v1)
+    233c:	ac720084 	sw	s2,132(v1)
+    2340:	ac620078 	sw	v0,120(v1)
+    2344:	ac600080 	sw	zero,128(v1)
+    2348:	ac60007c 	sw	zero,124(v1)
+    234c:	3c130004 	lui	s3,0x4
+    2350:	3c110004 	lui	s1,0x4
+    2354:	248425f0 	addiu	a0,a0,9712
+    2358:	ae632804 	sw	v1,10244(s3)
+    235c:	0c00035e 	jal	d78 <puts>
+    2360:	ae262800 	sw	a2,10240(s1)
+    2364:	8e242800 	lw	a0,10240(s1)
+    2368:	0c000108 	jal	420 <itoh>
+    236c:	36100010 	ori	s0,s0,0x10
+    2370:	0c00035e 	jal	d78 <puts>
+    2374:	00402021 	move	a0,v0
+    2378:	3c040000 	lui	a0,0x0
+    237c:	0c00035e 	jal	d78 <puts>
+    2380:	24842544 	addiu	a0,a0,9540
+    2384:	0c0001dc 	jal	770 <initCommStructs>
+    2388:	00000000 	nop
+    238c:	8e020000 	lw	v0,0(s0)
+    2390:	ae000000 	sw	zero,0(s0)
+    2394:	8e050000 	lw	a1,0(s0)
     2398:	3c020004 	lui	v0,0x4
     239c:	3c030004 	lui	v1,0x4
-    23a0:	ac52392c 	sw	s2,14636(v0)
-    23a4:	246337b0 	addiu	v1,v1,14256
+    23a0:	ac52399c 	sw	s2,14748(v0)
+    23a4:	24633820 	addiu	v1,v1,14368
     23a8:	2406ffff 	li	a2,-1
-    23ac:	24070005 	li	a3,5
+    23ac:	34a50029 	ori	a1,a1,0x29
     23b0:	3c020004 	lui	v0,0x4
-    23b4:	8e6427a0 	lw	a0,10144(s3)
-    23b8:	35284000 	ori	t0,t1,0x4000
-    23bc:	34a50029 	ori	a1,a1,0x29
-    23c0:	ac660134 	sw	a2,308(v1)
-    23c4:	ae050000 	sw	a1,0(s0)
-    23c8:	ac523a74 	sw	s2,14964(v0)
-    23cc:	ac670124 	sw	a3,292(v1)
-    23d0:	ac68011c 	sw	t0,284(v1)
-    23d4:	ac670084 	sw	a3,132(v1)
-    23d8:	ac660080 	sw	a2,128(v1)
-    23dc:	ac600078 	sw	zero,120(v1)
-    23e0:	ac69007c 	sw	t1,124(v1)
+    23b4:	24070005 	li	a3,5
+    23b8:	ac660134 	sw	a2,308(v1)
+    23bc:	8e642804 	lw	a0,10244(s3)
+    23c0:	ae050000 	sw	a1,0(s0)
+    23c4:	ac523ae4 	sw	s2,15076(v0)
+    23c8:	3c020002 	lui	v0,0x2
+    23cc:	ac62007c 	sw	v0,124(v1)
+    23d0:	ac74011c 	sw	s4,284(v1)
+    23d4:	ac670124 	sw	a3,292(v1)
+    23d8:	ac670084 	sw	a3,132(v1)
+    23dc:	ac660080 	sw	a2,128(v1)
+    23e0:	ac600078 	sw	zero,120(v1)
     23e4:	ac660094 	sw	a2,148(v1)
     23e8:	ac660120 	sw	a2,288(v1)
     23ec:	0c000076 	jal	1d8 <ASM_RunScheduledTask>
     23f0:	ac600118 	sw	zero,280(v1)
-    23f4:	8fbf0020 	lw	ra,32(sp)
-    23f8:	8fb3001c 	lw	s3,28(sp)
-    23fc:	8fb20018 	lw	s2,24(sp)
-    2400:	8fb10014 	lw	s1,20(sp)
-    2404:	8fb00010 	lw	s0,16(sp)
-    2408:	00001021 	move	v0,zero
-    240c:	03e00008 	jr	ra
-    2410:	27bd0028 	addiu	sp,sp,40
+    23f4:	8fbf0024 	lw	ra,36(sp)
+    23f8:	8fb40020 	lw	s4,32(sp)
+    23fc:	8fb3001c 	lw	s3,28(sp)
+    2400:	8fb20018 	lw	s2,24(sp)
+    2404:	8fb10014 	lw	s1,20(sp)
+    2408:	8fb00010 	lw	s0,16(sp)
+    240c:	00001021 	move	v0,zero
+    2410:	03e00008 	jr	ra
+    2414:	27bd0028 	addiu	sp,sp,40

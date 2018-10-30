@@ -1,2 +1,2 @@
 // Parametrizable Values
-#define PAGESIZE			16384
+#define PAGESIZE			65536

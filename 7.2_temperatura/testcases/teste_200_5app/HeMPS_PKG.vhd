@@ -13,7 +13,7 @@ package HeMPS_PKG is
 -- HEMPS CONSTANTS
 --------------------------------------------------------
 	-- paging definitions
-	constant PAGE_SIZE_H_INDEX		: integer := 13;
+	constant PAGE_SIZE_H_INDEX		: integer := 15;
 	constant PAGE_NUMBER_H_INDEX	: integer := 17;
 
 	-- Hemps top definitions
