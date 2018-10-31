@@ -710,3 +710,1904 @@ teste com stop_execution_flag parando at 2397578
 
 INTERRUPTION (TIME_SLICE)
 1<- stop_execution_flag??
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 4 allocated at 32875
+34149_0x1_0_4_MPEG Task A start:  
+35319_0x1_0_4_35023
+38949_0x1_0_4_T1
+39899_0x1_0_4_37005
+40679_0x1_0_4_T2
+41629_0x1_0_4_38842
+44272_0x1_0_4_T1
+45222_0x1_0_4_42411
+46002_0x1_0_4_T2
+46952_0x1_0_4_44165
+49619_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+51059_0x1_0_4_47734
+51839_0x1_0_4_T2
+52789_0x1_0_4_49512
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+103839_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+105317_0x1_0_4_53571
+106135_0x1_0_4_T2
+107156_0x1_0_4_103732
+INTERRUPTION (NOC)
+158397_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+159908_0x1_0_4_107981
+160731_0x1_0_4_T2
+161752_0x1_0_4_158290
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+214046_0x1_0_4_T1
+215067_0x1_0_4_162577
+215890_0x1_0_4_T2
+216911_0x1_0_4_213939
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+268772_0x1_0_4_T1
+269793_0x1_0_4_217736
+270616_0x1_0_4_T2
+271637_0x1_0_4_268665
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+323368_0x1_0_4_T1
+324389_0x1_0_4_272462
+325212_0x1_0_4_T2
+326233_0x1_0_4_323261
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+378041_0x1_0_4_T1
+379062_0x1_0_4_327058
+379885_0x1_0_4_T2
+380906_0x1_0_4_377934
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+432767_0x1_0_4_T1
+433788_0x1_0_4_381731
+434611_0x1_0_4_T2
+435632_0x1_0_4_432660
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+487363_0x1_0_4_T1
+488384_0x1_0_4_436457
+489207_0x1_0_4_T2
+490228_0x1_0_4_487256
+energy_acc_local total: 10870927	501393
+energy_acc_local (k_slave): 10870927 502353
+INTERRUPTION (NOC)
+543621_0x1_0_4_T1
+544642_0x1_0_4_491053
+545465_0x1_0_4_T2
+546486_0x1_0_4_543514
+INTERRUPTION (NOC)
+598552_0x1_0_4_T1
+599573_0x1_0_4_547311
+600396_0x1_0_4_T2
+601417_0x1_0_4_598445
+INTERRUPTION (NOC)
+653351_0x1_0_4_T1
+654372_0x1_0_4_602242
+655195_0x1_0_4_T2
+656216_0x1_0_4_653244
+INTERRUPTION (NOC)
+708228_0x1_0_4_T1
+709249_0x1_0_4_657041
+710072_0x1_0_4_T2
+711093_0x1_0_4_708121
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 895602
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 12263474	1097127
+energy_acc_local (k_slave): 12263474 1098125
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1103487_0x1_0_4_T1
+1104546_0x1_0_4_711918
+1105407_0x1_0_4_T2
+1106499_0x1_0_4_1103380
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1157584_0x1_0_4_T1
+1158676_0x1_0_4_1107367
+1159542_0x1_0_4_T2
+1160634_0x1_0_4_1157477
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1212485_0x1_0_4_T1
+1213577_0x1_0_4_1161502
+1214443_0x1_0_4_T2
+1215535_0x1_0_4_1212378
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1267439_0x1_0_4_T1
+1268531_0x1_0_4_1216403
+1269397_0x1_0_4_T2
+1270489_0x1_0_4_1267332
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1322263_0x1_0_4_T1
+1323355_0x1_0_4_1271357
+1324221_0x1_0_4_T2
+1325313_0x1_0_4_1322156
+1326544_0x1_0_4_1326182
+1327410_0x1_0_4_End Task A - MPEG
+Task id: 4 terminated at 1328508
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1395557
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 5502285	1896052
+energy_acc_local (k_slave): 5502285 1897007
+teste com stop_execution_flag parando at 1897619
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 95192	2395993
+energy_acc_local (k_slave): 95192 2396872
+teste com stop_execution_flag parando at 2397484
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	2895970
+energy_acc_local (k_slave): 92308 2896849
+teste com stop_execution_flag parando at 2897461
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	3395995
+energy_acc_local (k_slave): 92314 3396874
+teste com stop_execution_flag parando at 3397486
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	3895984
+energy_acc_local (k_slave): 92308 3896863
+teste com stop_execution_flag parando at 3897475
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	4395959
+energy_acc_local (k_slave): 92314 4396838
+teste com stop_execution_flag parando at 4397450
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	4895971
+energy_acc_local (k_slave): 92308 4896850
+teste com stop_execution_flag parando at 4897462
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	5395967
+energy_acc_local (k_slave): 92314 5396846
+teste com stop_execution_flag parando at 5397458
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	5896015
+energy_acc_local (k_slave): 92308 5896894
+teste com stop_execution_flag parando at 5897506
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 4 allocated at 32875
+34149_0x1_0_4_MPEG Task A start:  
+35319_0x1_0_4_35023
+38949_0x1_0_4_T1
+39899_0x1_0_4_37005
+40679_0x1_0_4_T2
+41629_0x1_0_4_38842
+44272_0x1_0_4_T1
+45222_0x1_0_4_42411
+46002_0x1_0_4_T2
+46952_0x1_0_4_44165
+49619_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+51059_0x1_0_4_47734
+51839_0x1_0_4_T2
+52789_0x1_0_4_49512
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+103839_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+105317_0x1_0_4_53571
+106135_0x1_0_4_T2
+107156_0x1_0_4_103732
+INTERRUPTION (NOC)
+158397_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+159908_0x1_0_4_107981
+160731_0x1_0_4_T2
+161752_0x1_0_4_158290
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+214046_0x1_0_4_T1
+215067_0x1_0_4_162577
+215890_0x1_0_4_T2
+216911_0x1_0_4_213939
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+268772_0x1_0_4_T1
+269793_0x1_0_4_217736
+270616_0x1_0_4_T2
+271637_0x1_0_4_268665
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+323368_0x1_0_4_T1
+324389_0x1_0_4_272462
+325212_0x1_0_4_T2
+326233_0x1_0_4_323261
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+378041_0x1_0_4_T1
+379062_0x1_0_4_327058
+379885_0x1_0_4_T2
+380906_0x1_0_4_377934
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+432767_0x1_0_4_T1
+433788_0x1_0_4_381731
+434611_0x1_0_4_T2
+435632_0x1_0_4_432660
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+487363_0x1_0_4_T1
+488384_0x1_0_4_436457
+489207_0x1_0_4_T2
+490228_0x1_0_4_487256
+energy_acc_local total: 10870909	501393
+energy_acc_local (k_slave): 10870909 502353
+INTERRUPTION (NOC)
+543621_0x1_0_4_T1
+544642_0x1_0_4_491053
+545465_0x1_0_4_T2
+546486_0x1_0_4_543514
+INTERRUPTION (NOC)
+598552_0x1_0_4_T1
+599573_0x1_0_4_547311
+600396_0x1_0_4_T2
+601417_0x1_0_4_598445
+INTERRUPTION (NOC)
+653351_0x1_0_4_T1
+654372_0x1_0_4_602242
+655195_0x1_0_4_T2
+656216_0x1_0_4_653244
+INTERRUPTION (NOC)
+708228_0x1_0_4_T1
+709249_0x1_0_4_657041
+710072_0x1_0_4_T2
+711093_0x1_0_4_708121
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 895602
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execINTERRUPTION (TIME_SLICE)
+energy_acc_local total: 14397619	1197128
+energy_acc_local (k_slave): 14397619 1198126
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1203488_0x1_0_4_T1
+1204547_0x1_0_4_711918
+1205408_0x1_0_4_T2
+1206500_0x1_0_4_1203381
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1396036
+
+ution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+1448499_0x1_0_4_T1
+1449591_0x1_0_4_1207368
+1450457_0x1_0_4_T2
+1451549_0x1_0_4_1448392
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 6702715	1501162
+energy_acc_local (k_slave): 6702715 1502117
+INTERRUPTION (NOC)
+1505461_0x1_0_4_T1
+1506553_0x1_0_4_1452417
+INTERRUPTION (TIME_SLICE)
+1507909_0x1_0_4_T2
+1509001_0x1_0_4_1505354
+INTERRUPTION (NOC)
+1560415_0x1_0_4_T1
+INTERRUPTION (TIME_SLICE)
+1561997_0x1_0_4_1509869
+1562863_0x1_0_4_T2
+1563955_0x1_0_4_1560308
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1615729_0x1_0_4_T1
+1616821_0x1_0_4_1564823
+1617687_0x1_0_4_T2
+1618779_0x1_0_4_1615622
+1620010_0x1_0_4_1619648
+1620876_0x1_0_4_End Task A - MPEG
+Task id: 4 terminated at 1621974
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1895557
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 2938331	2396274
+energy_acc_local (k_slave): 2938331 2397229
+teste com stop_execution_flag parando at 2397841
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 95186	2903046
+energy_acc_local (k_slave): 95186 2903925
+teste com stop_execution_flag parando at 2904537
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	3396115
+energy_acc_local (k_slave): 92314 3396994
+teste com stop_execution_flag parando at 3397606
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	3896007
+energy_acc_local (k_slave): 92308 3896886
+teste com stop_execution_flag parando at 3897498
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	4396007
+energy_acc_local (k_slave): 92314 4396886
+teste com stop_execution_flag parando at 4397498
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	4896017
+energy_acc_local (k_slave): 92308 4896896
+teste com stop_execution_flag parando at 4897508
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	5396018
+energy_acc_local (k_slave): 92314 5396897
+teste com stop_execution_flag parando at 5397509
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	5895999
+energy_acc_local (k_slave): 92308 5896878
+teste com stop_execution_flag parando at 5897490
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	6395999
+energy_acc_local (k_slave): 92314 6396878
+teste com stop_execution_flag parando at 6397490
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??

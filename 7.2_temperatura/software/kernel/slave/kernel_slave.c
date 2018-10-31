@@ -878,7 +878,7 @@ int main(){
 	idle_tcb.offset = 0;
 	idle_tcb.status = READY;
 	// idle_tcb.reimaning_time_slice = MAX_TIME_SLICE; // MDO: COMENTADO 19/10
-	idle_tcb.reimaning_time_slice = 200000; // MDO: INCERIDO 19/10
+	idle_tcb.reimaning_time_slice = 300000; // MDO: INCERIDO 19/10
 
 	current = &idle_tcb;
 

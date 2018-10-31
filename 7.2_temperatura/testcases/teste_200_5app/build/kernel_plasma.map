@@ -169,7 +169,7 @@ LOAD kernel_plasma.o
 .plt
  *(.plt)
 
-.text           0x0000000000000000     0x2418
+.text           0x0000000000000000     0x2414
                 0x0000000000000000                _ftext = .
  *(.text .stub .text.* .gnu.linkonce.t.*)
  .text          0x0000000000000000      0x334 boot_plasma.o
@@ -178,7 +178,7 @@ LOAD kernel_plasma.o
                 0x00000000000001a4                ASM_SaveRemainingContext
                 0x00000000000001d8                ASM_RunScheduledTask
                 0x000000000000027c                read_inst
- .text          0x0000000000000334     0x20e4 kernel_plasma.o
+ .text          0x0000000000000334     0x20e0 kernel_plasma.o
                 0x000000000000071c                strcpy
                 0x0000000000000ad4                removeMessageRequest
                 0x0000000000000cec                get_next_pending_service
@@ -232,16 +232,16 @@ LOAD kernel_plasma.o
 
 .fini
  *(.fini)
-                0x0000000000002418                PROVIDE (__etext, .)
-                0x0000000000002418                PROVIDE (_etext, .)
-                0x0000000000002418                PROVIDE (etext, .)
+                0x0000000000002414                PROVIDE (__etext, .)
+                0x0000000000002414                PROVIDE (_etext, .)
+                0x0000000000002414                PROVIDE (etext, .)
 
-.rodata         0x0000000000002418      0x200
+.rodata         0x0000000000002414      0x200
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.str1.4
-                0x0000000000002418      0x1ec kernel_plasma.o
+                0x0000000000002414      0x1ec kernel_plasma.o
                                         0x1f4 (tamanho de relaxar)
- .rodata        0x0000000000002604       0x14 kernel_plasma.o
+ .rodata        0x0000000000002600       0x14 kernel_plasma.o
 
 .rodata1
  *(.rodata1)
@@ -260,7 +260,7 @@ LOAD kernel_plasma.o
 
 .gcc_except_table
  *(.gcc_except_table .gcc_except_table.*)
-                0x0000000000002618                . = .
+                0x0000000000002614                . = .
 
 .eh_frame
  *(.eh_frame)
@@ -275,22 +275,22 @@ LOAD kernel_plasma.o
  *(.tbss .tbss.* .gnu.linkonce.tb.*)
  *(.tcommon)
 
-.preinit_array  0x0000000000002618        0x0
-                0x0000000000002618                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000000000002614        0x0
+                0x0000000000002614                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x0000000000002618                PROVIDE (__preinit_array_end, .)
+                0x0000000000002614                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x0000000000002618        0x0
-                0x0000000000002618                PROVIDE (__init_array_start, .)
+.init_array     0x0000000000002614        0x0
+                0x0000000000002614                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
-                0x0000000000002618                PROVIDE (__init_array_end, .)
+                0x0000000000002614                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0000000000002618        0x0
-                0x0000000000002618                PROVIDE (__fini_array_start, .)
+.fini_array     0x0000000000002614        0x0
+                0x0000000000002614                PROVIDE (__fini_array_start, .)
  *(.fini_array)
  *(SORT(.fini_array.*))
-                0x0000000000002618                PROVIDE (__fini_array_end, .)
+                0x0000000000002614                PROVIDE (__fini_array_end, .)
 
 .ctors
  *crtbegin*.o(.ctors)
@@ -311,20 +311,20 @@ LOAD kernel_plasma.o
  *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
  *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
 
-.data           0x0000000000002618      0x1e8
-                0x0000000000002618                _fdata = .
+.data           0x0000000000002614      0x1e8
+                0x0000000000002614                _fdata = .
  *(.data .data.* .gnu.linkonce.d.*)
- .data          0x0000000000002618        0x0 boot_plasma.o
- .data          0x0000000000002618      0x1e8 kernel_plasma.o
-                0x00000000000027fc                counter_ticks
-                0x0000000000002618                task_location
-                0x0000000000002708                request_task
-                0x00000000000027f8                pipe_free_positions
+ .data          0x0000000000002614        0x0 boot_plasma.o
+ .data          0x0000000000002614      0x1e8 kernel_plasma.o
+                0x00000000000027f8                counter_ticks
+                0x0000000000002614                task_location
+                0x0000000000002704                request_task
+                0x00000000000027f4                pipe_free_positions
  *(.gnu.linkonce.d.*personality*)
 
 .data1
  *(.data1)
-                0x0000000000002800                . = .
+                0x00000000000027fc                . = .
                 0x000000000000a7f0                _gp = (ALIGN (0x10) + 0x7ff0)
 
 .got
@@ -339,70 +339,70 @@ LOAD kernel_plasma.o
 
 .lit4
  *(.lit4)
-                0x0000000000002800                _edata = .
-                0x0000000000002800                PROVIDE (edata, .)
-                0x0000000000002800                __bss_start = .
-                0x0000000000002800                _fbss = .
+                0x00000000000027fc                _edata = .
+                0x00000000000027fc                PROVIDE (edata, .)
+                0x00000000000027fc                __bss_start = .
+                0x00000000000027fc                _fbss = .
 
-.sbss           0x0000000000002800        0xc
+.sbss           0x00000000000027fc        0xc
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.scommon)
- .scommon       0x0000000000002800        0xc kernel_plasma.o
-                0x0000000000002800                net_address
-                0x0000000000002804                current
-                0x0000000000002808                schedule_after_syscall
+ .scommon       0x00000000000027fc        0xc kernel_plasma.o
+                0x00000000000027fc                net_address
+                0x0000000000002800                current
+                0x0000000000002804                schedule_after_syscall
 
-.bss            0x000000000000280c     0x178c
+.bss            0x0000000000002808     0x178c
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000000280c        0x0 boot_plasma.o
- .bss           0x000000000000280c       0xf8 kernel_plasma.o
-                0x00000000000028a8                pending_service_last
-                0x0000000000002864                arith_inst
-                0x0000000000002848                global_inst
-                0x000000000000289c                mult_div_energy
-                0x00000000000028b0                cluster_master_address
-                0x0000000000002880                jump_energy
-                0x000000000000288c                arith_energy
-                0x00000000000028a0                router_flits
-                0x0000000000002860                other_inst
-                0x0000000000002854                branch_inst
-                0x0000000000002888                other_energy
-                0x0000000000002868                load_inst
-                0x0000000000002878                logical_energy
-                0x0000000000002898                nop_energy
-                0x00000000000028b8                stop_execution_flag
-                0x000000000000286c                shift_inst
-                0x00000000000028ac                add_fifo
-                0x0000000000002894                shift_energy
-                0x0000000000002884                move_energy
-                0x00000000000028a4                pending_service_first
-                0x000000000000280c                task_status
-                0x000000000000284c                energy_acc_local
-                0x0000000000002858                jump_inst
-                0x000000000000285c                move_inst
-                0x000000000000287c                branch_energy
-                0x0000000000002850                logical_inst
-                0x00000000000028b4                router_flits_anterior
-                0x0000000000002874                mult_div_inst
-                0x0000000000002870                nop_inst
-                0x0000000000002890                load_energy
+ .bss           0x0000000000002808        0x0 boot_plasma.o
+ .bss           0x0000000000002808       0xf8 kernel_plasma.o
+                0x00000000000028a4                pending_service_last
+                0x0000000000002860                arith_inst
+                0x0000000000002844                global_inst
+                0x0000000000002898                mult_div_energy
+                0x00000000000028ac                cluster_master_address
+                0x000000000000287c                jump_energy
+                0x0000000000002888                arith_energy
+                0x000000000000289c                router_flits
+                0x000000000000285c                other_inst
+                0x0000000000002850                branch_inst
+                0x0000000000002884                other_energy
+                0x0000000000002864                load_inst
+                0x0000000000002874                logical_energy
+                0x0000000000002894                nop_energy
+                0x00000000000028b4                stop_execution_flag
+                0x0000000000002868                shift_inst
+                0x00000000000028a8                add_fifo
+                0x0000000000002890                shift_energy
+                0x0000000000002880                move_energy
+                0x00000000000028a0                pending_service_first
+                0x0000000000002808                task_status
+                0x0000000000002848                energy_acc_local
+                0x0000000000002854                jump_inst
+                0x0000000000002858                move_inst
+                0x0000000000002878                branch_energy
+                0x000000000000284c                logical_inst
+                0x00000000000028b0                router_flits_anterior
+                0x0000000000002870                mult_div_inst
+                0x000000000000286c                nop_inst
+                0x000000000000288c                load_energy
  *(COMMON)
- COMMON         0x0000000000002904     0x1694 kernel_plasma.o
-                0x0000000000002904                pipe
-                0x000000000000357c                idle_tcb
-                0x000000000000361c                msg_write_pipe
-                0x0000000000003820                tcbs
-                0x0000000000003960                sh_slot2
-                0x00000000000039a0                message_request
-                0x0000000000003aa8                sh_slot1
-                0x0000000000003ae8                pending_services_FIFO
-                0x0000000000003f98                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x0000000000003f98                . = ALIGN (0x4)
-                0x0000000000003f98                . = ALIGN (0x4)
-                0x0000000000003f98                _end = .
-                0x0000000000003f98                PROVIDE (end, .)
+ COMMON         0x0000000000002900     0x1694 kernel_plasma.o
+                0x0000000000002900                pipe
+                0x0000000000003578                idle_tcb
+                0x0000000000003618                msg_write_pipe
+                0x000000000000381c                tcbs
+                0x000000000000395c                sh_slot2
+                0x000000000000399c                message_request
+                0x0000000000003aa4                sh_slot1
+                0x0000000000003ae4                pending_services_FIFO
+                0x0000000000003f94                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000003f94                . = ALIGN (0x4)
+                0x0000000000003f94                . = ALIGN (0x4)
+                0x0000000000003f94                _end = .
+                0x0000000000003f94                PROVIDE (end, .)
 
 .stab
  *(.stab)

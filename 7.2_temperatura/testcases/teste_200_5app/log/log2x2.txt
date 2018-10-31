@@ -53,3 +53,180 @@ INTERRUPTION (NOC)
 1477297_2x2_3_1_1476935
 1478253_2x2_3_1_End Task C- MPEG
 Task id: 769 terminated at 1479512
+Initializing PE: 0x00000202
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 0 allocated at 179160
+181272_2x2_0_0_MPEG Task D start: iDCT 
+182538_2x2_0_0_182209
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 2006802	548194
+energy_acc_local (k_slave): 2006802 549111
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 903121	1161745
+energy_acc_local (k_slave): 903121 1162662
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 1075569	1508432
+energy_acc_local (k_slave): 1075569 1509387
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+1567879_2x2_0_0_1567517
+1568745_2x2_0_0_End Task D - MPEG
+Task id: 0 terminated at 1569798
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+teste com stop_execution_flag parando at 1900861
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 458285	2102343
+energy_acc_local (k_slave): 458285 2103260
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+teste com stop_execution_flag parando at 2400878
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+energy_acc_local total: 125551	2901311
+energy_acc_local (k_slave): 125551 2902228
+teste com stop_execution_flag parando at 2902840
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+energy_acc_local total: 95175	3401298
+energy_acc_local (k_slave): 95175 3402177
+teste com stop_execution_flag parando at 3402789
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+energy_acc_local total: 93753	3901287
+energy_acc_local (k_slave): 93753 3902166
+teste com stop_execution_flag parando at 3902778
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+energy_acc_local total: 93747	4401262
+energy_acc_local (k_slave): 93747 4402141
+teste com stop_execution_flag parando at 4402753
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 514
+energy_acc_local total: 93753	4901274
+energy_acc_local (k_slave): 93753 4902153
+teste com stop_execution_flag parando at 4902765
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+Initializing PE: 0x00000202
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 0 allocated at 179160
+181272_2x2_0_0_MPEG Task D start: iDCT 
+182538_2x2_0_0_182209
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 2006784	548194
+energy_acc_local (k_slave): 2006784 549111
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 903121	1448073
+energy_acc_local (k_slave): 903121 1448990
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 213359	1507788
+energy_acc_local (k_slave): 213359 1508705
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+1841168_2x2_0_0_1840806
+1842034_2x2_0_0_End Task D - MPEG
+Task id: 0 terminated at 1843087
