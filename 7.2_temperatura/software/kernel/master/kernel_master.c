@@ -1265,14 +1265,12 @@ void initialize_slaves(){
 }
 
 
-void test_slow_proc(){
+void compara_temp_procs(){
 
 	cluster_temperature temp[XCLUSTER*YCLUSTER]; // VETOR PARA TEMPERATURA DO CLUSTER
 
-	// puts("TESTANDO SAIDA DA DIFERENÇA DE TEMPERATURA : \n");
 
 	int aux = 0; 
-	// int count_dif_proc_temp = 0;
 	int temp_maior, prox;
 
 	/*for (int i = 1; i < XDIMENSION*YDIMENSION; i++){
@@ -1377,7 +1375,7 @@ int main(void) {
 		is_global_master = 0;
 	}
 
-	if ((XDIMENSION/XCLUSTER) > (YDIMENSION/YCLUSTER)) {
+	if ((XDIMENSION/XCLUSTER) > (YDIMENSION/YCLUSTER)){
 		max_neighbors_level = XDIMENSION/XCLUSTER;
 	} else {
 		max_neighbors_level = YDIMENSION/YCLUSTER; 
@@ -1409,7 +1407,7 @@ int main(void) {
 					counter_ticks2 = counter_ticks2 + counter_ticks;
 
 				// VERIFICAR DIFERENÇA DE TEMPERATURA ENTRE OS Pes DE UM CLUSTER
-					test_slow_proc();
+					compara_temp_procs();
 			
 
 					puts("energySlavesAcc 1 : ");puts(itoa(energySlavesAcc[1][0]));puts("\n");

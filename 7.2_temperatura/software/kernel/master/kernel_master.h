@@ -141,7 +141,7 @@ void reserve_cluster_resources(int cluster_index, int num_app_task);
 void putsv(const char *string, int v);
 void send_new_task(int task_ID, int master_ID, int mapped_proc, unsigned int initial_address, int code_size, int data_size, int bss_size);
 void initialize_slaves();
-void test_slow_proc();
+void compara_temp_procs();
 
 /**@}*/
 
