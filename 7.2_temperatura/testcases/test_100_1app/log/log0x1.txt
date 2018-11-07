@@ -1,0 +1,6133 @@
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 7 allocated at 35672
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 10563859	502570
+energy_acc_local (k_slave): 10563859 503530
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 895746
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- sINTERRUPTION (TIME_SLICE)
+energy_acc_local total: 14755759	1197271
+energy_acc_local (k_slave): 14755759 1198269
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1396976
+
+top_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 7457354	1514376
+energy_acc_local (k_slave): 7457354 1515331
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1896119
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+1<- stop_INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 6957701	2002588
+energy_acc_local (k_slave): 6957701 2003543
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 2395594
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flINTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+ag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 8806215	2505040
+energy_acc_local (k_slave): 8806215 2505995
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 7 terminated at 2594598
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 5 allocated at 33083
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 4 allocated at 57421
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+85030_0x1_0_5_GRUPO 0
+85914_0x1_0_5_96
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+97466_0x1_0_5_GRUPO 1
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+180983_0x1_0_5_
+
+183484_0x1_0_4_My id
+184360_0x1_0_4_4
+185153_0x1_0_4_GRUPO 0
+186078_0x1_0_4_96
+186876_0x1_0_4_GRUPO 1
+187830_0x1_0_4_120
+188633_0x1_0_4_fim 
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+199248_0x1_0_5_From 
+200127_0x1_0_5_1
+200920_0x1_0_5_ to 
+201793_0x1_0_5_2
+202586_0x1_0_5_, shortest path is 
+203549_0x1_0_5_5
+204342_0x1_0_5_ in cost. 
+205190_0x1_0_5_Path is: 
+206093_0x1_0_5_1
+206892_0x1_0_5_ 
+207745_0x1_0_5_3
+208547_0x1_0_5_ 
+209400_0x1_0_5_2
+210568_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+228766_0x1_0_5_From 
+229645_0x1_0_5_2
+230438_0x1_0_5_ to 
+231344_0x1_0_5_12
+232142_0x1_0_5_, shortest path is 
+233138_0x1_0_5_20
+233936_0x1_0_5_ in cost. 
+234784_0x1_0_5_Path is: 
+235687_0x1_0_5_2
+236486_0x1_0_5_ 
+237339_0x1_0_5_7
+238141_0x1_0_5_ 
+238994_0x1_0_5_8
+239796_0x1_0_5_ 
+240649_0x1_0_5_9
+241451_0x1_0_5_ 
+242337_0x1_0_5_10
+243144_0x1_0_5_ 
+244030_0x1_0_5_12
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+262333_0x1_0_5_
+
+INTERRUPTION (NOC)
+268614_0x1_0_5_From 
+269493_0x1_0_5_4
+270286_0x1_0_5_ to 
+271192_0x1_0_5_11
+271990_0x1_0_5_, shortest path is 
+272986_0x1_0_5_13
+273784_0x1_0_5_ in cost. 
+274632_0x1_0_5_Path is: 
+275535_0x1_0_5_4
+276334_0x1_0_5_ 
+277187_0x1_0_5_6
+277989_0x1_0_5_ 
+278842_0x1_0_5_8
+279644_0x1_0_5_ 
+280497_0x1_0_5_9
+281299_0x1_0_5_ 
+282185_0x1_0_5_11
+283332_0x1_0_5_
+
+INTERRUPTION (NOC)
+286576_0x1_0_5_From 
+287455_0x1_0_5_6
+288248_0x1_0_5_ to 
+289154_0x1_0_5_14
+289952_0x1_0_5_, shortest path is 
+290948_0x1_0_5_15
+291746_0x1_0_5_ in cost. 
+292594_0x1_0_5_Path is: 
+293497_0x1_0_5_6
+294296_0x1_0_5_ 
+295149_0x1_0_5_8
+295951_0x1_0_5_ 
+296804_0x1_0_5_9
+297606_0x1_0_5_ 
+298492_0x1_0_5_11
+299299_0x1_0_5_ 
+300185_0x1_0_5_13
+300992_0x1_0_5_ 
+301878_0x1_0_5_14
+INTERRUPTION (TIME_SLICE)
+304065_0x1_0_5_
+
+305684_0x1_0_5_From 
+306563_0x1_0_5_9
+307356_0x1_0_5_ to 
+308262_0x1_0_5_14
+309060_0x1_0_5_, shortest path is 
+310023_0x1_0_5_6
+310816_0x1_0_5_ in cost. 
+311664_0x1_0_5_Path is: 
+312567_0x1_0_5_9
+313366_0x1_0_5_ 
+314252_0x1_0_5_11
+315059_0x1_0_5_ 
+315945_0x1_0_5_13
+316752_0x1_0_5_ 
+317638_0x1_0_5_14
+318798_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+330294_0x1_0_5_From 
+331173_0x1_0_5_1
+331966_0x1_0_5_ to 
+332839_0x1_0_5_3
+333632_0x1_0_5_, shortest path is 
+334595_0x1_0_5_3
+335388_0x1_0_5_ in cost. 
+336236_0x1_0_5_Path is: 
+337139_0x1_0_5_1
+337938_0x1_0_5_ 
+338791_0x1_0_5_3
+339972_0x1_0_5_
+
+INTERRUPTION (NOC)
+344817_0x1_0_5_From 
+345696_0x1_0_5_2
+346489_0x1_0_5_ to 
+347395_0x1_0_5_13
+348193_0x1_0_5_, shortest path is 
+349189_0x1_0_5_17
+349987_0x1_0_5_ in cost. 
+350835_0x1_0_5_Path is: 
+351738_0x1_0_5_2
+352537_0x1_0_5_ 
+353390_0x1_0_5_7
+354192_0x1_0_5_ 
+355045_0x1_0_5_8
+355847_0x1_0_5_ 
+356700_0x1_0_5_9
+357502_0x1_0_5_ 
+358388_0x1_0_5_11
+359195_0x1_0_5_ 
+360081_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+362266_0x1_0_5_
+
+INTERRUPTION (NOC)
+365506_0x1_0_5_From 
+366385_0x1_0_5_4
+367178_0x1_0_5_ to 
+368084_0x1_0_5_12
+368882_0x1_0_5_, shortest path is 
+369878_0x1_0_5_20
+370676_0x1_0_5_ in cost. 
+371524_0x1_0_5_Path is: 
+372427_0x1_0_5_4
+373226_0x1_0_5_ 
+374079_0x1_0_5_6
+374881_0x1_0_5_ 
+375734_0x1_0_5_8
+376536_0x1_0_5_ 
+377389_0x1_0_5_9
+378191_0x1_0_5_ 
+379077_0x1_0_5_10
+379884_0x1_0_5_ 
+380770_0x1_0_5_12
+INTERRUPTION (TIME_SLICE)
+382955_0x1_0_5_
+
+INTERRUPTION (NOC)
+386195_0x1_0_5_From 
+387074_0x1_0_5_6
+387867_0x1_0_5_ to 
+388773_0x1_0_5_15
+389571_0x1_0_5_, shortest path is 
+390567_0x1_0_5_19
+391365_0x1_0_5_ in cost. 
+392213_0x1_0_5_Path is: 
+393116_0x1_0_5_6
+393915_0x1_0_5_ 
+394768_0x1_0_5_8
+395570_0x1_0_5_ 
+396423_0x1_0_5_9
+397225_0x1_0_5_ 
+398111_0x1_0_5_11
+398918_0x1_0_5_ 
+399804_0x1_0_5_13
+400611_0x1_0_5_ 
+401497_0x1_0_5_16
+INTERRUPTION (TIME_SLICE)
+403355_0x1_0_5_ 
+404241_0x1_0_5_15
+405362_0x1_0_5_
+
+406983_0x1_0_5_From 
+407862_0x1_0_5_9
+408655_0x1_0_5_ to 
+409561_0x1_0_5_15
+410359_0x1_0_5_, shortest path is 
+411355_0x1_0_5_10
+412153_0x1_0_5_ in cost. 
+413001_0x1_0_5_Path is: 
+413904_0x1_0_5_9
+414703_0x1_0_5_ 
+415589_0x1_0_5_11
+416396_0x1_0_5_ 
+417282_0x1_0_5_13
+418089_0x1_0_5_ 
+418975_0x1_0_5_16
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+428986_0x1_0_5_ 
+429872_0x1_0_5_15
+431019_0x1_0_5_
+
+INTERRUPTION (NOC)
+436641_0x1_0_5_From 
+437520_0x1_0_5_1
+438313_0x1_0_5_ to 
+439186_0x1_0_5_4
+439979_0x1_0_5_, shortest path is 
+440942_0x1_0_5_6
+441735_0x1_0_5_ in cost. 
+442583_0x1_0_5_Path is: 
+443486_0x1_0_5_1
+444285_0x1_0_5_ 
+445138_0x1_0_5_3
+445940_0x1_0_5_ 
+446793_0x1_0_5_4
+447961_0x1_0_5_
+
+INTERRUPTION (NOC)
+451794_0x1_0_5_From 
+452673_0x1_0_5_2
+453466_0x1_0_5_ to 
+454372_0x1_0_5_14
+455170_0x1_0_5_, shortest path is 
+456166_0x1_0_5_18
+456964_0x1_0_5_ in cost. 
+457812_0x1_0_5_Path is: 
+458715_0x1_0_5_2
+459514_0x1_0_5_ 
+460367_0x1_0_5_7
+461169_0x1_0_5_ 
+462022_0x1_0_5_8
+462824_0x1_0_5_ 
+463677_0x1_0_5_9
+464479_0x1_0_5_ 
+465365_0x1_0_5_11
+466172_0x1_0_5_ 
+467058_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+468917_0x1_0_5_ 
+469803_0x1_0_5_14
+470924_0x1_0_5_
+
+INTERRUPTION (NOC)
+474757_0x1_0_5_From 
+475636_0x1_0_5_4
+476429_0x1_0_5_ to 
+477335_0x1_0_5_13
+478133_0x1_0_5_, shortest path is 
+479129_0x1_0_5_17
+479927_0x1_0_5_ in cost. 
+480775_0x1_0_5_Path is: 
+481678_0x1_0_5_4
+482477_0x1_0_5_ 
+483330_0x1_0_5_6
+484132_0x1_0_5_ 
+484985_0x1_0_5_8
+485787_0x1_0_5_ 
+486640_0x1_0_5_9
+487442_0x1_0_5_ 
+488328_0x1_0_5_11
+489135_0x1_0_5_ 
+490021_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+492207_0x1_0_5_
+
+INTERRUPTION (NOC)
+495449_0x1_0_5_From 
+496328_0x1_0_5_6
+497121_0x1_0_5_ to 
+498027_0x1_0_5_16
+498825_0x1_0_5_, shortest path is 
+499821_0x1_0_5_16
+500619_0x1_0_5_ in cost. 
+501467_0x1_0_5_Path is: 
+502370_0x1_0_5_6
+503169_0x1_0_5_ 
+504022_0x1_0_5_8
+504824_0x1_0_5_ 
+505677_0x1_0_5_9
+506479_0x1_0_5_ 
+507365_0x1_0_5_11
+508172_0x1_0_5_ 
+509058_0x1_0_5_13
+509865_0x1_0_5_ 
+510751_0x1_0_5_16
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 10656286	512609
+energy_acc_local (k_slave): 10656286 513569
+515008_0x1_0_5_
+
+516629_0x1_0_5_From 
+517508_0x1_0_5_9
+518301_0x1_0_5_ to 
+519207_0x1_0_5_16
+520005_0x1_0_5_, shortest path is 
+520968_0x1_0_5_7
+521761_0x1_0_5_ in cost. 
+522609_0x1_0_5_Path is: 
+523512_0x1_0_5_9
+524311_0x1_0_5_ 
+525197_0x1_0_5_11
+526004_0x1_0_5_ 
+526890_0x1_0_5_13
+527697_0x1_0_5_ 
+528583_0x1_0_5_16
+529743_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+536631_0x1_0_5_From 
+537510_0x1_0_5_1
+538303_0x1_0_5_ to 
+539176_0x1_0_5_5
+539969_0x1_0_5_, shortest path is 
+540932_0x1_0_5_7
+541725_0x1_0_5_ in cost. 
+542573_0x1_0_5_Path is: 
+543476_0x1_0_5_1
+544275_0x1_0_5_ 
+545128_0x1_0_5_3
+545930_0x1_0_5_ 
+546783_0x1_0_5_5
+547951_0x1_0_5_
+
+INTERRUPTION (NOC)
+557456_0x1_0_5_From 
+558335_0x1_0_5_2
+559128_0x1_0_5_ to 
+560034_0x1_0_5_15
+560832_0x1_0_5_, shortest path is 
+561828_0x1_0_5_22
+562626_0x1_0_5_ in cost. 
+563474_0x1_0_5_Path is: 
+564377_0x1_0_5_2
+565176_0x1_0_5_ 
+566029_0x1_0_5_7
+566831_0x1_0_5_ 
+567684_0x1_0_5_8
+568486_0x1_0_5_ 
+569339_0x1_0_5_9
+570141_0x1_0_5_ 
+571027_0x1_0_5_11
+571834_0x1_0_5_ 
+572720_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+574580_0x1_0_5_ 
+575466_0x1_0_5_16
+576273_0x1_0_5_ 
+577159_0x1_0_5_15
+578267_0x1_0_5_
+
+INTERRUPTION (NOC)
+581511_0x1_0_5_From 
+582390_0x1_0_5_4
+583183_0x1_0_5_ to 
+584089_0x1_0_5_14
+584887_0x1_0_5_, shortest path is 
+585883_0x1_0_5_18
+586681_0x1_0_5_ in cost. 
+587529_0x1_0_5_Path is: 
+588432_0x1_0_5_4
+589231_0x1_0_5_ 
+590084_0x1_0_5_6
+590886_0x1_0_5_ 
+591739_0x1_0_5_8
+592541_0x1_0_5_ 
+593394_0x1_0_5_9
+594196_0x1_0_5_ 
+595082_0x1_0_5_11
+595889_0x1_0_5_ 
+596775_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+598635_0x1_0_5_ 
+599521_0x1_0_5_14
+600642_0x1_0_5_
+
+INTERRUPTION (NOC)
+603886_0x1_0_5_From 
+604765_0x1_0_5_7
+605558_0x1_0_5_ to 
+606431_0x1_0_5_8
+607224_0x1_0_5_, shortest path is 
+608187_0x1_0_5_4
+608980_0x1_0_5_ in cost. 
+609828_0x1_0_5_Path is: 
+610731_0x1_0_5_7
+611530_0x1_0_5_ 
+612383_0x1_0_5_8
+613564_0x1_0_5_
+
+615183_0x1_0_5_From 
+616095_0x1_0_5_10
+616893_0x1_0_5_ to 
+617799_0x1_0_5_11
+618597_0x1_0_5_, shortest path is 
+619560_0x1_0_5_6
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+625419_0x1_0_5_ in cost. 
+626267_0x1_0_5_Path is: 
+627203_0x1_0_5_10
+628007_0x1_0_5_ 
+628860_0x1_0_5_9
+629662_0x1_0_5_ 
+630548_0x1_0_5_11
+631721_0x1_0_5_
+
+INTERRUPTION (NOC)
+641474_0x1_0_5_From 
+642353_0x1_0_5_1
+643146_0x1_0_5_ to 
+644019_0x1_0_5_6
+644812_0x1_0_5_, shortest path is 
+645775_0x1_0_5_9
+646568_0x1_0_5_ in cost. 
+647416_0x1_0_5_Path is: 
+648319_0x1_0_5_1
+649118_0x1_0_5_ 
+649971_0x1_0_5_3
+650773_0x1_0_5_ 
+651626_0x1_0_5_4
+652428_0x1_0_5_ 
+653281_0x1_0_5_6
+654436_0x1_0_5_
+
+INTERRUPTION (NOC)
+657676_0x1_0_5_From 
+658555_0x1_0_5_2
+659348_0x1_0_5_ to 
+660254_0x1_0_5_16
+661052_0x1_0_5_, shortest path is 
+662048_0x1_0_5_19
+662846_0x1_0_5_ in cost. 
+663694_0x1_0_5_Path is: 
+664597_0x1_0_5_2
+665396_0x1_0_5_ 
+666249_0x1_0_5_7
+667051_0x1_0_5_ 
+667904_0x1_0_5_8
+668706_0x1_0_5_ 
+669559_0x1_0_5_9
+670361_0x1_0_5_ 
+671247_0x1_0_5_11
+672054_0x1_0_5_ 
+672940_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+674798_0x1_0_5_ 
+675684_0x1_0_5_16
+676805_0x1_0_5_
+
+INTERRUPTION (NOC)
+680635_0x1_0_5_From 
+681514_0x1_0_5_4
+682307_0x1_0_5_ to 
+683213_0x1_0_5_15
+684011_0x1_0_5_, shortest path is 
+685007_0x1_0_5_22
+685805_0x1_0_5_ in cost. 
+686653_0x1_0_5_Path is: 
+687556_0x1_0_5_4
+688355_0x1_0_5_ 
+689208_0x1_0_5_6
+690010_0x1_0_5_ 
+690863_0x1_0_5_8
+691665_0x1_0_5_ 
+692518_0x1_0_5_9
+693320_0x1_0_5_ 
+694206_0x1_0_5_11
+695013_0x1_0_5_ 
+695899_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+697757_0x1_0_5_ 
+698643_0x1_0_5_16
+699450_0x1_0_5_ 
+700336_0x1_0_5_15
+701444_0x1_0_5_
+
+INTERRUPTION (NOC)
+704684_0x1_0_5_From 
+705563_0x1_0_5_7
+706356_0x1_0_5_ to 
+707229_0x1_0_5_9
+708022_0x1_0_5_, shortest path is 
+709018_0x1_0_5_11
+709816_0x1_0_5_ in cost. 
+710664_0x1_0_5_Path is: 
+711567_0x1_0_5_7
+712366_0x1_0_5_ 
+713219_0x1_0_5_8
+714021_0x1_0_5_ 
+714874_0x1_0_5_9
+716042_0x1_0_5_
+
+717663_0x1_0_5_From 
+718575_0x1_0_5_10
+719373_0x1_0_5_ to 
+720279_0x1_0_5_12
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+723813_0x1_0_5_, shortest path is 
+724776_0x1_0_5_3
+725569_0x1_0_5_ in cost. 
+726417_0x1_0_5_Path is: 
+727353_0x1_0_5_10
+728157_0x1_0_5_ 
+729043_0x1_0_5_12
+730229_0x1_0_5_
+
+INTERRUPTION (NOC)
+742355_0x1_0_5_From 
+743234_0x1_0_5_1
+744027_0x1_0_5_ to 
+744900_0x1_0_5_7
+745693_0x1_0_5_, shortest path is 
+746656_0x1_0_5_6
+747449_0x1_0_5_ in cost. 
+748297_0x1_0_5_Path is: 
+749200_0x1_0_5_1
+749999_0x1_0_5_ 
+750852_0x1_0_5_3
+751654_0x1_0_5_ 
+752507_0x1_0_5_2
+753309_0x1_0_5_ 
+754162_0x1_0_5_7
+755317_0x1_0_5_
+
+INTERRUPTION (NOC)
+758559_0x1_0_5_From 
+759438_0x1_0_5_3
+760231_0x1_0_5_ to 
+761104_0x1_0_5_4
+761897_0x1_0_5_, shortest path is 
+762860_0x1_0_5_3
+763653_0x1_0_5_ in cost. 
+764501_0x1_0_5_Path is: 
+765404_0x1_0_5_3
+766203_0x1_0_5_ 
+767056_0x1_0_5_4
+768237_0x1_0_5_
+
+INTERRUPTION (NOC)
+771479_0x1_0_5_From 
+772358_0x1_0_5_4
+773151_0x1_0_5_ to 
+774057_0x1_0_5_16
+774855_0x1_0_5_, shortest path is 
+775851_0x1_0_5_19
+776649_0x1_0_5_ in cost. 
+777497_0x1_0_5_Path is: 
+778400_0x1_0_5_4
+779199_0x1_0_5_ 
+780052_0x1_0_5_6
+780854_0x1_0_5_ 
+781707_0x1_0_5_8
+782509_0x1_0_5_ 
+783362_0x1_0_5_9
+784164_0x1_0_5_ 
+785050_0x1_0_5_11
+785857_0x1_0_5_ 
+786743_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+788602_0x1_0_5_ 
+789488_0x1_0_5_16
+790609_0x1_0_5_
+
+INTERRUPTION (NOC)
+794442_0x1_0_5_From 
+795321_0x1_0_5_7
+796114_0x1_0_5_ to 
+797020_0x1_0_5_10
+797818_0x1_0_5_, shortest path is 
+798814_0x1_0_5_16
+799612_0x1_0_5_ in cost. 
+800460_0x1_0_5_Path is: 
+801363_0x1_0_5_7
+802162_0x1_0_5_ 
+803015_0x1_0_5_8
+803817_0x1_0_5_ 
+804670_0x1_0_5_9
+805472_0x1_0_5_ 
+806358_0x1_0_5_10
+807518_0x1_0_5_
+
+809139_0x1_0_5_From 
+810051_0x1_0_5_10
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+811798_0x1_0_5_ to 
+812704_0x1_0_5_13
+813502_0x1_0_5_, shortest path is 
+814465_0x1_0_5_6
+815258_0x1_0_5_ in cost. 
+816106_0x1_0_5_Path is: 
+817042_0x1_0_5_10
+817846_0x1_0_5_ 
+818732_0x1_0_5_12
+819539_0x1_0_5_ 
+820425_0x1_0_5_14
+821232_0x1_0_5_ 
+822118_0x1_0_5_13
+823278_0x1_0_5_
+
+INTERRUPTION (NOC)
+837171_0x1_0_5_From 
+838050_0x1_0_5_1
+838843_0x1_0_5_ to 
+839716_0x1_0_5_8
+840509_0x1_0_5_, shortest path is 
+841505_0x1_0_5_10
+842303_0x1_0_5_ in cost. 
+843151_0x1_0_5_Path is: 
+844054_0x1_0_5_1
+844853_0x1_0_5_ 
+845706_0x1_0_5_3
+846508_0x1_0_5_ 
+847361_0x1_0_5_2
+848163_0x1_0_5_ 
+849016_0x1_0_5_7
+849818_0x1_0_5_ 
+850671_0x1_0_5_8
+851813_0x1_0_5_
+
+INTERRUPTION (NOC)
+855057_0x1_0_5_From 
+855936_0x1_0_5_3
+856729_0x1_0_5_ to 
+857602_0x1_0_5_5
+858395_0x1_0_5_, shortest path is 
+859358_0x1_0_5_4
+860151_0x1_0_5_ in cost. 
+860999_0x1_0_5_Path is: 
+861902_0x1_0_5_3
+862701_0x1_0_5_ 
+863554_0x1_0_5_5
+864735_0x1_0_5_
+
+INTERRUPTION (NOC)
+867979_0x1_0_5_From 
+868858_0x1_0_5_5
+869651_0x1_0_5_ to 
+870524_0x1_0_5_6
+871317_0x1_0_5_, shortest path is 
+872280_0x1_0_5_5
+873073_0x1_0_5_ in cost. 
+873921_0x1_0_5_Path is: 
+874824_0x1_0_5_5
+875623_0x1_0_5_ 
+876476_0x1_0_5_6
+877657_0x1_0_5_
+
+INTERRUPTION (NOC)
+881497_0x1_0_5_From 
+882376_0x1_0_5_7
+883169_0x1_0_5_ to 
+884075_0x1_0_5_11
+884873_0x1_0_5_, shortest path is 
+885869_0x1_0_5_12
+886667_0x1_0_5_ in cost. 
+887515_0x1_0_5_Path is: 
+888418_0x1_0_5_7
+889217_0x1_0_5_ 
+890070_0x1_0_5_8
+890872_0x1_0_5_ 
+891725_0x1_0_5_9
+892527_0x1_0_5_ 
+893413_0x1_0_5_11
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 895488
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 8297590	1196970
+energy_acc_local (k_slave): 8297590 1197925
+1199266_0x1_0_5_
+
+1200923_0x1_0_5_From 
+INTERRUPTION (TIME_SLICE)
+1214077_0x1_0_5_10
+1214913_0x1_0_5_ to 
+1215857_0x1_0_5_14
+1216693_0x1_0_5_, shortest path is 
+1217694_0x1_0_5_5
+1218525_0x1_0_5_ in cost. 
+1219411_0x1_0_5_Path is: 
+1220385_0x1_0_5_10
+1221227_0x1_0_5_ 
+1222151_0x1_0_5_12
+1222996_0x1_0_5_ 
+1223920_0x1_0_5_14
+1225131_0x1_0_5_
+
+INTERRUPTION (NOC)
+1229006_0x1_0_5_From 
+1229923_0x1_0_5_1
+1230754_0x1_0_5_ to 
+1231665_0x1_0_5_9
+1232496_0x1_0_5_, shortest path is 
+1233530_0x1_0_5_17
+1234366_0x1_0_5_ in cost. 
+1235252_0x1_0_5_Path is: 
+1236193_0x1_0_5_1
+1237030_0x1_0_5_ 
+1237921_0x1_0_5_3
+1238761_0x1_0_5_ 
+1239652_0x1_0_5_2
+1240492_0x1_0_5_ 
+1241383_0x1_0_5_7
+1242223_0x1_0_5_ 
+1243114_0x1_0_5_8
+1243954_0x1_0_5_ 
+1244845_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+1247063_0x1_0_5_
+
+INTERRUPTION (NOC)
+1250935_0x1_0_5_From 
+1251852_0x1_0_5_3
+1252683_0x1_0_5_ to 
+1253594_0x1_0_5_6
+1254425_0x1_0_5_, shortest path is 
+1255426_0x1_0_5_6
+1256257_0x1_0_5_ in cost. 
+1257143_0x1_0_5_Path is: 
+1258084_0x1_0_5_3
+1258921_0x1_0_5_ 
+1259812_0x1_0_5_4
+1260652_0x1_0_5_ 
+1261543_0x1_0_5_6
+1262749_0x1_0_5_
+
+INTERRUPTION (NOC)
+1266617_0x1_0_5_From 
+1267534_0x1_0_5_5
+1268365_0x1_0_5_ to 
+1269276_0x1_0_5_7
+1270107_0x1_0_5_, shortest path is 
+1271108_0x1_0_5_7
+1271939_0x1_0_5_ in cost. 
+1272825_0x1_0_5_Path is: 
+1273766_0x1_0_5_5
+1274603_0x1_0_5_ 
+1275494_0x1_0_5_3
+1276334_0x1_0_5_ 
+1277225_0x1_0_5_2
+1278065_0x1_0_5_ 
+1278956_0x1_0_5_7
+1280149_0x1_0_5_
+
+INTERRUPTION (NOC)
+1284017_0x1_0_5_From 
+1284934_0x1_0_5_7
+1285765_0x1_0_5_ to 
+1286709_0x1_0_5_12
+1287545_0x1_0_5_, shortest path is 
+1288579_0x1_0_5_19
+1289415_0x1_0_5_ in cost. 
+1290301_0x1_0_5_Path is: 
+1291242_0x1_0_5_7
+1292079_0x1_0_5_ 
+1292970_0x1_0_5_8
+1293810_0x1_0_5_ 
+1294701_0x1_0_5_9
+1295541_0x1_0_5_ 
+1296465_0x1_0_5_10
+1297310_0x1_0_5_ 
+1298234_0x1_0_5_12
+1299419_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+1302129_0x1_0_5_From 
+1303079_0x1_0_5_10
+1303915_0x1_0_5_ to 
+1304859_0x1_0_5_15
+1305695_0x1_0_5_, shortest path is 
+1306729_0x1_0_5_11
+1307565_0x1_0_5_ in cost. 
+1308451_0x1_0_5_Path is: 
+1309425_0x1_0_5_10
+1310267_0x1_0_5_ 
+1311191_0x1_0_5_12
+1312036_0x1_0_5_ 
+1312960_0x1_0_5_14
+1313805_0x1_0_5_ 
+1314729_0x1_0_5_15
+1315927_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1327931_0x1_0_5_From 
+1328848_0x1_0_5_1
+1329679_0x1_0_5_ to 
+1330623_0x1_0_5_10
+1331459_0x1_0_5_, shortest path is 
+1332493_0x1_0_5_22
+1333329_0x1_0_5_ in cost. 
+1334215_0x1_0_5_Path is: 
+1335156_0x1_0_5_1
+1335993_0x1_0_5_ 
+1336884_0x1_0_5_3
+1337724_0x1_0_5_ 
+1338615_0x1_0_5_2
+1339455_0x1_0_5_ 
+1340346_0x1_0_5_7
+1341186_0x1_0_5_ 
+1342077_0x1_0_5_8
+1342917_0x1_0_5_ 
+1343808_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+1347479_0x1_0_5_ 
+1348403_0x1_0_5_10
+1349562_0x1_0_5_
+
+INTERRUPTION (NOC)
+1353433_0x1_0_5_From 
+1354350_0x1_0_5_3
+1355181_0x1_0_5_ to 
+1356092_0x1_0_5_7
+1356923_0x1_0_5_, shortest path is 
+1357924_0x1_0_5_3
+1358755_0x1_0_5_ in cost. 
+1359641_0x1_0_5_Path is: 
+1360582_0x1_0_5_3
+1361419_0x1_0_5_ 
+1362310_0x1_0_5_2
+1363150_0x1_0_5_ 
+1364041_0x1_0_5_7
+1365247_0x1_0_5_
+
+INTERRUPTION (NOC)
+1369118_0x1_0_5_From 
+1370035_0x1_0_5_5
+1370866_0x1_0_5_ to 
+1371777_0x1_0_5_8
+1372608_0x1_0_5_, shortest path is 
+1373609_0x1_0_5_7
+1374440_0x1_0_5_ in cost. 
+1375326_0x1_0_5_Path is: 
+1376267_0x1_0_5_5
+1377104_0x1_0_5_ 
+1377995_0x1_0_5_6
+1378835_0x1_0_5_ 
+1379726_0x1_0_5_8
+1380932_0x1_0_5_
+
+INTERRUPTION (NOC)
+1384803_0x1_0_5_From 
+1385720_0x1_0_5_7
+1386551_0x1_0_5_ to 
+1387495_0x1_0_5_13
+1388331_0x1_0_5_, shortest path is 
+1389365_0x1_0_5_16
+1390201_0x1_0_5_ in cost. 
+1391087_0x1_0_5_Path is: 
+1392028_0x1_0_5_7
+1392865_0x1_0_5_ 
+1393756_0x1_0_5_8
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1395701
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+1413583_0x1_0_5_ 
+1414474_0x1_0_5_9
+1415314_0x1_0_5_ 
+1416238_0x1_0_5_11
+1417083_0x1_0_5_ 
+1418007_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+1420244_0x1_0_5_
+
+1421903_0x1_0_5_From 
+1422853_0x1_0_5_10
+1423689_0x1_0_5_ to 
+1424633_0x1_0_5_16
+1425469_0x1_0_5_, shortest path is 
+1426470_0x1_0_5_8
+1427301_0x1_0_5_ in cost. 
+1428187_0x1_0_5_Path is: 
+1429161_0x1_0_5_10
+1430003_0x1_0_5_ 
+1430927_0x1_0_5_12
+1431772_0x1_0_5_ 
+1432696_0x1_0_5_14
+1433541_0x1_0_5_ 
+1434465_0x1_0_5_13
+1435310_0x1_0_5_ 
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+1443710_0x1_0_5_16
+1444895_0x1_0_5_
+
+INTERRUPTION (NOC)
+1452304_0x1_0_5_From 
+1453221_0x1_0_5_1
+1454052_0x1_0_5_ to 
+1454996_0x1_0_5_11
+1455832_0x1_0_5_, shortest path is 
+1456866_0x1_0_5_18
+1457702_0x1_0_5_ in cost. 
+1458588_0x1_0_5_Path is: 
+1459529_0x1_0_5_1
+1460366_0x1_0_5_ 
+1461257_0x1_0_5_3
+1462097_0x1_0_5_ 
+1462988_0x1_0_5_2
+1463828_0x1_0_5_ 
+1464719_0x1_0_5_7
+1465559_0x1_0_5_ 
+1466450_0x1_0_5_8
+1467290_0x1_0_5_ 
+1468181_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+1470074_0x1_0_5_ 
+1470998_0x1_0_5_11
+1472157_0x1_0_5_
+
+INTERRUPTION (NOC)
+1476031_0x1_0_5_From 
+1476948_0x1_0_5_3
+1477779_0x1_0_5_ to 
+1478690_0x1_0_5_8
+1479521_0x1_0_5_, shortest path is 
+1480522_0x1_0_5_7
+1481353_0x1_0_5_ in cost. 
+1482239_0x1_0_5_Path is: 
+1483180_0x1_0_5_3
+1484017_0x1_0_5_ 
+1484908_0x1_0_5_2
+1485748_0x1_0_5_ 
+1486639_0x1_0_5_7
+1487479_0x1_0_5_ 
+1488370_0x1_0_5_8
+1489563_0x1_0_5_
+
+INTERRUPTION (NOC)
+1493437_0x1_0_5_From 
+1494354_0x1_0_5_5
+1495185_0x1_0_5_ to 
+1496096_0x1_0_5_9
+1496927_0x1_0_5_, shortest path is 
+1497961_0x1_0_5_14
+1498797_0x1_0_5_ in cost. 
+1499683_0x1_0_5_Path is: 
+1500624_0x1_0_5_5
+1501461_0x1_0_5_ 
+1502352_0x1_0_5_6
+1503192_0x1_0_5_ 
+1504083_0x1_0_5_8
+1504923_0x1_0_5_ 
+1505814_0x1_0_5_9
+1507007_0x1_0_5_
+
+energy_acc_local total: 6375880	1508924
+energy_acc_local (k_slave): 6375880 1509879
+INTERRUPTION (NOC)
+1511758_0x1_0_5_From 
+1512675_0x1_0_5_7
+1513506_0x1_0_5_ to 
+1514450_0x1_0_5_14
+1515286_0x1_0_5_, shortest path is 
+1516320_0x1_0_5_17
+1517156_0x1_0_5_ in cost. 
+1518042_0x1_0_5_Path is: 
+1518983_0x1_0_5_7
+1519820_0x1_0_5_ 
+1520711_0x1_0_5_8
+1521551_0x1_0_5_ 
+1522442_0x1_0_5_9
+1523282_0x1_0_5_ 
+1524206_0x1_0_5_11
+1525051_0x1_0_5_ 
+1525975_0x1_0_5_13
+1526820_0x1_0_5_ 
+INTERRUPTION (TIME_SLICE)
+1528797_0x1_0_5_14
+1529969_0x1_0_5_
+
+1531626_0x1_0_5_From 
+1532576_0x1_0_5_11
+1533412_0x1_0_5_ to 
+1534356_0x1_0_5_12
+1535192_0x1_0_5_, shortest path is 
+1536193_0x1_0_5_7
+1537024_0x1_0_5_ in cost. 
+1537910_0x1_0_5_Path is: 
+1538884_0x1_0_5_11
+1539726_0x1_0_5_ 
+1540650_0x1_0_5_13
+1541495_0x1_0_5_ 
+1542419_0x1_0_5_14
+1543264_0x1_0_5_ 
+1544188_0x1_0_5_12
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+1550485_0x1_0_5_
+
+INTERRUPTION (NOC)
+1560219_0x1_0_5_From 
+1561136_0x1_0_5_1
+1561967_0x1_0_5_ to 
+1562911_0x1_0_5_12
+1563747_0x1_0_5_, shortest path is 
+1564781_0x1_0_5_25
+1565617_0x1_0_5_ in cost. 
+1566503_0x1_0_5_Path is: 
+1567444_0x1_0_5_1
+1568281_0x1_0_5_ 
+1569172_0x1_0_5_3
+1570012_0x1_0_5_ 
+1570903_0x1_0_5_2
+1571743_0x1_0_5_ 
+1572634_0x1_0_5_7
+1573474_0x1_0_5_ 
+1574365_0x1_0_5_8
+1575205_0x1_0_5_ 
+1576096_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+1577987_0x1_0_5_ 
+1578911_0x1_0_5_10
+1579756_0x1_0_5_ 
+1580680_0x1_0_5_12
+1581826_0x1_0_5_
+
+INTERRUPTION (NOC)
+1585104_0x1_0_5_From 
+1586021_0x1_0_5_3
+1586852_0x1_0_5_ to 
+1587763_0x1_0_5_9
+1588594_0x1_0_5_, shortest path is 
+1589628_0x1_0_5_14
+1590464_0x1_0_5_ in cost. 
+1591350_0x1_0_5_Path is: 
+1592291_0x1_0_5_3
+1593128_0x1_0_5_ 
+1594019_0x1_0_5_2
+1594859_0x1_0_5_ 
+1595750_0x1_0_5_7
+1596590_0x1_0_5_ 
+1597481_0x1_0_5_8
+1598321_0x1_0_5_ 
+1599212_0x1_0_5_9
+1600392_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+1605311_0x1_0_5_From 
+1606228_0x1_0_5_5
+1607059_0x1_0_5_ to 
+1608003_0x1_0_5_10
+1608839_0x1_0_5_, shortest path is 
+1609873_0x1_0_5_19
+1610709_0x1_0_5_ in cost. 
+1611595_0x1_0_5_Path is: 
+1612536_0x1_0_5_5
+1613373_0x1_0_5_ 
+1614264_0x1_0_5_6
+1615104_0x1_0_5_ 
+1615995_0x1_0_5_8
+1616835_0x1_0_5_ 
+1617726_0x1_0_5_9
+1618566_0x1_0_5_ 
+1619490_0x1_0_5_10
+1620675_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+1625594_0x1_0_5_From 
+1626511_0x1_0_5_7
+1627342_0x1_0_5_ to 
+1628286_0x1_0_5_15
+1629122_0x1_0_5_, shortest path is 
+1630156_0x1_0_5_21
+1630992_0x1_0_5_ in cost. 
+1631878_0x1_0_5_Path is: 
+1632819_0x1_0_5_7
+1633656_0x1_0_5_ 
+1634547_0x1_0_5_8
+1635387_0x1_0_5_ 
+1636278_0x1_0_5_9
+1637118_0x1_0_5_ 
+1638042_0x1_0_5_11
+1638887_0x1_0_5_ 
+1639811_0x1_0_5_13
+1640656_0x1_0_5_ 
+INTERRUPTION (TIME_SLICE)
+1642631_0x1_0_5_16
+1643476_0x1_0_5_ 
+1644400_0x1_0_5_15
+1645559_0x1_0_5_
+
+1647218_0x1_0_5_From 
+1648168_0x1_0_5_11
+1649004_0x1_0_5_ to 
+1649948_0x1_0_5_13
+1650784_0x1_0_5_, shortest path is 
+1651785_0x1_0_5_4
+1652616_0x1_0_5_ in cost. 
+1653502_0x1_0_5_Path is: 
+1654476_0x1_0_5_11
+1655318_0x1_0_5_ 
+1656242_0x1_0_5_13
+1657466_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1660765_0x1_0_5_From 
+1661682_0x1_0_5_1
+1662513_0x1_0_5_ to 
+1663457_0x1_0_5_13
+1664293_0x1_0_5_, shortest path is 
+1665327_0x1_0_5_22
+1666163_0x1_0_5_ in cost. 
+1667049_0x1_0_5_Path is: 
+1667990_0x1_0_5_1
+1668827_0x1_0_5_ 
+1669718_0x1_0_5_3
+1670558_0x1_0_5_ 
+1671449_0x1_0_5_2
+1672289_0x1_0_5_ 
+1673180_0x1_0_5_7
+1674020_0x1_0_5_ 
+1674911_0x1_0_5_8
+1675751_0x1_0_5_ 
+1676642_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+1688990_0x1_0_5_ 
+1689914_0x1_0_5_11
+1690759_0x1_0_5_ 
+1691683_0x1_0_5_13
+1692829_0x1_0_5_
+
+INTERRUPTION (NOC)
+1696109_0x1_0_5_From 
+1697026_0x1_0_5_3
+1697857_0x1_0_5_ to 
+1698801_0x1_0_5_10
+1699637_0x1_0_5_, shortest path is 
+1700671_0x1_0_5_19
+1701507_0x1_0_5_ in cost. 
+1702393_0x1_0_5_Path is: 
+1703334_0x1_0_5_3
+1704171_0x1_0_5_ 
+1705062_0x1_0_5_2
+1705902_0x1_0_5_ 
+1706793_0x1_0_5_7
+1707633_0x1_0_5_ 
+1708524_0x1_0_5_8
+1709364_0x1_0_5_ 
+1710255_0x1_0_5_9
+1711095_0x1_0_5_ 
+1712019_0x1_0_5_10
+INTERRUPTION (TIME_SLICE)
+1714243_0x1_0_5_
+
+INTERRUPTION (NOC)
+1718114_0x1_0_5_From 
+1719031_0x1_0_5_5
+1719862_0x1_0_5_ to 
+1720806_0x1_0_5_11
+1721642_0x1_0_5_, shortest path is 
+1722676_0x1_0_5_15
+1723512_0x1_0_5_ in cost. 
+1724398_0x1_0_5_Path is: 
+1725339_0x1_0_5_5
+1726176_0x1_0_5_ 
+1727067_0x1_0_5_6
+1727907_0x1_0_5_ 
+1728798_0x1_0_5_8
+1729638_0x1_0_5_ 
+1730529_0x1_0_5_9
+1731369_0x1_0_5_ 
+1732293_0x1_0_5_11
+1733478_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1737707_0x1_0_5_From 
+1738624_0x1_0_5_7
+1739455_0x1_0_5_ to 
+1740399_0x1_0_5_16
+1741235_0x1_0_5_, shortest path is 
+1742269_0x1_0_5_18
+1743105_0x1_0_5_ in cost. 
+1743991_0x1_0_5_Path is: 
+1744932_0x1_0_5_7
+1745769_0x1_0_5_ 
+1746660_0x1_0_5_8
+1747500_0x1_0_5_ 
+1748391_0x1_0_5_9
+1749231_0x1_0_5_ 
+1750155_0x1_0_5_11
+1751000_0x1_0_5_ 
+1751924_0x1_0_5_13
+1752769_0x1_0_5_ 
+INTERRUPTION (TIME_SLICE)
+1754745_0x1_0_5_16
+1755917_0x1_0_5_
+
+1757576_0x1_0_5_From 
+1758526_0x1_0_5_11
+1759362_0x1_0_5_ to 
+1760306_0x1_0_5_14
+1761142_0x1_0_5_, shortest path is 
+1762143_0x1_0_5_5
+1762974_0x1_0_5_ in cost. 
+1763860_0x1_0_5_Path is: 
+1764834_0x1_0_5_11
+1765676_0x1_0_5_ 
+1766600_0x1_0_5_13
+1767445_0x1_0_5_ 
+1768369_0x1_0_5_14
+1769580_0x1_0_5_
+
+INTERRUPTION (NOC)
+1783411_0x1_0_5_From 
+1784328_0x1_0_5_1
+1785159_0x1_0_5_ to 
+1786103_0x1_0_5_14
+1786939_0x1_0_5_, shortest path is 
+1787973_0x1_0_5_23
+1788809_0x1_0_5_ in cost. 
+1789695_0x1_0_5_Path is: 
+1790636_0x1_0_5_1
+1791473_0x1_0_5_ 
+1792364_0x1_0_5_3
+1793204_0x1_0_5_ 
+1794095_0x1_0_5_2
+1794935_0x1_0_5_ 
+1795826_0x1_0_5_7
+1796666_0x1_0_5_ 
+1797557_0x1_0_5_8
+1798397_0x1_0_5_ 
+1799288_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+1801181_0x1_0_5_ 
+1802105_0x1_0_5_11
+1802950_0x1_0_5_ 
+1803874_0x1_0_5_13
+1804719_0x1_0_5_ 
+1805643_0x1_0_5_14
+1806776_0x1_0_5_
+
+INTERRUPTION (NOC)
+1810058_0x1_0_5_From 
+1810975_0x1_0_5_3
+1811806_0x1_0_5_ to 
+1812750_0x1_0_5_11
+1813586_0x1_0_5_, shortest path is 
+1814620_0x1_0_5_15
+1815456_0x1_0_5_ in cost. 
+1816342_0x1_0_5_Path is: 
+1817283_0x1_0_5_3
+1818120_0x1_0_5_ 
+1819011_0x1_0_5_2
+1819851_0x1_0_5_ 
+1820742_0x1_0_5_7
+1821582_0x1_0_5_ 
+1822473_0x1_0_5_8
+1823313_0x1_0_5_ 
+1824204_0x1_0_5_9
+1825044_0x1_0_5_ 
+1825968_0x1_0_5_11
+INTERRUPTION (TIME_SLICE)
+1828193_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+1831371_0x1_0_5_From 
+1832288_0x1_0_5_5
+1833119_0x1_0_5_ to 
+1834063_0x1_0_5_12
+1834899_0x1_0_5_, shortest path is 
+1835933_0x1_0_5_22
+1836769_0x1_0_5_ in cost. 
+1837655_0x1_0_5_Path is: 
+1838596_0x1_0_5_5
+1839433_0x1_0_5_ 
+1840324_0x1_0_5_6
+1841164_0x1_0_5_ 
+1842055_0x1_0_5_8
+1842895_0x1_0_5_ 
+1843786_0x1_0_5_9
+1844626_0x1_0_5_ 
+1845550_0x1_0_5_10
+1846395_0x1_0_5_ 
+1847319_0x1_0_5_12
+INTERRUPTION (TIME_SLICE)
+1849544_0x1_0_5_
+
+INTERRUPTION (NOC)
+1853418_0x1_0_5_From 
+1854335_0x1_0_5_8
+1855166_0x1_0_5_ to 
+1856077_0x1_0_5_9
+1856908_0x1_0_5_, shortest path is 
+1857909_0x1_0_5_7
+1858740_0x1_0_5_ in cost. 
+1859626_0x1_0_5_Path is: 
+1860567_0x1_0_5_8
+1861404_0x1_0_5_ 
+1862295_0x1_0_5_9
+1863514_0x1_0_5_
+
+1865171_0x1_0_5_From 
+1866121_0x1_0_5_11
+1866957_0x1_0_5_ to 
+1867901_0x1_0_5_15
+1868737_0x1_0_5_, shortest path is 
+INTERRUPTION (TIME_SLICE)
+1881950_0x1_0_5_9
+1882781_0x1_0_5_ in cost. 
+1883667_0x1_0_5_Path is: 
+1884641_0x1_0_5_11
+1885483_0x1_0_5_ 
+1886407_0x1_0_5_13
+1887252_0x1_0_5_ 
+1888176_0x1_0_5_16
+1889021_0x1_0_5_ 
+1889945_0x1_0_5_15
+1891143_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1895886
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+1914008_0x1_0_5_From 
+1914925_0x1_0_5_1
+1915756_0x1_0_5_ to 
+1916700_0x1_0_5_15
+1917536_0x1_0_5_, shortest path is 
+1918570_0x1_0_5_27
+1919406_0x1_0_5_ in cost. 
+1920292_0x1_0_5_Path is: 
+1921233_0x1_0_5_1
+1922070_0x1_0_5_ 
+1922961_0x1_0_5_3
+1923801_0x1_0_5_ 
+1924692_0x1_0_5_2
+1925532_0x1_0_5_ 
+1926423_0x1_0_5_7
+1927263_0x1_0_5_ 
+1928154_0x1_0_5_8
+INTERRUPTION (TIME_SLICE)
+1930045_0x1_0_5_ 
+1930936_0x1_0_5_9
+1931776_0x1_0_5_ 
+1932700_0x1_0_5_11
+1933545_0x1_0_5_ 
+1934469_0x1_0_5_13
+1935314_0x1_0_5_ 
+1936238_0x1_0_5_16
+1937083_0x1_0_5_ 
+1938007_0x1_0_5_15
+1939127_0x1_0_5_
+
+INTERRUPTION (NOC)
+1942995_0x1_0_5_From 
+1943912_0x1_0_5_3
+1944743_0x1_0_5_ to 
+1945687_0x1_0_5_12
+1946523_0x1_0_5_, shortest path is 
+1947557_0x1_0_5_22
+1948393_0x1_0_5_ in cost. 
+1949279_0x1_0_5_Path is: 
+1950220_0x1_0_5_3
+1951057_0x1_0_5_ 
+1951948_0x1_0_5_2
+1952788_0x1_0_5_ 
+1953679_0x1_0_5_7
+1954519_0x1_0_5_ 
+1955410_0x1_0_5_8
+1956250_0x1_0_5_ 
+1957141_0x1_0_5_9
+1957981_0x1_0_5_ 
+1958905_0x1_0_5_10
+INTERRUPTION (TIME_SLICE)
+1960801_0x1_0_5_ 
+1961725_0x1_0_5_12
+1962884_0x1_0_5_
+
+INTERRUPTION (NOC)
+1966752_0x1_0_5_From 
+1967669_0x1_0_5_5
+1968500_0x1_0_5_ to 
+1969444_0x1_0_5_13
+1970280_0x1_0_5_, shortest path is 
+1971314_0x1_0_5_19
+1972150_0x1_0_5_ in cost. 
+1973036_0x1_0_5_Path is: 
+1973977_0x1_0_5_5
+1974814_0x1_0_5_ 
+1975705_0x1_0_5_6
+1976545_0x1_0_5_ 
+1977436_0x1_0_5_8
+1978276_0x1_0_5_ 
+1979167_0x1_0_5_9
+1980007_0x1_0_5_ 
+1980931_0x1_0_5_11
+1981776_0x1_0_5_ 
+1982700_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+1984923_0x1_0_5_
+
+INTERRUPTION (NOC)
+1988791_0x1_0_5_From 
+1989708_0x1_0_5_8
+1990539_0x1_0_5_ to 
+1991483_0x1_0_5_10
+1992319_0x1_0_5_, shortest path is 
+1993353_0x1_0_5_12
+1994189_0x1_0_5_ in cost. 
+1995075_0x1_0_5_Path is: 
+1996016_0x1_0_5_8
+1996853_0x1_0_5_ 
+1997744_0x1_0_5_9
+1998584_0x1_0_5_ 
+1999508_0x1_0_5_10
+2000719_0x1_0_5_
+
+2002378_0x1_0_5_From 
+2003328_0x1_0_5_11
+2004164_0x1_0_5_ to 
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 10317441	2006075
+energy_acc_local (k_slave): 10317441 2007073
+INTERRUPTION (TIME_SLICE)
+2015989_0x1_0_5_16
+2016825_0x1_0_5_, shortest path is 
+2017826_0x1_0_5_6
+2018657_0x1_0_5_ in cost. 
+2019543_0x1_0_5_Path is: 
+2020517_0x1_0_5_11
+2021359_0x1_0_5_ 
+2022283_0x1_0_5_13
+2023128_0x1_0_5_ 
+2024052_0x1_0_5_16
+2025263_0x1_0_5_
+
+INTERRUPTION (NOC)
+2031377_0x1_0_5_From 
+2032294_0x1_0_5_1
+2033125_0x1_0_5_ to 
+2034069_0x1_0_5_16
+2034905_0x1_0_5_, shortest path is 
+2035939_0x1_0_5_24
+2036775_0x1_0_5_ in cost. 
+2037661_0x1_0_5_Path is: 
+2038602_0x1_0_5_1
+2039439_0x1_0_5_ 
+2040330_0x1_0_5_3
+2041170_0x1_0_5_ 
+2042061_0x1_0_5_2
+2042901_0x1_0_5_ 
+2043792_0x1_0_5_7
+2044632_0x1_0_5_ 
+2045523_0x1_0_5_8
+2046363_0x1_0_5_ 
+2047254_0x1_0_5_9
+INTERRUPTION (TIME_SLICE)
+2049146_0x1_0_5_ 
+2050070_0x1_0_5_11
+2050915_0x1_0_5_ 
+2051839_0x1_0_5_13
+2052684_0x1_0_5_ 
+2053608_0x1_0_5_16
+2054741_0x1_0_5_
+
+INTERRUPTION (NOC)
+2058021_0x1_0_5_From 
+2058938_0x1_0_5_3
+2059769_0x1_0_5_ to 
+2060713_0x1_0_5_13
+2061549_0x1_0_5_, shortest path is 
+2062583_0x1_0_5_19
+2063419_0x1_0_5_ in cost. 
+2064305_0x1_0_5_Path is: 
+2065246_0x1_0_5_3
+2066083_0x1_0_5_ 
+2066974_0x1_0_5_2
+2067814_0x1_0_5_ 
+2068705_0x1_0_5_7
+2069545_0x1_0_5_ 
+2070436_0x1_0_5_8
+2071276_0x1_0_5_ 
+2072167_0x1_0_5_9
+2073007_0x1_0_5_ 
+2073931_0x1_0_5_11
+INTERRUPTION (TIME_SLICE)
+2075828_0x1_0_5_ 
+2076752_0x1_0_5_13
+2077911_0x1_0_5_
+
+INTERRUPTION (NOC)
+2081191_0x1_0_5_From 
+2082108_0x1_0_5_5
+2082939_0x1_0_5_ to 
+2083883_0x1_0_5_14
+2084719_0x1_0_5_, shortest path is 
+2085753_0x1_0_5_20
+2086589_0x1_0_5_ in cost. 
+2087475_0x1_0_5_Path is: 
+2088416_0x1_0_5_5
+2089253_0x1_0_5_ 
+2090144_0x1_0_5_6
+2090984_0x1_0_5_ 
+2091875_0x1_0_5_8
+2092715_0x1_0_5_ 
+2093606_0x1_0_5_9
+2094446_0x1_0_5_ 
+2095370_0x1_0_5_11
+2096215_0x1_0_5_ 
+2097139_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+2099036_0x1_0_5_ 
+2099960_0x1_0_5_14
+2101119_0x1_0_5_
+
+INTERRUPTION (NOC)
+2104399_0x1_0_5_From 
+2105316_0x1_0_5_8
+2106147_0x1_0_5_ to 
+2107091_0x1_0_5_11
+2107927_0x1_0_5_, shortest path is 
+2108928_0x1_0_5_8
+2109759_0x1_0_5_ in cost. 
+2110645_0x1_0_5_Path is: 
+2111586_0x1_0_5_8
+2112423_0x1_0_5_ 
+2113314_0x1_0_5_9
+2114154_0x1_0_5_ 
+2115078_0x1_0_5_11
+2116289_0x1_0_5_
+
+2117948_0x1_0_5_From 
+2118898_0x1_0_5_12
+2119734_0x1_0_5_ to 
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+2127081_0x1_0_5_13
+2127917_0x1_0_5_, shortest path is 
+2128918_0x1_0_5_3
+2129749_0x1_0_5_ in cost. 
+2130635_0x1_0_5_Path is: 
+2131609_0x1_0_5_12
+2132451_0x1_0_5_ 
+2133375_0x1_0_5_14
+2134220_0x1_0_5_ 
+2135144_0x1_0_5_13
+2136355_0x1_0_5_
+
+INTERRUPTION (NOC)
+2144749_0x1_0_5_From 
+2145666_0x1_0_5_2
+2146497_0x1_0_5_ to 
+2147408_0x1_0_5_3
+2148239_0x1_0_5_, shortest path is 
+2149240_0x1_0_5_2
+2150071_0x1_0_5_ in cost. 
+2150957_0x1_0_5_Path is: 
+2151898_0x1_0_5_2
+2152735_0x1_0_5_ 
+2153626_0x1_0_5_3
+2154845_0x1_0_5_
+
+INTERRUPTION (NOC)
+2158719_0x1_0_5_From 
+2159636_0x1_0_5_3
+2160467_0x1_0_5_ to 
+2161411_0x1_0_5_14
+2162247_0x1_0_5_, shortest path is 
+2163281_0x1_0_5_20
+2164117_0x1_0_5_ in cost. 
+2165003_0x1_0_5_Path is: 
+2165944_0x1_0_5_3
+2166781_0x1_0_5_ 
+2167672_0x1_0_5_2
+2168512_0x1_0_5_ 
+2169403_0x1_0_5_7
+2170243_0x1_0_5_ 
+2171134_0x1_0_5_8
+2171974_0x1_0_5_ 
+2172865_0x1_0_5_9
+2173705_0x1_0_5_ 
+2174629_0x1_0_5_11
+INTERRUPTION (TIME_SLICE)
+2176527_0x1_0_5_ 
+2177451_0x1_0_5_13
+2178296_0x1_0_5_ 
+2179220_0x1_0_5_14
+2180366_0x1_0_5_
+
+INTERRUPTION (NOC)
+2183648_0x1_0_5_From 
+2184565_0x1_0_5_5
+2185396_0x1_0_5_ to 
+2186340_0x1_0_5_15
+2187176_0x1_0_5_, shortest path is 
+2188210_0x1_0_5_24
+2189046_0x1_0_5_ in cost. 
+2189932_0x1_0_5_Path is: 
+2190873_0x1_0_5_5
+2191710_0x1_0_5_ 
+2192601_0x1_0_5_6
+2193441_0x1_0_5_ 
+2194332_0x1_0_5_8
+2195172_0x1_0_5_ 
+2196063_0x1_0_5_9
+2196903_0x1_0_5_ 
+2197827_0x1_0_5_11
+2198672_0x1_0_5_ 
+2199596_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+2201494_0x1_0_5_ 
+2202418_0x1_0_5_16
+2203263_0x1_0_5_ 
+2204187_0x1_0_5_15
+2205333_0x1_0_5_
+
+INTERRUPTION (NOC)
+2209207_0x1_0_5_From 
+2210124_0x1_0_5_8
+2210955_0x1_0_5_ to 
+2211899_0x1_0_5_12
+2212735_0x1_0_5_, shortest path is 
+2213769_0x1_0_5_15
+2214605_0x1_0_5_ in cost. 
+2215491_0x1_0_5_Path is: 
+2216432_0x1_0_5_8
+2217269_0x1_0_5_ 
+2218160_0x1_0_5_9
+2219000_0x1_0_5_ 
+2219924_0x1_0_5_10
+2220769_0x1_0_5_ 
+2221693_0x1_0_5_12
+2222891_0x1_0_5_
+
+2224548_0x1_0_5_From 
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+2229077_0x1_0_5_12
+2229913_0x1_0_5_ to 
+2230857_0x1_0_5_14
+2231693_0x1_0_5_, shortest path is 
+2232694_0x1_0_5_2
+2233525_0x1_0_5_ in cost. 
+2234411_0x1_0_5_Path is: 
+2235385_0x1_0_5_12
+2236227_0x1_0_5_ 
+2237151_0x1_0_5_14
+2238375_0x1_0_5_
+
+INTERRUPTION (NOC)
+2249613_0x1_0_5_From 
+2250530_0x1_0_5_2
+2251361_0x1_0_5_ to 
+2252272_0x1_0_5_4
+2253103_0x1_0_5_, shortest path is 
+2254104_0x1_0_5_5
+2254935_0x1_0_5_ in cost. 
+2255821_0x1_0_5_Path is: 
+2256762_0x1_0_5_2
+2257599_0x1_0_5_ 
+2258490_0x1_0_5_4
+2259709_0x1_0_5_
+
+INTERRUPTION (NOC)
+2263577_0x1_0_5_From 
+2264494_0x1_0_5_3
+2265325_0x1_0_5_ to 
+2266269_0x1_0_5_15
+2267105_0x1_0_5_, shortest path is 
+2268139_0x1_0_5_24
+2268975_0x1_0_5_ in cost. 
+2269861_0x1_0_5_Path is: 
+2270802_0x1_0_5_3
+2271639_0x1_0_5_ 
+2272530_0x1_0_5_2
+2273370_0x1_0_5_ 
+2274261_0x1_0_5_7
+2275101_0x1_0_5_ 
+2275992_0x1_0_5_8
+2276832_0x1_0_5_ 
+2277723_0x1_0_5_9
+2278563_0x1_0_5_ 
+2279487_0x1_0_5_11
+INTERRUPTION (TIME_SLICE)
+2281383_0x1_0_5_ 
+2282307_0x1_0_5_13
+2283152_0x1_0_5_ 
+2284076_0x1_0_5_16
+2284921_0x1_0_5_ 
+2285845_0x1_0_5_15
+2286978_0x1_0_5_
+
+INTERRUPTION (NOC)
+2290846_0x1_0_5_From 
+2291763_0x1_0_5_5
+2292594_0x1_0_5_ to 
+2293538_0x1_0_5_16
+2294374_0x1_0_5_, shortest path is 
+2295408_0x1_0_5_21
+2296244_0x1_0_5_ in cost. 
+2297130_0x1_0_5_Path is: 
+2298071_0x1_0_5_5
+2298908_0x1_0_5_ 
+2299799_0x1_0_5_6
+2300639_0x1_0_5_ 
+2301530_0x1_0_5_8
+2302370_0x1_0_5_ 
+2303261_0x1_0_5_9
+2304101_0x1_0_5_ 
+2305025_0x1_0_5_11
+2305870_0x1_0_5_ 
+2306794_0x1_0_5_13
+INTERRUPTION (TIME_SLICE)
+2308690_0x1_0_5_ 
+2309614_0x1_0_5_16
+2310773_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+2314539_0x1_0_5_From 
+2315456_0x1_0_5_8
+2316287_0x1_0_5_ to 
+2317231_0x1_0_5_13
+2318067_0x1_0_5_, shortest path is 
+2319101_0x1_0_5_12
+2319937_0x1_0_5_ in cost. 
+2320823_0x1_0_5_Path is: 
+2321764_0x1_0_5_8
+2322601_0x1_0_5_ 
+2323492_0x1_0_5_9
+2324332_0x1_0_5_ 
+2325256_0x1_0_5_11
+2326101_0x1_0_5_ 
+2327025_0x1_0_5_13
+2328223_0x1_0_5_
+
+2329882_0x1_0_5_From 
+INTERRUPTION (TIME_SLICE)
+2343027_0x1_0_5_12
+2343863_0x1_0_5_ to 
+2344807_0x1_0_5_15
+2345643_0x1_0_5_, shortest path is 
+2346644_0x1_0_5_8
+2347475_0x1_0_5_ in cost. 
+2348361_0x1_0_5_Path is: 
+2349335_0x1_0_5_12
+2350177_0x1_0_5_ 
+2351101_0x1_0_5_14
+2351946_0x1_0_5_ 
+2352870_0x1_0_5_15
+2354081_0x1_0_5_
+
+INTERRUPTION (NOC)
+2357368_0x1_0_5_From 
+2358285_0x1_0_5_2
+2359116_0x1_0_5_ to 
+2360027_0x1_0_5_5
+2360858_0x1_0_5_, shortest path is 
+2361859_0x1_0_5_6
+2362690_0x1_0_5_ in cost. 
+2363576_0x1_0_5_Path is: 
+2364517_0x1_0_5_2
+2365354_0x1_0_5_ 
+2366245_0x1_0_5_3
+2367085_0x1_0_5_ 
+2367976_0x1_0_5_5
+2369182_0x1_0_5_
+
+INTERRUPTION (NOC)
+2373053_0x1_0_5_From 
+2373970_0x1_0_5_3
+2374801_0x1_0_5_ to 
+2375745_0x1_0_5_16
+2376581_0x1_0_5_, shortest path is 
+2377615_0x1_0_5_21
+2378451_0x1_0_5_ in cost. 
+2379337_0x1_0_5_Path is: 
+2380278_0x1_0_5_3
+2381115_0x1_0_5_ 
+2382006_0x1_0_5_2
+2382846_0x1_0_5_ 
+2383737_0x1_0_5_7
+2384577_0x1_0_5_ 
+2385468_0x1_0_5_8
+2386308_0x1_0_5_ 
+2387199_0x1_0_5_9
+2388039_0x1_0_5_ 
+2388963_0x1_0_5_11
+INTERRUPTION (TIME_SLICE)
+2390860_0x1_0_5_ 
+2391784_0x1_0_5_13
+2392629_0x1_0_5_ 
+2393553_0x1_0_5_16
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 2395555
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+2413690_0x1_0_5_
+
+INTERRUPTION (NOC)
+2416970_0x1_0_5_From 
+2417887_0x1_0_5_6
+2418718_0x1_0_5_ to 
+2419629_0x1_0_5_7
+2420460_0x1_0_5_, shortest path is 
+2421461_0x1_0_5_3
+2422292_0x1_0_5_ in cost. 
+2423178_0x1_0_5_Path is: 
+2424119_0x1_0_5_6
+2424956_0x1_0_5_ 
+2425847_0x1_0_5_7
+2427066_0x1_0_5_
+
+INTERRUPTION (NOC)
+2430937_0x1_0_5_From 
+2431854_0x1_0_5_8
+2432685_0x1_0_5_ to 
+2433629_0x1_0_5_14
+2434465_0x1_0_5_, shortest path is 
+2435499_0x1_0_5_13
+2436335_0x1_0_5_ in cost. 
+2437221_0x1_0_5_Path is: 
+2438162_0x1_0_5_8
+2438999_0x1_0_5_ 
+2439890_0x1_0_5_9
+2440730_0x1_0_5_ 
+2441654_0x1_0_5_11
+INTERRUPTION (TIME_SLICE)
+2443551_0x1_0_5_ 
+2444475_0x1_0_5_13
+2445320_0x1_0_5_ 
+2446244_0x1_0_5_14
+2447429_0x1_0_5_
+
+2449088_0x1_0_5_From 
+2450038_0x1_0_5_12
+2450874_0x1_0_5_ to 
+2451818_0x1_0_5_16
+2452654_0x1_0_5_, shortest path is 
+2453655_0x1_0_5_5
+2454486_0x1_0_5_ in cost. 
+2455372_0x1_0_5_Path is: 
+2456346_0x1_0_5_12
+2457188_0x1_0_5_ 
+2458112_0x1_0_5_14
+2458957_0x1_0_5_ 
+INTERRUPTION (TIME_SLICE)
+2472073_0x1_0_5_13
+2472918_0x1_0_5_ 
+2473842_0x1_0_5_16
+2475040_0x1_0_5_
+
+INTERRUPTION (NOC)
+2478333_0x1_0_5_From 
+2479250_0x1_0_5_2
+2480081_0x1_0_5_ to 
+2480992_0x1_0_5_6
+2481823_0x1_0_5_, shortest path is 
+2482824_0x1_0_5_4
+2483655_0x1_0_5_ in cost. 
+2484541_0x1_0_5_Path is: 
+2485482_0x1_0_5_2
+2486319_0x1_0_5_ 
+2487210_0x1_0_5_7
+2488050_0x1_0_5_ 
+2488941_0x1_0_5_6
+2490147_0x1_0_5_
+
+INTERRUPTION (NOC)
+2493429_0x1_0_5_From 
+2494346_0x1_0_5_4
+2495177_0x1_0_5_ to 
+2496088_0x1_0_5_5
+2496919_0x1_0_5_, shortest path is 
+2497920_0x1_0_5_2
+2498751_0x1_0_5_ in cost. 
+2499637_0x1_0_5_Path is: 
+2500578_0x1_0_5_4
+2501415_0x1_0_5_ 
+2502306_0x1_0_5_5
+2503525_0x1_0_5_
+
+energy_acc_local total: 10400272	2505485
+energy_acc_local (k_slave): 10400272 2506483
+INTERRUPTION (NOC)
+2508362_0x1_0_5_From 
+2509279_0x1_0_5_6
+2510110_0x1_0_5_ to 
+2511021_0x1_0_5_8
+2511852_0x1_0_5_, shortest path is 
+2512853_0x1_0_5_2
+2513684_0x1_0_5_ in cost. 
+2514570_0x1_0_5_Path is: 
+2515511_0x1_0_5_6
+2516348_0x1_0_5_ 
+2517239_0x1_0_5_8
+2518458_0x1_0_5_
+
+INTERRUPTION (NOC)
+2522332_0x1_0_5_From 
+2523249_0x1_0_5_8
+2524080_0x1_0_5_ to 
+2525024_0x1_0_5_15
+2525860_0x1_0_5_, shortest path is 
+2526894_0x1_0_5_17
+2527730_0x1_0_5_ in cost. 
+2528616_0x1_0_5_Path is: 
+2529557_0x1_0_5_8
+2530394_0x1_0_5_ 
+2531285_0x1_0_5_9
+2532125_0x1_0_5_ 
+2533049_0x1_0_5_11
+2533894_0x1_0_5_ 
+2534818_0x1_0_5_13
+2535663_0x1_0_5_ 
+2536587_0x1_0_5_16
+2537432_0x1_0_5_ 
+INTERRUPTION (TIME_SLICE)
+2539409_0x1_0_5_15
+2540581_0x1_0_5_
+
+2542238_0x1_0_5_From 
+2543188_0x1_0_5_13
+2544024_0x1_0_5_ to 
+2544968_0x1_0_5_14
+2545804_0x1_0_5_, shortest path is 
+2546805_0x1_0_5_1
+2547636_0x1_0_5_ in cost. 
+2548522_0x1_0_5_Path is: 
+2549496_0x1_0_5_13
+2550338_0x1_0_5_ 
+2551262_0x1_0_5_14
+2552486_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+2564504_0x1_0_5_From 
+2565421_0x1_0_5_2
+2566252_0x1_0_5_ to 
+2567163_0x1_0_5_7
+2567994_0x1_0_5_, shortest path is 
+2568995_0x1_0_5_1
+2569826_0x1_0_5_ in cost. 
+2570712_0x1_0_5_Path is: 
+2571653_0x1_0_5_2
+2572490_0x1_0_5_ 
+2573381_0x1_0_5_7
+2574600_0x1_0_5_
+
+INTERRUPTION (NOC)
+2579019_0x1_0_5_From 
+2579936_0x1_0_5_4
+2580767_0x1_0_5_ to 
+2581678_0x1_0_5_6
+2582509_0x1_0_5_, shortest path is 
+2583510_0x1_0_5_3
+2584341_0x1_0_5_ in cost. 
+2585227_0x1_0_5_Path is: 
+2586168_0x1_0_5_4
+2587005_0x1_0_5_ 
+2587896_0x1_0_5_6
+2589115_0x1_0_5_
+
+INTERRUPTION (NOC)
+2592983_0x1_0_5_From 
+2593900_0x1_0_5_6
+2594731_0x1_0_5_ to 
+2595642_0x1_0_5_9
+2596473_0x1_0_5_, shortest path is 
+2597474_0x1_0_5_9
+2598305_0x1_0_5_ in cost. 
+2599191_0x1_0_5_Path is: 
+2600132_0x1_0_5_6
+2600969_0x1_0_5_ 
+2601860_0x1_0_5_8
+2602700_0x1_0_5_ 
+2603591_0x1_0_5_9
+2604797_0x1_0_5_
+
+INTERRUPTION (NOC)
+2608075_0x1_0_5_From 
+2608992_0x1_0_5_8
+2609823_0x1_0_5_ to 
+2610767_0x1_0_5_16
+2611603_0x1_0_5_, shortest path is 
+2612637_0x1_0_5_14
+2613473_0x1_0_5_ in cost. 
+2614359_0x1_0_5_Path is: 
+2615300_0x1_0_5_8
+2616137_0x1_0_5_ 
+2617028_0x1_0_5_9
+2617868_0x1_0_5_ 
+2618792_0x1_0_5_11
+2619637_0x1_0_5_ 
+2620561_0x1_0_5_13
+2621406_0x1_0_5_ 
+2622330_0x1_0_5_16
+2623515_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+2626225_0x1_0_5_From 
+2627175_0x1_0_5_13
+2628011_0x1_0_5_ to 
+2628955_0x1_0_5_15
+2629791_0x1_0_5_, shortest path is 
+2630792_0x1_0_5_5
+2631623_0x1_0_5_ in cost. 
+2632509_0x1_0_5_Path is: 
+2633483_0x1_0_5_13
+2634325_0x1_0_5_ 
+2635249_0x1_0_5_16
+2636094_0x1_0_5_ 
+2637018_0x1_0_5_15
+2638229_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+2649567_0x1_0_5_From 
+2650484_0x1_0_5_2
+2651315_0x1_0_5_ to 
+2652226_0x1_0_5_8
+2653057_0x1_0_5_, shortest path is 
+2654058_0x1_0_5_5
+2654889_0x1_0_5_ in cost. 
+2655775_0x1_0_5_Path is: 
+2656716_0x1_0_5_2
+2657553_0x1_0_5_ 
+2658444_0x1_0_5_7
+2659284_0x1_0_5_ 
+2660175_0x1_0_5_8
+2661381_0x1_0_5_
+
+INTERRUPTION (NOC)
+2666455_0x1_0_5_From 
+2667372_0x1_0_5_4
+2668203_0x1_0_5_ to 
+2669114_0x1_0_5_7
+2669945_0x1_0_5_, shortest path is 
+2670946_0x1_0_5_6
+2671777_0x1_0_5_ in cost. 
+2672663_0x1_0_5_Path is: 
+2673604_0x1_0_5_4
+2674441_0x1_0_5_ 
+2675332_0x1_0_5_6
+2676172_0x1_0_5_ 
+2677063_0x1_0_5_7
+2678269_0x1_0_5_
+
+INTERRUPTION (NOC)
+2682140_0x1_0_5_From 
+2683057_0x1_0_5_6
+2683888_0x1_0_5_ to 
+2684832_0x1_0_5_10
+2685668_0x1_0_5_, shortest path is 
+2686702_0x1_0_5_14
+2687538_0x1_0_5_ in cost. 
+2688424_0x1_0_5_Path is: 
+2689365_0x1_0_5_6
+2690202_0x1_0_5_ 
+2691093_0x1_0_5_8
+2691933_0x1_0_5_ 
+2692824_0x1_0_5_9
+2693664_0x1_0_5_ 
+2694588_0x1_0_5_10
+2695786_0x1_0_5_
+
+INTERRUPTION (NOC)
+2699657_0x1_0_5_From 
+2700574_0x1_0_5_9
+2701405_0x1_0_5_ to 
+2702349_0x1_0_5_10
+2703185_0x1_0_5_, shortest path is 
+2704186_0x1_0_5_5
+2705017_0x1_0_5_ in cost. 
+2705903_0x1_0_5_Path is: 
+2706844_0x1_0_5_9
+2707681_0x1_0_5_ 
+2708605_0x1_0_5_10
+2709829_0x1_0_5_
+
+2711488_0x1_0_5_From 
+2712438_0x1_0_5_13
+2713274_0x1_0_5_ to 
+2714218_0x1_0_5_16
+2715054_0x1_0_5_, shortest path is 
+INTERRUPTION (TIME_SLICE)
+2717858_0x1_0_5_2
+2718689_0x1_0_5_ in cost. 
+2719575_0x1_0_5_Path is: 
+2720549_0x1_0_5_13
+2721391_0x1_0_5_ 
+2722315_0x1_0_5_16
+2723539_0x1_0_5_
+
+INTERRUPTION (NOC)
+2727420_0x1_0_5_From 
+2728337_0x1_0_5_2
+2729168_0x1_0_5_ to 
+2730079_0x1_0_5_9
+2730910_0x1_0_5_, shortest path is 
+2731944_0x1_0_5_12
+2732780_0x1_0_5_ in cost. 
+2733666_0x1_0_5_Path is: 
+2734607_0x1_0_5_2
+2735444_0x1_0_5_ 
+2736335_0x1_0_5_7
+2737175_0x1_0_5_ 
+2738066_0x1_0_5_8
+2738906_0x1_0_5_ 
+2739797_0x1_0_5_9
+2740990_0x1_0_5_
+
+INTERRUPTION (NOC)
+2744864_0x1_0_5_From 
+2745781_0x1_0_5_4
+2746612_0x1_0_5_ to 
+2747523_0x1_0_5_8
+2748354_0x1_0_5_, shortest path is 
+2749355_0x1_0_5_5
+2750186_0x1_0_5_ in cost. 
+2751072_0x1_0_5_Path is: 
+2752013_0x1_0_5_4
+2752850_0x1_0_5_ 
+2753741_0x1_0_5_6
+2754581_0x1_0_5_ 
+2755472_0x1_0_5_8
+2756678_0x1_0_5_
+
+INTERRUPTION (NOC)
+2759960_0x1_0_5_From 
+2760877_0x1_0_5_6
+2761708_0x1_0_5_ to 
+2762652_0x1_0_5_11
+2763488_0x1_0_5_, shortest path is 
+2764522_0x1_0_5_10
+2765358_0x1_0_5_ in cost. 
+2766244_0x1_0_5_Path is: 
+2767185_0x1_0_5_6
+2768022_0x1_0_5_ 
+2768913_0x1_0_5_8
+2769753_0x1_0_5_ 
+2770644_0x1_0_5_9
+2771484_0x1_0_5_ 
+2772408_0x1_0_5_11
+2773606_0x1_0_5_
+
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+2777376_0x1_0_5_From 
+2778293_0x1_0_5_9
+2779124_0x1_0_5_ to 
+2780068_0x1_0_5_11
+2780904_0x1_0_5_, shortest path is 
+2781905_0x1_0_5_1
+2782736_0x1_0_5_ in cost. 
+2783622_0x1_0_5_Path is: 
+2784563_0x1_0_5_9
+2785400_0x1_0_5_ 
+2786324_0x1_0_5_11
+2787548_0x1_0_5_
+
+2789205_0x1_0_5_From 
+2790155_0x1_0_5_14
+2790991_0x1_0_5_ to 
+2791935_0x1_0_5_15
+2792771_0x1_0_5_, shortest path is 
+INTERRUPTION (TIME_SLICE)
+2794894_0x1_0_4_finaliza
+
+2796146_0x1_0_4_2795784
+2797012_0x1_0_4_Dijkstra_4 finished.
+Task id: 4 terminated at 2798130
+2799051_0x1_0_5_6
+2799882_0x1_0_5_ in cost. 
+2800768_0x1_0_5_Path is: 
+2801742_0x1_0_5_14
+2802584_0x1_0_5_ 
+2803508_0x1_0_5_15
+2804732_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 2895628
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+2943293_0x1_0_5_From 
+2944210_0x1_0_5_2
+2945041_0x1_0_5_ to 
+2945985_0x1_0_5_10
+2946821_0x1_0_5_, shortest path is 
+2947855_0x1_0_5_17
+2948691_0x1_0_5_ in cost. 
+2949577_0x1_0_5_Path is: 
+2950518_0x1_0_5_2
+2951355_0x1_0_5_ 
+2952246_0x1_0_5_7
+2953086_0x1_0_5_ 
+2953977_0x1_0_5_8
+2954817_0x1_0_5_ 
+2955708_0x1_0_5_9
+2956548_0x1_0_5_ 
+2957472_0x1_0_5_10
+2958657_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+2961722_0x1_0_5_From 
+2962639_0x1_0_5_4
+2963470_0x1_0_5_ to 
+2964381_0x1_0_5_9
+2965212_0x1_0_5_, shortest path is 
+2966246_0x1_0_5_12
+2967082_0x1_0_5_ in cost. 
+2967968_0x1_0_5_Path is: 
+2968909_0x1_0_5_4
+2969746_0x1_0_5_ 
+2970637_0x1_0_5_6
+2971477_0x1_0_5_ 
+2972368_0x1_0_5_8
+2973208_0x1_0_5_ 
+2974099_0x1_0_5_9
+2975292_0x1_0_5_
+
+INTERRUPTION (NOC)
+2977857_0x1_0_5_From 
+2978774_0x1_0_5_6
+2979605_0x1_0_5_ to 
+2980549_0x1_0_5_12
+2981385_0x1_0_5_, shortest path is 
+2982419_0x1_0_5_17
+2983255_0x1_0_5_ in cost. 
+2984141_0x1_0_5_Path is: 
+2985082_0x1_0_5_6
+2985919_0x1_0_5_ 
+2986810_0x1_0_5_8
+2987650_0x1_0_5_ 
+2988541_0x1_0_5_9
+2989381_0x1_0_5_ 
+2990305_0x1_0_5_10
+2991150_0x1_0_5_ 
+2992074_0x1_0_5_12
+2993259_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+2996324_0x1_0_5_From 
+2997241_0x1_0_5_9
+2998072_0x1_0_5_ to 
+2999016_0x1_0_5_12
+2999852_0x1_0_5_, shortest path is 
+3000853_0x1_0_5_8
+3001684_0x1_0_5_ in cost. 
+3002570_0x1_0_5_Path is: 
+3003511_0x1_0_5_9
+3004348_0x1_0_5_ 
+3005272_0x1_0_5_10
+3006117_0x1_0_5_ 
+3007041_0x1_0_5_12
+3008252_0x1_0_5_
+
+3009911_0x1_0_5_From 
+3010861_0x1_0_5_14
+3011697_0x1_0_5_ to 
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 10652426	3013608
+energy_acc_local (k_slave): 10652426 3014606
+3015278_0x1_0_5_16
+3016114_0x1_0_5_, shortest path is 
+3017115_0x1_0_5_3
+3017946_0x1_0_5_ in cost. 
+3018832_0x1_0_5_Path is: 
+3019806_0x1_0_5_14
+3020648_0x1_0_5_ 
+3021572_0x1_0_5_13
+3022417_0x1_0_5_ 
+3023341_0x1_0_5_16
+3024552_0x1_0_5_
+
+INTERRUPTION (NOC)
+3027101_0x1_0_5_From 
+3028018_0x1_0_5_2
+3028849_0x1_0_5_ to 
+3029793_0x1_0_5_11
+3030629_0x1_0_5_, shortest path is 
+3031663_0x1_0_5_13
+3032499_0x1_0_5_ in cost. 
+3033385_0x1_0_5_Path is: 
+3034326_0x1_0_5_2
+3035163_0x1_0_5_ 
+3036054_0x1_0_5_7
+3036894_0x1_0_5_ 
+3037785_0x1_0_5_8
+3038625_0x1_0_5_ 
+3039516_0x1_0_5_9
+3040356_0x1_0_5_ 
+3041280_0x1_0_5_11
+3042465_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+3045507_0x1_0_5_From 
+3046424_0x1_0_5_4
+3047255_0x1_0_5_ to 
+3048199_0x1_0_5_10
+3049035_0x1_0_5_, shortest path is 
+3050069_0x1_0_5_17
+3050905_0x1_0_5_ in cost. 
+3051791_0x1_0_5_Path is: 
+3052732_0x1_0_5_4
+3053569_0x1_0_5_ 
+3054460_0x1_0_5_6
+3055300_0x1_0_5_ 
+3056191_0x1_0_5_8
+3057031_0x1_0_5_ 
+3057922_0x1_0_5_9
+3058762_0x1_0_5_ 
+3059686_0x1_0_5_10
+3060871_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+3063905_0x1_0_5_From 
+3064822_0x1_0_5_6
+3065653_0x1_0_5_ to 
+3066597_0x1_0_5_13
+3067433_0x1_0_5_, shortest path is 
+3068467_0x1_0_5_14
+3069303_0x1_0_5_ in cost. 
+3070189_0x1_0_5_Path is: 
+3071130_0x1_0_5_6
+3071967_0x1_0_5_ 
+3072858_0x1_0_5_8
+3073698_0x1_0_5_ 
+3074589_0x1_0_5_9
+3075429_0x1_0_5_ 
+3076353_0x1_0_5_11
+3077198_0x1_0_5_ 
+3078122_0x1_0_5_13
+3079307_0x1_0_5_
+
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+3082351_0x1_0_5_From 
+3083268_0x1_0_5_9
+3084099_0x1_0_5_ to 
+3085043_0x1_0_5_13
+3085879_0x1_0_5_, shortest path is 
+3086880_0x1_0_5_5
+3087711_0x1_0_5_ in cost. 
+3088597_0x1_0_5_Path is: 
+3089538_0x1_0_5_9
+3090375_0x1_0_5_ 
+3091299_0x1_0_5_11
+3092144_0x1_0_5_ 
+3093068_0x1_0_5_13
+3094279_0x1_0_5_
+
+3095922_0x1_0_5_From 
+3096872_0x1_0_5_15
+3097708_0x1_0_5_ to 
+INTERRUPTION (TIME_SLICE)
+3099142_0x1_0_5_16
+3099978_0x1_0_5_, shortest path is 
+3100979_0x1_0_5_3
+3101810_0x1_0_5_ in cost. 
+3102696_0x1_0_5_Path is: 
+3103670_0x1_0_5_15
+3104512_0x1_0_5_ 
+3105436_0x1_0_5_16
+3106660_0x1_0_5_
+
+INTERRUPTION (NOC)
+3109194_0x1_0_5_**************************************************************************************************  ENDED 
+3110740_0x1_0_5_1
+3111571_0x1_0_5_
+
+3112763_0x1_0_5_3112401
+3113637_0x1_0_5_Divider finished.
+INTERRUPTION (NOC)
+3116274_0x1_0_5_**************************************************************************************************  ENDED 
+3117820_0x1_0_5_2
+3118651_0x1_0_5_
+
+3119843_0x1_0_5_3119481
+3120717_0x1_0_5_Divider finished.
+INTERRUPTION (NOC)
+3123344_0x1_0_5_**************************************************************************************************  ENDED 
+3124890_0x1_0_5_3
+3125721_0x1_0_5_
+
+3126913_0x1_0_5_3126551
+3127787_0x1_0_5_Divider finished.
+INTERRUPTION (NOC)
+3130424_0x1_0_5_**************************************************************************************************  ENDED 
+3131970_0x1_0_5_4
+3132801_0x1_0_5_
+
+3133993_0x1_0_5_3133631
+3134867_0x1_0_5_Divider finished.
+3136598_0x1_0_5_**************************************************************************************************  ENDED 
+3138144_0x1_0_5_5
+3138975_0x1_0_5_
+
+3140167_0x1_0_5_3139805
+3141041_0x1_0_5_Divider finished.
+Task id: 5 terminated at 3142152
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 0 allocated at 34199
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+INTERRUPTION (NOC)
+INTERRUPTION (PENDING_SERVICE)
+354421_0x1_0_0_Bank sendedd all patterns
+
+Task id: 0 terminated at 355446
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 0 allocated at 34175
+35280_0x1_0_0_synthetic task A started.
+36435_0x1_0_0_36139
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+energy_acc_local total: 10840215	500925
+energy_acc_local (k_slave): 10840215 501885
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 895798
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 9188908	1197280
+energy_acc_local (k_slave): 9188908 1198235
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1396041
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 6707581	1503111
+energy_acc_local (k_slave): 6707581 1504066
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+1802294_0x1_0_0_1801932
+1803115_0x1_0_0_synthetic task A finished.
+Task id: 0 terminated at 1804178
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1895557
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 7114398	2396081
+energy_acc_local (k_slave): 7114398 2397036
+teste com stop_execution_flag parando at 2397648
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Initializing PE: 0x00000001
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 0 allocated at 34177
+35282_0x1_0_0_synthetic task A started.
+36437_0x1_0_0_36141
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 10949530	501267
+energy_acc_local (k_slave): 10949530 502227
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 896070
+
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 15665253	1197595
+energy_acc_local (k_slave): 15665253 1198593
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1403007
+
+1403007<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 6709171	1500793
+energy_acc_local (k_slave): 6709171 1501748
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 1896255
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 11321336	2001224
+energy_acc_local (k_slave): 11321336 2002222
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 2396014
+
+1<- stop_execution_flag??
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 11354040	2502903
+energy_acc_local (k_slave): 11354040 2503901
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+2587073_0x1_0_0_2586711
+2587894_0x1_0_0_synthetic task A finished.
+Task id: 0 terminated at 2588957
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+teste com stop_execution_flag parando at 2895586
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 2159672	3396043
+energy_acc_local (k_slave): 2159672 3396998
+teste com stop_execution_flag parando at 3397610
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 95186	3895982
+energy_acc_local (k_slave): 95186 3896861
+teste com stop_execution_flag parando at 3897473
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	4395985
+energy_acc_local (k_slave): 92314 4396864
+teste com stop_execution_flag parando at 4397476
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	4895991
+energy_acc_local (k_slave): 92308 4896870
+teste com stop_execution_flag parando at 4897482
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	5396003
+energy_acc_local (k_slave): 92314 5396882
+teste com stop_execution_flag parando at 5397494
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	5895990
+energy_acc_local (k_slave): 92308 5896869
+teste com stop_execution_flag parando at 5897481
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	6395996
+energy_acc_local (k_slave): 92314 6396875
+teste com stop_execution_flag parando at 6397487
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	6895972
+energy_acc_local (k_slave): 92308 6896851
+teste com stop_execution_flag parando at 6897463
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	7395987
+energy_acc_local (k_slave): 92314 7396866
+teste com stop_execution_flag parando at 7397478
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	7895960
+energy_acc_local (k_slave): 92308 7896839
+teste com stop_execution_flag parando at 7897451
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	8396013
+energy_acc_local (k_slave): 92314 8396892
+teste com stop_execution_flag parando at 8397504
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	8896015
+energy_acc_local (k_slave): 92308 8896894
+teste com stop_execution_flag parando at 8897506
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92314	9396005
+energy_acc_local (k_slave): 92314 9396884
+teste com stop_execution_flag parando at 9397496
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1
+energy_acc_local total: 92308	9896008
+energy_acc_local (k_slave): 92308 9896887
+teste com stop_execution_flag parando at 9897499
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??

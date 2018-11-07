@@ -1,0 +1,208 @@
+Initializing PE: 0x00000105
+INTERRUPTION (NOC)
+Initializing PE: 0x00000105
+INTERRUPTION (NOC)
+Initializing PE: 0x00000105
+INTERRUPTION (NOC)
+Initializing PE: 0x00000105
+INTERRUPTION (NOC)
+Initializing PE: 0x00000105
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 260 allocated at 66945
+68219_1x5_1_4_MPEG Task A start:  
+69479_1x5_1_4_69183
+73199_1x5_1_4_T1
+74239_1x5_1_4_71255
+75109_1x5_1_4_T2
+76149_1x5_1_4_73092
+78882_1x5_1_4_T1
+79922_1x5_1_4_77021
+80792_1x5_1_4_T2
+81832_1x5_1_4_78775
+INTERRUPTION (TIME_SLICE)
+85079_1x5_1_4_T1
+86119_1x5_1_4_82704
+86989_1x5_1_4_T2
+88029_1x5_1_4_84972
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+110834_1x5_1_4_T1
+111912_1x5_1_4_88901
+112820_1x5_1_4_T2
+113931_1x5_1_4_110727
+INTERRUPTION (NOC)
+165266_1x5_1_4_T1
+166377_1x5_1_4_114846
+167290_1x5_1_4_T2
+168401_1x5_1_4_165159
+INTERRUPTION (NOC)
+221193_1x5_1_4_T1
+222304_1x5_1_4_169316
+223217_1x5_1_4_T2
+224328_1x5_1_4_221086
+INTERRUPTION (NOC)
+275793_1x5_1_4_T1
+276904_1x5_1_4_225243
+277817_1x5_1_4_T2
+278928_1x5_1_4_275686
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+330749_1x5_1_4_T1
+331860_1x5_1_4_280333
+332773_1x5_1_4_T2
+INTERRUPTION (TIME_SLICE)
+334374_1x5_1_4_330642
+INTERRUPTION (NOC)
+385782_1x5_1_4_T1
+386893_1x5_1_4_335289
+INTERRUPTION (TIME_SLICE)
+388296_1x5_1_4_T2
+389407_1x5_1_4_385675
+INTERRUPTION (NOC)
+440868_1x5_1_4_T1
+INTERRUPTION (TIME_SLICE)
+442469_1x5_1_4_390322
+443382_1x5_1_4_T2
+444493_1x5_1_4_440761
+INTERRUPTION (NOC)
+INTERRUPTION (TIME_SLICE)
+496314_1x5_1_4_T1
+497425_1x5_1_4_445408
+498338_1x5_1_4_T2
+499449_1x5_1_4_496207
+energy_acc_local total: 10073656	501734
+energy_acc_local (k_slave): 10073656 502694
+INTERRUPTION (NOC)
+552932_1x5_1_4_T1
+554043_1x5_1_4_500364
+554956_1x5_1_4_T2
+556067_1x5_1_4_552825
+INTERRUPTION (NOC)
+607532_1x5_1_4_T1
+608643_1x5_1_4_556982
+609556_1x5_1_4_T2
+610667_1x5_1_4_607425
+INTERRUPTION (NOC)
+662691_1x5_1_4_T1
+663802_1x5_1_4_611582
+664715_1x5_1_4_T2
+665826_1x5_1_4_662584
+INTERRUPTION (NOC)
+717238_1x5_1_4_T1
+718349_1x5_1_4_666741
+719262_1x5_1_4_T2
+720373_1x5_1_4_717131
+INTERRUPTION (NOC)
+771838_1x5_1_4_T1
+772949_1x5_1_4_721288
+773862_1x5_1_4_T2
+774973_1x5_1_4_771731
+INTERRUPTION (NOC)
+826997_1x5_1_4_T1
+828108_1x5_1_4_775888
+829021_1x5_1_4_T2
+830132_1x5_1_4_826890
+INTERRUPTION (NOC)
+881544_1x5_1_4_T1
+882655_1x5_1_4_831047
+883568_1x5_1_4_T2
+884679_1x5_1_4_881437
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+teste com stop_execution_flag parando at 898436
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 9235726	1199918
+energy_acc_local (k_slave): 9235726 1200873
+INTERRUPTION (NOC)
+1240145_1x5_1_4_T1
+1241294_1x5_1_4_886084
+INTERRUPTION (TIME_SLICE)
+1242735_1x5_1_4_T2
+1243917_1x5_1_4_1240038
+INTERRUPTION (NOC)
+1295291_1x5_1_4_T1
+INTERRUPTION (TIME_SLICE)
+1296963_1x5_1_4_1244875
+1297919_1x5_1_4_T2
+1299101_1x5_1_4_1295184
+1300422_1x5_1_4_1300060
+1301378_1x5_1_4_End Task A - MPEG
+Task id: 260 terminated at 1302642
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+teste com stop_execution_flag parando at 1406879
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 2526827	1900847
+energy_acc_local (k_slave): 2526827 1901802
+teste com stop_execution_flag parando at 1902414
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 96631	2400762
+energy_acc_local (k_slave): 96631 2401641
+teste com stop_execution_flag parando at 2402253
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 93747	2900789
+energy_acc_local (k_slave): 93747 2901668
+teste com stop_execution_flag parando at 2902280
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 93753	3400756
+energy_acc_local (k_slave): 93753 3401635
+teste com stop_execution_flag parando at 3402247
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 93747	3900767
+energy_acc_local (k_slave): 93747 3901646
+teste com stop_execution_flag parando at 3902258
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 93753	4400770
+energy_acc_local (k_slave): 93753 4401649
+teste com stop_execution_flag parando at 4402261
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 261
+energy_acc_local total: 93747	4900776
+energy_acc_local (k_slave): 93747 4901655
+teste com stop_execution_flag parando at 4902267
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??

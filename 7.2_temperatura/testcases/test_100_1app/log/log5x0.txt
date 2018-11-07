@@ -1,0 +1,65 @@
+Initializing PE: 0x00000500
+INTERRUPTION (NOC)
+Initializing PE: 0x00000500
+INTERRUPTION (NOC)
+Initializing PE: 0x00000500
+INTERRUPTION (NOC)
+Initializing PE: 0x00000500
+INTERRUPTION (NOC)
+Initializing PE: 0x00000500
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 49340	3906130
+energy_acc_local (k_slave): 49340 3907009
+teste com stop_execution_flag parando at 3907621
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 63383	4209065
+energy_acc_local (k_slave): 63383 4209944
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 70670	4406134
+energy_acc_local (k_slave): 70670 4407013
+teste com stop_execution_flag parando at 4407625
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 63383	4425387
+energy_acc_local (k_slave): 63383 4458316
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 795000	4906178
+energy_acc_local (k_slave): 795000 4907095
+teste com stop_execution_flag parando at 4907707
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 64811	4925469
+energy_acc_local (k_slave): 64811 4957578
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 776468	5405681
+energy_acc_local (k_slave): 776468 5406598
+teste com stop_execution_flag parando at 5407210
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 64811	5424972
+energy_acc_local (k_slave): 64811 5456611
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 1280
+energy_acc_local total: 765846	5905668
+energy_acc_local (k_slave): 765846 5906585
+teste com stop_execution_flag parando at 5907197
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 64811	5924959
+energy_acc_local (k_slave): 64811 5956083
+1<- stop_execution_flag??

@@ -1,0 +1,184 @@
+Initializing PE: 0x00000104
+INTERRUPTION (NOC)
+Initializing PE: 0x00000104
+INTERRUPTION (NOC)
+Initializing PE: 0x00000104
+INTERRUPTION (NOC)
+Initializing PE: 0x00000104
+INTERRUPTION (NOC)
+Initializing PE: 0x00000104
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+Task id: 256 allocated at 210953
+213085_1x4_1_0_MPEG Task D start: iDCT 
+214396_1x4_1_0_214067
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 1434704	504347
+energy_acc_local (k_slave): 1434704 505264
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 1272995	1244430
+energy_acc_local (k_slave): 1272995 1245385
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (TIME_SLICE)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+energy_acc_local total: 5404753	1528918
+energy_acc_local (k_slave): 5404753 1529873
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+INTERRUPTION (NOC)
+1641116_1x4_1_0_1640754
+1642027_1x4_1_0_End Task D - MPEG
+Task id: 256 terminated at 1643246
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+teste com stop_execution_flag parando at 1899806
+
+INTERRUPTION (TIME_SLICE)
+energy_acc_local total: 634926	2201288
+energy_acc_local (k_slave): 634926 2202205
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+teste com stop_execution_flag parando at 2399800
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 125551	2900280
+energy_acc_local (k_slave): 125551 2901197
+teste com stop_execution_flag parando at 2901809
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 95175	3400205
+energy_acc_local (k_slave): 95175 3401084
+teste com stop_execution_flag parando at 3401696
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93753	3900220
+energy_acc_local (k_slave): 93753 3901099
+teste com stop_execution_flag parando at 3901711
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93747	4400223
+energy_acc_local (k_slave): 93747 4401102
+teste com stop_execution_flag parando at 4401714
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93753	4900229
+energy_acc_local (k_slave): 93753 4901108
+teste com stop_execution_flag parando at 4901720
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93747	5400241
+energy_acc_local (k_slave): 93747 5401120
+teste com stop_execution_flag parando at 5401732
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93753	5900228
+energy_acc_local (k_slave): 93753 5901107
+teste com stop_execution_flag parando at 5901719
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93747	6400234
+energy_acc_local (k_slave): 93747 6401113
+teste com stop_execution_flag parando at 6401725
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93753	6900210
+energy_acc_local (k_slave): 93753 6901089
+teste com stop_execution_flag parando at 6901701
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
+INTERRUPTION (NOC)
+Recebi um pacote STOP_EXECUTION!
+(kernel_slave)->No processador: 260
+energy_acc_local total: 93747	7400225
+energy_acc_local (k_slave): 93747 7401104
+teste com stop_execution_flag parando at 7401716
+
+INTERRUPTION (TIME_SLICE)
+1<- stop_execution_flag??
