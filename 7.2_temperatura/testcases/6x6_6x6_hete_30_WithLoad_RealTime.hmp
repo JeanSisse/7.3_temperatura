@@ -1,0 +1,82 @@
+[project name]
+6x6_6x6_hete_30_WhitLoad_RealTime
+[tasks per pe]
+3
+[processor description]
+sc
+[noc buffer size]
+8
+[noc routing algorithm]
+xy
+[mapping]
+WithLoad
+[dimensions]
+6
+6
+[cluster size]
+6
+6
+[masters location]
+LB
+[global master]
+0
+[application]
+synthetic
+[application]
+mpeg
+[application]
+dijkstra
+[application]
+MPEG4
+[application]
+dtw
+[application]
+dtw
+[application]
+mpeg
+[application]
+MPEG4
+[application]
+dijkstra
+[application]
+synthetic
+[application]
+synthetic
+[application]
+mpeg
+[application]
+dijkstra
+[application]
+MPEG4
+[application]
+dtw
+[application]
+dtw
+[application]
+mpeg
+[application]
+MPEG4
+[application]
+dijkstra
+[application]
+synthetic
+[application]
+synthetic
+[application]
+mpeg
+[application]
+dijkstra
+[application]
+MPEG4
+[application]
+dtw
+[application]
+dtw
+[application]
+mpeg
+[application]
+MPEG4
+[application]
+dijkstra
+[application]
+synthetic
