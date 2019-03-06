@@ -15,17 +15,17 @@
 #ifndef __KERNEL_H__
 #define __KERNEL_H__
 
-/**   
+/**
  * \ingroup master_kernel_group
  * @{
-	 
+
 	 \todo  Kernel_master Doc is incomplete because not all functions are defined in the .h.
 	 Please list all function headers defined in kernel_master.c into this file
 	 so it can included into the Doc
-	 
+
  */
 
-/**  
+/**
      \todo functions puts and putsv are defined twice in kernel_slave and kernel_master.
 */
 
@@ -38,12 +38,12 @@
  * APPLICATION INFORMATION
  * -------------------------------------------------------------------------------*/
 /*! \brief A struct type definition .
-    
+
     Details.
 */
 typedef struct {
 	int cluster_proc;
-	int temperatura;	
+	int temperatura;
 }cluster_temperature;
 
 
@@ -53,7 +53,7 @@ typedef struct {
 } DependencePackage;
 
 /*! \brief A struct type definition .
-    
+
     Details.
 */
 typedef struct {
@@ -70,7 +70,7 @@ typedef struct {
 } TaskPackage;
 
 /*! \brief A struct type definition .
-    
+
     Details.
 */
 typedef struct {
@@ -85,7 +85,7 @@ typedef struct {
 } Reclustering;
 
 /*! \brief A struct type definition .
-    
+
     Details.
 */
 typedef struct {
@@ -94,7 +94,7 @@ typedef struct {
 } ReclusteringTasks;
 
 /*! \brief A struct type definition .
-    
+
     Details.
 */
 typedef struct {
@@ -104,14 +104,17 @@ typedef struct {
 
 
 #define MAX_RECLUSTERING MAX_APP_SIZE-1  /**< Detailed description after the member */
-#define NOT_ALLOCATED	-1
-#define EMPTY		-1
-#define TERMINATED	-2
+#define NOT_ALLOCATED			-1
+#define EMPTY							-1
+#define TERMINATED				-2
 #define MAX_INITIAL_TASKS	10
 
+#define DELTA_T						10000000		//1 grau
+#define T_MAX						1005000000	//105 grau
+#define T_SAFE						1000000000	//100 grau
 
 /*! \brief A def definition .
-    
+
     Details.
 */
 #define get_location(x) (task_location[x >> 8][x & 0xFF])
@@ -127,13 +130,13 @@ typedef struct {
     \param taskID to be completed...
     \param requesting_task to be completed...
     \param selected_proc to be completed...
-        
+
     Details.
 */
 void allocate_new_task(int taskID, int requesting_task, int selected_proc);
 
 /*! \brief A function definition .
-    
+
     Details.
 */
 void send_task_allocated(int requesting_task, int requested_task, int allocated_processor);

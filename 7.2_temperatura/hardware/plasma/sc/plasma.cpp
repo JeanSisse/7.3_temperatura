@@ -39,9 +39,9 @@ void plasma::repo_to_mem_access(){
 
 
 void plasma::mem_mapped_registers(){
-	
+
 	sc_uint <32 > l_cpu_mem_address_reg = cpu_mem_address_reg.read();
-	
+
 	if(l_cpu_mem_address_reg.range(30,28 ) == 1){
 
 		cpu_mem_data_read.write(data_read.read());
@@ -66,7 +66,7 @@ void plasma::mem_mapped_registers(){
 			break;
 			case TOTAL_FLITS_ROUTER:
 				cpu_mem_data_read.write(total_flits.read());
-			break;			
+				break;			
 			case REQ_APP_REG:
 				cpu_mem_data_read.write(req_app.read());
 			break;
@@ -102,7 +102,7 @@ void plasma::comb_assignments(){
 
 	addr_a.write(new_mem_address.range(31, 2));
 	addr_b.write(dmni_mem_address.read()(31,2));
-	
+
 	cpu_mem_pause.write(cpu_repo_acess.read());
 	irq.write((((irq_status.read() & irq_mask_reg.read()) != 0x00)) ? 1  : 0 );
 	cpu_set_size.write((((cpu_mem_address_reg.read() == DMA_SIZE) && (write_enable.read() == 1))) ? 1  : 0 );
@@ -116,7 +116,7 @@ void plasma::comb_assignments(){
 	write_enable.write(((cpu_mem_write_byte_enable_reg.read() != 0)) ? 1  : 0 );
 	cpu_enable_ram.write(((cpu_mem_address.read()(30,28 ) == 0)) ? 1  : 0 );
 	dmni_enable_internal_ram.write(((dmni_mem_address.read()(30,28 ) == 0)) ? 1  : 0 );
-	end_sim_reg.write((((cpu_mem_address_reg.read() == END_SIM) && (write_enable.read() == 1))) ? 0x00000000 : 0x00000001);	
+	end_sim_reg.write((((cpu_mem_address_reg.read() == END_SIM) && (write_enable.read() == 1))) ? 0x00000000 : 0x00000001);
 
 	if (cpu_repo_acess.read() == 1){
 		address.write(cpu_mem_address.read());
@@ -132,7 +132,7 @@ void plasma::comb_assignments(){
 	l_irq_status[2] = 0;
 	l_irq_status[1] = 0;
 	l_irq_status[0] = (!dmni_send_active_sig.read() && pending_service.read());
-	
+
 	irq_status.write(l_irq_status);
 }
 
@@ -158,11 +158,11 @@ void plasma::sequential_attr(){
 
 		if(cpu_mem_pause.read() == 0) {
 			cpu_mem_address_reg.write(cpu_mem_address.read());
-			
+
 			cpu_mem_data_write_reg.write(cpu_mem_data_write.read());
-			
+
 			cpu_mem_write_byte_enable_reg.write(cpu_mem_write_byte_enable.read());
-			
+
 			if(cpu_mem_address_reg.read()==IRQ_MASK && write_enable.read()==1){
 				irq_mask_reg.write(cpu_mem_data_write_reg.read()(7,0));
 			}
@@ -225,10 +225,10 @@ void plasma::sequential_attr(){
 		if ((cpu_mem_address_reg.read() == TIME_SLICE_ADDR) and (write_enable.read()==1) ) {
 			time_slice.write(cpu_mem_data_write_reg.read());
 
-			if((unsigned int)cpu_mem_data_write_reg.read() > 17000)			// MDO: INCERIDO 19/10
-				cout << "TIME_SLICE " << (unsigned int)cpu_mem_data_write_reg.read() << endl;
+			// if((unsigned int)cpu_mem_data_write_reg.read() > 17000)			// MDO: INCERIDO 19/10
+				// cout << "TIME_SLICE " << (unsigned int)cpu_mem_data_write_reg.read() << endl;
   		}
-  		
+
 		if (cpu_mem_address_reg.read() == ACK_APP_REG) {
 			ack_app.write(1);
 		} else if (req_app.read()[31] == 0) {
@@ -251,7 +251,7 @@ void plasma::end_of_simulation(){
 void plasma::log_process(){
 	if (reset.read() == 1) {
 		log_interaction=1;
-		instant_instructions = 0;		
+		instant_instructions = 0;
 		aux_instant_instructions = 0;
 
 		logical_instant_instructions = 0;
@@ -268,20 +268,20 @@ void plasma::log_process(){
 	} else {
 
 		if(tick_counter.read() == 100000*log_interaction) {
-			
+
 
 			fp = fopen ("log_tasks.txt", "a+");
-			
+
 			aux_instant_instructions = cpu->global_inst - instant_instructions;
 
 			sprintf(aux, "%d,%lu,%lu,%lu\n",  (int)router_address,cpu->global_inst,aux_instant_instructions,100000*log_interaction);
 
 			instant_instructions = cpu->global_inst;
 
-		
+
 			fprintf(fp,"%s",aux);
-		
-			fclose(fp); 
+
+			fclose(fp);
 			fp = NULL;
 
 
@@ -293,7 +293,7 @@ void plasma::log_process(){
 			aux_instant_instructions = cpu->logical_inst - logical_instant_instructions;
 
 			fprintf(fp,"%lu ",aux_instant_instructions);
-			
+
 			logical_instant_instructions = cpu->logical_inst;
 
 			aux_instant_instructions = cpu->jump_inst - jump_instant_instructions;
@@ -347,14 +347,14 @@ void plasma::log_process(){
 			aux_instant_instructions = cpu->mult_div_inst - mult_div_instant_instructions;
 
 			fprintf(fp,"%lu ",aux_instant_instructions);
-			
+
 			mult_div_instant_instructions = cpu->mult_div_inst;
 
 			fprintf(fp,"%lu",100000*log_interaction);
 			fprintf(fp,"\n");
-		
-		
-			fclose(fp); 
+
+
+			fclose(fp);
 			fp = NULL;
 
 
@@ -381,7 +381,7 @@ void plasma::clock_stop(){
 
 		if((unsigned int)cpu_mem_data_write_reg.read() == 2){
 			stop_execution = true;
-			cout << "CLOCK PAROU NO PROC "<< (unsigned int)router_address.range(15,8) << "x" << (unsigned int)router_address.range(7,0)\
+			// cout << "CLOCK PAROU NO PROC "<< (unsigned int)router_address.range(15,8) << "x" << (unsigned int)router_address.range(7,0)\
 				 << " NO TEMPO " << (unsigned int)tick_counter.read() << endl;
 
 			// cout << "TIME_SLICE " << (unsigned int)cpu_mem_data_write_reg.read() << endl;
@@ -389,7 +389,7 @@ void plasma::clock_stop(){
 	} else if((stop_execution == true && time_slice.read() == 1)){		// MDO: INCERIDO 19/10
 		clock_aux = true;
 		stop_execution = false;
-	} else if((rx_ni.read() == 1 || ni_intr.read() == 1)){	// ((rx_ni.read() == 1 || ni_intr.read() == 1) && (stop_execution == false))
+	} else if(rx_ni.read() == 1 || ni_intr.read() == 1){	// ((rx_ni.read() == 1 || ni_intr.read() == 1) && (stop_execution == false))
 		clock_aux = true;
 	}
 
@@ -400,4 +400,3 @@ void plasma::clock_stop(){
 	clock_hold.write(clock and clock_aux);
 
 }
-

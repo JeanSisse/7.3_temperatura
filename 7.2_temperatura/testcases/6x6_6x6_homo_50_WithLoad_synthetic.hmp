@@ -1,7 +1,7 @@
 [project name]
-8x8_4x4_homo_50_WithLoad_synthetic
+6x6_6x6_homo_50_WithLoad_synthetic_1g_500k
 [tasks per pe]
-2
+3
 [processor description]
 sc
 [noc buffer size]
@@ -11,11 +11,11 @@ xy
 [mapping]
 WithLoad
 [dimensions]
-8
-8
+6
+6
 [cluster size]
-4
-4
+6
+6
 [masters location]
 LB
 [global master]

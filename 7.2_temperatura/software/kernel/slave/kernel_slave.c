@@ -8,13 +8,13 @@
 //
 //  Source name:  kernel_slave.c
 //
-//  Brief description: Microkernel for Plasma processors, this source manages the resources of HeMPS, communication between hardware 
+//  Brief description: Microkernel for Plasma processors, this source manages the resources of HeMPS, communication between hardware
 //		       and software.
 //
 //------------------------------------------------------------------------------------------------
 
-	
-#include "kernel_slave.h" 
+
+#include "kernel_slave.h"
 
 #if MIGRATION_ENABLED
 #include "../../include/task_migration.h"
@@ -172,41 +172,41 @@ void send_message_request(int producer_task, int consumer_task, unsigned int sou
 void send_energy_slave(){
 
 
-	ServiceHeader *p = get_service_header_slot(); 
+	ServiceHeader *p = get_service_header_slot();
 
 	read_inst();
 
 
 	logical_energy 		= logical_inst * 23 	- logical_energy;
 	branch_energy		= branch_inst * 31 		- branch_energy;
-	jump_energy			= jump_inst * 20 		- jump_energy;			
-	move_energy			= move_inst * 21 		- move_energy;			
-	other_energy		= other_inst * 26 		- other_energy;	
+	jump_energy			= jump_inst * 20 		- jump_energy;
+	move_energy			= move_inst * 21 		- move_energy;
+	other_energy		= other_inst * 26 		- other_energy;
 	arith_energy		= arith_inst * 26 		- arith_energy;
-	load_energy			= load_inst	* 44 		- load_energy;		
-	shift_energy		= shift_inst * 22 		- shift_energy;	
-	nop_energy	  		= nop_inst * 15 		- nop_energy;	    
+	load_energy			= load_inst	* 44 		- load_energy;
+	shift_energy		= shift_inst * 22 		- shift_energy;
+	nop_energy	  		= nop_inst * 15 		- nop_energy;
 	mult_div_energy 	= mult_div_inst * 23 	- mult_div_energy;
-	
+
 	/*
 	logical_energy 		= logical_inst - logical_energy;
 	branch_energy		= branch_inst - branch_energy;
-	jump_energy			= jump_inst - jump_energy;			
-	move_energy			= move_inst - move_energy;			
-	other_energy		= other_inst - other_energy;	
+	jump_energy			= jump_inst - jump_energy;
+	move_energy			= move_inst - move_energy;
+	other_energy		= other_inst - other_energy;
 	arith_energy		= arith_inst - arith_energy;
-	load_energy			= load_inst	- load_energy;		
-	shift_energy		= shift_inst - shift_energy;	
-	nop_energy	  		= nop_inst - nop_energy;	    
+	load_energy			= load_inst	- load_energy;
+	shift_energy		= shift_inst - shift_energy;
+	nop_energy	  		= nop_inst - nop_energy;
 	mult_div_energy 	= mult_div_inst - mult_div_energy;
 	*/
-	
+
 	router_flits = MemoryRead(TOTAL_FLITS_ROUTER);
-	
+
 	//energy_acc_local = (logical_energy + branch_energy + jump_energy + move_energy + other_energy + arith_energy + load_energy + shift_energy + nop_energy + mult_div_energy + (router_flits - router_flits_anterior)*5);
 	energy_acc_local = (logical_energy + branch_energy + jump_energy + move_energy + other_energy + arith_energy + load_energy + shift_energy + nop_energy + mult_div_energy );
-	
-	
+
+
 	/*	puts("logical_energy: "); puts(itoa(logical_energy)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 		puts("branch_energy: "); puts(itoa(branch_energy)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 		puts("jump_energy: "); puts(itoa(jump_energy)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
@@ -219,21 +219,21 @@ void send_energy_slave(){
 		puts("mult_div_energy: "); puts(itoa(mult_div_energy)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 		puts("energy_acc_local: "); puts(itoa(energy_acc_local)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 */
-		logical_energy 		= logical_inst * 23; 
-		branch_energy		= branch_inst * 31; 	
-		jump_energy			= jump_inst * 20; 	
-		move_energy			= move_inst * 21; 	
-		other_energy		= other_inst * 26; 	
-		arith_energy		= arith_inst * 26; 	
-		load_energy			= load_inst	* 44; 	
-		shift_energy		= shift_inst * 22; 	
-		nop_energy	  		= nop_inst * 15; 	
+		logical_energy 		= logical_inst * 23;
+		branch_energy		= branch_inst * 31;
+		jump_energy			= jump_inst * 20;
+		move_energy			= move_inst * 21;
+		other_energy		= other_inst * 26;
+		arith_energy		= arith_inst * 26;
+		load_energy			= load_inst	* 44;
+		shift_energy		= shift_inst * 22;
+		nop_energy	  		= nop_inst * 15;
 		mult_div_energy 	= mult_div_inst * 23;
 
-	puts("energy_acc_local total: "); puts(itoa(energy_acc_local)); 
+	puts("energy_acc_local total: "); puts(itoa(energy_acc_local));
 	puts("\t"); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 
-	
+
 /*	if(energy_acc_local > 2340000*5) {
 		energy_acc_local = 10;
 	}
@@ -268,11 +268,11 @@ void send_energy_slave(){
 */
 
 	//energy_acc_local = 0;
-	
+
 	//puts("energy_acc_local discret: "); puts(itoa(energy_acc_local)); puts("\n");
 
 	router_flits_anterior = router_flits;
-	
+
 	p->header = cluster_master_address; //para onde estou enviando
 
 	p->service = ENERGY_SLAVE;
@@ -280,7 +280,7 @@ void send_energy_slave(){
 	p->energy_acc = energy_acc_local;
 
 	send_packet(p, 0, 0); // send_packet(p, initial_address, dma_msg_size)
-		
+
 }
 
 
@@ -332,7 +332,7 @@ int Syscall(unsigned int service, unsigned int arg0, unsigned int arg1, unsigned
 
 	}
 	*/
-	
+
 	switch (service) {
 
 		case EXIT:
@@ -508,7 +508,7 @@ int Syscall(unsigned int service, unsigned int arg0, unsigned int arg1, unsigned
 *    Initiates the handling of incoming network services.
 *
 *--------------------------------------------------------------------*/
-int handle_packet(ServiceHeader * p) {
+int handle_packet(ServiceHeader *p) {
 
 	unsigned int need_scheduling;
 	unsigned int task;
@@ -520,8 +520,10 @@ int handle_packet(ServiceHeader * p) {
     need_scheduling = 0;
     // stop_execution_flag = 0;
 
-	switch (p->service) {
+   // puts("SERVICO "); puts(itoa(p->service)); puts("RECEBIDO NO PROCESSADOR "); puts(itoa(p->header));puts("\n");
 
+	switch (p->service) {
+		// puts(": "); puts(itoa(p->service)); puts("\n");
 		case MESSAGE_REQUEST:
 
 			slot_ptr = removePIPE(p->producer_task, p->consumer_task);
@@ -601,6 +603,8 @@ int handle_packet(ServiceHeader * p) {
 
 			tcb_ptr->id = p->task_ID;
 
+			// puts("SERVICO "); puts(itoa(p->service)); puts("RECEBIDO NO PROCESSADOR "); puts(itoa(p->header)); puts("\n");
+
 			puts("Task id: "); puts(itoa(tcb_ptr->id)); putsv(" allocated at ", MemoryRead(TICK_COUNTER));
 
 			int code_lenght = p->code_size;
@@ -673,7 +677,8 @@ int handle_packet(ServiceHeader * p) {
 #endif
 
 		case STOP_EXECUTION:
-			puts("Recebi um pacote STOP_EXECUTION!\n");
+			// puts("SERVICO "); puts(itoa(p->service)); puts("RECEBIDO NO PROCESSADOR "); puts(itoa(p->header)); puts("\n");
+			puts("Pacote STOP_EXECUTION RECEBIDO!\n");
 			puts("(kernel_slave)->No processador: "); puts(itoa(p->header)); puts("\n");
 			// puts("execution_stoped: "); puts(itoa(p->execution_stoped)); puts("\n");
 			need_scheduling = 1;
@@ -681,7 +686,7 @@ int handle_packet(ServiceHeader * p) {
 			break;
 
 		default:
-			putsv("ERROR: service unknown: ", MemoryRead(TICK_COUNTER));
+			putsv("ERROR-SLAVE: service unknown: ", MemoryRead(TICK_COUNTER));
 			break;
 	}
 
@@ -697,31 +702,31 @@ void Scheduler() {
 
     int scheduled = FALSE;
     int i;
-    
+
     if((MemoryRead(TICK_COUNTER)) >= counter_ticks){
 
-		counter_ticks = counter_ticks + 500000;
+			counter_ticks = counter_ticks + 500000;
 
-		send_energy_slave();
-		puts("energy_acc_local (k_slave): "); 
-		puts(itoa(energy_acc_local)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
+			send_energy_slave();
+			puts("energy_acc_local (k_slave): ");
+			puts(itoa(energy_acc_local)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 
 	}
 
-    if (current->status == RUNNING){
-    	current->status = READY;
-    	current->reimaning_time_slice = MemoryRead(TIME_SLICE);
-    	if (current->reimaning_time_slice <= 1){
-    		current->reimaning_time_slice = MAX_TIME_SLICE;
-    	}
+  if (current->status == RUNNING){
+    current->status = READY;
+    current->reimaning_time_slice = MemoryRead(TIME_SLICE);
+    if (current->reimaning_time_slice <= 1){
+    	current->reimaning_time_slice = MAX_TIME_SLICE;
     }
+  }
 
-    if(stop_execution_flag){
+  if(stop_execution_flag){
 		current = &idle_tcb; /* schedules the idle task */
 		// scheduled = TRUE;
 		// puts("teste com stop_execution_flag parando"); putsv(" at ", MemoryRead(TICK_COUNTER)); puts("\n");
 		if (current->status == READY ) {
-	       puts("teste com stop_execution_flag parando"); putsv(" at ", MemoryRead(TICK_COUNTER)); puts("\n");
+	       puts("teste com stop_execution_flag parando"); putsv(" em ", MemoryRead(TICK_COUNTER)); puts("\n");
 	       	/*ready to execute*/
 			current->status = RUNNING;
 			scheduled = TRUE;
@@ -786,10 +791,10 @@ void OS_InterruptServiceRoutine(unsigned int status) {
 	ServiceHeader * next_service;
 	int call_scheduler = 0;
 
-	if ( status & IRQ_NOC ){
+	if (status & IRQ_NOC){
 
 		read_packet(&p);
-		puts("INTERRUPTION (NOC)\n"); // MDO: INCERIDO 19/10
+		// puts("INTERRUPTION (NOC)\n"); // MDO: INCERIDO 19/10
 
 		if (MemoryRead(DMA_SEND_ACTIVE) && (p.service == MESSAGE_REQUEST || p.service == TASK_MIGRATION) ){
 
@@ -802,17 +807,17 @@ void OS_InterruptServiceRoutine(unsigned int status) {
 
 	} else if (status & IRQ_PENDING_SERVICE) {
 
-		puts("INTERRUPTION (PENDING_SERVICE)\n"); // MDO: INCERIDO 19/10
-		
+		// puts("INTERRUPTION (PENDING_SERVICE)\n"); // MDO: INCERIDO 19/10
+
 		next_service = get_next_pending_service();
 		if (next_service){
 			call_scheduler = handle_packet(next_service);
 		}
-	
-	}
-	 else if ( status & IRQ_SCHEDULER ){
 
-	 	puts("INTERRUPTION (TIME_SLICE)\n"); // MDO: INCERIDO 19/10
+	}
+	 else if (status & IRQ_SCHEDULER){
+
+	 	// puts("INTERRUPTION (TIME_SLICE)\n"); // MDO: INCERIDO 19/10
 		call_scheduler = 1;
 
 		OS_InterruptMaskSet(IRQ_SCHEDULER | IRQ_NOC | IRQ_PENDING_SERVICE); // MDO: INCERIDO 19/10
@@ -861,24 +866,24 @@ void OS_Idle() {
 	for (;;){
 		if(stop_execution_flag == 1) {
 			MemoryWrite(CLOCK_HOLD, 2);
-			puts(itoa(stop_execution_flag)); puts("<- stop_execution_flag??\n");	
+			puts(itoa(stop_execution_flag)); puts("<- stop_execution_flag\n");
 		}else{
 			MemoryWrite(CLOCK_HOLD, 1);
 			// puts(itoa(stop_execution_flag)); puts("<- stop_execution_flag??\n");
-		}	
+		}
 	}
 }
 
 int main(){
-	
-	ASM_SetInterruptEnable(FALSE);	
+
+	ASM_SetInterruptEnable(FALSE);
 
 	idle_tcb.pc = (unsigned int) &OS_Idle;
 	idle_tcb.id = 0;
 	idle_tcb.offset = 0;
 	idle_tcb.status = READY;
 	// idle_tcb.reimaning_time_slice = MAX_TIME_SLICE; // MDO: COMENTADO 19/10
-	idle_tcb.reimaning_time_slice = 300000; // MDO: INCERIDO 19/10
+	idle_tcb.reimaning_time_slice = 500000; // MDO: INCERIDO 19/10
 
 	current = &idle_tcb;
 
@@ -903,10 +908,10 @@ int main(){
 
 	/*enables timeslice counter and wrapper interrupts*/
 	OS_InterruptMaskSet(IRQ_SCHEDULER | IRQ_NOC | IRQ_PENDING_SERVICE);
-	
+
 	/*runs the scheduled task*/
     ASM_RunScheduledTask(current);
-	
+
 	return 0;
 }
 
@@ -931,3 +936,7 @@ int main(){
 	// 2.8.2;
 	// 2.8.4;
 	// 2.9
+
+//Mudanças a fazer para nova versão:
+	// printar as energias no case ENERGY_SLAVE:
+	// MODIFICAR NO KERNEL_BUILDER.PY PARA INSERIR

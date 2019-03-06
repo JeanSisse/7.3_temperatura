@@ -34,9 +34,11 @@ int max_neighbors_level = 0;
 
 int threshold_top = 75;  // 80 %
 int threshold_down = 20; // 20 %
-int threshold_top_flag = 0;  
+int threshold_top_flag = 0;
 int threshold_down_flag = 0;
 int aux_threshold = 0; // 20 %
+
+int if_first = 1;
 
 unsigned int counter_ticks = 500000;
 unsigned int counter_ticks2 = 700000;
@@ -44,6 +46,8 @@ unsigned int counter_ticks2 = 700000;
 int	count_receive_power = 0;
 
 //cluster_temperature *temp;
+
+cluster_temperature temp[XCLUSTER*YCLUSTER]; // VETOR PARA TEMPERATURA DO CLUSTER
 
 
 #ifndef WithoutLoad
@@ -86,7 +90,7 @@ void page_released(int proc) {
 	proc_x = proc >> 8;
 	proc_y = proc & 0xFF;
 
-	/* 
+	/*
  	* Se for simulação com profiler não libera o processador
  	* Pois o calculo do load e flits do arquivo.cfg necessita que o processador tenha executado apenas uma tarefa
  	*/
@@ -123,7 +127,7 @@ void insert_task_loc(int application, int task, int proc) {
 
 	task_location[application][task] = proc;
 
-	applications[application].tasks[task].proc = proc; 
+	applications[application].tasks[task].proc = proc;
 	proc_load_total[proc >> 8][proc & 0xFF] = proc_load_total[proc >> 8][proc & 0xFF] + applications[application].tasks[task].load;
 
 }
@@ -223,7 +227,7 @@ void send_task_migration(int task_ID, int new_proc){
 void send_energy_cluster(){
 
 	//puts("send_energy_cluster ");puts(itoa(energyLocalClusterAcc));puts(" ");puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
-	
+
 	ServiceHeader *p = get_service_header_slot();
 
 	p->header = global_master_address; //para onde estou enviando
@@ -231,9 +235,9 @@ void send_energy_cluster(){
 	p->service = ENERGY_CLUSTER;
 
 	p->energy_acc = energyLocalClusterAcc;
-	
+
 	p->cluster_ID = clusterID;
-	
+
 	send_packet(p, 0, 0); // send_packet(p, initial_address, dma_msg_size)
 
 	energyLocalClusterAcc = 0;
@@ -332,6 +336,8 @@ void allocate_new_task(int taskID, int requesting_task, int selected_proc){
 				puts("ERROR - MapTask return -1\n");
 				for(;;);
 			}
+			puts("Application "); puts(itoa(taskID >> 8)); puts("\n");
+			puts("Task mapping for task "); puts(itoa(taskID & 0xFF)); puts(" maped at proc "); puts(itoh(selected_proc)); puts("\n"); //(Jean Pierre)
 		}
 
 	}
@@ -352,16 +358,16 @@ void allocate_new_task(int taskID, int requesting_task, int selected_proc){
 		nt.task_ID = taskID;
 
 		add_new_task(&nt);
-		
+
 		cluster_info[clusterID].free_resources -= 1;
 		puts("clusterinfo_handle2 ");puts(itoa(cluster_info[clusterID].free_resources)); puts("\n");
 
 		energyClustersAcc[clusterID]  = energyClustersAcc[clusterID] + energyLocalClusterAcc;
 		energyLocalClusterAcc = 0;
-		
+
 		//puts("energyClustersAcc ");puts(itoa(clusterID)); puts(" ");
 		//puts(itoa(energyClustersAcc[clusterID])); puts("\n");
-		
+
 		//send_task_allocation(taskID, net_address, selected_proc, tp->initial_address, tp->code_size, tp->data_size, tp->bss_size);
 
 	} else {
@@ -385,15 +391,15 @@ void allocate_new_task(int taskID, int requesting_task, int selected_proc){
 //######################################################################################
 
 void update_clusters_load(int clusterID_selected, int app_ID, const unsigned int *ref_address, unsigned int app_descriptor_size){
-	
-	
+
+
 	unsigned int initial_tasks[MAX_INITIAL_TASKS];
 	TaskPackage *tp;
 	volatile unsigned int task_ID;
 
 	//Cuidado com app_descriptor_size muito grande, pode estourar a memoria
 	unsigned int app_descriptor[app_descriptor_size];
-	
+
 	applications[app_ID].size = *(ref_address++);
 
 
@@ -416,12 +422,12 @@ void update_clusters_load(int clusterID_selected, int app_ID, const unsigned int
 		tp->dependences_number = 0;
 		tp->load = *(ref_address++);
 		clusters_load[clusterID_selected] = clusters_load[clusterID_selected] + tp->load;
-		
-		
+
+
 	//	puts("clusters_load ");puts(itoa(clusterID_selected)); puts(" ");
 	//	puts(itoa(clusters_load[clusterID_selected])); puts(" ");
 	//	puts(itoa(tp->load)); puts("\n");
-		
+
 		for(int j=0; j < MAX_INITIAL_TASKS; j++){
 
 			tp->dependences[j].task = (app_ID << 8) | *(ref_address++);
@@ -430,9 +436,9 @@ void update_clusters_load(int clusterID_selected, int app_ID, const unsigned int
 			if(tp->dependences[j].task != EMPTY) {
 				tp->dependences_number++;
 			}
-		}		
-		
-		
+		}
+
+
 	}
 }
 
@@ -443,7 +449,7 @@ void handle_new_app(int app_ID, const unsigned int *ref_address, unsigned int ap
 	unsigned int initial_tasks[MAX_INITIAL_TASKS];
 	TaskPackage *tp;
 	volatile unsigned int task_ID;
-	
+
 	//Cuidado com app_descriptor_size muito grande, pode estourar a memoria
 	unsigned int app_descriptor[app_descriptor_size];
 
@@ -564,15 +570,15 @@ int handle_app_request(){
 	else if(threshold_top_flag == 1){ // no allocation, threshold top
 
 			aux_threshold = 100-(total_mpsoc_resources*100) / ((int)MAX_GLOBAL_TASKS);
-			
+
 			//puts("total_mpsoc_resources: "); puts(itoa(total_mpsoc_resources)); puts("\t");
 			//puts("num_app_tasks: "); puts(itoa(num_app_tasks)); puts("\t");
 			//puts("threshold_down_flag: "); puts(itoa(threshold_down_flag)); puts("\t");
 			//puts("threshold_top_flag: "); puts(itoa(threshold_top_flag)); puts("\t");
-			//puts("aux_threshold: "); puts(itoa(aux_threshold)); puts("\n");		
+			//puts("aux_threshold: "); puts(itoa(aux_threshold)); puts("\n");
 			if(aux_threshold <= threshold_down){
 				aux_threshold = 100-((total_mpsoc_resources - num_app_tasks)*100)/((int)MAX_GLOBAL_TASKS);
-				
+
 				if(aux_threshold >= threshold_down){
 					threshold_down_flag = 1;
 				}
@@ -585,7 +591,7 @@ int handle_app_request(){
 				}
 				else{
 					threshold_top_flag = 0;
-				}	
+				}
 			}
 
 			else{
@@ -594,23 +600,23 @@ int handle_app_request(){
 		}
 
 	else{ // allocation, threshold down
-		
+
 		aux_threshold = 100-((total_mpsoc_resources - num_app_tasks)*100)/((int)MAX_GLOBAL_TASKS);
 		//puts("total_mpsoc_resources: "); puts(itoa(total_mpsoc_resources)); puts("\t");
 		//puts("num_app_tasks: "); puts(itoa(num_app_tasks)); puts("\t");
 		//puts("threshold_down_flag: "); puts(itoa(threshold_down_flag)); puts("\t");
 		//puts("threshold_top_flag: "); puts(itoa(threshold_top_flag)); puts("\t");
-		//puts("aux_threshold3: "); puts(itoa(aux_threshold)); puts("\n");	
-									
+		//puts("aux_threshold3: "); puts(itoa(aux_threshold)); puts("\n");
+
 		if(aux_threshold >= threshold_top){
 			threshold_top_flag = 1;
-		}						
+		}
 	}
 
 
 
 	total_mpsoc_resources -= num_app_tasks;
-	
+
 	puts("total_mpsoc_resources ");puts(itoa(total_mpsoc_resources)); puts("\n");
 
 	selected_cluster_proc = get_cluster_proc(selected_cluster);
@@ -637,12 +643,12 @@ int handle_app_request(){
 			load_address += 26;
 		}
 		//End load update
-		
+
 		puts("clusters_load1["); puts(itoa(selected_cluster));puts("]: "); puts(itoa(clusters_load[selected_cluster])); puts("\n");
 
 
 		update_clusters_load(selected_cluster, app_ID, initial_address, app_descriptor_size);
-		
+
 		p = get_service_header_slot();
 
 		p->header = selected_cluster_proc;
@@ -716,11 +722,11 @@ void send_app_terminated(int app_ID){
 	p->app_task_number = app_task_number;
 
 	p->energy_acc = energyLocalClusterAcc;
-	
+
 	p->cluster_ID = clusterID;
 
 	send_packet(p, (unsigned int) task_terminated[app_ID], app_task_number);
-	
+
 	energyLocalClusterAcc = 0;
 }
 
@@ -763,7 +769,7 @@ void send_new_task(int task_ID, int master_ID, int mapped_proc, unsigned int ini
 	p->initial_address = initial_address;
 
 	p->energy_acc = energyLocalClusterAcc;
-	
+
 	p->cluster_ID = clusterID;
 
 	send_packet(p, 0, 0);
@@ -787,7 +793,7 @@ void handle_app_terminated(unsigned int app_task_number, unsigned int app_master
 		} else {
 			cluster_info[original_cluster].free_resources++;
 		}
-		
+
 		puts("total_mpsoc_resources ");puts(itoa(total_mpsoc_resources)); puts("\n");
 		total_mpsoc_resources++;
 	}
@@ -796,8 +802,8 @@ void handle_app_terminated(unsigned int app_task_number, unsigned int app_master
 	if (terminated_app_count == APP_NUMBER){
 		puts("FINISH ");puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 
-		temperature();
-		
+		// temperature();
+
 		MemoryWrite(END_SIM,1);
 	}
 
@@ -837,7 +843,7 @@ void send_loan_proc_release(int master_address, int release_proc){
 }
 
 void handle_new_task(NewTask *new_task){
-	
+
 	send_task_allocation(new_task);
 
 	new_task->task_ID = -1;
@@ -906,14 +912,14 @@ void handle_packet(){
 	unsigned int app_ID, terminated_task_list[MAX_APP_SIZE];
 	unsigned int proc, hops, master_addr;
 	unsigned int diff_energy;
-	
+
 	volatile ServiceHeader p;
 	NewTask nt;
 
 	read_packet(&p);
 
 	switch (p.service){
-
+		// puts("service ID: "); puts(itoa(p.service)); puts("\n");
 	case INITIALIZE_CLUSTER:
 
 		global_master_address = p.source_PE;
@@ -988,7 +994,7 @@ void handle_packet(){
 		page_released(p.source_PE);
 
 		app_ID = p.task_ID >> 8;
-		
+
 		//applications[app_ID].tasks[p.task_ID & 0xFF].proc = -1; //ARRUMAR
 
 		running_task[app_ID]--;
@@ -1005,17 +1011,16 @@ void handle_packet(){
 
 				energyClustersAcc[clusterID]  = energyClustersAcc[clusterID] + energyLocalClusterAcc;
 				energyLocalClusterAcc = 0;
-	
+
 				//puts("energyClustersAcc ");puts(itoa(clusterID)); puts(" ");
 				//puts(itoa(energyClustersAcc[clusterID])); puts("\n");
 
 				handle_app_terminated(applications[app_ID].size, net_address, terminated_task_list);
-				
+
 
 			} else {
 
 				//send_energy_cluster();
-
 
 				send_app_terminated(app_ID);
 			}
@@ -1111,7 +1116,7 @@ void handle_packet(){
 		page_released(p.released_proc);
 
 		break;
-		
+
 	case ENERGY_SLAVE:
 
 		//if (energySlavesAcc[p.source_PE>>8][p.source_PE&0xFF] > p.energy_acc)
@@ -1153,18 +1158,18 @@ void handle_packet(){
 
 
 		energySlavesAcc[p.source_PE>>8][p.source_PE&0xFF] = p.energy_acc;
-		
+
 		//puts("p.energy_acc\n"); puts(itoa(p.energy_acc)); puts("\n");
-		
+
 		//count_receive_power++;
-			//puts("count_receive_power : "); puts(itoa(count_receive_power)); puts(" ");puts(itoa(p.source_PE>>8)); puts(" ");puts(itoa(p.source_PE&0xFF)); puts(" "); puts(itoa(p.energy_acc)); puts("\n");
-		
+		//puts("count_receive_power : "); puts(itoa(count_receive_power)); puts(" ");puts(itoa(p.source_PE>>8)); puts(" ");puts(itoa(p.source_PE&0xFF)); puts(" "); puts(itoa(p.energy_acc)); puts("\n");
+
 
 
 
 		//puts("energySlavesAcc: "); puts(itoa(energySlavesAcc[p.source_PE>>8][p.source_PE&0xFF])); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 
-		energyLocalClusterAcc = diff_energy + energyLocalClusterAcc;		
+		energyLocalClusterAcc = diff_energy + energyLocalClusterAcc;
 
 		break;
 
@@ -1187,12 +1192,12 @@ void handle_packet(){
 		break;
 
 	// case STOP_EXECUTION:
-	// 	puts("Recebi um pacote STOP_EXECUTION!\n"); 
+	// 	puts("Recebi um pacote STOP_EXECUTION!\n");
 	// 	puts("(kernel_master)->No processador: "); puts(itoa(p.header)); puts("\n");
 	// 	break;
 
 	default:
-		puts("ERROR: service unknown ");puts(itoh(p.service)); puts("\n");
+		puts("ERROR-MASTER: service unknown ");puts(itoh(p.service)); puts("\n");
 		putsv("Time: ", MemoryRead(TICK_COUNTER));
 		break;
 
@@ -1211,29 +1216,26 @@ void initialize_clusters(){
 		//puts("Vai inicializr cluster "); puts(itoa(i)); puts("\n");
 
 		if(cluster_master_address != global_master_address){
-
 			p = get_service_header_slot();
-
 			p->header = cluster_master_address;
-
+			puts("cluster_master_address: "); puts(itoa(cluster_master_address)); puts("\n");
 			p->service = INITIALIZE_CLUSTER;
-
 			p->source_PE = global_master_address;
-
 			p->cluster_ID = i;
-
-			send_packet(p, 0, 0); 
-
+			send_packet(p, 0, 0);
 		} else {
-
 			//puts("Inicializou mestre global com ID "); puts(itoa(i)); puts("\n");
-
 			clusterID = i;
-
 			cluster_xi = cluster_info[i].leftbottom_x;
 			cluster_yi = cluster_info[i].leftbottom_y;
 			cluster_xf = cluster_info[i].topright_x;
 			cluster_yf = cluster_info[i].topright_y;
+
+			// puts("NA INICLIALIZAÇÃO DO CLUSTER:\n");
+			// puts("cluster_xi : "); puts(itoa(cluster_xi)); puts("\n");
+			// puts("cluster_xf : "); puts(itoa(cluster_xf)); puts("\n");
+			// puts("cluster_yi : "); puts(itoa(cluster_yi)); puts("\n");
+			// puts("cluster_yf : "); puts(itoa(cluster_yf)); puts("\n");
 
 			proc_free_pages[net_address >> 8][net_address & 0xFF] = 0;
 		}
@@ -1243,10 +1245,10 @@ void initialize_clusters(){
 
 void initialize_slaves(){
 
-	int proc, index;
+	int proc;
 	ServiceHeader *p;
 
-	index = 0;
+	// index = 0;
 
 	for(int i=cluster_xi; i<=cluster_xf; i++) {
 		for(int j=cluster_yi; j<=cluster_yf; j++) {
@@ -1254,6 +1256,7 @@ void initialize_slaves(){
 			proc = i*256 + j;
 			// puts("initialize_slaves-proc num: "); puts(itoa(proc)); puts("\n");
 			if(proc != net_address) {
+				// puts("initialize_slaves-proc num: "); puts(itoa(proc)); puts("\n");
 				p = get_service_header_slot();
 				p->header = proc;			//destino
 				p->service = INITIALIZE_SLAVE;
@@ -1267,74 +1270,462 @@ void initialize_slaves(){
 
 void compara_temp_procs(){
 
-	cluster_temperature temp[XCLUSTER*YCLUSTER]; // VETOR PARA TEMPERATURA DO CLUSTER
+	// cluster_temperature temp[XCLUSTER*YCLUSTER]; // VETOR PARA TEMPERATURA DO CLUSTER
+	int cluster_master_address, pos_vet;
+	int prox_line = 1, line_ant, prox_line_aux, j_prox, j_aux = 0, j_ant, linha = 0;
+	ServiceHeader *p;
 
 
-	int aux = 0; 
-	int temp_maior, prox;
+	signed int dif_temp = 0;
 
-	/*for (int i = 1; i < XDIMENSION*YDIMENSION; i++){
-		
-		puts("temperatura (testando igualdade de temperatura): "); puts(itoa(i)); puts(" "); puts(itoa(model_temperatura[i])); puts("\n");
-	}*/
-
-	for (int i = cluster_xi; i <= cluster_xf; i++){
-		for(int j = cluster_yi; j <= cluster_yf; j++){
-			// temp[aux].cluster_proc = i * 256 + j;
-			// temp[aux].temperatura = model_temperatura[i*XDIMENSION+j];
-
-			temp[aux].cluster_proc = i * 256 + j;
-			temp[aux].temperatura = model_temperatura[j*XDIMENSION+i];
-
-			puts("tem[aux].cluster_proc -> "); puts(itoa(temp[aux].cluster_proc)); puts("\n");
-			puts("temp[aux].temperatura -> "); puts(itoa(temp[aux].temperatura)); puts("\n");
-			aux++;
+	/*Inicializa os endereços dos "processadores" com zero*/
+	if(if_first){	// Inicializa os endereços de PEs
+		for (int i = 0; i < XCLUSTER*YCLUSTER; i++){
+			temp[i].cluster_proc = 0;
 		}
+		if_first = 0;
 	}
 
-	for(int i = 0; i < XCLUSTER*YCLUSTER; i++){
-		for(int j = i+1 ; j < XCLUSTER*YCLUSTER; j++){
+	// puts("NA COMPARAÇÃO DAS TEMPERATURAS:\n");
+	// puts("cluster_xi : "); puts(itoa(cluster_xi)); puts("\n");
+	// puts("cluster_xf : "); puts(itoa(cluster_xf)); puts("\n");
+	// puts("cluster_yi : "); puts(itoa(cluster_yi)); puts("\n");
+	// puts("cluster_yf : "); puts(itoa(cluster_yf)); puts("\n");
 
-			if(temp[aux].cluster_proc != net_address){ 	// verifica se não é o mestre
-				
-				if(abs(temp[i].temperatura - temp[j].temperatura) >= 10000000){
-					temp_maior = temp[i].temperatura - temp[j].temperatura;
+	/*Pega o endereço do gerente do cluster*/
+	// cluster_master_address = (cluster_info[i].master_x << 8) | cluster_info[i].master_y;
 
-					//****** MONTAGEM E ENVIO DE PACOTE ******//
-					ServiceHeader *p;
-					p = get_service_header_slot();
-					p->service = STOP_EXECUTION;
-						
-					// VERIFICA QUAL PE ESTA COM TEMPERATURA ELEVADA 
-					if(temp_maior < 0){
-						p->header = temp[j].cluster_proc;
-						if(temp[j].cluster_proc != -1){
-							puts("STOP_EXECUTION enviado p/ processador "); puts(itoa(temp[j].cluster_proc)); puts("\n");
-							send_packet(p, 0, 0);
-							temp[j].cluster_proc = -1;
-							// p->execution_stoped = 1;
-							// p[1].proc = temp[j].cluster_proc;
-						}
-					}else{
-						p->header = temp[i].cluster_proc;
-						if(temp[i].cluster_proc != -1){
-							puts("STOP_EXECUTION enviado p/ processador "); puts(itoa(temp[i].cluster_proc)); puts("\n");
-							send_packet(p, 0, 0);
-							temp[i].cluster_proc = -1;
-							// p->execution_stoped = 1;
-							// p[1].proc = temp[i].cluster_proc;
-						}
-					}
-					//*****************FIM************************
-											
-					// count_dif_proc_temp++;
-					// prox = 1;
-				}
+	/*Inicializa todos os PEs do cluster (excluindo o mestre) com os respectivos endereços e temperaturas*/
+	for (int i = cluster_xi; i <= cluster_xf; i++){
+
+		pos_vet = i * XDIMENSION;
+		for(int j = cluster_yi; j <= cluster_yf; j++, pos_vet++){
+
+			// if((temp[pos_vet].cluster_proc == -1) && (model_temperatura[i*XDIMENSION+j] >= temp[pos_vet].temperature))
+			if(temp[pos_vet].cluster_proc == -1){ // USAR VAR AUX PARA VERIFICAR TODAS AS POSIÇÕES DO VETOR
+				temp[pos_vet].cluster_proc = -2;
+				// puts("proc num: "); puts(itoa(temp[j].cluster_proc)); puts("\n");
+			}else{
+				if((i * 256 + j) != net_address){
+					temp[pos_vet].cluster_proc = i * 256 + j;					// USAR VAR AUX PARA ALOCAR ADDR DOS PROCESSADOR
+					// puts("p->header: "); puts(itoa(p->header)); puts("\n");
+					// puts("p->master_ID: "); puts(itoa(p->master_ID)); puts("\n");
+					// puts("proc num: "); puts(itoa(temp[j].cluster_proc)); puts("\n");
+					temp[pos_vet].temperatura = model_temperatura[i*XDIMENSION+j]; // USAR VAR AUX PARA PEGAR TEMP. DOS PROCESSADOR
+					// putsv("Posição do vetor de temp: ", (i*XDIMENSION+j));
+				 // 	puts("temp[pos_vet].cluster_proc -> "); puts(itoa(temp[pos_vet].cluster_proc)); puts("\n");
+				 // 	puts("temp[pos_vet].temperatura -> "); puts(itoa(temp[pos_vet].temperatura)); puts("\n");
+					// puts("TEMPERATURA DA CELULA: "); puts(itoa(i*XDIMENSION+j)); puts("\n");
+				}//else{
+					//puts("p->master_ID: "); puts(itoa(p->master_ID)); puts("\n");
+				//}
 			}
 		}
 	}
-}
 
+
+	// i PERCORRE DE 0 ATÉ 30 (ANDANDO NA LINHA DE 6 EM 6)
+	for(int i = cluster_xi; i <= XDIMENSION*cluster_xf; i+=XCLUSTER){
+
+		prox_line = prox_line * XDIMENSION;
+		// puts("------------------------------");puts("\n");
+		// putsv("PROX_LINE: ", prox_line);
+
+		for(int j = i+1 ; j <= (cluster_yf + i); j++){// fazendo com que o limite percorrido pelo j cresce a cada loop
+
+			// cluster_master_address = (cluster_info[i].master_x << 8) | cluster_info[i].master_y;
+			// puts("cluster_master_address: "); puts(itoa(cluster_master_address)); puts("\n");
+
+			j_prox = j+1;
+			j_ant = j-1;
+
+			// CASO EXECUTADO APENAS NA PRIMEIRA LINHA (UMA VEZ SÓ)
+			if((i == 0) && (j-1 == 0)){	// CASO EM QUE i ESTA NA CELULA DE SMpe
+
+				// puts("(i == 0) && (j-1 == 0)"); puts("\n");
+				// VERIFICA SE O PROCESSADO SOB AVALIAÇÃO NÃO ESTA EM IDLE
+				if((temp[j].cluster_proc != -1) && (temp[j].cluster_proc != -2)){ 
+
+					dif_temp = (temp[j].temperatura - temp[j_prox].temperatura); // DIF. ENTRE j E VIZINHO A FRENTE (DIRETO)
+
+					// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+					// puts("proc: ");puts(itoa(temp[j_prox].cluster_proc));puts(":");puts(itoa(temp[j_prox].temperatura)); puts("]\n");
+
+					if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+						// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+						// puts("temp[j_prox].temperatura: "); puts(itoa(temp[j_prox].temperatura)); puts("\n");
+
+						// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+						// puts(itoa(temp[j_prox].cluster_proc)); puts("\n");
+
+						p = get_service_header_slot();
+						p->service = STOP_EXECUTION;
+						p->header = temp[j].cluster_proc;
+						temp[j].cluster_proc = -1;
+						send_packet(p, 0, 0);
+
+					}else{									// SE NÃO, VERIFICA O VIZINHO DIRETO NA PRÓXIMA LINHA
+						prox_line_aux = prox_line + j;
+						// putsv("PROX_LINE_AUX: ", prox_line_aux);
+
+						// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+						// puts("proc: ");puts(itoa(temp[prox_line_aux].cluster_proc));puts(":");puts(itoa(temp[prox_line_aux].temperatura)); puts("]\n");
+
+						dif_temp = (temp[j].temperatura - temp[prox_line_aux].temperatura);
+
+						if(dif_temp >= DELTA_T){
+							// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+							// puts("temp[prox_line_aux].temperatura: "); puts(itoa(temp[prox_line_aux].temperatura)); puts("\n");
+
+							// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+							// puts(itoa(temp[prox_line_aux].cluster_proc)); puts("\n");
+
+							p = get_service_header_slot();
+							p->service = STOP_EXECUTION;
+							p->header = temp[j].cluster_proc;
+							temp[j].cluster_proc = -1;
+							send_packet(p, 0, 0);
+						}
+					}
+				}
+			}else{
+				if((i != 0) || ((j-1) != 0)){
+					// puts("(i != 0) || ((j-1) != 0)"); puts("\n");
+
+					if((((j-1) != 0) && (linha == 0)) || (i == cluster_xf * XDIMENSION)) {
+
+						if((j_aux == 0) && (i == cluster_xf * XDIMENSION)){ // ocorre apenas se é última linha do cluster
+							// papel de j e j_ant é invertido aqui (j é o j_ant e j_ant é o j)
+							j_ant = j;
+							j = j_ant - 1;
+							j_aux = 1;
+						}
+
+						// VERIFICA SE O PROCESSADO SOB AVALIAÇÃO NÃO ESTA EM IDLE
+						if((temp[j].cluster_proc != -1) && (temp[j].cluster_proc != -2)){ 
+
+							dif_temp = (temp[j].temperatura - temp[j_ant].temperatura);// DIF. ENTRE j E VIZINHO LATERAL ANTERIOR (DIRETO)
+
+							// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+							// puts("proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts("]\n");
+
+							if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+								// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+								// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts("\n");
+
+								// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+								// puts(itoa(temp[j_ant].cluster_proc)); puts("\n");
+
+								p = get_service_header_slot();
+								p->service = STOP_EXECUTION;
+								p->header = temp[j].cluster_proc;
+								temp[j].cluster_proc = -1;
+								send_packet(p, 0, 0);
+							}else{
+
+								// SE NÃO, VERIFICA O VIZINHO LATERAL DIRETO NA PRÓXIMA LINHA OU LINHA ANTERIOR
+
+								if(i == cluster_xf * XDIMENSION){
+									// prox_line_aux fazendo papel de line_ant
+									prox_line_aux = ((linha - 1) * XDIMENSION) + (j - (linha * XDIMENSION));
+									// puts("prox_line_aux(papel de line_ant)"); puts("\n");
+								}else{
+									prox_line_aux = prox_line + (j - (linha * XDIMENSION));
+								}
+
+								dif_temp = (temp[j].temperatura - temp[prox_line_aux].temperatura);
+
+								// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+								// puts("proc: ");puts(itoa(temp[prox_line_aux].cluster_proc));puts(":");puts(itoa(temp[prox_line_aux].temperatura)); puts("]\n");
+
+								if(dif_temp >= DELTA_T){
+									// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+									// puts("temp[prox_line_aux].temperatura: "); puts(itoa(temp[prox_line_aux].temperatura)); puts("\n");
+
+									// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[i].cluster_proc)); puts(" - ");
+									// puts(itoa(temp[j].cluster_proc)); puts("\n");
+
+									p = get_service_header_slot();
+									p->service = STOP_EXECUTION;
+									p->header = temp[j].cluster_proc;
+									temp[j].cluster_proc = -1;
+									send_packet(p, 0, 0);
+								}else{
+									// DIF. ENTRE j E VIZINHO LATERAL A FRENTE (DIRETO)
+									if(j_prox < XCLUSTER){ // OCORRE APENAS NO CASO DE LINHA == 0
+										dif_temp = (temp[j].temperatura - temp[j_prox].temperatura); 
+
+										// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+										// puts("proc: ");puts(itoa(temp[j_prox].cluster_proc));puts(":");puts(itoa(temp[j_prox].temperatura)); puts("]\n");
+
+										if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+											// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+											// puts("temp[j_prox].temperatura: "); puts(itoa(temp[j_prox].temperatura)); puts("\n");
+
+											// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+											// puts(itoa(temp[j_prox].cluster_proc)); puts("\n");
+
+											p = get_service_header_slot();
+											p->service = STOP_EXECUTION;
+											p->header = temp[j].cluster_proc;
+											temp[j].cluster_proc = -1;
+											send_packet(p, 0, 0);
+										}
+									}
+									else{ 
+									// OCORRE APENAS QUANDO É ÚLTIMA LINHA E j != i E j_prox <= que o último processador do cluster
+										if((i == cluster_xf * XDIMENSION) && (j != i) && (j_prox <= cluster_xf + i)){
+
+											dif_temp = (temp[j].temperatura - temp[j_prox].temperatura); 
+
+											// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+											// puts("proc: ");puts(itoa(temp[j_prox].cluster_proc));puts(":");puts(itoa(temp[j_prox].temperatura)); puts("]\n");
+
+											if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+												// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+												// puts("temp[j_prox].temperatura: "); puts(itoa(temp[j_prox].temperatura)); puts("\n");
+
+												// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+												// puts(itoa(temp[j_prox].cluster_proc)); puts("\n");
+
+												p = get_service_header_slot();
+												p->service = STOP_EXECUTION;
+												p->header = temp[j].cluster_proc;
+												temp[j].cluster_proc = -1;
+												send_packet(p, 0, 0);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					else{
+						if(linha >= 1){
+							if(((j-1) == XDIMENSION) && (linha == 1)) {
+
+								if((temp[j_ant].cluster_proc != -1) && (temp[j_ant].cluster_proc != -2)){
+
+									// DIF. ENTRE j_ant E VIZINHO LATERAL NA FRENTE (DIRETO)
+									dif_temp = (temp[j_ant].temperatura - temp[j].temperatura);
+
+									// puts("[proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+									// puts("proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts("]\n");
+
+									if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+										// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+										// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts("\n");
+
+										// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j_ant].cluster_proc)); puts(" - ");
+										// puts(itoa(temp[j].cluster_proc)); puts("\n");
+
+										p = get_service_header_slot();
+										p->service = STOP_EXECUTION;
+										p->header = temp[j_ant].cluster_proc;
+										temp[j_ant].cluster_proc = -1;
+										send_packet(p, 0, 0);
+									}else{									// SE NÃO, VERIFICA O VIZINHO LATERAL DIRETO NA PRÓXIMA LINHA
+
+										prox_line_aux = prox_line;
+										// putsv("PROX_LINE_AUX: ", prox_line_aux);
+
+										dif_temp = (temp[j_ant].temperatura - temp[prox_line_aux].temperatura);
+
+										// puts("[proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+										// puts("proc: ");puts(itoa(temp[prox_line_aux].cluster_proc));puts(":");puts(itoa(temp[prox_line_aux].temperatura)); puts("]\n");
+
+										if(dif_temp >= DELTA_T){
+											// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+											// puts("temp[prox_line_aux].temperatura: "); puts(itoa(temp[prox_line_aux].temperatura)); puts("\n");
+
+											// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j_ant].cluster_proc)); puts(" - ");
+											// puts(itoa(temp[prox_line_aux].cluster_proc)); puts("\n");
+
+											p = get_service_header_slot();
+											p->service = STOP_EXECUTION;
+											p->header = temp[j_ant].cluster_proc;
+											temp[j_ant].cluster_proc = -1;
+											send_packet(p, 0, 0);
+										}
+									}
+								}
+							}
+							else{
+
+								if((temp[j_ant].cluster_proc != -1) && (temp[j_ant].cluster_proc != -2)){
+
+									// TRATAR A VERIFICAÇÃO DO VIZINHO NA LINHA ANTERIOR DO PROCESSADOR SOB AVALIAÇÃO
+									line_ant = ((linha - 1) * XDIMENSION) + (j_ant - (linha * XDIMENSION));
+
+									dif_temp = (temp[j_ant].temperatura - temp[line_ant].temperatura); //Verifcar vizinho direto abaixo
+
+									// puts("[proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+									// puts("proc: ");puts(itoa(temp[line_ant].cluster_proc));puts(":");puts(itoa(temp[line_ant].temperatura)); puts("]\n");
+
+									if(dif_temp >= DELTA_T){ // SE j_ant ESTIVER QUENTE > GRAU DEFINIDO
+										// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+										// puts("temp[line_ant].temperatura: "); puts(itoa(temp[line_ant].temperatura)); puts("\n");
+
+										// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j_ant].cluster_proc)); puts(" - ");
+										// puts(itoa(temp[line_ant].cluster_proc)); puts("\n");
+
+										p = get_service_header_slot();
+										p->service = STOP_EXECUTION;
+										p->header = temp[j_ant].cluster_proc;
+										temp[j_ant].cluster_proc = -1;
+										send_packet(p, 0, 0);
+
+									}else{			// SE NÃO, VERIFICA O VIZINHO LATERAL DIRETO NA PRÓXIMA LINHA EM RELAÇÃO AO j_ant
+
+										prox_line_aux = prox_line + (j_ant - (linha * XDIMENSION));
+										// putsv("PROX_LINE_AUX: ", prox_line_aux);
+
+										dif_temp = (temp[j_ant].temperatura - temp[prox_line_aux].temperatura);
+
+										// puts("[proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+										// puts("proc: ");puts(itoa(temp[prox_line_aux].cluster_proc));puts(":");puts(itoa(temp[prox_line_aux].temperatura)); puts("]\n");
+
+										if(dif_temp >= DELTA_T){
+											// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+											// puts("temp[prox_line_aux].temperatura: "); puts(itoa(temp[prox_line_aux].temperatura)); puts("\n");
+
+											// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j_ant].cluster_proc)); puts(" - ");
+											// puts(itoa(temp[prox_line_aux].cluster_proc)); puts("\n");
+
+											p = get_service_header_slot();
+											p->service = STOP_EXECUTION;
+											p->header = temp[j_ant].cluster_proc;
+											temp[j_ant].cluster_proc = -1;
+											send_packet(p, 0, 0);
+
+										}else{
+											// DIF. ENTRE j_ant E VIZINHO LATERAL A FRENTE (DIRETO)
+											dif_temp = (temp[j_ant].temperatura - temp[j].temperatura);
+
+											// puts("[proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+											// puts("proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts("]\n");
+
+											if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+												// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+												// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts("\n");
+
+												// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j_ant].cluster_proc)); puts(" - ");
+												// puts(itoa(temp[j].cluster_proc)); puts("\n");
+
+												p = get_service_header_slot();
+												p->service = STOP_EXECUTION;
+												p->header = temp[j_ant].cluster_proc;
+												temp[j_ant].cluster_proc = -1;
+												send_packet(p, 0, 0);
+											}
+											else{ // verifica vizinho lateral (atrás) do j_ant
+												dif_temp = (temp[j_ant].temperatura - temp[j_ant-1].temperatura); 
+
+												// puts("[proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+												// puts("proc: ");puts(itoa(temp[j_ant-1].cluster_proc));puts(":");puts(itoa(temp[j_ant-1].temperatura)); puts("]\n");
+
+												if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+													// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts(" - ");
+													// puts("temp[j_ant-1].temperatura: "); puts(itoa(temp[j_ant-1].temperatura)); puts("\n");
+
+													// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j_ant].cluster_proc)); puts(" - ");
+													// puts(itoa(temp[j_ant-1].cluster_proc)); puts("\n");
+
+													p = get_service_header_slot();
+													p->service = STOP_EXECUTION;
+													p->header = temp[j_ant].cluster_proc;
+													temp[j_ant].cluster_proc = -1;
+													send_packet(p, 0, 0);
+
+												}
+											}	
+										}
+									}
+
+									if(j == cluster_yf + i){ // Estando no último processador da linha, avaliar esse processador
+
+										if((temp[j].cluster_proc != -1) && (temp[j].cluster_proc != -2)){ 
+
+											// AVALIA j E O VIZINHO (LATERAL) ANTERIOR DIRETO EM RELAÇÃO AO j
+											dif_temp = (temp[j].temperatura - temp[j_ant].temperatura); 
+
+											// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+											// puts("proc: ");puts(itoa(temp[j_ant].cluster_proc));puts(":");puts(itoa(temp[j_ant].temperatura)); puts("]\n");
+
+											if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+												// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+												// puts("temp[j_ant].temperatura: "); puts(itoa(temp[j_ant].temperatura)); puts("\n");
+
+												// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+												// puts(itoa(temp[j_ant].cluster_proc)); puts("\n");
+
+												p = get_service_header_slot();
+												p->service = STOP_EXECUTION;
+												p->header = temp[j].cluster_proc;
+												temp[j].cluster_proc = -1;
+												send_packet(p, 0, 0);
+
+											}else{		// SE NÃO, VERIFICA O VIZINHO LATERAL DIRETO NA PRÓXIMA LINHA EM RELAÇÃO AO j
+
+												prox_line_aux = prox_line + (j - (linha * XDIMENSION));
+
+												dif_temp = (temp[j].temperatura - temp[prox_line_aux].temperatura);
+
+												// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+												// puts("proc: ");puts(itoa(temp[prox_line_aux].cluster_proc));puts(":");puts(itoa(temp[prox_line_aux].temperatura)); puts("]\n");
+
+												if(dif_temp >= DELTA_T){
+													// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+													// puts("temp[prox_line_aux].temperatura: "); puts(itoa(temp[prox_line_aux].temperatura)); puts("\n");
+
+													// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+													// puts(itoa(temp[prox_line_aux].cluster_proc)); puts("\n");
+
+													p = get_service_header_slot();
+													p->service = STOP_EXECUTION;
+													p->header = temp[j].cluster_proc;
+													temp[j].cluster_proc = -1;
+													send_packet(p, 0, 0);
+
+												}else{
+													// DIF. ENTRE j E VIZINHO LATERAL NA LINHA ANTERIOR EM RELAÇÃO AO j
+
+													line_ant = ((linha - 1) * XDIMENSION) + (j - (linha * XDIMENSION));
+													dif_temp = (temp[j].temperatura - temp[line_ant].temperatura);
+
+													// puts("[proc: ");puts(itoa(temp[j].cluster_proc));puts(":");puts(itoa(temp[j].temperatura)); puts(" - ");
+													// puts("proc: ");puts(itoa(temp[line_ant].cluster_proc));puts(":");puts(itoa(temp[line_ant].temperatura)); puts("]\n");
+
+													if(dif_temp >= DELTA_T){ // SE j ESTIVEM QUENTE > GRAU DEFINIDO
+														// puts("temp[j].temperatura: "); puts(itoa(temp[j].temperatura)); puts(" - ");
+														// puts("temp[line_ant].temperatura: "); puts(itoa(temp[line_ant].temperatura)); puts("\n");
+
+														// puts("TEMP. BETWEEN1: proc: "); puts(itoa(temp[j].cluster_proc)); puts(" - ");
+														// puts(itoa(temp[line_ant].cluster_proc)); puts("\n");
+
+														p = get_service_header_slot();
+														p->service = STOP_EXECUTION;
+														p->header = temp[j].cluster_proc;
+														temp[j].cluster_proc = -1;
+														send_packet(p, 0, 0);
+
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		linha++;
+		prox_line = linha + 1;
+	}
+}
+ 
 /*--------------------------------------------------------------------
  * Main
  *
@@ -1353,12 +1744,13 @@ int main(void) {
 
 	net_address = get_net_address();
 
-	
+
 
 	if (net_address == 0){
 
 		puts("Kernel Initialized\n");
 		puts("This kernel is global master\n");
+		puts("cluster_ID = "); puts(itoa(net_address)); puts("\n");
 
 		is_global_master = 1;
 
@@ -1378,7 +1770,7 @@ int main(void) {
 	if ((XDIMENSION/XCLUSTER) > (YDIMENSION/YCLUSTER)){
 		max_neighbors_level = XDIMENSION/XCLUSTER;
 	} else {
-		max_neighbors_level = YDIMENSION/YCLUSTER; 
+		max_neighbors_level = YDIMENSION/YCLUSTER;
 	}
 
 	init_new_task_list();	//inicializa lista para novas tarefas (-1)
@@ -1395,321 +1787,190 @@ int main(void) {
 
 		} else if (!MemoryRead(DMA_SEND_ACTIVE)){
 
-				
-				//if(((MemoryRead(TICK_COUNTER)) >= counter_ticks) && !is_global_master){
-				if(((MemoryRead(TICK_COUNTER)) >= (counter_ticks2)) ){
-					
-					//puts("temperature counter_ticks2 antes\n"); puts(itoa(counter_ticks2)); puts("\n");
-					puts("temperature tick antes (kernel_master): "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
-					temperature();
-					puts("temperature tick depois (kernel_master): "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
-					//count_receive_power = 0;
-					counter_ticks2 = counter_ticks2 + counter_ticks;
+
+			//if(((MemoryRead(TICK_COUNTER)) >= counter_ticks) && !is_global_master){
+			if(((MemoryRead(TICK_COUNTER)) >= (counter_ticks2)) ){
+
+				//puts("temperature counter_ticks2 antes\n"); puts(itoa(counter_ticks2)); puts("\n");
+				puts("temperature tick antes: "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
+				temperature();
+				puts("temperature tick depois: "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
+				//count_receive_power = 0;
+				counter_ticks2 = counter_ticks2 + counter_ticks;
 
 				// VERIFICAR DIFERENÇA DE TEMPERATURA ENTRE OS Pes DE UM CLUSTER
-					compara_temp_procs();
-			
+				compara_temp_procs();
 
-					puts("energySlavesAcc 1 : ");puts(itoa(energySlavesAcc[1][0]));puts("\n");
-					puts("energySlavesAcc 2 : ");puts(itoa(energySlavesAcc[2][0]));puts("\n");
-					puts("energySlavesAcc 3 : ");puts(itoa(energySlavesAcc[3][0]));puts("\n");
-					puts("energySlavesAcc 4 : ");puts(itoa(energySlavesAcc[4][0]));puts("\n");
-					puts("energySlavesAcc 5 : ");puts(itoa(energySlavesAcc[5][0]));puts("\n");
-					puts("energySlavesAcc 6 : ");puts(itoa(energySlavesAcc[0][1]));puts("\n");
-					puts("energySlavesAcc 7 : ");puts(itoa(energySlavesAcc[1][1]));puts("\n");
-					puts("energySlavesAcc 8 : ");puts(itoa(energySlavesAcc[2][1]));puts("\n");
-					puts("energySlavesAcc 9 : ");puts(itoa(energySlavesAcc[3][1]));puts("\n");
-					puts("energySlavesAcc 10 : ");puts(itoa(energySlavesAcc[4][1]));puts("\n");
-					puts("energySlavesAcc 11 : ");puts(itoa(energySlavesAcc[5][1]));puts("\n");
-					puts("energySlavesAcc 12 : ");puts(itoa(energySlavesAcc[0][2]));puts("\n");
-					puts("energySlavesAcc 13 : ");puts(itoa(energySlavesAcc[1][2]));puts("\n");
-					puts("energySlavesAcc 14 : ");puts(itoa(energySlavesAcc[2][2]));puts("\n");
-					puts("energySlavesAcc 15 : ");puts(itoa(energySlavesAcc[3][2]));puts("\n");
-					puts("energySlavesAcc 16 : ");puts(itoa(energySlavesAcc[4][2]));puts("\n");
-					puts("energySlavesAcc 17 : ");puts(itoa(energySlavesAcc[5][2]));puts("\n");
-					puts("energySlavesAcc 18 : ");puts(itoa(energySlavesAcc[0][3]));puts("\n");
-					puts("energySlavesAcc 19 : ");puts(itoa(energySlavesAcc[1][3]));puts("\n");
-					puts("energySlavesAcc 20 : ");puts(itoa(energySlavesAcc[2][3]));puts("\n");
-					puts("energySlavesAcc 21 : ");puts(itoa(energySlavesAcc[3][3]));puts("\n");
-					puts("energySlavesAcc 22 : ");puts(itoa(energySlavesAcc[4][3]));puts("\n");
-					puts("energySlavesAcc 23 : ");puts(itoa(energySlavesAcc[5][3]));puts("\n");
-					puts("energySlavesAcc 24 : ");puts(itoa(energySlavesAcc[0][4]));puts("\n");
-					puts("energySlavesAcc 25 : ");puts(itoa(energySlavesAcc[1][4]));puts("\n");
-					puts("energySlavesAcc 26 : ");puts(itoa(energySlavesAcc[2][4]));puts("\n");
-					puts("energySlavesAcc 27 : ");puts(itoa(energySlavesAcc[3][4]));puts("\n");					
-					puts("energySlavesAcc 28 : ");puts(itoa(energySlavesAcc[4][4]));puts("\n");
-					puts("energySlavesAcc 29 : ");puts(itoa(energySlavesAcc[5][4]));puts("\n");
-					puts("energySlavesAcc 30 : ");puts(itoa(energySlavesAcc[0][5]));puts("\n");
-					puts("energySlavesAcc 31 : ");puts(itoa(energySlavesAcc[1][5]));puts("\n");
-					puts("energySlavesAcc 32 : ");puts(itoa(energySlavesAcc[2][5]));puts("\n");
-					puts("energySlavesAcc 33 : ");puts(itoa(energySlavesAcc[3][5]));puts("\n");
-					puts("energySlavesAcc 34 : ");puts(itoa(energySlavesAcc[4][5]));puts("\n");
-					puts("energySlavesAcc 35 : ");puts(itoa(energySlavesAcc[5][5]));puts("\n");
-					
-	
-	
-					puts("energySlavesAcc_discretizado 1 : ");puts(itoa(energySlavesAcc_discretizado[1][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 2 : ");puts(itoa(energySlavesAcc_discretizado[2][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 3 : ");puts(itoa(energySlavesAcc_discretizado[3][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 4 : ");puts(itoa(energySlavesAcc_discretizado[4][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 5 : ");puts(itoa(energySlavesAcc_discretizado[5][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 6 : ");puts(itoa(energySlavesAcc_discretizado[0][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 7 : ");puts(itoa(energySlavesAcc_discretizado[1][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 8 : ");puts(itoa(energySlavesAcc_discretizado[2][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 9 : ");puts(itoa(energySlavesAcc_discretizado[3][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 10 : ");puts(itoa(energySlavesAcc_discretizado[4][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 11 : ");puts(itoa(energySlavesAcc_discretizado[5][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 12 : ");puts(itoa(energySlavesAcc_discretizado[0][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 13 : ");puts(itoa(energySlavesAcc_discretizado[1][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 14 : ");puts(itoa(energySlavesAcc_discretizado[2][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 15 : ");puts(itoa(energySlavesAcc_discretizado[3][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 16 : ");puts(itoa(energySlavesAcc_discretizado[4][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 17 : ");puts(itoa(energySlavesAcc_discretizado[5][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 18 : ");puts(itoa(energySlavesAcc_discretizado[0][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 19 : ");puts(itoa(energySlavesAcc_discretizado[1][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 20 : ");puts(itoa(energySlavesAcc_discretizado[2][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 21 : ");puts(itoa(energySlavesAcc_discretizado[3][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 22 : ");puts(itoa(energySlavesAcc_discretizado[4][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 23 : ");puts(itoa(energySlavesAcc_discretizado[5][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 24 : ");puts(itoa(energySlavesAcc_discretizado[0][4]));puts("\n");
-					puts("energySlavesAcc_discretizado 25 : ");puts(itoa(energySlavesAcc_discretizado[1][4]));puts("\n");
-					puts("energySlavesAcc_discretizado 26 : ");puts(itoa(energySlavesAcc_discretizado[2][4]));puts("\n");
-					puts("energySlavesAcc_discretizado 27 : ");puts(itoa(energySlavesAcc_discretizado[3][4]));puts("\n");					
-					puts("energySlavesAcc_discretizado 28 : ");puts(itoa(energySlavesAcc_discretizado[4][4]));puts("\n");
-					puts("energySlavesAcc_discretizado 29 : ");puts(itoa(energySlavesAcc_discretizado[5][4]));puts("\n");
-					puts("energySlavesAcc_discretizado 30 : ");puts(itoa(energySlavesAcc_discretizado[0][5]));puts("\n");
-					puts("energySlavesAcc_discretizado 31 : ");puts(itoa(energySlavesAcc_discretizado[1][5]));puts("\n");
-					puts("energySlavesAcc_discretizado 32 : ");puts(itoa(energySlavesAcc_discretizado[2][5]));puts("\n");
-					puts("energySlavesAcc_discretizado 33 : ");puts(itoa(energySlavesAcc_discretizado[3][5]));puts("\n");
-					puts("energySlavesAcc_discretizado 34 : ");puts(itoa(energySlavesAcc_discretizado[4][5]));puts("\n");
-					puts("energySlavesAcc_discretizado 35 : ");puts(itoa(energySlavesAcc_discretizado[5][5]));puts("\n");
-	
-					
-					energySlavesAcc[1][0] = 0;
-					energySlavesAcc[2][0] = 0;					
-					energySlavesAcc[3][0] = 0;					
-					energySlavesAcc[4][0] = 0;					
-					energySlavesAcc[5][0] = 0;					
-					energySlavesAcc[0][1] = 0;					
-					energySlavesAcc[1][1] = 0;					
-					energySlavesAcc[2][1] = 0;					
-					energySlavesAcc[3][1] = 0;					
-					energySlavesAcc[4][1] = 0;					
-					energySlavesAcc[5][1] = 0;					
-					energySlavesAcc[0][2] = 0;					
-					energySlavesAcc[1][2] = 0;					
-					energySlavesAcc[2][2] = 0;					
-					energySlavesAcc[3][2] = 0;					
-					energySlavesAcc[4][2] = 0;					
-					energySlavesAcc[5][2] = 0;					
-					energySlavesAcc[0][3] = 0;					
-					energySlavesAcc[1][3] = 0;					
-					energySlavesAcc[2][3] = 0;					
-					energySlavesAcc[3][3] = 0;					
-					energySlavesAcc[4][3] = 0;					
-					energySlavesAcc[5][3] = 0;					
-					energySlavesAcc[0][4] = 0;					
-					energySlavesAcc[1][4] = 0;					
-					energySlavesAcc[2][4] = 0;					
-					energySlavesAcc[3][4] = 0;					
-					energySlavesAcc[4][4] = 0;					
-					energySlavesAcc[5][4] = 0;					
-					energySlavesAcc[0][5] = 0;					
-					energySlavesAcc[1][5] = 0;					
-					energySlavesAcc[2][5] = 0;					
-					energySlavesAcc[3][5] = 0;					
-					energySlavesAcc[4][5] = 0;					
-					energySlavesAcc[5][5] = 0;					
-					
-					
-					energySlavesAcc_discretizado[1][0] = 0;
-					energySlavesAcc_discretizado[2][0] = 0;					
-					energySlavesAcc_discretizado[3][0] = 0;					
-					energySlavesAcc_discretizado[4][0] = 0;					
-					energySlavesAcc_discretizado[5][0] = 0;					
-					energySlavesAcc_discretizado[0][1] = 0;					
-					energySlavesAcc_discretizado[1][1] = 0;					
-					energySlavesAcc_discretizado[2][1] = 0;					
-					energySlavesAcc_discretizado[3][1] = 0;					
-					energySlavesAcc_discretizado[4][1] = 0;					
-					energySlavesAcc_discretizado[5][1] = 0;					
-					energySlavesAcc_discretizado[0][2] = 0;					
-					energySlavesAcc_discretizado[1][2] = 0;					
-					energySlavesAcc_discretizado[2][2] = 0;					
-					energySlavesAcc_discretizado[3][2] = 0;					
-					energySlavesAcc_discretizado[4][2] = 0;					
-					energySlavesAcc_discretizado[5][2] = 0;					
-					energySlavesAcc_discretizado[0][3] = 0;					
-					energySlavesAcc_discretizado[1][3] = 0;					
-					energySlavesAcc_discretizado[2][3] = 0;					
-					energySlavesAcc_discretizado[3][3] = 0;					
-					energySlavesAcc_discretizado[4][3] = 0;					
-					energySlavesAcc_discretizado[5][3] = 0;					
-					energySlavesAcc_discretizado[0][4] = 0;					
-					energySlavesAcc_discretizado[1][4] = 0;					
-					energySlavesAcc_discretizado[2][4] = 0;					
-					energySlavesAcc_discretizado[3][4] = 0;					
-					energySlavesAcc_discretizado[4][4] = 0;					
-					energySlavesAcc_discretizado[5][4] = 0;					
-					energySlavesAcc_discretizado[0][5] = 0;					
-					energySlavesAcc_discretizado[1][5] = 0;					
-					energySlavesAcc_discretizado[2][5] = 0;					
-					energySlavesAcc_discretizado[3][5] = 0;					
-					energySlavesAcc_discretizado[4][5] = 0;					
-					energySlavesAcc_discretizado[5][5] = 0;								
-								
-			
-			
-			
-			/*
-					puts("energySlavesAcc 1 : "); puts(itoa(energySlavesAcc[1][0]));puts("\n");
-					puts("energySlavesAcc 2 : "); puts(itoa(energySlavesAcc[2][0]));puts("\n");
-					puts("energySlavesAcc 3 : "); puts(itoa(energySlavesAcc[3][0]));puts("\n");
-					puts("energySlavesAcc 4 : "); puts(itoa(energySlavesAcc[0][1]));puts("\n");
-					puts("energySlavesAcc 5 : "); puts(itoa(energySlavesAcc[1][1]));puts("\n");
-					puts("energySlavesAcc 6 : "); puts(itoa(energySlavesAcc[2][1]));puts("\n");
-					puts("energySlavesAcc 7 : "); puts(itoa(energySlavesAcc[3][1]));puts("\n");
-					puts("energySlavesAcc 8 : "); puts(itoa(energySlavesAcc[0][2]));puts("\n");
-					puts("energySlavesAcc 9 : "); puts(itoa(energySlavesAcc[1][2]));puts("\n");
-					puts("energySlavesAcc 10 : ");puts(itoa(energySlavesAcc[2][2]));puts("\n");
-					puts("energySlavesAcc 11 : ");puts(itoa(energySlavesAcc[3][2]));puts("\n");
-					puts("energySlavesAcc 12 : ");puts(itoa(energySlavesAcc[0][3]));puts("\n");
-					puts("energySlavesAcc 13 : ");puts(itoa(energySlavesAcc[1][3]));puts("\n");
-					puts("energySlavesAcc 14 : ");puts(itoa(energySlavesAcc[2][3]));puts("\n");
-					puts("energySlavesAcc 15 : ");puts(itoa(energySlavesAcc[3][3]));puts("\n");
-					
 
-					puts("energySlavesAcc_discretizado 1 : ");puts(itoa(energySlavesAcc_discretizado[1][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 2 : ");puts(itoa(energySlavesAcc_discretizado[2][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 3 : ");puts(itoa(energySlavesAcc_discretizado[3][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 4 : ");puts(itoa(energySlavesAcc_discretizado[0][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 5 : ");puts(itoa(energySlavesAcc_discretizado[1][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 6 : ");puts(itoa(energySlavesAcc_discretizado[2][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 7 : ");puts(itoa(energySlavesAcc_discretizado[3][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 8 : ");puts(itoa(energySlavesAcc_discretizado[0][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 9 : ");puts(itoa(energySlavesAcc_discretizado[1][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 10 : ");puts(itoa(energySlavesAcc_discretizado[2][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 11 : ");puts(itoa(energySlavesAcc_discretizado[3][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 12 : ");puts(itoa(energySlavesAcc_discretizado[0][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 13 : ");puts(itoa(energySlavesAcc_discretizado[1][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 14 : ");puts(itoa(energySlavesAcc_discretizado[2][3]));puts("\n");
-					puts("energySlavesAcc_discretizado 15 : ");puts(itoa(energySlavesAcc_discretizado[3][3]));puts("\n");
-										
-					
-					
-					energySlavesAcc[1][0] = 0;
-					energySlavesAcc[2][0] = 0;
-					energySlavesAcc[3][0] = 0;
-					energySlavesAcc[0][1] = 0;
-					energySlavesAcc[1][1] = 0;
-					energySlavesAcc[2][1] = 0;
-					energySlavesAcc[3][1] = 0;
-					energySlavesAcc[0][2] = 0;
-					energySlavesAcc[1][2] = 0;
-					energySlavesAcc[2][2] = 0;
-					energySlavesAcc[3][2] = 0;
-					energySlavesAcc[0][3] = 0;
-					energySlavesAcc[1][3] = 0;
-					energySlavesAcc[2][3] = 0;
-					energySlavesAcc[3][3] = 0;
-					
-					
-					energySlavesAcc_discretizado[1][0] = 0;
-					energySlavesAcc_discretizado[2][0] = 0;
-					energySlavesAcc_discretizado[3][0] = 0;
-					energySlavesAcc_discretizado[0][1] = 0;
-					energySlavesAcc_discretizado[1][1] = 0;
-					energySlavesAcc_discretizado[2][1] = 0;
-					energySlavesAcc_discretizado[3][1] = 0;
-					energySlavesAcc_discretizado[0][2] = 0;
-					energySlavesAcc_discretizado[1][2] = 0;
-					energySlavesAcc_discretizado[2][2] = 0;
-					energySlavesAcc_discretizado[3][2] = 0;
-					energySlavesAcc_discretizado[0][3] = 0;
-					energySlavesAcc_discretizado[1][3] = 0;
-					energySlavesAcc_discretizado[2][3] = 0;
-					energySlavesAcc_discretizado[3][3] = 0;
-					*/					
-					
-			
-			
-			
-			
-			
-			
-					
-			//3x3	
-			/*		puts("energySlavesAcc 1 : ");puts(itoa(energySlavesAcc[1][0]));puts("\n");
-					puts("energySlavesAcc 2 : ");puts(itoa(energySlavesAcc[2][0]));puts("\n");
-					puts("energySlavesAcc 3 : ");puts(itoa(energySlavesAcc[0][1]));puts("\n");
-					puts("energySlavesAcc 4 : ");puts(itoa(energySlavesAcc[1][1]));puts("\n");
-					puts("energySlavesAcc 5 : ");puts(itoa(energySlavesAcc[2][1]));puts("\n");
-					puts("energySlavesAcc 6 : ");puts(itoa(energySlavesAcc[0][2]));puts("\n");
-					puts("energySlavesAcc 7 : ");puts(itoa(energySlavesAcc[1][2]));puts("\n");
-					puts("energySlavesAcc 8 : ");puts(itoa(energySlavesAcc[2][2]));puts("\n");
-					
-					
-					puts("energySlavesAcc_discretizado 1 : ");puts(itoa(energySlavesAcc_discretizado[1][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 2 : ");puts(itoa(energySlavesAcc_discretizado[2][0]));puts("\n");
-					puts("energySlavesAcc_discretizado 3 : ");puts(itoa(energySlavesAcc_discretizado[0][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 4 : ");puts(itoa(energySlavesAcc_discretizado[1][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 5 : ");puts(itoa(energySlavesAcc_discretizado[2][1]));puts("\n");
-					puts("energySlavesAcc_discretizado 6 : ");puts(itoa(energySlavesAcc_discretizado[0][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 7 : ");puts(itoa(energySlavesAcc_discretizado[1][2]));puts("\n");
-					puts("energySlavesAcc_discretizado 8 : ");puts(itoa(energySlavesAcc_discretizado[2][2]));puts("\n");
-					
-					
-					energySlavesAcc[1][0] = 0;
-					energySlavesAcc[2][0] = 0;					
-					energySlavesAcc[0][1] = 0;					
-					energySlavesAcc[1][1] = 0;					
-					energySlavesAcc[2][1] = 0;					
-					energySlavesAcc[0][2] = 0;					
-					energySlavesAcc[1][2] = 0;					
-					energySlavesAcc[2][2] = 0;				
-					
-					
-					energySlavesAcc_discretizado[1][0] = 0;
-					energySlavesAcc_discretizado[2][0] = 0;					
-					energySlavesAcc_discretizado[0][1] = 0;					
-					energySlavesAcc_discretizado[1][1] = 0;					
-					energySlavesAcc_discretizado[2][1] = 0;					
-					energySlavesAcc_discretizado[0][2] = 0;					
-					energySlavesAcc_discretizado[1][2] = 0;					
-					energySlavesAcc_discretizado[2][2] = 0;
-					*/
-					
-				}
-					
-					//counter_ticks = counter_ticks + 300000;
+				puts("energySlavesAcc 1 : ");puts(itoa(energySlavesAcc[1][0]));puts("\n");
+				puts("energySlavesAcc 2 : ");puts(itoa(energySlavesAcc[2][0]));puts("\n");
+				puts("energySlavesAcc 3 : ");puts(itoa(energySlavesAcc[3][0]));puts("\n");
+				puts("energySlavesAcc 4 : ");puts(itoa(energySlavesAcc[4][0]));puts("\n");
+				puts("energySlavesAcc 5 : ");puts(itoa(energySlavesAcc[5][0]));puts("\n");
+				puts("energySlavesAcc 6 : ");puts(itoa(energySlavesAcc[0][1]));puts("\n");
+				puts("energySlavesAcc 7 : ");puts(itoa(energySlavesAcc[1][1]));puts("\n");
+				puts("energySlavesAcc 8 : ");puts(itoa(energySlavesAcc[2][1]));puts("\n");
+				puts("energySlavesAcc 9 : ");puts(itoa(energySlavesAcc[3][1]));puts("\n");
+				puts("energySlavesAcc 10 : ");puts(itoa(energySlavesAcc[4][1]));puts("\n");
+				puts("energySlavesAcc 11 : ");puts(itoa(energySlavesAcc[5][1]));puts("\n");
+				puts("energySlavesAcc 12 : ");puts(itoa(energySlavesAcc[0][2]));puts("\n");
+				puts("energySlavesAcc 13 : ");puts(itoa(energySlavesAcc[1][2]));puts("\n");
+				puts("energySlavesAcc 14 : ");puts(itoa(energySlavesAcc[2][2]));puts("\n");
+				puts("energySlavesAcc 15 : ");puts(itoa(energySlavesAcc[3][2]));puts("\n");
+				puts("energySlavesAcc 16 : ");puts(itoa(energySlavesAcc[4][2]));puts("\n");
+				puts("energySlavesAcc 17 : ");puts(itoa(energySlavesAcc[5][2]));puts("\n");
+				puts("energySlavesAcc 18 : ");puts(itoa(energySlavesAcc[0][3]));puts("\n");
+				puts("energySlavesAcc 19 : ");puts(itoa(energySlavesAcc[1][3]));puts("\n");
+				puts("energySlavesAcc 20 : ");puts(itoa(energySlavesAcc[2][3]));puts("\n");
+				puts("energySlavesAcc 21 : ");puts(itoa(energySlavesAcc[3][3]));puts("\n");
+				puts("energySlavesAcc 22 : ");puts(itoa(energySlavesAcc[4][3]));puts("\n");
+				puts("energySlavesAcc 23 : ");puts(itoa(energySlavesAcc[5][3]));puts("\n");
+				puts("energySlavesAcc 24 : ");puts(itoa(energySlavesAcc[0][4]));puts("\n");
+				puts("energySlavesAcc 25 : ");puts(itoa(energySlavesAcc[1][4]));puts("\n");
+				puts("energySlavesAcc 26 : ");puts(itoa(energySlavesAcc[2][4]));puts("\n");
+				puts("energySlavesAcc 27 : ");puts(itoa(energySlavesAcc[3][4]));puts("\n");
+				puts("energySlavesAcc 28 : ");puts(itoa(energySlavesAcc[4][4]));puts("\n");
+				puts("energySlavesAcc 29 : ");puts(itoa(energySlavesAcc[5][4]));puts("\n");
+				puts("energySlavesAcc 30 : ");puts(itoa(energySlavesAcc[0][5]));puts("\n");
+				puts("energySlavesAcc 31 : ");puts(itoa(energySlavesAcc[1][5]));puts("\n");
+				puts("energySlavesAcc 32 : ");puts(itoa(energySlavesAcc[2][5]));puts("\n");
+				puts("energySlavesAcc 33 : ");puts(itoa(energySlavesAcc[3][5]));puts("\n");
+				puts("energySlavesAcc 34 : ");puts(itoa(energySlavesAcc[4][5]));puts("\n");
+				puts("energySlavesAcc 35 : ");puts(itoa(energySlavesAcc[5][5]));puts("\n");
 
-					//send_energy_cluster();
-					//puts("energy_acc_local: "); puts(itoa(energy_acc_local)); puts(" "); puts(itoa(MemoryRead(TICK_COUNTER))); puts("\n");
 
-				//}
 
-				else { 
-	
-					pending_task_request = get_next_task_request();
+				puts("energySlavesAcc_discretizado 1 : ");puts(itoa(energySlavesAcc_discretizado[1][0]));puts("\n");
+				puts("energySlavesAcc_discretizado 2 : ");puts(itoa(energySlavesAcc_discretizado[2][0]));puts("\n");
+				puts("energySlavesAcc_discretizado 3 : ");puts(itoa(energySlavesAcc_discretizado[3][0]));puts("\n");
+				puts("energySlavesAcc_discretizado 4 : ");puts(itoa(energySlavesAcc_discretizado[4][0]));puts("\n");
+				puts("energySlavesAcc_discretizado 5 : ");puts(itoa(energySlavesAcc_discretizado[5][0]));puts("\n");
+				puts("energySlavesAcc_discretizado 6 : ");puts(itoa(energySlavesAcc_discretizado[0][1]));puts("\n");
+				puts("energySlavesAcc_discretizado 7 : ");puts(itoa(energySlavesAcc_discretizado[1][1]));puts("\n");
+				puts("energySlavesAcc_discretizado 8 : ");puts(itoa(energySlavesAcc_discretizado[2][1]));puts("\n");
+				puts("energySlavesAcc_discretizado 9 : ");puts(itoa(energySlavesAcc_discretizado[3][1]));puts("\n");
+				puts("energySlavesAcc_discretizado 10 : ");puts(itoa(energySlavesAcc_discretizado[4][1]));puts("\n");
+				puts("energySlavesAcc_discretizado 11 : ");puts(itoa(energySlavesAcc_discretizado[5][1]));puts("\n");
+				puts("energySlavesAcc_discretizado 12 : ");puts(itoa(energySlavesAcc_discretizado[0][2]));puts("\n");
+				puts("energySlavesAcc_discretizado 13 : ");puts(itoa(energySlavesAcc_discretizado[1][2]));puts("\n");
+				puts("energySlavesAcc_discretizado 14 : ");puts(itoa(energySlavesAcc_discretizado[2][2]));puts("\n");
+				puts("energySlavesAcc_discretizado 15 : ");puts(itoa(energySlavesAcc_discretizado[3][2]));puts("\n");
+				puts("energySlavesAcc_discretizado 16 : ");puts(itoa(energySlavesAcc_discretizado[4][2]));puts("\n");
+				puts("energySlavesAcc_discretizado 17 : ");puts(itoa(energySlavesAcc_discretizado[5][2]));puts("\n");
+				puts("energySlavesAcc_discretizado 18 : ");puts(itoa(energySlavesAcc_discretizado[0][3]));puts("\n");
+				puts("energySlavesAcc_discretizado 19 : ");puts(itoa(energySlavesAcc_discretizado[1][3]));puts("\n");
+				puts("energySlavesAcc_discretizado 20 : ");puts(itoa(energySlavesAcc_discretizado[2][3]));puts("\n");
+				puts("energySlavesAcc_discretizado 21 : ");puts(itoa(energySlavesAcc_discretizado[3][3]));puts("\n");
+				puts("energySlavesAcc_discretizado 22 : ");puts(itoa(energySlavesAcc_discretizado[4][3]));puts("\n");
+				puts("energySlavesAcc_discretizado 23 : ");puts(itoa(energySlavesAcc_discretizado[5][3]));puts("\n");
+				puts("energySlavesAcc_discretizado 24 : ");puts(itoa(energySlavesAcc_discretizado[0][4]));puts("\n");
+				puts("energySlavesAcc_discretizado 25 : ");puts(itoa(energySlavesAcc_discretizado[1][4]));puts("\n");
+				puts("energySlavesAcc_discretizado 26 : ");puts(itoa(energySlavesAcc_discretizado[2][4]));puts("\n");
+				puts("energySlavesAcc_discretizado 27 : ");puts(itoa(energySlavesAcc_discretizado[3][4]));puts("\n");
+				puts("energySlavesAcc_discretizado 28 : ");puts(itoa(energySlavesAcc_discretizado[4][4]));puts("\n");
+				puts("energySlavesAcc_discretizado 29 : ");puts(itoa(energySlavesAcc_discretizado[5][4]));puts("\n");
+				puts("energySlavesAcc_discretizado 30 : ");puts(itoa(energySlavesAcc_discretizado[0][5]));puts("\n");
+				puts("energySlavesAcc_discretizado 31 : ");puts(itoa(energySlavesAcc_discretizado[1][5]));puts("\n");
+				puts("energySlavesAcc_discretizado 32 : ");puts(itoa(energySlavesAcc_discretizado[2][5]));puts("\n");
+				puts("energySlavesAcc_discretizado 33 : ");puts(itoa(energySlavesAcc_discretizado[3][5]));puts("\n");
+				puts("energySlavesAcc_discretizado 34 : ");puts(itoa(energySlavesAcc_discretizado[4][5]));puts("\n");
+				puts("energySlavesAcc_discretizado 35 : ");puts(itoa(energySlavesAcc_discretizado[5][5]));puts("\n");
 
-					if (pending_task_request){
 
-						handle_task_request(pending_task_request);
+				energySlavesAcc[1][0] = 0;
+				energySlavesAcc[2][0] = 0;
+				energySlavesAcc[3][0] = 0;
+				energySlavesAcc[4][0] = 0;
+				energySlavesAcc[5][0] = 0;
+				energySlavesAcc[0][1] = 0;
+				energySlavesAcc[1][1] = 0;
+				energySlavesAcc[2][1] = 0;
+				energySlavesAcc[3][1] = 0;
+				energySlavesAcc[4][1] = 0;
+				energySlavesAcc[5][1] = 0;
+				energySlavesAcc[0][2] = 0;
+				energySlavesAcc[1][2] = 0;
+				energySlavesAcc[2][2] = 0;
+				energySlavesAcc[3][2] = 0;
+				energySlavesAcc[4][2] = 0;
+				energySlavesAcc[5][2] = 0;
+				energySlavesAcc[0][3] = 0;
+				energySlavesAcc[1][3] = 0;
+				energySlavesAcc[2][3] = 0;
+				energySlavesAcc[3][3] = 0;
+				energySlavesAcc[4][3] = 0;
+				energySlavesAcc[5][3] = 0;
+				energySlavesAcc[0][4] = 0;
+				energySlavesAcc[1][4] = 0;
+				energySlavesAcc[2][4] = 0;
+				energySlavesAcc[3][4] = 0;
+				energySlavesAcc[4][4] = 0;
+				energySlavesAcc[5][4] = 0;
+				energySlavesAcc[0][5] = 0;
+				energySlavesAcc[1][5] = 0;
+				energySlavesAcc[2][5] = 0;
+				energySlavesAcc[3][5] = 0;
+				energySlavesAcc[4][5] = 0;
+				energySlavesAcc[5][5] = 0;
 
-					} else if (is_global_master){
 
-						pending_new_task = get_next_new_task();
+				energySlavesAcc_discretizado[1][0] = 0;
+				energySlavesAcc_discretizado[2][0] = 0;
+				energySlavesAcc_discretizado[3][0] = 0;
+				energySlavesAcc_discretizado[4][0] = 0;
+				energySlavesAcc_discretizado[5][0] = 0;
+				energySlavesAcc_discretizado[0][1] = 0;
+				energySlavesAcc_discretizado[1][1] = 0;
+				energySlavesAcc_discretizado[2][1] = 0;
+				energySlavesAcc_discretizado[3][1] = 0;
+				energySlavesAcc_discretizado[4][1] = 0;
+				energySlavesAcc_discretizado[5][1] = 0;
+				energySlavesAcc_discretizado[0][2] = 0;
+				energySlavesAcc_discretizado[1][2] = 0;
+				energySlavesAcc_discretizado[2][2] = 0;
+				energySlavesAcc_discretizado[3][2] = 0;
+				energySlavesAcc_discretizado[4][2] = 0;
+				energySlavesAcc_discretizado[5][2] = 0;
+				energySlavesAcc_discretizado[0][3] = 0;
+				energySlavesAcc_discretizado[1][3] = 0;
+				energySlavesAcc_discretizado[2][3] = 0;
+				energySlavesAcc_discretizado[3][3] = 0;
+				energySlavesAcc_discretizado[4][3] = 0;
+				energySlavesAcc_discretizado[5][3] = 0;
+				energySlavesAcc_discretizado[0][4] = 0;
+				energySlavesAcc_discretizado[1][4] = 0;
+				energySlavesAcc_discretizado[2][4] = 0;
+				energySlavesAcc_discretizado[3][4] = 0;
+				energySlavesAcc_discretizado[4][4] = 0;
+				energySlavesAcc_discretizado[5][4] = 0;
+				energySlavesAcc_discretizado[0][5] = 0;
+				energySlavesAcc_discretizado[1][5] = 0;
+				energySlavesAcc_discretizado[2][5] = 0;
+				energySlavesAcc_discretizado[3][5] = 0;
+				energySlavesAcc_discretizado[4][5] = 0;
+				energySlavesAcc_discretizado[5][5] = 0;
 
-						if (pending_new_task){
+			}else{
+				pending_task_request = get_next_task_request();
 
-							handle_new_task(pending_new_task);
+				if (pending_task_request){
 
-						} else if (app_req_reg) {
+					handle_task_request(pending_task_request);
 
-							handle_app_request();
-						}
+				}else if(is_global_master){
+
+					pending_new_task = get_next_new_task();
+
+					if (pending_new_task){
+
+						handle_new_task(pending_new_task);
+
+					} else if (app_req_reg) {
+
+						handle_app_request();
 					}
 				}
+			}
 		}
 	}
 
@@ -1719,4 +1980,4 @@ int main(void) {
 
 //TODO: não testar temperatura do mestre
 // funçao para ficar atualizando a temperatura do mestre
-// Verificar se esta enviando pacote para processador mestre (não ser enviado) 
+// Verificar se esta enviando pacote para processador mestre (não ser enviado)

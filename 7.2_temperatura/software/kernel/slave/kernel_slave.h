@@ -18,7 +18,7 @@
 /**
  * \ingroup slave_kernel_group
  * @{
-	 
+
 	 \todo  Kernel_master Doc is incomplete because not all functions are defined in the .h.
 	 Please list all function headers defined in kernel_slave.c into this file
 	 so it can included into the Doc
@@ -44,7 +44,7 @@
 #define RUNNING     	4
 #define FREE        	5
 #define ALLOCATING  	6
-#define MIGRATING		7
+#define MIGRATING		  7
 #define NOT_ALLOCATED  -1
 #define REQUESTED		-2
 
@@ -70,7 +70,7 @@
  *--------------------------------------------------------------------*/
 
 /*! \brief A struct type definition .
-    
+
     Details.
 */
 typedef struct {
@@ -79,7 +79,7 @@ typedef struct {
     unsigned int offset;        	/*initial address of the code*/
     int       id;            		/*identifier*/
     unsigned int status;        	/*status (READY, WAITING, TERMINATED, RUNNING, FREE, ALLOCATING)*/
-	unsigned int text_lenght;   	/*Memory TEXT section lenght in bytes*/
+	  unsigned int text_lenght;   	/*Memory TEXT section lenght in bytes*/
     unsigned int data_lenght;		/*Memory DATA section lenght in bytes*/
     unsigned int bss_lenght;		/*Memory BSS section lenght in bytes*/
     unsigned int proc_to_migrate;	/*Processor to migrate the task*/
@@ -95,7 +95,7 @@ extern void ASM_SaveRemainingContext(TCB*);
 extern void ASM_RunScheduledTask(TCB*);
 
 /*! \brief A function definition .
-    
+
     Details.
 */
 void OS_InterruptServiceRoutine(unsigned int);
